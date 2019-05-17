@@ -1,0 +1,42 @@
+jungle rumble
+
+IT'S OK TO JUMP WHILE HOLDING A DIRECTION
+
+jump through enemy to avoid damage stop
+
+open 2-1 cage from above?
+
+-128x128
+	-is the layout different?
+	-jump/attack buffering
+		-hold attack or jump and press an arrow key, let go of all
+	-hold a direction and jump and you will jump move every tile
+
+-upwarp glitch
+	-can get inside of a block by
+		-having it crush you against a wall or floor
+		-walking underneath into it from a slope on ground
+	-once inside, jump to upwarp
+
+-GOA to village 2?
+
+-i frames = skip cutescene?
+
+-jump through cutscene triggers to move an extra block during the cutscene
+
+-hold opposite direction when going onto button in first level to save a turning frame when the cutscene finished?
+
+********
+-i-frame death slides!********
+-jumping into an iframe slide gets you further?
+-can jump during slide
+-turn around at end to back bounce
+********
+
+-are flags set per column? can you activate bounceback or warp flag from underneath?
+
+-sfx cause stuttering?
+
+-JUMP INTO DOORS TO BUFFER ACCEPT
+
+-when jumping off an edge you don't spend time falling straight down, as opposed to walking off the edge

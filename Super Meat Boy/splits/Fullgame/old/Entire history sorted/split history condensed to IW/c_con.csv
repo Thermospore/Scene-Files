@@ -1,0 +1,712 @@
+<Segments>
+    <Segment>
+      <Name>CH1</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:02:00.6690000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.3520000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*23*> <RealTime>00:02:09.0280000</RealTime> </Time>
+        <Time id=*24*> <RealTime>00:02:06.0960000</RealTime> </Time>
+        <Time id=*25*> <RealTime>00:02:04.6280000</RealTime> </Time>
+        <Time id=*26*> <RealTime>00:02:03.4650000</RealTime> </Time>
+        <Time id=*27*> <RealTime>00:02:04.5910000</RealTime> </Time>
+        <Time id=*28*> <RealTime>00:02:11.8170000</RealTime> </Time>
+        <Time id=*29*> <RealTime>00:02:34.2430000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:02:12.3760000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:02:04.9680000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:02:13.3370000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:02:11.5760000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:02:12.5740000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:02:07.2310000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:02:05.3520000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:02:21.8610000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:02:08.4810000</RealTime> </Time>
+        <Time id=*42*> <RealTime>00:02:05.5780000</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:02:11.3240000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:02:04.8880000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:02:11.3440000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:02:03.5890000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:02:23.3150000</RealTime> </Time>
+        <Time id=*51*> <RealTime>00:02:17.5570000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:02:06.7240000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:02:06.2490000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:02:06.6360000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:02:07.1990000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:02:04.9480000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:02:01.8960000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:02:07.4610000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:02:07.4260000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:02:12.1830000</RealTime> </Time>
+        <Time id=*68*> <RealTime>00:02:00.3520000</RealTime> </Time>
+        <Time id=*69*> <RealTime>00:02:04.6150000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:02:03.8560000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:02:00.7350000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:02:08.1140000</RealTime> </Time>
+        <Time id=*74*> <RealTime>00:02:04.9660000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:02:02.5320000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:02:05.9530000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:02:02.0980000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:02:10.2870000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:02:02.3920000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:02:00.7880000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:02:20.3970000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:02:02.1330000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:02:03.2450000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:02:00.8520000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:02:03.7760000</RealTime> </Time>
+        <Time id=*92*> <RealTime>00:02:00.8780000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:02:03.6010000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:02:09.0560000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:02:03.3490000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:02:01.7870000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:02:04.6110000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:02:04.7340000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:02:00.6690000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:02:06.0150000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:02:05.0480000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:02:03.3200000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:02:04.0970000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:02:11.6840000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:02:03.0810000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:02:12.7090000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:02:18.2260000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:02:03.9880000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:02:01.0620000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:02:12.2320000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:02:13.4700000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:02:00.5390000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:02:06.5670000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:02:21.6520000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:02:11.2940000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:02:02.5080000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:02:02.3210000</RealTime> </Time>
+        <Time id=*120*> <RealTime>00:02:02.1610000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:02:03.5760000</RealTime> </Time>
+        <Time id=*122*> <RealTime>00:02:10.3240000</RealTime> </Time>
+        <Time id=*125*> <RealTime>00:02:14.2500000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:02:03.7140000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:02:10.9780000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:02:02.1350000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:02:04.9880000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:02:03.4000000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:02:06.8710000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CH2</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:05:21.6170000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:55.8390000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*23*> <RealTime>00:03:02.0870000</RealTime> </Time>
+        <Time id=*24*> <RealTime>00:03:51.6170000</RealTime> </Time>
+        <Time id=*25*> <RealTime>00:03:51.5590000</RealTime> </Time>
+        <Time id=*26*> <RealTime>00:03:01.1190000</RealTime> </Time>
+        <Time id=*27*> <RealTime>00:03:35.2280000</RealTime> </Time>
+        <Time id=*28*> <RealTime>00:03:07.6000000</RealTime> </Time>
+        <Time id=*29*> <RealTime>00:03:06.0790000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:03:11.9680000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:03:29.6610000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:03:15.2160000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:03:13.2180000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:03:11.4510000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:03:17.7820000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:03:15.3770000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:03:13.4190000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:03:02.0030000</RealTime> </Time>
+        <Time id=*42*> <RealTime>00:03:20</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:03:11.4570000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:03:12.8680000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:03:26.9480000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:03:36.4000000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:03:44.1440000</RealTime> </Time>
+        <Time id=*51*> <RealTime>00:03:03.8720000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:03:09.2890000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:03:09.5770000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:03:06.6790000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:03:10.3180000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:03:06.7630000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:03:23.2680000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:03:13.3690000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:02:56.5760000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:03:25.2580000</RealTime> </Time>
+        <Time id=*68*> <RealTime>00:03:16.1030000</RealTime> </Time>
+        <Time id=*69*> <RealTime>00:03:10.5080000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:03:06.3420000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:03:30.7310000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:03:10.8260000</RealTime> </Time>
+        <Time id=*74*> <RealTime>00:03:37.0720000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:03:03.2500000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:03:08.9020000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:02:58.0410000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:02:58.4760000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:03:16.3910000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:02:56.6460000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:03:05.8900000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:03:24.1920000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:03:43.2160000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:03:03.9780000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:02:56.4290000</RealTime> </Time>
+        <Time id=*92*> <RealTime>00:03:20.2400000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:03:07.6520000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:03:00.1360000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:02:59.6080000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:02:55.8390000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:03:07.5520000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:03:22.4100000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:03:20.9480000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:03:31.6100000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:03:06.8940000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:03:03.3120000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:02:59.5880000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:03:20.8510000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:04:19.3410000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:03:03.8130000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:03:03.3310000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:03:19.1610000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:03:14.5820000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:03:47.4340000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:03:04.5580000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:03:40.6830000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:03:03.3250000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:03:12.1420000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:03:05.4110000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:03:07.0120000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:03:18</RealTime> </Time>
+        <Time id=*120*> <RealTime>00:03:26.7870000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:03:04.3810000</RealTime> </Time>
+        <Time id=*125*> <RealTime>00:03:11.4610000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:03:05.8940000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:03:10.0740000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:03:00.7500000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:03:17.6700000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:03:03.9100000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:02:56.3830000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CH3</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:08:21.0280000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:53.3570000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*2*> <RealTime>00:05:09.3580000</RealTime> </Time>
+        <Time id=*4*> <RealTime>00:03:43.9900000</RealTime> </Time>
+        <Time id=*3*> <RealTime>00:03:40.9680000</RealTime> </Time>
+        <Time id=*5*> <RealTime>00:03:31.3210000</RealTime> </Time>
+        <Time id=*6*> <RealTime>00:04:55.2450000</RealTime> </Time>
+        <Time id=*9*> <RealTime>00:03:37.2010000</RealTime> </Time>
+        <Time id=*10*> <RealTime>00:03:27.6420000</RealTime> </Time>
+        <Time id=*11*> <RealTime>00:03:45.7190000</RealTime> </Time>
+        <Time id=*12*> <RealTime>00:03:20.9970000</RealTime> </Time>
+        <Time id=*13*> <RealTime>00:03:48.6490000</RealTime> </Time>
+        <Time id=*14*> <RealTime>00:04:01.7120000</RealTime> </Time>
+        <Time id=*15*> <RealTime>00:03:45.6220000</RealTime> </Time>
+        <Time id=*16*> <RealTime>00:03:18.8600000</RealTime> </Time>
+        <Time id=*17*> <RealTime>00:04:00.5760000</RealTime> </Time>
+        <Time id=*19*> <RealTime>00:03:21.1370000</RealTime> </Time>
+        <Time id=*20*> <RealTime>00:03:49.3270000</RealTime> </Time>
+        <Time id=*21*> <RealTime>00:03:04.7320000</RealTime> </Time>
+        <Time id=*22*> <RealTime>00:03:21.2930000</RealTime> </Time>
+        <Time id=*24*> <RealTime>00:03:55.3430000</RealTime> </Time>
+        <Time id=*25*> <RealTime>00:03:56.8130000</RealTime> </Time>
+        <Time id=*26*> <RealTime>00:03:22.8760000</RealTime> </Time>
+        <Time id=*27*> <RealTime>00:03:13.4480000</RealTime> </Time>
+        <Time id=*28*> <RealTime>00:03:28.5380000</RealTime> </Time>
+        <Time id=*29*> <RealTime>00:03:10.7200000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:03:15.9860000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:03:05.6490000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:03:48.5780000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:03:16.8340000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:04:10.1440000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:03:24.6680000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:03:23.8110000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:03:35.6680000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:03:06.4450000</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:03:37.8730000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:03:19.8100000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:03:21.4010000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:03:12.6860000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:03:25.8540000</RealTime> </Time>
+        <Time id=*51*> <RealTime>00:03:00.1600000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:03:28.6580000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:03:24.8480000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:03:44.2010000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:03:17.6680000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:03:22.9080000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:03:07.8100000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:03:00.4020000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:03:06.0890000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:03:17.9490000</RealTime> </Time>
+        <Time id=*68*> <RealTime>00:03:12.7000000</RealTime> </Time>
+        <Time id=*69*> <RealTime>00:03:12.9650000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:03:27.9790000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:03:03.5570000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:03:04.8600000</RealTime> </Time>
+        <Time id=*74*> <RealTime>00:03:47.1050000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:02:58.8230000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:03:36.0940000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:03:05.2470000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:03:58.3800000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:03:24.0970000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:03:46.7110000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:03:29.9640000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:03:12.7960000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:04:12.0450000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:03:24.0360000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:03:00.0340000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:03:35.3200000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:03:31.5170000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:03:02.1890000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:03:42.4480000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:03:23.6190000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:03:26.9390000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:02:59.4110000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:03:23.9210000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:03:05.6370000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:03:11.6800000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:03:34.3280000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:03:46.7330000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:03:12.9300000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:03:13.2760000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:03:41.2000000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:03:14.5920000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:04:13.9230000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:02:58.0260000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:03:07.2560000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:03:35.7590000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:03:45.3780000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:03:11.8630000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:03:26.6370000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:03:10.0410000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:03:06.0900000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:03:28.2960000</RealTime> </Time>
+        <Time id=*125*> <RealTime>00:03:25.7550000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:03:17.6450000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:03:01.6490000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:03:12.3850000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:02:59.9510000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:02:53.3570000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:03:21.1090000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CH4</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:12:14.6780000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:49.7090000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*29*> <RealTime>00:04:10.1650000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:03:59.7460000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:04:05.1330000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:04:07.6330000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:04:15.2190000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:04:36.9130000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:04:04.7310000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:04:00.3530000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:04:30.6870000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:04:15.3080000</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:04:17.3040000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:03:53.5900000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:04:56.9460000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:04:14.9850000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:04:02.6860000</RealTime> </Time>
+        <Time id=*51*> <RealTime>00:04:10.5630000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:04:14.1880000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:03:53.6860000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:04:15.4660000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:04:16.3610000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:04:05.5810000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:03:55.7950000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:03:51.7060000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:04:16.6180000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:04:07.7800000</RealTime> </Time>
+        <Time id=*68*> <RealTime>00:04:21.1520000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:04:11.6090000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:03:58.2150000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:03:56.7670000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:03:52.5400000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:04:13.3440000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:04:10.7820000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:04:20.2340000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:03:56.2870000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:04:18.1380000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:04:14.9910000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:03:52.4860000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:04:45.6710000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:03:52.4930000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:04:00.1860000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:04:04.2950000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:03:51.6160000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:04:01.3720000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:04:28.2950000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:04:00.0600000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:03:55.6030000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:03:53.6500000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:03:52.8890000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:03:55.4990000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:04:28.0570000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:05:01.4520000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:04:04.6910000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:04:03.1860000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:03:54.3100000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:03:53.8540000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:04:13.4250000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:04:12.5500000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:04:30.7960000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:04:28.1130000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:04:01.0090000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:04:04.7830000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:03:56.0120000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:03:49.7090000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:03:56.8130000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:04:09.3610000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:04:05.5720000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:04:05.0380000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:04:34.1640000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:04:10.8540000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:04:55.4710000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:04:30.4750000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:04:08.8180000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CH5</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:16:24.7160000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:53.9360000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*2*> <RealTime>00:07:51.3930000</RealTime> </Time>
+        <Time id=*4*> <RealTime>00:05:57.5110000</RealTime> </Time>
+        <Time id=*3*> <RealTime>00:07:33.6990000</RealTime> </Time>
+        <Time id=*5*> <RealTime>00:05:16.9490000</RealTime> </Time>
+        <Time id=*6*> <RealTime>00:04:50.2480000</RealTime> </Time>
+        <Time id=*9*> <RealTime>00:05:00.3470000</RealTime> </Time>
+        <Time id=*10*> <RealTime>00:06:53.9970000</RealTime> </Time>
+        <Time id=*11*> <RealTime>00:05:24.2820000</RealTime> </Time>
+        <Time id=*12*> <RealTime>00:04:34.4510000</RealTime> </Time>
+        <Time id=*13*> <RealTime>00:05:06.1370000</RealTime> </Time>
+        <Time id=*14*> <RealTime>00:06:12.7900000</RealTime> </Time>
+        <Time id=*15*> <RealTime>00:05:25.9820000</RealTime> </Time>
+        <Time id=*16*> <RealTime>00:05:02.1210000</RealTime> </Time>
+        <Time id=*17*> <RealTime>00:04:32.3200000</RealTime> </Time>
+        <Time id=*19*> <RealTime>00:04:37.8540000</RealTime> </Time>
+        <Time id=*20*> <RealTime>00:04:40.7510000</RealTime> </Time>
+        <Time id=*21*> <RealTime>00:04:46.8080000</RealTime> </Time>
+        <Time id=*22*> <RealTime>00:04:28.0600000</RealTime> </Time>
+        <Time id=*24*> <RealTime>00:05:47.7370000</RealTime> </Time>
+        <Time id=*25*> <RealTime>00:04:43.3320000</RealTime> </Time>
+        <Time id=*26*> <RealTime>00:04:56.0400000</RealTime> </Time>
+        <Time id=*27*> <RealTime>00:05:01.8240000</RealTime> </Time>
+        <Time id=*28*> <RealTime>00:04:51.1670000</RealTime> </Time>
+        <Time id=*29*> <RealTime>00:04:49.9330000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:05:22.6660000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:04:39.3700000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:04:50.2310000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:05:03.5110000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:04:48.5910000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:04:26.1530000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:04:58.4840000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:05:20.2250000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:04:30.4550000</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:04:49.2470000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:04:35.3930000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:05:58.5490000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:05:26.8430000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:05:07.7170000</RealTime> </Time>
+        <Time id=*51*> <RealTime>00:04:43.0920000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:04:55.9550000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:04:18.5410000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:05:40.9810000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:05:16.8070000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:04:21.5190000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:04:14.2630000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:05:15.8270000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:05:13.2000000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:04:43.9080000</RealTime> </Time>
+        <Time id=*68*> <RealTime>00:05:16.0270000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:04:42.9970000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:04:49.1380000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:04:18.2490000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:04:25.4140000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:04:44.5180000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:04:38.8600000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:04:44.4650000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:04:08.0930000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:04:27.6180000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:04:37.2730000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:04:45.7360000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:05:11.9390000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:04:22.2570000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:04:35.2550000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:04:50.8190000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:04:26.5690000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:04:37.5830000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:04:30.9420000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:04:27.4620000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:04:49.1040000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:04:10.0380000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:04:32.2090000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:04:55.2520000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:04:48.0230000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:05:07.7430000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:05:08.2260000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:04:58.0420000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:05:43.1900000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:04:39.4270000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:05:12.3070000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:04:29.0120000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:04:57.6180000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:04:15.5610000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:04:52.9440000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:04:36.1400000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:04:47.1510000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:04:56.2190000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:03:53.9730000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:04:04.1230000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:04:12.6110000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:04:21.5330000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:04:18.1450000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:03:53.9360000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:03:54.9410000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:04:09.0440000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:03:55.4430000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CHL</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best* />
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:22.8680000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*2* />
+        <Time id=*3* />
+        <Time id=*4* />
+        <Time id=*5* />
+        <Time id=*6* />
+        <Time id=*9* />
+        <Time id=*10* />
+        <Time id=*11* />
+        <Time id=*12* />
+        <Time id=*13* />
+        <Time id=*14* />
+        <Time id=*15* />
+        <Time id=*16* />
+        <Time id=*17* />
+        <Time id=*19* />
+        <Time id=*20* />
+        <Time id=*21* />
+        <Time id=*22* />
+        <Time id=*24* />
+        <Time id=*25* />
+        <Time id=*26* />
+        <Time id=*27* />
+        <Time id=*28* />
+        <Time id=*29* />
+        <Time id=*30* />
+        <Time id=*31* />
+        <Time id=*34* />
+        <Time id=*35* />
+        <Time id=*36* />
+        <Time id=*37* />
+        <Time id=*38* />
+        <Time id=*39* />
+        <Time id=*41* />
+        <Time id=*43* />
+        <Time id=*47* />
+        <Time id=*48* />
+        <Time id=*49* />
+        <Time id=*50* />
+        <Time id=*52* />
+        <Time id=*56* />
+        <Time id=*58* />
+        <Time id=*59* />
+        <Time id=*60* />
+        <Time id=*61* />
+        <Time id=*63* />
+        <Time id=*64* />
+        <Time id=*66* />
+        <Time id=*71* />
+        <Time id=*72* />
+        <Time id=*73* />
+        <Time id=*75* />
+        <Time id=*77* />
+        <Time id=*78* />
+        <Time id=*79* />
+        <Time id=*80* />
+        <Time id=*82* />
+        <Time id=*83* />
+        <Time id=*84* />
+        <Time id=*85* />
+        <Time id=*86* />
+        <Time id=*88* />
+        <Time id=*93* />
+        <Time id=*94* />
+        <Time id=*95* />
+        <Time id=*96* />
+        <Time id=*97* />
+        <Time id=*98* />
+        <Time id=*99* />
+        <Time id=*119*> <RealTime>00:00:49.6140000</RealTime> </Time>
+        <Time id=*101* />
+        <Time id=*102* />
+        <Time id=*103* />
+        <Time id=*104* />
+        <Time id=*105* />
+        <Time id=*106* />
+        <Time id=*107* />
+        <Time id=*108* />
+        <Time id=*109* />
+        <Time id=*118*> <RealTime>00:00:39.0140000</RealTime> </Time>
+        <Time id=*111* />
+        <Time id=*112* />
+        <Time id=*113* />
+        <Time id=*114* />
+        <Time id=*115* />
+        <Time id=*116* />
+        <Time id=*117* />
+        <Time id=*121*> <RealTime>00:00:27.3020000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:00:36.2280000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:00:59.3390000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:00:34.4440000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:00:50.3810000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:00:55.7890000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:00:22.8680000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>CH6</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name=*Personal Best*> <RealTime>00:19:43.9390000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:17.6960000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id=*2*> <RealTime>00:07:37.1430000</RealTime> </Time>
+        <Time id=*4*> <RealTime>00:05:56.0480000</RealTime> </Time>
+        <Time id=*3*> <RealTime>00:04:13.4690000</RealTime> </Time>
+        <Time id=*5*> <RealTime>00:06:03.0820000</RealTime> </Time>
+        <Time id=*6*> <RealTime>00:05:43.8570000</RealTime> </Time>
+        <Time id=*9*> <RealTime>00:03:42.7920000</RealTime> </Time>
+        <Time id=*10*> <RealTime>00:05:45.0820000</RealTime> </Time>
+        <Time id=*11*> <RealTime>00:03:44.0100000</RealTime> </Time>
+        <Time id=*12*> <RealTime>00:03:56.2260000</RealTime> </Time>
+        <Time id=*13*> <RealTime>00:03:45.4680000</RealTime> </Time>
+        <Time id=*14*> <RealTime>00:03:46.5450000</RealTime> </Time>
+        <Time id=*15*> <RealTime>00:10:57.3010000</RealTime> </Time>
+        <Time id=*16*> <RealTime>00:03:47.1350000</RealTime> </Time>
+        <Time id=*17*> <RealTime>00:03:37.5630000</RealTime> </Time>
+        <Time id=*19*> <RealTime>00:03:57.9560000</RealTime> </Time>
+        <Time id=*20*> <RealTime>00:04:07.0280000</RealTime> </Time>
+        <Time id=*21*> <RealTime>00:04:29.2720000</RealTime> </Time>
+        <Time id=*22*> <RealTime>00:04:13.5750000</RealTime> </Time>
+        <Time id=*24*> <RealTime>00:04:35.1810000</RealTime> </Time>
+        <Time id=*25*> <RealTime>00:04:09.1280000</RealTime> </Time>
+        <Time id=*26*> <RealTime>00:04:17.6940000</RealTime> </Time>
+        <Time id=*27*> <RealTime>00:03:36.0880000</RealTime> </Time>
+        <Time id=*28*> <RealTime>00:03:26.1170000</RealTime> </Time>
+        <Time id=*29*> <RealTime>00:03:37.5770000</RealTime> </Time>
+        <Time id=*30*> <RealTime>00:03:44.9390000</RealTime> </Time>
+        <Time id=*31*> <RealTime>00:03:41.7180000</RealTime> </Time>
+        <Time id=*34*> <RealTime>00:03:25.7050000</RealTime> </Time>
+        <Time id=*35*> <RealTime>00:04:10.4770000</RealTime> </Time>
+        <Time id=*36*> <RealTime>00:04:43.7970000</RealTime> </Time>
+        <Time id=*37*> <RealTime>00:03:42.8530000</RealTime> </Time>
+        <Time id=*38*> <RealTime>00:03:29.4650000</RealTime> </Time>
+        <Time id=*39*> <RealTime>00:03:24.1690000</RealTime> </Time>
+        <Time id=*41*> <RealTime>00:04:00.7880000</RealTime> </Time>
+        <Time id=*43*> <RealTime>00:04:05.2470000</RealTime> </Time>
+        <Time id=*47*> <RealTime>00:03:25.5840000</RealTime> </Time>
+        <Time id=*48*> <RealTime>00:04:20.0420000</RealTime> </Time>
+        <Time id=*49*> <RealTime>00:04:09.9150000</RealTime> </Time>
+        <Time id=*50*> <RealTime>00:04:12.7820000</RealTime> </Time>
+        <Time id=*52*> <RealTime>00:03:27.4820000</RealTime> </Time>
+        <Time id=*56*> <RealTime>00:04:10.5050000</RealTime> </Time>
+        <Time id=*58*> <RealTime>00:03:37.9260000</RealTime> </Time>
+        <Time id=*59*> <RealTime>00:03:43.2870000</RealTime> </Time>
+        <Time id=*60*> <RealTime>00:03:28.5480000</RealTime> </Time>
+        <Time id=*61*> <RealTime>00:03:34.7810000</RealTime> </Time>
+        <Time id=*63*> <RealTime>00:03:21.7480000</RealTime> </Time>
+        <Time id=*64*> <RealTime>00:03:30.1410000</RealTime> </Time>
+        <Time id=*66*> <RealTime>00:03:43.2840000</RealTime> </Time>
+        <Time id=*71*> <RealTime>00:03:33.0360000</RealTime> </Time>
+        <Time id=*72*> <RealTime>00:04:14.3460000</RealTime> </Time>
+        <Time id=*73*> <RealTime>00:04:00.2000000</RealTime> </Time>
+        <Time id=*75*> <RealTime>00:03:45.8030000</RealTime> </Time>
+        <Time id=*77*> <RealTime>00:03:50.8810000</RealTime> </Time>
+        <Time id=*78*> <RealTime>00:03:59.1470000</RealTime> </Time>
+        <Time id=*79*> <RealTime>00:03:39.2110000</RealTime> </Time>
+        <Time id=*80*> <RealTime>00:04:40.6320000</RealTime> </Time>
+        <Time id=*82*> <RealTime>00:04:11.5260000</RealTime> </Time>
+        <Time id=*83*> <RealTime>00:03:22.4320000</RealTime> </Time>
+        <Time id=*84*> <RealTime>00:03:21.1520000</RealTime> </Time>
+        <Time id=*85*> <RealTime>00:04:22.3570000</RealTime> </Time>
+        <Time id=*86*> <RealTime>00:03:31.3420000</RealTime> </Time>
+        <Time id=*88*> <RealTime>00:03:27.0470000</RealTime> </Time>
+        <Time id=*93*> <RealTime>00:03:36.3120000</RealTime> </Time>
+        <Time id=*94*> <RealTime>00:03:50.3510000</RealTime> </Time>
+        <Time id=*95*> <RealTime>00:03:18.1210000</RealTime> </Time>
+        <Time id=*96*> <RealTime>00:03:42.6430000</RealTime> </Time>
+        <Time id=*97*> <RealTime>00:03:41.3580000</RealTime> </Time>
+        <Time id=*98*> <RealTime>00:03:20.7990000</RealTime> </Time>
+        <Time id=*99*> <RealTime>00:03:19.2230000</RealTime> </Time>
+        <Time id=*101*> <RealTime>00:03:24.4090000</RealTime> </Time>
+        <Time id=*102*> <RealTime>00:04:17.2840000</RealTime> </Time>
+        <Time id=*103*> <RealTime>00:04:05.7920000</RealTime> </Time>
+        <Time id=*104*> <RealTime>00:03:22.7020000</RealTime> </Time>
+        <Time id=*105*> <RealTime>00:04:14.3870000</RealTime> </Time>
+        <Time id=*106*> <RealTime>00:04:17.9680000</RealTime> </Time>
+        <Time id=*107*> <RealTime>00:03:31.3570000</RealTime> </Time>
+        <Time id=*108*> <RealTime>00:03:41.1330000</RealTime> </Time>
+        <Time id=*109*> <RealTime>00:03:28.5560000</RealTime> </Time>
+        <Time id=*111*> <RealTime>00:03:30.8330000</RealTime> </Time>
+        <Time id=*112*> <RealTime>00:04:01.3820000</RealTime> </Time>
+        <Time id=*113*> <RealTime>00:03:20.9630000</RealTime> </Time>
+        <Time id=*114*> <RealTime>00:03:31.6230000</RealTime> </Time>
+        <Time id=*115*> <RealTime>00:03:25.8190000</RealTime> </Time>
+        <Time id=*116*> <RealTime>00:03:20.2640000</RealTime> </Time>
+        <Time id=*117*> <RealTime>00:03:17.6960000</RealTime> </Time>
+        <Time id=*118*> <RealTime>00:04:14.3990000</RealTime> </Time>
+        <Time id=*119*> <RealTime>00:03:53.6930000</RealTime> </Time>
+        <Time id=*121*> <RealTime>00:03:19.9460000</RealTime> </Time>
+        <Time id=*128*> <RealTime>00:03:33.3160000</RealTime> </Time>
+        <Time id=*129*> <RealTime>00:03:42.9270000</RealTime> </Time>
+        <Time id=*131*> <RealTime>00:03:20.4520000</RealTime> </Time>
+        <Time id=*132*> <RealTime>00:04:11.3350000</RealTime> </Time>
+        <Time id=*133*> <RealTime>00:03:21.3960000</RealTime> </Time>
+        <Time id=*136*> <RealTime>00:03:39.7470000</RealTime> </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <Forms>
+    <UDF1 Class="TCEForm" Encoding="Ascii85">byUrAqec+;1!_CN$Cp(9a!8e+U]s.((250uLKXo#Gg#ieq[B-]YGvV_+-AD}ndB+Q$vb2Q0jW)khyM8Hr?!v$;PC)YLuAXDEquDHn]bKzmUAmEAEdbk49n^ANt)ZcDe9Ne(+OD/FQ3c:Y]:JsRlUWp]N{*-itT.zSe}$QS4vqnhyJE2w^mbk+sllYbn9;GU3p_+SG)$VQ%.PDitc?svffU5)k1bS)IqkZR[9:H+e5Znha8T0xhe1DNm$Dd/*;D=y8B;%H7K:fM-.bdb6,,i!!V^QUR;;?SN{2^SQqiPKBD:j)LTHABFdvkme0FaTsGDAaR*dGBeY^L7a}p2W+tGFBuW$QRkz^X=8$s!E=OS)-:Haohhsmcgds92a,ctjhtX1==Wc*gX@hs2COM8Xl5=tdNfrqbBT{v=Rkt)Zt53$Fl%bW-8-XTG0/@,)MbV0;)i-I%j#;0N6lewMTBXQoOnuS1B]OxZp=*qXIy?m64@x2^C7d$#4b*9[Vudu$5M}H-1Q%g{aEfq-aE?=,aEWk+KoC3xA0a?X2up/52q8j+?B[jdgcxCkkRYT8O6?HIL+NJkAxF4ISR;pZyhC]eQeQ[2TC7EqWgP7!Uu7hi@/;?=w/n99oc83bC,9u6:+eYIuFzTKv52zx9hxKvaKdRu7!j)X4$nQoh@mzxP)NDf)g*FX6i@(3:gM4V3uULu(Xk:iyHIwi;/Z20e5PTp!PT)PaH]:/!={hF4VN0UhpRnY=cr)/S9]eo2gRvs8sxs{3zbK[=-VEQTV**#y?ISeV8a2@2gX$QZ#PZH_I7mzhNI]9xGgtM[w8ok[hI@u,fn$w8-;_0e1pS5Ry1nJ^d!Y3(KDHjR(jLL3x3lI9)RKIe,1pbWxbWJ^HLPfrL,%8!lNJkkT6cgL3]8+^WWP/N%36bm@4,fnYJ5QCGVc;;BGx*p+GcTW-s^mW3j2@C*/AbDQJoZ]B}o6^X$:KoORvYubbj!?]cwd[OJQw@YXm@-_^T{RUYGS</UDF1>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"In in a level"</Description>
+      <LastState Value="0" Activated="0" RealAddress="00535484"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5484</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Level ID"</Description>
+      <LastState Value="0" Activated="0" RealAddress="00535588"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5588</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Title Screen Showing"</Description>
+      <LastState Value="0" Activated="0" RealAddress="00535F10"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5F10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Chapter ID"</Description>
+      <LastState Value="1" Activated="0" RealAddress="0394EDE8"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D54BC]+1a8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Level Type"</Description>
+      <LastState Value="0" Activated="0" RealAddress="0394EDEC"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D54BC]+1AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Map location. 0-19 99 for boss"</Description>
+      <LastState Value="3" Activated="0" RealAddress="1A3B36F0"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D5EA0]+8D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"1-1 time"</Description>
+      <LastState Value="0.8649999499" Activated="0" RealAddress="027A6F48"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"2-1 time"</Description>
+      <LastState Value="5.616003036" Activated="0" RealAddress="027A71B8"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+2d0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Level select showing"</Description>
+      <LastState Value="1" Activated="0" RealAddress="1A3B319C"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D5EA0]+37C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Chapter Select ID"</Description>
+      <LastState Value="1" Activated="0" RealAddress="1A3B31A0"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D5EA0]+380</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"map position?"</Description>
+      <LastState Value="1A2F6C7C" Activated="0" RealAddress="1A3B36E0"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D5EA0]+8C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"3-1 time"</Description>
+      <LastState Value="5.500002384" Activated="0" RealAddress="027A7428"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+540</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"4-1 time"</Description>
+      <LastState Value="2.899998426" Activated="0" RealAddress="027A7698"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+7b0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"5-1 time"</Description>
+      <LastState Value="13.1000309" Activated="0" RealAddress="027A7908"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+a20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"1-1x time"</Description>
+      <LastState Value="0.9989997745" Activated="0" RealAddress="027A7038"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+150</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Forest bandage count"</Description>
+      <LastState Value="11" Activated="0" RealAddress="027A8BA2"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+1cba</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Forest base pointer"</Description>
+      <LastState Value="10334304" Activated="0" RealAddress="027A6EE8"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Hospital bandage count"</Description>
+      <LastState Value="20" Activated="0" RealAddress="027A8BAE"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+1cc6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Salt bandage count"</Description>
+      <LastState Value="20" Activated="0" RealAddress="027A8BBA"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+1cd2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Hell bandage count"</Description>
+      <LastState Value="20" Activated="0" RealAddress="027A8BC6"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+1cde</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Rapture bandage count"</Description>
+      <LastState Value="20" Activated="0" RealAddress="027A8BD2"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>[SuperMeatBoy.exe+002D55AC]+1cea</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"1-20x time"</Description>
+      <LastState Value="12.69898033" Activated="0" RealAddress="027A711C"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"[SuperMeatBoy.exe+002D55AC]+234"</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"2-20x time"</Description>
+      <LastState Value="11.30401039" Activated="0" RealAddress="027A738C"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"[SuperMeatBoy.exe+002D55AC]+4a4"</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"3-20x time"</Description>
+      <LastState Value="20.49609756" Activated="0" RealAddress="027A75FC"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"[SuperMeatBoy.exe+002D55AC]+714"</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"4-20x time"</Description>
+      <LastState Value="13.60003281" Activated="0" RealAddress="027A786C"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"[SuperMeatBoy.exe+002D55AC]+984"</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"5-20x time"</Description>
+      <LastState Value="20.88315392" Activated="0" RealAddress="027A7ADC"/>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"[SuperMeatBoy.exe+002D55AC]+bf4"</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"No description"</Description>
+      <LastState Value="9460301" Activated="0" RealAddress="00260000"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>TITLE = "Super Meat Boy Bandage Resetter"
+INFO0 = "Version 1.0.0\n\n"
+INFO1 = "Press the hotkey and it will\n"
+INFO2 = "reset the bandage for the level\n"
+INFO3 = "you are currently on. Works on\n"
+INFO4 = "the map, while loading a level,\n"
+INFO5 = "during a level, and during the\n"
+INFO6 = "replay of a level. Resetting a\n"
+INFO7 = "warpzone resets all bandages in\n"
+INFO8 = "that warpzone.\n\n"
+INFO9 = "Send bugs/comments to \nd265f27 through Twitch."
+INFO = INFO0 .. INFO1 .. INFO2 .. INFO3 .. INFO4 .. INFO5 .. INFO6 .. INFO7 .. INFO8 .. INFO9
+
+-- Layout of memory. Take base address, that is location of e.g. 1_1
+-- bandage/completion. Next level is 12 bytes further on in a basic array
+-- structure. Sttraight after 20 light levels is 20 dark levels, straight after
+-- the dark levels is warpzone 2-1, 2-3, 2-3, then warpzone 3's 3 levels etc...
+-- Warpzone is listed by leved_id, and each is stored as 3 individual levels.
+level_1_1_time_location    = "[SuperMeatBoy.exe+002D55AC]+60"
+level_1_1_completion_location = "[SuperMeatBoy.exe+002D55AC]+64"
+level_2_1_time_location    = "[SuperMeatBoy.exe+002D55AC]+2d0"
+level_2_1_completion_location = "[SuperMeatBoy.exe+002D55AC]+2d4"
+level_3_1_time_location    = "[SuperMeatBoy.exe+002D55AC]+540"
+level_3_1_completion_location = "[SuperMeatBoy.exe+002D55AC]+544"
+level_4_1_time_location    = "[SuperMeatBoy.exe+002D55AC]+7b0"
+level_4_1_completion_location = "[SuperMeatBoy.exe+002D55AC]+7b4"
+level_5_1_time_location    = "[SuperMeatBoy.exe+002D55AC]+a20"
+level_5_1_completion_location = "[SuperMeatBoy.exe+002D55AC]+a24"
+
+completion_base_pointers = {level_1_1_completion_location,
+    level_2_1_completion_location, level_3_1_completion_location,
+    level_4_1_completion_location, level_5_1_completion_location}
+
+-- The offset between each level time or completion entry.
+LEVEL_OFFSET = 12
+
+chapter_1_bandage_count = "[SuperMeatBoy.exe+002D55AC]+1cba"
+chapter_2_bandage_count = "[SuperMeatBoy.exe+002D55AC]+1cc6"
+chapter_3_bandage_count = "[SuperMeatBoy.exe+002D55AC]+1cd2"
+chapter_4_bandage_count = "[SuperMeatBoy.exe+002D55AC]+1cde"
+chapter_5_bandage_count = "[SuperMeatBoy.exe+002D55AC]+1cea"
+
+bandage_counts = {chapter_1_bandage_count, chapter_2_bandage_count,
+    chapter_3_bandage_count, chapter_4_bandage_count, chapter_5_bandage_count}
+
+-- 0 if not on level select, otherwise chapter id.
+local level_select_showing_location = "[SuperMeatBoy.exe+002D5EA0]+37C"
+
+-- 1 if title screen is showing, 0 otherwise
+local title_screen_showing_location = "SuperMeatBoy.exe+2D5F10"
+
+-- 0-19 for light/dark world positions, 99 for boss, 98 for glitch girl.
+-- Warpzones still show the same value as light/dark world
+local map_position_location = "[SuperMeatBoy.exe+002D5EA0]+8D0"
+
+-- unlike map_position_location this actually changes for warpzones.
+-- points to a memory location that stores level I guess.
+local raw_map_position_location = "[SuperMeatBoy.exe+002D5EA0]+8C0"
+
+-- used with above. above holds these values if you're on a warpzone.
+warpzone_2_raw = "[[SuperMeatBoy.exe+002d5ea0]+8b4]+3c0"
+warpzone_3_raw = "[[SuperMeatBoy.exe+002d5ea0]+8b4]+3f0"
+warpzone_4_raw = "[[SuperMeatBoy.exe+002d5ea0]+8b4]+420"
+warpzone_5_raw = "[[SuperMeatBoy.exe+002d5ea0]+8b4]+450"
+
+-- 1-7 for forest to cotton. May be 0 at times?
+local chapter_id_location = "[SuperMeatBoy.exe+002D54BC]+1a8"
+
+-- Can show strange numbers if you aren't properly in a level.
+-- Current level you are in, 1-20 for light/dark, 99 for boss, 98 for glitch.
+-- for warpzones 1-3 depending on level within the warpzone you are on.
+local level_id_location = "SuperMeatBoy.exe+2D5588"
+
+-- 0 for light levels, 1 for dark levels, 2-5 are respective warpzones,
+-- 10 is boss, 6 is gg
+local level_type_location = "[SuperMeatBoy.exe+002D54BC]+1AC"
+
+-- 1 if you are in a level or replay, 0 otherwise.
+local in_a_level_location = "SuperMeatBoy.exe+2D5484"
+
+-- values of completion/bandage memory address.
+local LEVEL_UNCOMPLETE = 0
+local LEVEL_COMPLETE = 2
+local LEVEL_UNCOMPLETE_WARPZONE = 8
+local LEVEL_COMPLETE_WARPZONE = 10
+local LEVEL_COMPLETE_BANDAGE = 3
+local LEVEL_COMPLETE_BANDAGE_WARPZONE = 11
+
+default_hotkey = "END"
+
+
+POSSIBLE_HOTKEYS = {"LBUTTON", "RBUTTON", "CANCEL", "MBUTTON",
+    "XBUTTON1", "XBUTTON2", "BACK", "TAB", "CLEAR", "RETURN",
+    "SHIFT", "CONTROL", "MENU", "PAUSE", "CAPITAL", "ESCAPE",
+    "SPACE", "PRIOR", "NEXT", "END", "HOME", "LEFT", "UP",
+    "RIGHT", "DOWN", "SELECT", "PRINT", "EXECUTE", "SNAPSHOT",
+    "INSERT", "DELETE", "HELP", "0", "1", "2", "3", "4", "5",
+    "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G",
+    "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R",
+    "S", "T", "U", "V", "W", "X", "Y", "Z", "LWIN", "RWIN",
+    "APPS", "NUMPAD0", "NUMPAD1", "NUMPAD2", "NUMPAD3",
+    "NUMPAD4", "NUMPAD5", "NUMPAD6", "NUMPAD7", "NUMPAD8",
+    "NUMPAD9", "MULTIPLY", "ADD", "SEPARATOR", "SUBTRACT",
+    "DECIMAL", "DIVIDE", "F1", "F2", "F3", "F4", "F5", "F6",
+    "F7", "F8", "F9", "F10", "F11", "F12", "F13", "F14", "F15",
+    "F16", "F17", "F18", "F19", "F20", "F21", "F22", "F23",
+    "F24", "NUMLOCK", "SCROLL", "LSHIFT", "LCONTROL", "LMENU",
+    "RSHIFT", "RCONTROL", "RMENU"}
+
+HOTKEY_PAIRS = {["LBUTTON"] = VK_LBUTTON, ["RBUTTON"] = VK_RBUTTON,
+    ["CANCEL"] = VK_CANCEL, ["MBUTTON"] = VK_MBUTTON, ["XBUTTON1"] = VK_XBUTTON1,
+    ["XBUTTON2"] = VK_XBUTTON2, ["BACK"] = VK_BACK, ["TAB"] = VK_TAB,
+    ["CLEAR"] = VK_CLEAR, ["RETURN"] = VK_RETURN, ["SHIFT"] = VK_SHIFT,
+    ["CONTROL"] = VK_CONTROL, ["MENU"] = VK_MENU, ["PAUSE"] = VK_PAUSE,
+    ["CAPITAL"] = VK_CAPITAL, ["ESCAPE"] = VK_ESCAPE, ["SPACE"] = VK_SPACE,
+    ["PRIOR"] = VK_PRIOR, ["NEXT"] = VK_NEXT, ["END"] = VK_END, ["HOME"] = VK_HOME,
+    ["LEFT"] = VK_LEFT, ["UP"] = VK_UP, ["RIGHT"] = VK_RIGHT, ["DOWN"] = VK_DOWN,
+    ["SELECT"] = VK_SELECT, ["PRINT"] = VK_PRINT, ["EXECUTE"] = VK_EXECUTE,
+    ["SNAPSHOT"] = VK_SNAPSHOT, ["INSERT"] = VK_INSERT, ["DELETE"] = VK_DELETE,
+    ["HELP"] = VK_HELP, ["0"] = VK_0, ["1"] = VK_1, ["2"] = VK_2, ["3"] = VK_3,
+    ["4"] = VK_4, ["5"] = VK_5, ["6"] = VK_6, ["7"] = VK_7, ["8"] = VK_8, ["9"] = VK_9,
+    ["A"] = VK_A, ["B"] = VK_B, ["C"] = VK_C, ["D"] = VK_D, ["E"] = VK_E, ["F"] = VK_F,
+    ["G"] = VK_G, ["H"] = VK_H, ["I"] = VK_I, ["J"] = VK_J, ["K"] = VK_K, ["L"] = VK_L,
+    ["M"] = VK_M, ["N"] = VK_N, ["O"] = VK_O, ["P"] = VK_P, ["Q"] = VK_Q, ["R"] = VK_R,
+    ["S"] = VK_S, ["T"] = VK_T, ["U"] = VK_U, ["V"] = VK_V, ["W"] = VK_W, ["X"] = VK_X,
+    ["Y"] = VK_Y, ["Z"] = VK_Z, ["LWIN"] = VK_LWIN, ["RWIN"] = VK_RWIN,
+    ["APPS"] = VK_APPS, ["NUMPAD0"] = VK_NUMPAD0, ["NUMPAD1"] = VK_NUMPAD1,
+    ["NUMPAD2"] = VK_NUMPAD2, ["NUMPAD3"] = VK_NUMPAD3, ["NUMPAD4"] = VK_NUMPAD4,
+    ["NUMPAD5"] = VK_NUMPAD5, ["NUMPAD6"] = VK_NUMPAD6, ["NUMPAD7"] = VK_NUMPAD7,
+    ["NUMPAD8"] = VK_NUMPAD8, ["NUMPAD9"] = VK_NUMPAD9, ["MULTIPLY"] = VK_MULTIPLY,
+    ["ADD"] = VK_ADD, ["SEPARATOR"] = VK_SEPARATOR, ["SUBTRACT"] = VK_SUBTRACT,
+    ["DECIMAL"] = VK_DECIMAL, ["DIVIDE"] = VK_DIVIDE, ["F1"] = VK_F1, ["F2"] = VK_F2,
+    ["F3"] = VK_F3, ["F4"] = VK_F4, ["F5"] = VK_F5, ["F6"] = VK_F6, ["F7"] = VK_F7,
+    ["F8"] = VK_F8, ["F9"] = VK_F9, ["F10"] = VK_F10, ["F11"] = VK_F11, ["F12"] = VK_F12,
+    ["F13"] = VK_F13, ["F14"] = VK_F14, ["F15"] = VK_F15, ["F16"] = VK_F16,
+    ["F17"] = VK_F17, ["F18"] = VK_F18, ["F19"] = VK_F19, ["F20"] = VK_F20,
+    ["F21"] = VK_F21, ["F22"] = VK_F22, ["F23"] = VK_F23, ["F24"] = VK_F24,
+    ["NUMLOCK"] = VK_NUMLOCK, ["SCROLL"] = VK_SCROLL, ["LSHIFT"] = VK_LSHIFT,
+    ["LCONTROL"] = VK_LCONTROL, ["LMENU"] = VK_LMENU, ["RSHIFT"] = VK_RSHIFT,
+    ["RCONTROL"] = VK_RCONTROL, ["RMENU"] = VK_RMENU}
+
+
+
+
+
+function respond_to_key_press()
+    -- We shouldn't do anything if we are on the title screen.
+    local title_screen_showing = readInteger(title_screen_showing_location)
+    -- check if we are open?
+    if title_screen_showing == nil then
+        return
+    elseif title_screen_showing == 1 then
+        return
+    end
+
+    -- if we are in a level.
+    local level_select_showing = readInteger(level_select_showing_location)
+    -- check if we are open?
+    if level_select_showing == nil then
+        return
+    end
+    local in_a_level = readInteger(in_a_level_location)
+    -- check if we are open?
+    if in_a_level == nil then
+        return
+    elseif in_a_level == 1 then
+        reset_from_in_a_level()
+    elseif level_select_showing &gt;= 1 and level_select_showing &lt;= 5 then
+        reset_from_the_map()
+    end
+end
+
+
+
+-- Resets bandages from the map.
+function reset_from_the_map()
+    local chapter_id = readInteger(chapter_id_location)
+    -- We should only do something for worlds 1-5.
+    if chapter_id &lt; 1 then
+        return
+    elseif chapter_id &gt; 5 then
+        return
+    end
+
+    -- Find out what level we are on.
+    local map_position = readInteger(map_position_location)
+    -- map_position is 0-19 for normal levels, doesn't update for warpzones.
+    local level_id = map_position + 1
+    -- We should only do something for non-boss levels
+    if level_id &lt; 1 then
+        return
+    elseif level_id &gt; 20 then
+        return
+    end
+
+    -- We need to check if we are on a warpzone!
+    local raw_map_position = readInteger(raw_map_position_location)
+    if raw_map_position == getAddress(warpzone_2_raw) then
+        reset_bandages_for_warpzone(chapter_id, 2)
+        return
+    elseif raw_map_position == getAddress(warpzone_4_raw) then
+        reset_bandages_for_warpzone(chapter_id, 4)
+        return
+    elseif raw_map_position == getAddress(warpzone_5_raw) then
+        reset_bandages_for_warpzone(chapter_id, 5)
+        return
+    -- Elseif character warpzone, nothing to do.
+    elseif raw_map_position == getAddress(warpzone_3_raw) then
+        return
+    end
+
+    -- If we are here then we are not on a warpzone, and on a normal level.
+    local level_type = readInteger(level_type_location)
+    if level_type == 0 then -- light world
+        reset_bandages_for_level(chapter_id, level_id, false)
+        return
+    elseif level_type == 1 then -- dark world
+        reset_bandages_for_level(chapter_id, level_id, true)
+        return
+    else
+        -- boss or something.
+        return
+    end
+
+end
+
+
+
+-- Tries to determine what we need to reset, if anything, when we are within
+-- a level
+function reset_from_in_a_level()
+    local chapter_id = readInteger(chapter_id_location)
+    -- We should only do something for worlds 1-5.
+    if chapter_id &lt; 1 then
+        return
+    elseif chapter_id &gt; 5 then
+        return
+    end
+
+    local level_id = readInteger(level_id_location)
+    -- We should only do something for non-boss, non-glitch levels
+    if level_id &lt; 1 then
+        return
+    elseif level_id &gt; 20 then
+        return
+    end
+
+    -- Types, 0 is light, 1 dark, 2-5 respective warpzones, 6 gg, 10 boss.
+    local level_type = readInteger(level_type_location)
+    if level_type == 0 then -- light world
+        reset_bandages_for_level(chapter_id, level_id, false)
+    elseif level_type == 1 then -- dark world
+        reset_bandages_for_level(chapter_id, level_id, true)
+    -- warpzones
+    elseif level_type == 2 or level_type == 4 or level_type == 5 then
+        reset_bandages_for_warpzone(chapter_id, level_type)
+    else
+        -- boss or gg or unknown.
+        return
+    end
+
+end
+
+
+
+-- Resets bandages for a warpzone level. Resets 0-2 bandages as required.
+function reset_bandages_for_warpzone(chapter_id, warpzone)
+    local base_address = get_completion_address_warpzone(chapter_id, warpzone)
+
+    -- loop 3 times
+    for i=0,2 do
+        local location = base_address + (i * LEVEL_OFFSET)
+        local completion_info = readInteger(location)
+        -- We should only do something if we have obtained a bandage.
+        if completion_info == LEVEL_COMPLETE_BANDAGE then
+            -- Level is completed with bandage.
+            writeInteger(location, LEVEL_COMPLETE)
+            decrease_bandage_count(chapter_id, 1)
+        end
+    end
+end
+
+
+
+-- Resets bandages for a normal light/dark world level.
+function reset_bandages_for_level(chapter_id, level_id, is_dark_level)
+    -- find out the location of the bandage info.
+    local location = get_completion_address(chapter_id, level_id, is_dark_level)
+    local bandage_info = readInteger(location)
+
+    -- We should only do something if we have obtained a bandage.
+    if bandage_info == LEVEL_COMPLETE_BANDAGE then
+        -- Level is completed with bandage.
+        writeInteger(location, LEVEL_COMPLETE)
+        decrease_bandage_count(chapter_id, 1)
+
+    elseif bandage_info == LEVEL_COMPLETE_BANDAGE_WARPZONE then
+        -- We have both a warpzone and bandage, 5-12
+        writeInteger(location, LEVEL_COMPLETE_WARPZONE)
+        decrease_bandage_count(chapter_id, 1)
+    end
+end
+
+
+
+-- Decreases bandage count for specified chapter by aomunt.
+function decrease_bandage_count(chapter_id, amount)
+    local bandage_count_location = bandage_counts[chapter_id]
+    -- bandage count is stored as a unsigned byte
+    local current_count = readBytes(bandage_count_location, 1, false)
+    writeBytes(bandage_count_location, current_count - amount)
+end
+
+
+
+-- Gets the address of the completion/bandage for the specified
+-- light/dark world level.
+-- See memory layout of completion/time entries in globals.
+function get_completion_address(chapter_id, level_id, is_dark_world)
+    local base_pointer = getAddress(completion_base_pointers[chapter_id])
+    if is_dark_world then
+        -- going past the 20 light world addresses.
+        base_pointer = base_pointer + (20 * LEVEL_OFFSET)
+    end
+    return base_pointer + ((level_id - 1) * LEVEL_OFFSET)
+end
+
+
+
+-- Gets the address of the completion/bandage for the warpzone's first level
+-- See memory layout of completion/time entries in globals.
+function get_completion_address_warpzone(chapter_id, warpzone)
+    local base_pointer = getAddress(completion_base_pointers[chapter_id])
+    -- going past the 20 light world and 20 dark world addresses
+    base_pointer = base_pointer + (40 * LEVEL_OFFSET)
+    -- warpzone 2 is now at location base_pointer.
+    -- Each warpzone we need to skip has 3 levels.
+    return base_pointer + ((warpzone - 2) * LEVEL_OFFSET * 3)
+end
+
+
+
+-- Updates the GUI to show what we want.
+function create_gui()
+    UDF1.CELabel2.setCaption(TITLE)
+    UDF1.CELabel3.setCaption(INFO)
+    UDF1.OnClose = close
+
+    -- Remove all possible hotkeys.
+    while UDF1.CEListBox1.Items.Count &gt; 0 do
+        strings_delete(UDF1.CEListBox1.getItems(), 0)
+    end
+    -- Populate possible hotkeys.
+    for key,value in pairs(POSSIBLE_HOTKEYS) do
+        UDF1.CEListBox1.items.add(value)
+    end
+    -- Set default hotkey.
+    if current_hotkey == nil then
+        UDF1.CELabel1.setCaption("Current hotkey:\n" .. default_hotkey)
+        local hotkey_number = HOTKEY_PAIRS[default_hotkey]
+        if hotkey_number == nil then
+            -- Should never happen.
+            return
+        else
+            current_hotkey = createHotkey("respond_to_key_press", hotkey_number)
+        end
+    else
+        UDF1.CELabel1.setCaption("Current hotkey:\n" .. default_hotkey)
+        local hotkey_number = HOTKEY_PAIRS[default_hotkey]
+        if hotkey_number == nil then
+            -- Should never happen.
+            return
+        else
+            object_destroy(current_hotkey)
+            current_hotkey = createHotkey("respond_to_key_press", hotkey_number)
+        end
+
+    end
+
+end
+
+
+
+-- Responds to the select hotkey button.
+function CEButton1Click(sender)
+    local items = UDF1.CEListBox1.getItems()
+    if items == nil then
+       return
+    end
+    local item_index = UDF1.CEListBox1.getItemIndex()
+    if item_index == nil then
+        return
+    elseif item_index == -1 then
+        return
+    end
+    local hotkey_name = items[item_index]
+    if hotkey_name == nil then
+        return
+    end
+    -- Set hotkey
+    UDF1.CELabel1.setCaption("Current hotkey:\n" .. hotkey_name)
+    local hotkey_number = HOTKEY_PAIRS[hotkey_name]
+    if hotkey_number == nil then
+        -- Should never happen.
+        return
+    else
+        -- destroy old hotkey
+        object_destroy(current_hotkey)
+        -- create new hotkey.
+        current_hotkey = createHotkey("respond_to_key_press", hotkey_number)
+    end
+
+
+end
+
+
+-- Nicely closes cheat engine/background tasks
+function close()
+    closeCE()
+    return caFree
+end
+
+
+
+-- try to reattach to super meat boy
+function try_reattach()
+    -- check if we are not attached.
+    local test_for_smb = readInteger("SuperMeatBoy.exe")
+    if test_for_smb == nil then
+        -- if we can't read meat boy's code then we are not attached.
+        -- Try to reattach.
+        openProcess("SuperMeatBoy.exe")
+    end
+
+
+end
+
+
+
+create_gui()
+form_show(UDF1)
+fuckCheatEngine()
+
+-- Old autoattach
+aalist = getAutoAttachList()
+stringlist_add(aalist, "SuperMeatBoy.exe")
+-- new timer based reattach. Uses more cup%, using above for lower usage.
+--reattach_timer = createTimer(nil)
+--timer_setInterval(reattach_timer, 1000)
+--timer_onTimer(reattach_timer, try_reattach) -- Should start timer.
+
+
+</LuaScript>
+</CheatTable>

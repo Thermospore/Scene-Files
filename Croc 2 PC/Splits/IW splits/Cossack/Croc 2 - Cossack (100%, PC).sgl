@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>Icecube</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Roger</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Train</Name>
+      <Note>Enter: LEFT</Note>
+    </Split>
+    <Split>
+      <Name>Flavio</Name>
+      <Note>Exit: Back
+Enter: Back</Note>
+    </Split>
+    <Split>
+      <Name>Snowman</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Glider</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Larry</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Warp</Name>
+      <Note />
+    </Split>
+  </Splits>
+  <Name>Croc 2</Name>
+  <Category>Cossack</Category>
+</PersonenListe>

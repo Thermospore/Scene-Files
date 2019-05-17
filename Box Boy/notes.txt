@@ -1,0 +1,18 @@
+boxboy notes
+
+-can move into tighter vertical gaps when falling by waiting to move until you are past the upper wall
+
+-for 22-6 you can make the block extend before and after the star gate so it breaks intentionally
+
+ 12                     32
+-Q3 throws further than Q1
+
+14 frames	0.233 sec	time to walk 1 block	
+10 frames	0.166 sec	time to generate 1 more block
+06 frames	0.100 sec	time to get pulled 1 block at hook speed
+
+-if you have to generate blocks while running, stop at a spot that snaps you forward
+
+-always jump the gap with as little blocks as possible
+	-unless it's a 3 block gap, then walk with 2
+		-(it is just as fast to jump with 1, but that is harder)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"IGT - TA - Inner Doors"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>30007614</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"IGT - TA - Final"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>302C0980</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"IGT - World"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>302C099C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Checkpoint #"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>31485B88</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

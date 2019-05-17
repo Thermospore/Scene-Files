@@ -1,0 +1,268 @@
+https://docs.google.com/spreadsheets/d/1RTRkXRP_iQ3TzaOI0nDDHfIxdfXk5K7aCYaWzbA69Og/edit?usp=sharing
+
+-autosplitter
+	-simplify settings
+		-name by the category?
+		-grab category name and do it automatically?
+	
+	-add snowman and stuff into splits?
+		
+	-tool to display how late / early your hazard jump is!!
+		-compare when jump happens to when damage happens? find offsets?
+	
+	-max% splits
+		-needs to not work if you GOA?
+		-check for all requirements at the end?
+		-flytrap sometimes delays
+			-might have to just store the max crystals reached in an array of each level
+		
+		-IW stop doesn't work on inca max%
+		
+	-IL timer
+		-start on level load
+		-ignore all other splits
+		-must exit level
+		-finish when 
+		-disalow level select?
+	
+	
+	-FIND WAY TO DISABLE RIGHT STICK
+	
+	-save corruption
+		
+new strats 100% -practice crow jump no camera
+				-babies stomp buffer? carry to puzzles for stomp puzzle?
+				-CAN DIE DURRING CROW GEM THROW ANI
+				-look up roger fireball cycles
+				-faster path on 2nd room right side roger
+				-learn FF hazards (IE in icecube cave 1 and start of flytrap)
+				-jump before doing IJ!
+				-cossack golden gobbo barel cycles?
+				-pet post jump?
+				-pet jump at top of tower?
+				-puzzle peice caveman 50cry heart
+				-learn audio cues for blind throws on flytrap
+				-find distance to be away from puzzles stomp arow box at end
+				-inca puzzle peice entrance: must hold forward, must not hold strafe
+				-caveman pet paul rope strat on bridge aug 25 2018
+				-roger can jump out of auto walk in third chamber
+				
+				-can jump around tree trunks... (ie thief)
+				-go on right side of wood beam in boat
+				-go on left side of first tree in boat??
+				-frontflip stomp jump into doors? https://youtu.be/oTCg7p7ix2g?t=555
+					-what about into a door with a load or a cutscene after?
+					
+				-you can grab onto the bottom of grates from above with a well aimed jump
+				-can CSB flytrap, might be able to multicycle
+				-other csbs
+				-hazard stomp at roger entrance?
+				-trampoline thing https://clips.twitch.tv/DirtyHonorableElkRalpherZ
+				-faster to throw bucket close to edge on masher
+				
+				-zoomies break crow 100% cutscenes
+				-secret sailor box jump room, go on right side
+				
+				-immediate crate jump thing in waterfall hundo. don't turn on crate first, just jump right away
+				
+				-crow 2nd post - don't stomp jump, just normal jump off to teh bridge/plat?
+				
+				-FAST CYCLE ON FIRST WHEEL CAVEMAN MINES
+				
+				-front flip off of magic platforms
+				
+				-btw, there is also a cheat for infinite lives. You can even enable it when you're currently in a level by modifying the int32 at 0x4B7964. I always set this value to -1 (= all bits set) to enable all cheats including cheat menu when testing things
+				
+				-Citing an old Discord post: >the int32 variable at 0x622c44 (US) specifies how you can move. It's 0 when you can move freely, 0x1000 when talking with a Gobbo, 0x2000 while a cutscene is running, 0x6000 while riding a mine cart. You might use "Find out what writes to this address" in Cheat Engine to find out when the value is changed.
+				
+				-JUMP OUT OF DOOR ENTRANCE MOVEMENT LOCKS!!
+				
+				-"WOW I don't know how we never noticed this, but if you start holding down A during the loading screen of a level then you instantly do a triple jump when the level loads"
+					-JUMP STRAIGHT BACK INTO DOORS INSTEAD OF TURNING AROUND
+				
+				-pause into door to pause IGT lmao
+				
+				-first room larry - you can skip another timer if you are super fast
+				
+				-larry magic platform - can DA through center
+				
+				-soveena - use fence post to time bomb throw?
+	-sailor
+		-learn how to cage skip...
+		
+		-cage: GG front flip
+		
+		-chests: cut corner at end of chests closer (where you GOA in any%)
+		
+		-theif: upwarp on bridge slopes on curvy tree HJs?
+		
+		-keith: enter room to the side
+		-keith: post jumps off of cannon platforms
+		
+	-cossack
+		-faster to walk or run up sloped wooden plank bridges? nope, do not jump
+	
+		-icecube: RUN OUT OF THE LAST ROOM TO THE ICE PICK DUDE
+		-icecube: DA and GOA lol
+		-icecube: you can make rope cycle its just really right...
+		
+		-snowball: gem drop
+		-snowball: wall slam after gem drop
+		
+		-train: HJ on last platform to jeopardy gem? YES!
+		-train: can fit through both stomper sides
+		-train: walking through door loading zone???
+		
+		-golden: don't jump up planks or around posts, just keep strafe running 
+				-retest this, level select threw off cycles
+		
+	-caveman
+		-mines: jump right inside cart dantinis in mines for damage
+		
+		-flytrap: no GOA? no thanx lol
+		-flytrap: 1st cycle: can make the first and second left wiggles (throw as the wiggle reaches the left side)
+		-flytrap: if reverse on last cycle: throw as the wiggle reaches right side (same timing as non reverse,
+					you just don't have an audio warning beforehand)
+		
+		-masher: hug door to skip text box on exit!
+	
+	-inca		
+		-waterfall: do it at an angle for more speed
+		-waterfall: rock sidejump
+		
+		-plane: quickest third damage? double hit lineup.
+		
+		-puzzles: DUKE THAT BOX!
+		-puzzles: don't need to pull plat all the way around to first puffer
+		
+		-in third room, rub up against cage after throwing baby to get an easy cage stomp
+		
+	-secret
+	
+new strats any%
+	-sailor
+		-mines: can stomp right away on tight DA room platform
+		
+		-thief: kill him on 2nd pillar
+		-thief: hazard stomp to other 2nd pillar if first HJ
+		
+	-cossack
+		-roger: fireballs cycle?
+		
+	-caveman
+		-mines: stupid rope cycle
+		
+		-jungle: death clip in stonehenge?
+		
+		-pet: don't have to stomp jump on skeleton
+		
+		-fire: new route to the right
+		-fire: do gobbos backwards. No Hazard stomp yet.
+		
+		-masher: hug door to skip text box on exit!
+		-masher: practice
+	
+	-inca
+		-babies: first room strat (see 1:04:05)
+		
+		-plane: um, WOW MY PLANE STRAT IS CRAP. do double hit lineup
+		
+		-puzzles: walk around the darn box to get to the door?
+		-puzzles: don't need to pull plat all the way around to first puffer
+		
+new strats max% (lol)
+	-sailor
+		-cage: can grab heart in green gem room after spawn starts!
+	-inca
+		-machine: fastest order for box and two pillars at begining?
+		-machine: crayz faster route w/ upwarps / skips?
+		-machine: box floor clip?
+		
+strats research?
+	-initial ff bounce doesn't break platforms
+	-can infi jump with lots of gummis in bag, rather than infi glitch
+	-tower: can hazard through goo dude
+	-use robo gobbo above pad
+	-da removes golden gobbo warp, can still move between rooms though
+	-right side cage skip
+	-dupe bug
+	-exit to menu warp
+	-movement
+		-front flip into door and hold right, you get stuck?
+		-front flip starting or final jump to fall down faster?
+	-Iframe damage boosts?
+	-game over abuse/death abuse in hub?
+	-sometimes after a transition, croc spawns facing the direction you are holding!
+		-handy if you don't want croc to spawn facing forwards and have to turn around
+		-backwards as well
+	
+	-sailor
+		-ffs on tree bridge curves in sailor
+		
+		-cage: ff in GG
+		
+		-kieth
+			-front flips on bridges
+		-theif
+			-ther are always more hazards...
+		
+		-chests
+		
+		-crow
+		
+	-cossack
+		-flavio
+		
+		-jigsaw: hazard on broken plats? kinda dangerous if you are early though...
+		
+		-train: jump that scetchy ice diag after the phantoms
+			
+	-caveman
+		-fire
+			-can hazard stomp to skip rung time...
+			
+		-pet:
+	-inca
+		-babies:
+		
+		-puzzles: can double jump to bounce and hit puffers twice quickly
+		
+		-DA and GOA spawns??
+			-peak
+				-GOA:	peak start
+			-puzzles
+				-DA: 	start of that room
+				-GOA: 	start of puzzles
+			-tower
+				-DA:	tower start
+				-GOA:	tower start
+			-goo man chu room
+				-DA:	TOWER START
+				-GOA:	tower start
+			-dante
+				-DA:	dante start
+				-GOA:	dante start
+	-secret
+		-sailor:	jigsaw: cage skip?
+		-cossack:	train: goa after gem
+		
+definitive edition improvements
+	-graphical fixes
+		-shadows on trees before shortcut in boat level
+		-croc's shadow clipping/z fighting into terrain
+		-no croc shadow on flavio level (there is a shadow on ps1)
+		
+	-cutscene fixes
+		-always have boss cutscene after last level in villages
+		-sometimes cutscenes break or don't play (EG, the cutscene in flytrap with the shot of the inside of his mouth)?
+	
+	-gameplay  fixes/improvements (probably not ok for speedrun, in particular)
+		-falling off the top of ledges
+			-worst offenders being last ledge on crow, that ladder in babies, and the ladder at the end of mammoth
+		-lock camera to dante on wind part?
+		-INVISIWALLS
+		-babies bouncing out of cribs
+		-general camera improvements?
+	
+
+

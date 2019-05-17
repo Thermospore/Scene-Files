@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>-Boat</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Cage</Name>
+      <Note>[170 crystals]
+3 Blue
+1 Robo</Note>
+    </Split>
+    <Split>
+      <Name>-Chests</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Crow</Name>
+      <Note>1: RIGHT - 6
+2: DOWN - 5.5
+3: UP/LEFT -&gt; UP on 5
+4: DOWN - jump @4.5 let go @6
+5: LEFT - 6</Note>
+    </Split>
+    <Split>
+      <Name>-Soveena</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Thief</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{Sailor}Keith</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Icecube</Name>
+      <Note>[220 crystals]
+1 Blue
+1 Purple
+2 Robo</Note>
+    </Split>
+    <Split>
+      <Name>-Roger</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Train</Name>
+      <Note>Enter: LEFT</Note>
+    </Split>
+    <Split>
+      <Name>-Flavio</Name>
+      <Note>Exit: Back
+Enter: Back</Note>
+    </Split>
+    <Split>
+      <Name>-Snowman</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Glider</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Larry</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{Cossack}Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Mine</Name>
+      <Note>[390 crystals]
+2 Blue
+1 Green
+5 Robo</Note>
+    </Split>
+    <Split>
+      <Name>-Jungle</Name>
+      <Note>Exit: LEFT</Note>
+    </Split>
+    <Split>
+      <Name>-Kart</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Fire</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Pet</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Flytrap</Name>
+      <Note>Enter: neutral?
+CSB: UP/LEFT</Note>
+    </Split>
+    <Split>
+      <Name>{Caveman}Masher</Name>
+      <Note>Enter: UP
+CSB: UP/RIGHT</Note>
+    </Split>
+    <Split>
+      <Name>-Machine</Name>
+      <Note>Masher Exit: DOWN
+Masher Enter: RIGHT
+Masher Exit: DOWN
+
+Mach. Enter: UP/RIGHTISH</Note>
+    </Split>
+    <Split>
+      <Name>-Babies A</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies B</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies C</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies D</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies E</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Plane</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Puzzles</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Tower</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{Inca}Dante</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ǝƃɐƆ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ʍoɹƆ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ɟǝᴉɥ┴</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ʍɐsƃᴉſ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-sʇsǝɥƆ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{ɹolᴉɐS}ƃƃƎ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{ʞɔɐssoƆ}ƃƃƎ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ǝlƃunſ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ǝuᴉW</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ʍɐsƃᴉſ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ʇǝԀ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-ǝɹᴉℲ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{uɐɯǝʌɐƆ}ƃƃƎ</Name>
+      <Note />
+    </Split>
+  </Splits>
+  <Name>Croc 2</Name>
+  <Category>100%</Category>
+</PersonenListe>

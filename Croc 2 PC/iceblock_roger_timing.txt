@@ -1,0 +1,99 @@
+119001
+119357
+356 = 11.8666s
+
+
+3322
+3547
+225 +2.03 rope = 9.5s
+
+47
+252
+6.83s bridge cycle
+
+DA = always 16.33
+no DA = anywhere from 11.86 to 18.6966
+
+(normalized)
+DA = always 0
+no DA = anywhere from -4.47 to 2.36
+
+DA = GOA before roger (gonna lose lives on DA)
+no DA = no GOA before roger (not want to risk GO on jump back)
+
+no GOA
+6303
+6396
+3.1s
+
+GOA loses 3.6s
+87086
+87289
+6.77s
+
+(normalized with roger GOA)
+DA = always 0
+no DA = anywhere from -8.14 to -1.31
+
+No GOA hearts
+5
+-1 for HJ
+-1 for DA in blue gem
+roger on 3-4h
+
+roger hearts on no GOA
+3-4
+2-3 DA
+1-2 DA
+2-3 heart
+1-2 DA
+
+train
+1
+
+flavio
+1
+
+GOA after roger 5.6s
+1353
+1522
+
+
+iceblock routes. always no DA
+-3h
+-get heart at first gem
+-HJ    = no damage. No Roger GOa. go for 3h roger
+-no HJ = both damage spots to 1h. Roger GOA
+
+-5h
+-go for HJ, no damage, no Roger GOA, 3-4h roger
+
+-4h
+-same as 5h but with heart pickup at first gem
+
+SIMPLIFIED
+Don't GOA. Unless you have <=3h when grabbing purple gem
+in which case damage down to 1 in that room and do the GOA.
+
+box instead of HJ?
+2862
+2968
+106 = 3.53s
+
+963
+1117
+154 = 5.13s = 1.60s slower
+
+---------------
+119001
+119357
+356 = 11.8666s
++1/4 cycle = 13.57 best case. Could be slower if 
+
+
+3322
+3547
+225 +2.03 rope = 9.5s
++1/2 cycle = 12.915
+
+

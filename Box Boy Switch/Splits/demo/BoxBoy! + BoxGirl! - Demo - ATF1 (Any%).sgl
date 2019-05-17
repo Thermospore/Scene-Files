@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>Lvl_1_Lvl_1_Lvl_1_Lvl_1_</Name>
+      <Note>SPAM:
+9 SINGLES
+
+END: 11
+
+DOOR: A PRESS</Note>
+    </Split>
+    <Split>
+      <Name>vl_2_Lvl_2_Lvl_2_Lvl_2_L</Name>
+      <Note>SPAM:
+8 SINGLES
+
+END: 11</Note>
+    </Split>
+    <Split>
+      <Name>l_3_Lvl_3_Lvl_3_Lvl_3_Lv</Name>
+      <Note>START: A PRESS
+
+SPAM:
+EXTRA DOUBLE PER JUMP
+SINGLE AT DOOR
+
+END: 13</Note>
+    </Split>
+    <Split>
+      <Name>_4_Lvl_4_Lvl_4_Lvl_4_Lvl</Name>
+      <Note>SPAM:
+EXTRA TRIPLE PER JUMP
+L PULL + WALL SHOVE
+SINGLE AT DOOR
+
+END: 19</Note>
+    </Split>
+    <Split>
+      <Name>5_Lvl_5_Lvl_5_Lvl_5_Lvl_</Name>
+      <Note>START: SHOVE
+
+SPAM:
+L PULLS
+1 QUAD
+1 TRIPLE
+
+END: 27</Note>
+    </Split>
+    <Split>
+      <Name>_Lvl_6_Lvl_6_Lvl_6_Lvl_6</Name>
+      <Note>Normie stuff</Note>
+    </Split>
+    <Split>
+      <Name>Lvl_7_Lvl_7_Lvl_7_Lvl_7_</Name>
+      <Note>END: 55
+...Yea you are gonna have to memorize this one</Note>
+    </Split>
+    <Split>
+      <Name>vl_8_Lvl_8_Lvl_8_Lvl_8_L</Name>
+      <Note>START: SHOVE
+
+SPAM:
+JUMP THROW
+QUAD SHOVE
+1 TRIPLE
+
+END: 27</Note>
+    </Split>
+  </Splits>
+  <Name>BoxBoy! + BoxGirl!</Name>
+  <Category>Demo - ATF1</Category>
+</PersonenListe>

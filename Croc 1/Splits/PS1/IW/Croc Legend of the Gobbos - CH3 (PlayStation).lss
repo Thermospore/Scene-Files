@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon><![CDATA[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]]></GameIcon>
+  <GameName>Croc: Legend of the Gobbos</GameName>
+  <CategoryName>CH3</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">PlayStation 2</Platform>
+    <Region>USA / NTSC</Region>
+    <Variables>
+      <Variable name="Version">PlayStation</Variable>
+    </Variables>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>8</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="01/25/2019 23:39:34" isStartedSynced="True" ended="01/25/2019 23:39:49" isEndedSynced="True" />
+    <Attempt id="2" started="01/25/2019 23:40:20" isStartedSynced="True" ended="01/26/2019 00:22:28" isEndedSynced="True">
+      <RealTime>00:42:07.4450000</RealTime>
+    </Attempt>
+    <Attempt id="3" started="01/26/2019 00:25:23" isStartedSynced="True" ended="01/26/2019 00:25:38" isEndedSynced="True" />
+    <Attempt id="4" started="01/26/2019 00:25:58" isStartedSynced="True" ended="01/26/2019 00:27:38" isEndedSynced="True" />
+    <Attempt id="5" started="01/26/2019 03:52:09" isStartedSynced="True" ended="01/26/2019 04:14:59" isEndedSynced="True">
+      <RealTime>00:22:49.4890000</RealTime>
+    </Attempt>
+    <Attempt id="6" started="01/26/2019 04:16:36" isStartedSynced="True" ended="01/26/2019 04:35:31" isEndedSynced="True">
+      <RealTime>00:18:54.8330000</RealTime>
+    </Attempt>
+    <Attempt id="7" started="01/26/2019 04:36:40" isStartedSynced="True" ended="01/26/2019 04:37:01" isEndedSynced="True" />
+    <Attempt id="8" started="01/26/2019 04:40:01" isStartedSynced="True" ended="01/26/2019 05:00:48" isEndedSynced="True">
+      <RealTime>00:20:46.5820000</RealTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>-Camel</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:36.0100000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.0980000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:01:28.1120000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:21.0980000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:01:24.4350000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:01:36.0100000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Mania</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:03:45.8120000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.1620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:02:18.2570000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:49.8630000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:01:49.1620000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:02:09.8020000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Goin</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:05:46.5980000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.5220000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2" />
+        <Time id="5">
+          <RealTime>00:02:09.8540000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:02:00.5220000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:02:00.7860000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Neptuna</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:07:05.6210000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.0230000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:09:38.1420000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:55.8410000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:03:54.1160000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:01:19.0230000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Freedom</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:09:45.3020000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:39.6810000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:20:05.2000000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:04:59.4270000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:06:47.2370000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:02:39.6810000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Faith</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:12:12.2640000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:26.9620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:04:44.7070000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:02:29.5220000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:02:48.9330000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:02:26.9620000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-Beach</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:17:46.4260000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:13.9130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:02:13.9130000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:04:45.4710000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:02:22.9290000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:05:34.1620000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Desert}Jack</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:18:54.8330000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:08.4070000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:01:39.1140000</RealTime>
+        </Time>
+        <Time id="8">
+          <RealTime>00:01:24.8380000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:01:32.8230000</RealTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:01:08.4070000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>

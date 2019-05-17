@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SaveGameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <farthestLevel>1</farthestLevel>
+  <levelIndex>1</levelIndex>
+  <hardMode>true</hardMode>
+  <normalMouseMode>true</normalMouseMode>
+  <showLevelTime>false</showLevelTime>
+  <hardModeEnabled>true</hardModeEnabled>
+</SaveGameData>

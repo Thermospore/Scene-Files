@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>Mine</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Jungle</Name>
+      <Note>Exit: LEFT</Note>
+    </Split>
+    <Split>
+      <Name>Kart</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Fire</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Pet</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Flytrap</Name>
+      <Note>Enter: neutral?
+CSB: UP/LEFT</Note>
+    </Split>
+    <Split>
+      <Name>Masher</Name>
+      <Note>Enter: UP
+CSB: UP/RIGHT</Note>
+    </Split>
+    <Split>
+      <Name>Warp</Name>
+      <Note>Exit: DOWN
+Enter: RIGHT</Note>
+    </Split>
+  </Splits>
+  <Name>Croc 2</Name>
+  <Category>Caveman</Category>
+</PersonenListe>

@@ -1,0 +1,2740 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwkAAAKJUE5HDQoaCgAAAA1JSERSAAAAKgAAACEIAgAAACBmrs8AAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAGXRFWHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjEzNANbegAACNxJREFUWEflV3lQlEcW7+v7vhlgZjgGORxuPItLDvFAhEUI4EFEuUYRQQfwiAmRxF02goR4FVYiatw10aSy2XhEV4Ocw3CsqFiarLEWj8ILROTQeEWyyum+YTyYkULz1/6xXb/q6ul5/X6vX/d7/T5UgfD/EP/v9IQMDUY1VAu9SUrUlBwgRjDWIBrEGGZIjOk6IsZEEFNWRqiIZ2UUFVJ8mOfLmVAqk+pp0Ife7jWYlBJQwRKjZ/U3F7dfLT6btuiImXS/o0v6ypS8NcqE+NnzEsI//kD57c7cNSvnd7YWL02KIYxSiqjAZGame+dHc5RTiARNSnK6m/0Fb48rbm77ZOYnRioOG4tB/2A6gKHzyzmhr2zDia2ZH030TAnyUoa4l2354+0b5x8f3+NpI284sL6nZkPR1lVfbV3fV7Otv2LLgnkR1RHh5cGhme+uvjJvvsrBYZmXe6S7y52Y2Pa5iz+zH9MZk3o/MW2LucUBVyc1MqTT+10lsOogt5wp3gtm+feuVz7NXZQXO6Vz46xZYV4PN8d+lhG7Pcr/YXb8g9Uzf/1kYaSrVd7sKczYaLOrbaLbWMowxzgqpoQQiYghgfo52Gc7j+rv6uvu7f/I3m6v4xg1fsmlA6rAvEbrdlyBaTXPPZ05+lGU1Z6pdu6utpG24uCx1hVf5hRMdfQZP9JP4ZSzZLqrlZmNmTxJleTiYh/m6TxmpO3WrdtcnBXOdgqFvd2o8c4KJ4WTo8LVXuE2ykVhYzVKIX9vztzRDiOPRMVUcKYVhBYzrhKRyoGzRuMwb8lREeKllOMFsaet3S4v7xMTA0/6TP5upNNka4vj3lOtZfyt+syoyEknvKe6jTar9Z9WMim09fzGk36BE+wsFigj9433POc7w1wmPuM/PcDavM5n2l/zU/7lNX26RFbnG5rp7nHOffpPvkG+TCrmsJhiCx4nY7oa82gzL6MY2SDEMP1TdtbZ2KRYH7ftYTPbYuOvJaVfT4g7rVrSXv95/AzLvZ5e15ULm86tbYmO2xYc0n9l/dW4+N0hs08cq010sm+PXVpbWnAzdkHDosXX42J/CHkry9Xj0sLETUGBURMdL0bHBHBorUxeIuASTI9iqh649ehrXmrMGIcJ5vjajLSylUv78zd52cqPLVeV5OVVvp9WviK5Mi3p++jI6vfSNe+o7jd+XveO6t2pfonKEPXylKLMVH93v9PZWbUrEmvSl9e9n3pydYZyccipVcu+CnA/npE+zs764fYCdwfbYxlpW/KyllGxlUjyBRw6HTj7SszSCDpIuC8ZWRET330mMT9G8iAhsPdi0m/1yYe/8O7+OaqvPq7zdHROkmPPhTnhcmnv2fiWH1UY0/7z8af2zoe4q5nr2308+Om5hL76BCuO/PRdYH99Qt/PcV3n3147weHXJeGP/q2cHygXeGEExbsRLeIGksGLmw+3r4QxXiTb+823ecsDd+XvLsgvyFaF79nzl9xl0z5aFvTnxdNUb89bu3zajj3fbEoLylEFfYilIBCzILycCEvjZmarZqxLDc1VhUXOjFiXEpGT+ofs9Lc+yVyTaGKZtSQwNzV4i9jiIMLFPKQsoKNlRHfzX4QB1t7/csw+xVKGRWigiSg5RYzKMK7CtAgZH0OokuAqSkBSQzCMKzGCUyylWE1IFeLUhJZRxjGEnzdQQpFoPzbVBb1B7OnFPfxXKiABaWO38dp13WLQ9CERDRYbBhBLFNKwWNzX09X1239Az4ACDINqzAyEAXr05QjLMBYQgZUSE5Nn9NA4dGTgqN4EFKGdO3fe6bj9cvmABUVEMJAE6NFXI7CSgKhupbYnYA1GRtKvmZ7kMODwS88PbpvREC7UUwqHB4kIzAeXwS6yLL0LR4RZUW6/TagxRwdLDgNY/ozw+e7VargY5B+UN5AE6NFXIvZPYmEqcAetQ/Mt/AMk1h8YjdtoMTHX3E+iLzkMBHj+Blmg9SdjsKGjwuvoD/JYLNAsc58NI/x32QavkXiEUcvNVpM2mXscemN6IwF5MuJJMMAd41EY22BiJ0gOEc5AEqCntAx6QeorHbFR7vexmc8OY7uDRFyEaQUmrz5WQwICEnJqFWLayNS+7hTKEw3UJhi2PsTxDbEnDSKFSFyAWTQRxlMkJYQnHCOcgClHCaVwGSnBUOho31iYQ4SJtAKMg1IHUWvCTSEsA3E7CS2EYKNG8JbWUDBoiNgxpFcbCyaIwpn5+fk1NTVdvnz5/v37zjwP43ttHckeE0ZQJsbY1Ejo6el58uSJi6ms/Gjx7V/u2FtbjTWTNDU2QdnV39+/clGyRqNpaWnRHj8iHGZ/F5FD2DD2DOkLCRUjAdbwPH/jxg1YD7qA++lAO3PmDFwruEy1tbUwD+3Bgwd9fX3wF5hy9+5dmLl37x70165d6+3t7ejo0F1DKMfKXil1AIZTNYgoGYS7lgMsgL65ubmurg4IWltbQ0JCtJEEeZRSmAEasE9HDz20x48fBwQEwACWyOVyINZKc2gHZ/RGzgeUYzhsfPHSRSBubGwE1Q0NDeBqHQFQwrZ03NBgoBtD393d3dnZaWJiAmKwEJzX1tbGIyJC5AduiJQHGIIeUEmoLUE8ordu3QK9oAg0DhBp2+Dxi6azDBqcFNgKPXirubmFMKFc+0QNnbOHpn8GniNMm0ZsbGxu3rx5tbW95/Hjrq6uS5cuAR8MXjgDBo8ePYLJXzput7XfvnClATxXoT4q0Ne8FMPRqxEuxaQK89rPCSrIjLDAuE0pylWBk1NUqXO9J8yZG5UZEZmuSj9++kflxEmePp75yoSeDZ9GODoQRqp5WbH+d8SreM3fzwBph+AaQg5zxsYUgl4QsCDlsI3EeJyF3EkqsRQbCRD5lDcmKJsXXdBWz2LwuaGeV/Bm9AOlgBrRYkyOIATfUCWUlmKujBKIlCoqlBNODZQY7dNWcK9nfYE3pdcBajKwoxCh7wEY7yP0ECKHCD1C0d8I0ebsoTLrMPh99FrAEh2I9lMBUIV13wzP5w3khwHC/wXkwPRjOyUg0QAAAABJRU5ErkJgggs=]]></GameIcon>
+  <GameName>Super Meat Boy</GameName>
+  <CategoryName>Salt Factory</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">PC</Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>54</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="10/13/2018 21:24:27" isStartedSynced="True" ended="10/13/2018 21:52:59" isEndedSynced="True">
+      <RealTime>00:28:32.1490000</RealTime>
+      <GameTime>00:22:06.9460000</GameTime>
+    </Attempt>
+    <Attempt id="2" started="10/13/2018 21:54:01" isStartedSynced="True" ended="10/13/2018 21:55:15" isEndedSynced="True" />
+    <Attempt id="3" started="10/13/2018 21:56:35" isStartedSynced="True" ended="10/13/2018 22:21:17" isEndedSynced="True">
+      <RealTime>00:24:41.5420000</RealTime>
+      <GameTime>00:18:48.5840000</GameTime>
+    </Attempt>
+    <Attempt id="4" started="10/13/2018 22:25:44" isStartedSynced="True" ended="10/13/2018 22:49:21" isEndedSynced="True">
+      <RealTime>00:23:37.8010000</RealTime>
+      <GameTime>00:17:52.3970000</GameTime>
+    </Attempt>
+    <Attempt id="5" started="10/14/2018 06:29:37" isStartedSynced="True" ended="10/14/2018 06:29:41" isEndedSynced="True" />
+    <Attempt id="6" started="10/14/2018 06:29:55" isStartedSynced="True" ended="10/14/2018 06:33:34" isEndedSynced="True">
+      <RealTime>00:03:39.9060000</RealTime>
+      <GameTime>00:02:40.7860000</GameTime>
+    </Attempt>
+    <Attempt id="7" started="10/14/2018 06:35:13" isStartedSynced="True" ended="10/14/2018 06:38:50" isEndedSynced="True">
+      <RealTime>00:03:36.7970000</RealTime>
+      <GameTime>00:02:45.0520000</GameTime>
+    </Attempt>
+    <Attempt id="8" started="10/14/2018 06:39:50" isStartedSynced="True" ended="10/14/2018 06:40:16" isEndedSynced="True" />
+    <Attempt id="9" started="10/14/2018 06:40:24" isStartedSynced="True" ended="10/14/2018 06:40:25" isEndedSynced="True" />
+    <Attempt id="10" started="10/14/2018 06:40:35" isStartedSynced="True" ended="10/14/2018 06:44:43" isEndedSynced="True">
+      <RealTime>00:04:08.2870000</RealTime>
+      <GameTime>00:03:02.0330000</GameTime>
+    </Attempt>
+    <Attempt id="11" started="10/14/2018 06:45:06" isStartedSynced="True" ended="10/14/2018 06:48:26" isEndedSynced="True">
+      <RealTime>00:03:19.6950000</RealTime>
+      <GameTime>00:02:25.1070000</GameTime>
+    </Attempt>
+    <Attempt id="12" started="10/14/2018 06:54:33" isStartedSynced="True" ended="10/14/2018 06:57:46" isEndedSynced="True">
+      <RealTime>00:03:12.9810000</RealTime>
+      <GameTime>00:02:26.7310000</GameTime>
+    </Attempt>
+    <Attempt id="13" started="10/14/2018 06:59:45" isStartedSynced="True" ended="10/14/2018 07:00:16" isEndedSynced="True" />
+    <Attempt id="14" started="10/14/2018 07:00:31" isStartedSynced="True" ended="10/14/2018 07:00:47" isEndedSynced="True" />
+    <Attempt id="15" started="10/14/2018 07:00:59" isStartedSynced="True" ended="10/14/2018 07:01:01" isEndedSynced="True" />
+    <Attempt id="16" started="10/14/2018 07:01:11" isStartedSynced="True" ended="10/14/2018 07:01:12" isEndedSynced="True" />
+    <Attempt id="17" started="10/14/2018 07:01:22" isStartedSynced="True" ended="10/14/2018 07:04:46" isEndedSynced="True">
+      <RealTime>00:03:23.2480000</RealTime>
+      <GameTime>00:02:34.4290000</GameTime>
+    </Attempt>
+    <Attempt id="18" started="10/14/2018 07:05:33" isStartedSynced="True" ended="10/14/2018 07:05:37" isEndedSynced="True" />
+    <Attempt id="19" started="10/14/2018 07:06:29" isStartedSynced="True" ended="10/14/2018 07:06:42" isEndedSynced="True" />
+    <Attempt id="20" started="10/14/2018 07:06:52" isStartedSynced="True" ended="10/14/2018 07:10:33" isEndedSynced="True">
+      <RealTime>00:03:41.0630000</RealTime>
+      <GameTime>00:02:51.3300000</GameTime>
+    </Attempt>
+    <Attempt id="21" started="10/14/2018 19:04:19" isStartedSynced="True" ended="10/14/2018 19:08:40" isEndedSynced="True">
+      <RealTime>00:04:20.5100000</RealTime>
+      <GameTime>00:03:21.5000000</GameTime>
+    </Attempt>
+    <Attempt id="22" started="10/14/2018 20:29:23" isStartedSynced="True" ended="10/14/2018 20:33:25" isEndedSynced="True">
+      <RealTime>00:04:01.7970000</RealTime>
+      <GameTime>00:03:09.3010000</GameTime>
+    </Attempt>
+    <Attempt id="23" started="10/14/2018 20:34:48" isStartedSynced="True" ended="10/14/2018 20:35:08" isEndedSynced="True" />
+    <Attempt id="24" started="10/14/2018 20:35:19" isStartedSynced="True" ended="10/14/2018 20:38:29" isEndedSynced="True">
+      <RealTime>00:03:09.6660000</RealTime>
+      <GameTime>00:02:28.1410000</GameTime>
+    </Attempt>
+    <Attempt id="25" started="10/14/2018 20:43:21" isStartedSynced="True" ended="10/14/2018 20:43:34" isEndedSynced="True" />
+    <Attempt id="26" started="10/14/2018 20:43:46" isStartedSynced="True" ended="10/14/2018 20:46:44" isEndedSynced="True">
+      <RealTime>00:02:57.3230000</RealTime>
+      <GameTime>00:02:15.1510000</GameTime>
+    </Attempt>
+    <Attempt id="27" started="10/15/2018 02:49:29" isStartedSynced="True" ended="10/15/2018 02:52:51" isEndedSynced="True">
+      <RealTime>00:03:21.6970000</RealTime>
+      <GameTime>00:02:30.0090000</GameTime>
+    </Attempt>
+    <Attempt id="28" started="10/22/2018 22:56:48" isStartedSynced="True" ended="10/22/2018 22:58:02" isEndedSynced="True" />
+    <Attempt id="29" started="10/22/2018 22:58:58" isStartedSynced="True" ended="10/22/2018 22:59:41" isEndedSynced="True" />
+    <Attempt id="30" started="10/22/2018 22:59:50" isStartedSynced="True" ended="10/22/2018 23:03:02" isEndedSynced="True">
+      <RealTime>00:03:11.8830000</RealTime>
+      <GameTime>00:02:28.7000000</GameTime>
+    </Attempt>
+    <Attempt id="31" started="10/22/2018 23:03:20" isStartedSynced="True" ended="10/22/2018 23:06:42" isEndedSynced="True">
+      <RealTime>00:03:21.6510000</RealTime>
+      <GameTime>00:02:37.6330000</GameTime>
+    </Attempt>
+    <Attempt id="32" started="10/22/2018 23:07:13" isStartedSynced="True" ended="10/22/2018 23:10:46" isEndedSynced="True">
+      <RealTime>00:03:32.7880000</RealTime>
+      <GameTime>00:02:47.0620000</GameTime>
+    </Attempt>
+    <Attempt id="33" started="10/22/2018 23:11:03" isStartedSynced="True" ended="10/22/2018 23:14:56" isEndedSynced="True">
+      <RealTime>00:03:52.8650000</RealTime>
+      <GameTime>00:03:02.1450000</GameTime>
+    </Attempt>
+    <Attempt id="34" started="10/25/2018 01:54:44" isStartedSynced="True" ended="10/25/2018 01:58:22" isEndedSynced="True">
+      <RealTime>00:03:37.9840000</RealTime>
+      <GameTime>00:02:48.2190000</GameTime>
+    </Attempt>
+    <Attempt id="35" started="10/25/2018 01:58:32" isStartedSynced="True" ended="10/25/2018 01:58:33" isEndedSynced="True" />
+    <Attempt id="36" started="10/25/2018 03:11:24" isStartedSynced="True" ended="10/25/2018 03:11:25" isEndedSynced="True" />
+    <Attempt id="37" started="10/25/2018 03:13:48" isStartedSynced="True" ended="10/25/2018 03:13:50" isEndedSynced="True" />
+    <Attempt id="38" started="10/25/2018 03:18:10" isStartedSynced="True" ended="10/25/2018 03:18:20" isEndedSynced="True" />
+    <Attempt id="39" started="10/25/2018 03:18:30" isStartedSynced="True" ended="10/25/2018 03:21:23" isEndedSynced="True">
+      <RealTime>00:02:53.8770000</RealTime>
+      <GameTime>00:02:15.4990000</GameTime>
+    </Attempt>
+    <Attempt id="40" started="10/25/2018 03:29:20" isStartedSynced="True" ended="10/25/2018 03:32:47" isEndedSynced="True">
+      <RealTime>00:03:27.5790000</RealTime>
+      <GameTime>00:02:38.7100000</GameTime>
+    </Attempt>
+    <Attempt id="41" started="10/25/2018 03:33:16" isStartedSynced="True" ended="10/25/2018 03:33:30" isEndedSynced="True" />
+    <Attempt id="42" started="10/25/2018 03:33:36" isStartedSynced="True" ended="10/25/2018 03:33:38" isEndedSynced="True" />
+    <Attempt id="43" started="10/25/2018 03:33:55" isStartedSynced="True" ended="10/25/2018 03:37:03" isEndedSynced="True">
+      <RealTime>00:03:07.7350000</RealTime>
+      <GameTime>00:02:25.0960000</GameTime>
+    </Attempt>
+    <Attempt id="44" started="10/25/2018 03:50:17" isStartedSynced="True" ended="10/25/2018 03:53:39" isEndedSynced="True">
+      <RealTime>00:03:21.9150000</RealTime>
+      <GameTime>00:02:37.8210000</GameTime>
+    </Attempt>
+    <Attempt id="45" started="10/25/2018 03:53:53" isStartedSynced="True" ended="10/25/2018 03:56:44" isEndedSynced="True">
+      <RealTime>00:02:51.4920000</RealTime>
+      <GameTime>00:02:12.1990000</GameTime>
+    </Attempt>
+    <Attempt id="46" started="10/25/2018 03:57:49" isStartedSynced="True" ended="10/25/2018 04:01:20" isEndedSynced="True" />
+    <Attempt id="47" started="11/10/2018 02:29:18" isStartedSynced="True" ended="11/10/2018 02:29:41" isEndedSynced="True" />
+    <Attempt id="48" started="11/10/2018 02:30:16" isStartedSynced="True" ended="11/10/2018 02:33:12" isEndedSynced="True">
+      <RealTime>00:02:55.4160000</RealTime>
+      <GameTime>00:02:16.1150000</GameTime>
+    </Attempt>
+    <Attempt id="49" started="11/10/2018 02:33:27" isStartedSynced="True" ended="11/10/2018 02:36:46" isEndedSynced="True" />
+    <Attempt id="50" started="11/10/2018 02:37:25" isStartedSynced="True" ended="11/10/2018 02:40:21" isEndedSynced="True">
+      <RealTime>00:02:56.4650000</RealTime>
+      <GameTime>00:02:16.4600000</GameTime>
+    </Attempt>
+    <Attempt id="51" started="03/09/2019 22:30:33" isStartedSynced="True" ended="03/09/2019 22:33:50" isEndedSynced="True">
+      <RealTime>00:03:17.0160000</RealTime>
+      <GameTime>00:02:34.7240000</GameTime>
+    </Attempt>
+    <Attempt id="52" started="03/09/2019 22:34:27" isStartedSynced="True" ended="03/09/2019 22:37:47" isEndedSynced="True">
+      <RealTime>00:03:19.4680000</RealTime>
+      <GameTime>00:02:31.3890000</GameTime>
+    </Attempt>
+    <Attempt id="53" started="03/16/2019 09:21:43" isStartedSynced="True" ended="03/16/2019 09:25:20" isEndedSynced="True">
+      <RealTime>00:03:37.4730000</RealTime>
+      <GameTime>00:02:48.8610000</GameTime>
+    </Attempt>
+    <Attempt id="54" started="03/16/2019 09:28:47" isStartedSynced="True" ended="03/16/2019 09:28:48" isEndedSynced="True" />
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>01 Pit Stop</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:16.4500000</RealTime>
+          <GameTime>00:00:06.5670000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:15.7200000</RealTime>
+        <GameTime>00:00:05.9160000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="6">
+          <RealTime>00:00:16.1280000</RealTime>
+          <GameTime>00:00:06.1160000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:16.3640000</RealTime>
+          <GameTime>00:00:06.4660000</GameTime>
+        </Time>
+        <Time id="-1">
+          <GameTime>00:00:06.0300000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:19.6440000</RealTime>
+          <GameTime>00:00:08.5000000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:16.5010000</RealTime>
+          <GameTime>00:00:06.0500000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:16.7800000</RealTime>
+          <GameTime>00:00:06.9670000</GameTime>
+        </Time>
+        <Time id="13">
+          <RealTime>00:00:15.9560000</RealTime>
+          <GameTime>00:00:05.9340000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:17.8200000</RealTime>
+          <GameTime>00:00:06.0840000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:17.4850000</RealTime>
+          <GameTime>00:00:07.1830000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:15.8430000</RealTime>
+          <GameTime>00:00:05.9330000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:15.9980000</RealTime>
+          <GameTime>00:00:06.2000000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:16.7890000</RealTime>
+          <GameTime>00:00:07.1990000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:16.3730000</RealTime>
+          <GameTime>00:00:06.5490000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:15.7200000</RealTime>
+          <GameTime>00:00:05.9830000</GameTime>
+        </Time>
+        <Time id="28">
+          <RealTime>00:00:19.4210000</RealTime>
+          <GameTime>00:00:08.4990000</GameTime>
+        </Time>
+        <Time id="29">
+          <RealTime>00:00:16.1570000</RealTime>
+          <GameTime>00:00:06.2160000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:17.2860000</RealTime>
+          <GameTime>00:00:07.3340000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:17.4360000</RealTime>
+          <GameTime>00:00:07.2660000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:16.5620000</RealTime>
+          <GameTime>00:00:06.9490000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:16.2050000</RealTime>
+          <GameTime>00:00:05.9160000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:21.0130000</RealTime>
+          <GameTime>00:00:09.7850000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:16.0660000</RealTime>
+          <GameTime>00:00:05.9850000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:16.5020000</RealTime>
+          <GameTime>00:00:06.0330000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:16.1370000</RealTime>
+          <GameTime>00:00:06.1840000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:17.1500000</RealTime>
+          <GameTime>00:00:06.9990000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:16.4500000</RealTime>
+          <GameTime>00:00:06.5670000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:16.6520000</RealTime>
+          <GameTime>00:00:06.5680000</GameTime>
+        </Time>
+        <Time id="47">
+          <RealTime>00:00:16.7680000</RealTime>
+          <GameTime>00:00:06.7160000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:16.6190000</RealTime>
+          <GameTime>00:00:06.5660000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:16.6650000</RealTime>
+          <GameTime>00:00:06.6160000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:15.9940000</RealTime>
+          <GameTime>00:00:05.9340000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:16.5840000</RealTime>
+          <GameTime>00:00:06.3330000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:16.0650000</RealTime>
+          <GameTime>00:00:06.2320000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:15.7740000</RealTime>
+          <GameTime>00:00:05.9170000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>02 The Salt Lick</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:22.6990000</RealTime>
+          <GameTime>00:00:11.3170000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:06.1570000</RealTime>
+        <GameTime>00:00:04.6340000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:09.2200000</RealTime>
+          <GameTime>00:00:07.2010000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:08.0910000</RealTime>
+          <GameTime>00:00:06.5990000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:11.1640000</RealTime>
+          <GameTime>00:00:09.2330000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:10.7740000</RealTime>
+          <GameTime>00:00:07.0830000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:10.0180000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:10.9480000</RealTime>
+          <GameTime>00:00:08.0160000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:08.6400000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:10.0780000</RealTime>
+          <GameTime>00:00:07.0170000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:07.1200000</RealTime>
+          <GameTime>00:00:05.5300000</GameTime>
+        </Time>
+        <Time id="28">
+          <RealTime>00:00:06.1570000</RealTime>
+          <GameTime>00:00:04.6340000</GameTime>
+        </Time>
+        <Time id="29">
+          <RealTime>00:00:26.5220000</RealTime>
+          <GameTime>00:00:15.7130000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:06.6210000</RealTime>
+          <GameTime>00:00:05.1000000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:06.4380000</RealTime>
+          <GameTime>00:00:04.8500000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:10.0260000</RealTime>
+          <GameTime>00:00:06.8830000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:06.3480000</RealTime>
+          <GameTime>00:00:04.9170000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:13.5320000</RealTime>
+          <GameTime>00:00:08.8170000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:06.3060000</RealTime>
+          <GameTime>00:00:04.8330000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:13.4780000</RealTime>
+          <GameTime>00:00:08.4010000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:07.7680000</RealTime>
+          <GameTime>00:00:06.2330000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:06.3120000</RealTime>
+          <GameTime>00:00:04.8000000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:06.2490000</RealTime>
+          <GameTime>00:00:04.7500000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:10.1800000</RealTime>
+          <GameTime>00:00:06.9990000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:06.2000000</RealTime>
+          <GameTime>00:00:04.8170000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:06.2040000</RealTime>
+          <GameTime>00:00:04.8340000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:06.3350000</RealTime>
+          <GameTime>00:00:04.9000000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:06.4800000</RealTime>
+          <GameTime>00:00:05.0500000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:12.1630000</RealTime>
+          <GameTime>00:00:07.5990000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:11.9760000</RealTime>
+          <GameTime>00:00:09.1170000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>03 Push</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:33.5890000</RealTime>
+          <GameTime>00:00:21.0330000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:10.7000000</RealTime>
+        <GameTime>00:00:09.5000000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:47.9200000</RealTime>
+          <GameTime>00:00:41.4160000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:15.0290000</RealTime>
+          <GameTime>00:00:13.8670000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:11.2160000</RealTime>
+          <GameTime>00:00:10.0160000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:12.7500000</RealTime>
+          <GameTime>00:00:11.4330000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:11.3610000</RealTime>
+          <GameTime>00:00:09.9990000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:15.4650000</RealTime>
+          <GameTime>00:00:10.7500000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:18.2590000</RealTime>
+          <GameTime>00:00:15.6000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:15.3800000</RealTime>
+          <GameTime>00:00:13.9990000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:12.1500000</RealTime>
+          <GameTime>00:00:10.7990000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:11.1090000</RealTime>
+          <GameTime>00:00:09.8160000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:21.8470000</RealTime>
+          <GameTime>00:00:19.3340000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:18.1700000</RealTime>
+          <GameTime>00:00:15.6520000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:11.5880000</RealTime>
+          <GameTime>00:00:10.3670000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:11.1930000</RealTime>
+          <GameTime>00:00:09.9660000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:11.8000000</RealTime>
+          <GameTime>00:00:10.6490000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:17.0960000</RealTime>
+          <GameTime>00:00:14.6500000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:18.5920000</RealTime>
+          <GameTime>00:00:16.1330000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:11.5780000</RealTime>
+          <GameTime>00:00:10.3990000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:12.4140000</RealTime>
+          <GameTime>00:00:11.2320000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:26.0150000</RealTime>
+          <GameTime>00:00:23.5490000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:11.2940000</RealTime>
+          <GameTime>00:00:10.1160000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:13.3170000</RealTime>
+          <GameTime>00:00:12.1170000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:10.7000000</RealTime>
+          <GameTime>00:00:09.5000000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:11.0150000</RealTime>
+          <GameTime>00:00:09.8000000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:10.8900000</RealTime>
+          <GameTime>00:00:09.7160000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:19.5080000</RealTime>
+          <GameTime>00:00:15.7480000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:17.0720000</RealTime>
+          <GameTime>00:00:14.5490000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:17.3330000</RealTime>
+          <GameTime>00:00:14.8150000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:12.8650000</RealTime>
+          <GameTime>00:00:11.6820000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:14.1490000</RealTime>
+          <GameTime>00:00:12.9170000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:11.5740000</RealTime>
+          <GameTime>00:00:10.3210000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:29.8940000</RealTime>
+          <GameTime>00:00:26.1170000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>04 Transmissions</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:40.6420000</RealTime>
+          <GameTime>00:00:26.5660000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:06.9470000</RealTime>
+        <GameTime>00:00:05.3840000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:24.2390000</RealTime>
+          <GameTime>00:00:18.2840000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:08.3070000</RealTime>
+          <GameTime>00:00:07.1010000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:14.8910000</RealTime>
+          <GameTime>00:00:11.8670000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:16.7650000</RealTime>
+          <GameTime>00:00:10.0670000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:07.3410000</RealTime>
+          <GameTime>00:00:05.7330000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:07.7070000</RealTime>
+          <GameTime>00:00:05.5670000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:07.3040000</RealTime>
+          <GameTime>00:00:05.8000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:08.0310000</RealTime>
+          <GameTime>00:00:06.3840000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:11.3450000</RealTime>
+          <GameTime>00:00:09.9500000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:08.5890000</RealTime>
+          <GameTime>00:00:07.0330000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:15.4960000</RealTime>
+          <GameTime>00:00:12.1000000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:07.5320000</RealTime>
+          <GameTime>00:00:06.0330000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:07.7320000</RealTime>
+          <GameTime>00:00:06.1830000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:06.9470000</RealTime>
+          <GameTime>00:00:05.5000000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:08.1190000</RealTime>
+          <GameTime>00:00:06.3990000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:07.1250000</RealTime>
+          <GameTime>00:00:05.5840000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:18.6330000</RealTime>
+          <GameTime>00:00:14.4500000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:15.3140000</RealTime>
+          <GameTime>00:00:12.2670000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:07.0220000</RealTime>
+          <GameTime>00:00:05.4990000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:07.0800000</RealTime>
+          <GameTime>00:00:05.5830000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:07.0380000</RealTime>
+          <GameTime>00:00:05.5170000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:19.2360000</RealTime>
+          <GameTime>00:00:15.3660000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:07.0310000</RealTime>
+          <GameTime>00:00:05.3840000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:08.0810000</RealTime>
+          <GameTime>00:00:06.5830000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:07.0530000</RealTime>
+          <GameTime>00:00:05.5330000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:07.1130000</RealTime>
+          <GameTime>00:00:05.6660000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:07.8800000</RealTime>
+          <GameTime>00:00:06.5320000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:07.1310000</RealTime>
+          <GameTime>00:00:05.6340000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:06.9910000</RealTime>
+          <GameTime>00:00:05.5820000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:07.8040000</RealTime>
+          <GameTime>00:00:06.4000000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:07.0680000</RealTime>
+          <GameTime>00:00:05.4700000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:07.2790000</RealTime>
+          <GameTime>00:00:05.7170000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>05 Uptown</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:47.9620000</RealTime>
+          <GameTime>00:00:32.6990000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:06.4520000</RealTime>
+        <GameTime>00:00:05.2840000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:06.5370000</RealTime>
+          <GameTime>00:00:05.3670000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:11.6130000</RealTime>
+          <GameTime>00:00:10.3830000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:07.2180000</RealTime>
+          <GameTime>00:00:06.0820000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:06.6420000</RealTime>
+          <GameTime>00:00:05.4490000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:07.3020000</RealTime>
+          <GameTime>00:00:06.0660000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:07.0450000</RealTime>
+          <GameTime>00:00:05.9000000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:07.2390000</RealTime>
+          <GameTime>00:00:06.0160000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:07.0980000</RealTime>
+          <GameTime>00:00:05.9160000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:07.0650000</RealTime>
+          <GameTime>00:00:05.9000000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:07.3360000</RealTime>
+          <GameTime>00:00:06.1660000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:07.8640000</RealTime>
+          <GameTime>00:00:06.6000000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:07.1620000</RealTime>
+          <GameTime>00:00:06.0170000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:07.7490000</RealTime>
+          <GameTime>00:00:06.5500000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:06.9720000</RealTime>
+          <GameTime>00:00:05.7830000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:06.4520000</RealTime>
+          <GameTime>00:00:05.2840000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:06.6140000</RealTime>
+          <GameTime>00:00:05.4000000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:06.7000000</RealTime>
+          <GameTime>00:00:05.4500000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:10.8490000</RealTime>
+          <GameTime>00:00:09.6500000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:07.2270000</RealTime>
+          <GameTime>00:00:06.0330000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:10.2380000</RealTime>
+          <GameTime>00:00:08.9840000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:06.9380000</RealTime>
+          <GameTime>00:00:05.7660000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:06.6300000</RealTime>
+          <GameTime>00:00:05.4670000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:07.2220000</RealTime>
+          <GameTime>00:00:06.0170000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:10.7660000</RealTime>
+          <GameTime>00:00:09.6010000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:07.3200000</RealTime>
+          <GameTime>00:00:06.1330000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:07.5290000</RealTime>
+          <GameTime>00:00:06.3330000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:07.3910000</RealTime>
+          <GameTime>00:00:06.2500000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:06.5900000</RealTime>
+          <GameTime>00:00:05.4160000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:07.3500000</RealTime>
+          <GameTime>00:00:06.1320000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:06.7560000</RealTime>
+          <GameTime>00:00:05.5490000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:13.1560000</RealTime>
+          <GameTime>00:00:11.0660000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:08.5630000</RealTime>
+          <GameTime>00:00:07.3660000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>06 The Shaft</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:52.3760000</RealTime>
+          <GameTime>00:00:35.9160000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:04.3390000</RealTime>
+        <GameTime>00:00:03.1340000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:05.0510000</RealTime>
+          <GameTime>00:00:03.8500000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:04.5090000</RealTime>
+          <GameTime>00:00:03.1510000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:05.0250000</RealTime>
+          <GameTime>00:00:03.8160000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:05.6430000</RealTime>
+          <GameTime>00:00:04.4500000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:04.6030000</RealTime>
+          <GameTime>00:00:03.2340000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:04.3740000</RealTime>
+          <GameTime>00:00:03.2160000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:04.6180000</RealTime>
+          <GameTime>00:00:03.3330000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:04.5480000</RealTime>
+          <GameTime>00:00:03.2830000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:04.6240000</RealTime>
+          <GameTime>00:00:03.3000000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:04.7320000</RealTime>
+          <GameTime>00:00:03.4670000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:04.4070000</RealTime>
+          <GameTime>00:00:03.1500000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:04.3850000</RealTime>
+          <GameTime>00:00:03.1820000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:05.1340000</RealTime>
+          <GameTime>00:00:03.9830000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:09.5730000</RealTime>
+          <GameTime>00:00:06.8670000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:04.7650000</RealTime>
+          <GameTime>00:00:03.3000000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:04.4500000</RealTime>
+          <GameTime>00:00:03.2170000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:04.3390000</RealTime>
+          <GameTime>00:00:03.1340000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:04.4150000</RealTime>
+          <GameTime>00:00:03.2340000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:08.3440000</RealTime>
+          <GameTime>00:00:05.7490000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:04.4510000</RealTime>
+          <GameTime>00:00:03.1500000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:04.4450000</RealTime>
+          <GameTime>00:00:03.1670000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:13.2430000</RealTime>
+          <GameTime>00:00:09.3500000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:04.8600000</RealTime>
+          <GameTime>00:00:03.6150000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:04.5300000</RealTime>
+          <GameTime>00:00:03.3340000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:04.4140000</RealTime>
+          <GameTime>00:00:03.2170000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:04.3890000</RealTime>
+          <GameTime>00:00:03.1830000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:04.7000000</RealTime>
+          <GameTime>00:00:03.4830000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:04.7630000</RealTime>
+          <GameTime>00:00:03.4660000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:04.4190000</RealTime>
+          <GameTime>00:00:03.1670000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:05.0710000</RealTime>
+          <GameTime>00:00:03.8990000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:04.3910000</RealTime>
+          <GameTime>00:00:03.1990000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:08.2340000</RealTime>
+          <GameTime>00:00:05.7500000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>07 Mind the Gap</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:03.2660000</RealTime>
+          <GameTime>00:00:45.6330000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:09.4580000</RealTime>
+        <GameTime>00:00:08.1510000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:10.7180000</RealTime>
+          <GameTime>00:00:09.5170000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:10.6330000</RealTime>
+          <GameTime>00:00:09.5010000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:10.6160000</RealTime>
+          <GameTime>00:00:09.3670000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:30.0640000</RealTime>
+          <GameTime>00:00:25.8960000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:09.6010000</RealTime>
+          <GameTime>00:00:08.2500000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:16.6200000</RealTime>
+          <GameTime>00:00:13.9990000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:12.0470000</RealTime>
+          <GameTime>00:00:10.9000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:20.2920000</RealTime>
+          <GameTime>00:00:17.6320000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:10.7580000</RealTime>
+          <GameTime>00:00:09.4000000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:28.8740000</RealTime>
+          <GameTime>00:00:25.3010000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:19.7830000</RealTime>
+          <GameTime>00:00:17.2670000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:12.2810000</RealTime>
+          <GameTime>00:00:11.0840000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:09.6060000</RealTime>
+          <GameTime>00:00:08.2330000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:10.9400000</RealTime>
+          <GameTime>00:00:09.6000000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:10.9550000</RealTime>
+          <GameTime>00:00:09.7500000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:10.9560000</RealTime>
+          <GameTime>00:00:09.7990000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:09.5710000</RealTime>
+          <GameTime>00:00:08.2170000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:10.8520000</RealTime>
+          <GameTime>00:00:09.6990000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:27.5230000</RealTime>
+          <GameTime>00:00:24.4840000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:18.5680000</RealTime>
+          <GameTime>00:00:16.3500000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:10.1770000</RealTime>
+          <GameTime>00:00:08.8020000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:09.5760000</RealTime>
+          <GameTime>00:00:08.2170000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:10.9020000</RealTime>
+          <GameTime>00:00:09.6830000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:17.5910000</RealTime>
+          <GameTime>00:00:14.9340000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:10.8900000</RealTime>
+          <GameTime>00:00:09.7170000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:09.7230000</RealTime>
+          <GameTime>00:00:08.2820000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:09.4850000</RealTime>
+          <GameTime>00:00:08.1510000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:10.1780000</RealTime>
+          <GameTime>00:00:08.8820000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:10.0240000</RealTime>
+          <GameTime>00:00:08.7320000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:23.6530000</RealTime>
+          <GameTime>00:00:20.9600000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:09.4580000</RealTime>
+          <GameTime>00:00:08.1660000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:09.6190000</RealTime>
+          <GameTime>00:00:08.2660000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>08 Boomtown</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:09.3110000</RealTime>
+          <GameTime>00:00:50.4500000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:05.8230000</RealTime>
+        <GameTime>00:00:04.6500000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:06.1520000</RealTime>
+          <GameTime>00:00:04.9650000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:06.1950000</RealTime>
+          <GameTime>00:00:04.9660000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:07.4800000</RealTime>
+          <GameTime>00:00:06.3500000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:06.9410000</RealTime>
+          <GameTime>00:00:05.7170000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:06.8290000</RealTime>
+          <GameTime>00:00:05.6830000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:06.3930000</RealTime>
+          <GameTime>00:00:05.2000000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:06.5790000</RealTime>
+          <GameTime>00:00:05.4000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:06.4340000</RealTime>
+          <GameTime>00:00:05.2000000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:07.2270000</RealTime>
+          <GameTime>00:00:06.0340000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:06.3820000</RealTime>
+          <GameTime>00:00:05.2660000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:07.3170000</RealTime>
+          <GameTime>00:00:06.1500000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:06.3730000</RealTime>
+          <GameTime>00:00:05.1990000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:06.4310000</RealTime>
+          <GameTime>00:00:05.2160000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:06.1910000</RealTime>
+          <GameTime>00:00:05.0160000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:06.5260000</RealTime>
+          <GameTime>00:00:05.3170000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:07.8410000</RealTime>
+          <GameTime>00:00:06.6170000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:06.0550000</RealTime>
+          <GameTime>00:00:04.8830000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:06.1980000</RealTime>
+          <GameTime>00:00:05.0150000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:06.1770000</RealTime>
+          <GameTime>00:00:04.9840000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:06.2090000</RealTime>
+          <GameTime>00:00:04.9840000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:05.8620000</RealTime>
+          <GameTime>00:00:04.7330000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:05.9920000</RealTime>
+          <GameTime>00:00:04.8160000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:06.2250000</RealTime>
+          <GameTime>00:00:05.0160000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:07.0810000</RealTime>
+          <GameTime>00:00:05.9170000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:06.0450000</RealTime>
+          <GameTime>00:00:04.8170000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:05.9800000</RealTime>
+          <GameTime>00:00:04.8340000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:05.9190000</RealTime>
+          <GameTime>00:00:04.7000000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:05.8230000</RealTime>
+          <GameTime>00:00:04.6500000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:05.8490000</RealTime>
+          <GameTime>00:00:04.6670000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:06.9970000</RealTime>
+          <GameTime>00:00:05.7660000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:06.0850000</RealTime>
+          <GameTime>00:00:04.9500000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:12.3560000</RealTime>
+          <GameTime>00:00:08.5340000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>09 Shotzie!</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:18.9950000</RealTime>
+          <GameTime>00:00:58.7500000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:09.3460000</RealTime>
+        <GameTime>00:00:07.9840000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:12.2720000</RealTime>
+          <GameTime>00:00:10.5660000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:20.1730000</RealTime>
+          <GameTime>00:00:17.3320000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:11.1740000</RealTime>
+          <GameTime>00:00:09.8500000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:10.0360000</RealTime>
+          <GameTime>00:00:08.3320000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:09.7650000</RealTime>
+          <GameTime>00:00:08.3170000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:10.8790000</RealTime>
+          <GameTime>00:00:09.3150000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:10.0570000</RealTime>
+          <GameTime>00:00:08.6330000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:09.5960000</RealTime>
+          <GameTime>00:00:08.2490000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:09.6890000</RealTime>
+          <GameTime>00:00:08.3650000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:17.9110000</RealTime>
+          <GameTime>00:00:15</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:16.7700000</RealTime>
+          <GameTime>00:00:13.9500000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:09.7770000</RealTime>
+          <GameTime>00:00:08.4840000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:10.0180000</RealTime>
+          <GameTime>00:00:08.6830000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:09.8070000</RealTime>
+          <GameTime>00:00:08.4170000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:10.9470000</RealTime>
+          <GameTime>00:00:09.6500000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:10.5150000</RealTime>
+          <GameTime>00:00:09.2180000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:09.7320000</RealTime>
+          <GameTime>00:00:08.4160000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:23.5620000</RealTime>
+          <GameTime>00:00:19.4150000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:09.8340000</RealTime>
+          <GameTime>00:00:08.5170000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:10.6210000</RealTime>
+          <GameTime>00:00:08.9660000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:09.6010000</RealTime>
+          <GameTime>00:00:08.2330000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:09.6980000</RealTime>
+          <GameTime>00:00:08.3000000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:09.4280000</RealTime>
+          <GameTime>00:00:08.1000000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:16.4080000</RealTime>
+          <GameTime>00:00:13.6180000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:09.6840000</RealTime>
+          <GameTime>00:00:08.3000000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:09.3460000</RealTime>
+          <GameTime>00:00:07.9840000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:09.6720000</RealTime>
+          <GameTime>00:00:08.3340000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:09.4970000</RealTime>
+          <GameTime>00:00:08.1670000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:17.3300000</RealTime>
+          <GameTime>00:00:14.5000000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:09.6090000</RealTime>
+          <GameTime>00:00:08.3170000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:10.3680000</RealTime>
+          <GameTime>00:00:08.4240000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:09.4910000</RealTime>
+          <GameTime>00:00:08.2240000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>10 Breakdown</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:27.9940000</RealTime>
+          <GameTime>00:01:06.6010000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:08.9990000</RealTime>
+        <GameTime>00:00:07.8170000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:09.6400000</RealTime>
+          <GameTime>00:00:08.4000000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:09.2760000</RealTime>
+          <GameTime>00:00:08.0500000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:09.1370000</RealTime>
+          <GameTime>00:00:07.9500000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:09.3250000</RealTime>
+          <GameTime>00:00:08.1160000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:09.9160000</RealTime>
+          <GameTime>00:00:08.7670000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:10.0110000</RealTime>
+          <GameTime>00:00:08.8490000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:10.1780000</RealTime>
+          <GameTime>00:00:08.9830000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:10.2510000</RealTime>
+          <GameTime>00:00:09.0660000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:09.4910000</RealTime>
+          <GameTime>00:00:08.2660000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:09.3320000</RealTime>
+          <GameTime>00:00:08.1990000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:09.7530000</RealTime>
+          <GameTime>00:00:08.5830000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:10.1450000</RealTime>
+          <GameTime>00:00:08.3500000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:09.5430000</RealTime>
+          <GameTime>00:00:08.3500000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:09.3600000</RealTime>
+          <GameTime>00:00:08.1670000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:10.0930000</RealTime>
+          <GameTime>00:00:08.2010000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:09.1530000</RealTime>
+          <GameTime>00:00:07.9820000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:09.1130000</RealTime>
+          <GameTime>00:00:07.9490000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:09.3770000</RealTime>
+          <GameTime>00:00:08.2340000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:18.8140000</RealTime>
+          <GameTime>00:00:16.3330000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:09.2330000</RealTime>
+          <GameTime>00:00:08.0500000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:09.2320000</RealTime>
+          <GameTime>00:00:08.0500000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:09.0170000</RealTime>
+          <GameTime>00:00:07.8170000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:09.4240000</RealTime>
+          <GameTime>00:00:08.2320000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:09.1070000</RealTime>
+          <GameTime>00:00:07.9500000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:08.9990000</RealTime>
+          <GameTime>00:00:07.8510000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:09.2990000</RealTime>
+          <GameTime>00:00:08.1330000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:09.2970000</RealTime>
+          <GameTime>00:00:08.1000000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:09.3820000</RealTime>
+          <GameTime>00:00:08.2000000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:09.2350000</RealTime>
+          <GameTime>00:00:08.0330000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:09.3120000</RealTime>
+          <GameTime>00:00:07.9000000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:09.5440000</RealTime>
+          <GameTime>00:00:08.3340000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:09.0940000</RealTime>
+          <GameTime>00:00:07.9340000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>11 Box Tripper</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:35.5430000</RealTime>
+          <GameTime>00:01:12.9010000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:07.3570000</RealTime>
+        <GameTime>00:00:06.2000000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:09.8900000</RealTime>
+          <GameTime>00:00:08.6670000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:07.7590000</RealTime>
+          <GameTime>00:00:06.6000000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:13.3810000</RealTime>
+          <GameTime>00:00:10.9320000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:07.6880000</RealTime>
+          <GameTime>00:00:06.5000000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:07.6950000</RealTime>
+          <GameTime>00:00:06.4330000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:07.5710000</RealTime>
+          <GameTime>00:00:06.4160000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:08.2630000</RealTime>
+          <GameTime>00:00:06.6000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:07.7200000</RealTime>
+          <GameTime>00:00:06.5500000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:11.0420000</RealTime>
+          <GameTime>00:00:09.8340000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:07.6330000</RealTime>
+          <GameTime>00:00:06.3820000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:23.7180000</RealTime>
+          <GameTime>00:00:18.6500000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:07.6330000</RealTime>
+          <GameTime>00:00:06.4490000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:07.5810000</RealTime>
+          <GameTime>00:00:06.3650000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:07.6900000</RealTime>
+          <GameTime>00:00:06.4490000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:11.4290000</RealTime>
+          <GameTime>00:00:08.9170000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:07.6940000</RealTime>
+          <GameTime>00:00:06.4160000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:07.8050000</RealTime>
+          <GameTime>00:00:06.5670000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:08.9210000</RealTime>
+          <GameTime>00:00:07.7160000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:07.5730000</RealTime>
+          <GameTime>00:00:06.3170000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:07.8210000</RealTime>
+          <GameTime>00:00:06.6170000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:07.5500000</RealTime>
+          <GameTime>00:00:06.3330000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:07.3570000</RealTime>
+          <GameTime>00:00:06.2000000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:07.5380000</RealTime>
+          <GameTime>00:00:06.2840000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:07.4290000</RealTime>
+          <GameTime>00:00:06.2690000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:07.5490000</RealTime>
+          <GameTime>00:00:06.3000000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:11.1190000</RealTime>
+          <GameTime>00:00:08.6360000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:07.5340000</RealTime>
+          <GameTime>00:00:06.2840000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:07.4960000</RealTime>
+          <GameTime>00:00:06.3000000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:07.3780000</RealTime>
+          <GameTime>00:00:06.2490000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:08.1730000</RealTime>
+          <GameTime>00:00:07</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:09.6460000</RealTime>
+          <GameTime>00:00:08.4160000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:07.4470000</RealTime>
+          <GameTime>00:00:06.2830000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>14 Gurdy</Name>
+      <Icon><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAkwwAAAL/2P/gABBKRklGAAEBAQAAAAAAAP/hAKpFeGlmAABNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAABkoYABwAAAHQAAAAsAAAAAEMAUgBFAEEAVABPAFIAOgAgAGcAZAAtAGoAcABlAGcAIAB2ADEALgAwACAAKAB1AHMAaQBuAGcAIABJAEoARwAgAEoAUABFAEcAIAB2ADYAMgApACwAIABxAHUAYQBsAGkAdAB5ACAAPQAgADkAMAAKAAAAAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABAAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9L4408tflXoO1O8tP7q/lRH/q1+gry7x58Wb34X+OvP8AFcmgaB8L/wCzxI3iTU9RS2kW93EfZgjPl2IAYALggn5srtb8AhCpWm4w1Z6miWp6j5af3V/Kjy0/ur+VfLh/bpi8fXE9v8Fvhj4r+L3kuY21O0hGm6XuHb7TOBzwR9zt3yKrN46/bO1dXnsvg54D8PxnO211fX/tMq+mWhkCn8MdO1e1RyLMay5lCy83YzdSCPqzy0/ur+VZniLxHonhDTG1LXtU0/RNOVlRrvUbhLeIMxwoLuQMk8AZ5r5gHxM/bC0W/jgvvhD4B8QzmPzjpmj+JVtbpowwDOPPkI25IGcHBrD+If7TnhPxLo9t4Y/aJ+GnjH4QxSzhoNSnMk1iJWjeNlS+tcEFo5ZEPygFXcE4zWksix1Fp1INx62s391xe1i9j7O8tP7q/lTZI08tvlXoe1eXeEvjj4Du7vwT4b8J383iXT9Yt5INN1TSWN/Zxi2iyyT3IZtrhVH3zuJPPJr1OT/Vt9DXhThUpTSmmvU10YR/6tfoK+GP2efhv4b+Mmm+K/jV8S7KPxbqll4i1uG3vvGepG50fw3YW8pKlLVsJhRztxjEed8ZNfR37Qmk6VN4e0LWNa+JFz8NNM0i+S4uL6LVJLGO5j/ihYrLGGY4+Xf5ij5sxtkY8A/ZG8G6d+0D+yd8ffh5puuRw6bf+NNe0ux1S0YTxiGQRSwzLgjfGS+eo3DPPNfe8L0YqVSr19Nt+py1nsjy74hf8FLvi5+z34l0h9Z+H1rqvw81dWk0a4vvD8/huW7gjZdxt0a4uNqbXjI8xd2HQlRnB/QT4WfE/XvifJHqTeBtQ8L+FJtPhuba+1u6hF3dTPglEt4mk2xqv/LR3UsSNqFfnPwWf+Ca/wAffi94ts2+N3xV8PeI/D0FmunLLbrLe3lvbiWN2+zLLbxpBMwiCmbLNgncHHFfpfYWNpoOk21nbqltY2UCxRqThY40XAGT2AFfoJynzj4/+OvgL9nb43fELXPF8fiO1luvD2nXMd5/Y813bTRwG63w206BgmNylo3KKGZnz87EeXa3/wAFLodAm8J3fxE+DWq+FPhf41VTpXiTU9St7lrm2dUbzZLJFYiPZIjH5m4YcHNe/wDxl+K9lJoWs6BZr4N1uyvYGsr1db8ZRaVCLeRCku9limdcBj0Tp3Ffk54l/Y18fudJk1T4u/DD4m6F4ftpY7LQrv4iSSRWFoE+4rSeR5SLhD+7KLlRkAUAfc/xw+CXgL4JePfhJ8WfhPA3hi68VeNdG0XUovDl8YdL1Owu2bLGBQY2BwhGzapyTyTmvsaT/Vt9DXw9+1XpFz8Kv2cv2UvBUGnajr17p3izw8sml20sX2y8W1tnMkMZV9u8ttClX2g4wxGCfZv2Rfip4F8Z+BNT8KeD7DXtAvPCF1JZanoHimARajZyySSSEyAErhnMuMHjaRgYAr8/4nwrk4YiMdtG/wDM6qMt0cX4W8K6F+0P+3l49m8S2Ft4g0b4W6Fpmn6fpuoIJraO/vN9w1yImypcLHs3Efwr3UEeU3Tf8IT8FP2+dM0mJY7dNfvpgMdBeW6+coA6ABmx6V9BfFj9jXQviX431Dxjo/jHxb8OvEGs2S2GtXPhPUfsw1WFVVUEylWBKqoUEY465ryv9jP4H6dJZ/tX/Cu9uLy40e81yXR/tN9Kbi4NvLaMqOztgs4R1OeORxXuZNjsPXoxoUfiitf1/EyqRad2ef8A/BNP4d/DP4y/CbStG8cfBLQbnWrO0nuovEl9pkL/ANqWwuTGjn5c5B3x7mxv8lsbirlftA/sk/BTwzbXF/pnwV8H399Em+G3XRbRndxyoRpRtU575H1ryv4P/Cj9qP4JeAfD/gfRdW+EOo+HdCt/slrNfWmqrdyxgkhnZZNgY5ycLjt71g/Ef4+ftE+B7S7n1EeGLe2gxvk0PwDr98w5xhZJpIYmLHgAHnPXkV9IZH1BpXwR+HNjGs1r8OvDOnSyoN6Jo1qjjvtYopBx7Ej3r5h/4KYz+P8Awt+zR49tPCegaL/wg13Z2EV/cxSGK8td10y3BSBYysisotVLFlKguQG6rrfB/W/j/wDGqOe4n8a654HszGJBNq3wyg00BgwBSNbi/llbIyQxixjJyMqD2uo/sn+JvHWs6a3xG+NPiXxv4Zs7yK+fwyNOsdOs7t4pBLEs/wBniVpI1dVbax5KjnigDxr406DdeDPE37C3hbXrhGm0m8ijvp7uUKTcWtjApdnYjncGPPU4612nhhrLSf8Ago78VLLTkRW1XwRpmoakUbJNzFKYU3DsfJZPwAPeub/4KJ+GfCXjD4tfs7aT46t/tfhKbUNabUId0oLRpZo4x5Xzk7lUgLySAMHOK9U/Zi+CPwk+Gfha88QfCrTpI7PxCoM+oXctzJcSiIsgjYXB3x7GDqUIUgggjI4+Uz/Gwo0JYeUW3JKz6b9/kb0otu51nxm+DOn/ABs8K2ukX2rapoT28vnRX+kSrHOmUaNwN6svKO2GxlGCupDKDXyNrH7SOj/sXftMftAW3iCZ4xr2kaNrXh/+0kmddSmt7QQTRGRFY+ZIwOHIC7kbcR1r74jkTy1+Zeg71nav4d0TxBJbvqmmWGpPbktC15bpKYjxypYHHQdPSvhcszSpl1VylHmjZq3rb/I6ZwU0fMcn7Z3x7sfA6eLNR/Zdi0/QRZLfy39/8RdPtEjhKht7pLEGj4P3XwR0PNV/Dn7cPxy8Y6RFqug/stnW9LmLLHe6b8QLK4gcqxVgHSAqSGBBweCCK+p/EGiaX4q0PUNG1i1t9R0rUIHtrq0uAGjmicFWVh3BBIqp4P8AB+g+AdDj0fw/YQaXpySSTCCEk5d2Lu7EklmLEkkkmvb/ANacRyP92ua/na337mfsV3Pnb/hrr9or/o0W/wD/AAuLX/5Hpnib9rr9orw14U1LXrv9lB7axsbR7yaX/hPbKd441UszeSkPmMQATtUbu2M19T+Yn95fzo8xP7y/nWS4pxd1enH8f8w9hHufBmi/HPwr+27+1d8HYNOtLTxJonhvwpq2pa9bvZvJZwzX0SQNayLMoDlV2KcgqS5Azzj7i0Lw5pPhHQrfSNC0uy0XSbVCtvYadbpBBCCSSEjQBVGSTwOpNN0Xw7onhsTDSdMsNLExDSiyt0h8wjOC20DPU9fWtGSRPLb5l6HvXjZnmM8yrqai0lbS9zSEFBWP/9kL]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:47.8050000</RealTime>
+          <GameTime>00:01:20.4500000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:12.0110000</RealTime>
+        <GameTime>00:00:07.2660000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:28.9050000</RealTime>
+          <GameTime>00:00:20.8330000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:39.9150000</RealTime>
+          <GameTime>00:00:31.6000000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:24.7680000</RealTime>
+          <GameTime>00:00:19.0330000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:14.0850000</RealTime>
+          <GameTime>00:00:08.6020000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:33.3410000</RealTime>
+          <GameTime>00:00:25.2690000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:15.8520000</RealTime>
+          <GameTime>00:00:07.6490000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:17.1650000</RealTime>
+          <GameTime>00:00:07.6670000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:12.7840000</RealTime>
+          <GameTime>00:00:07.6170000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:12.8240000</RealTime>
+          <GameTime>00:00:07.8490000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:12.6630000</RealTime>
+          <GameTime>00:00:07.6500000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:12.5010000</RealTime>
+          <GameTime>00:00:07.5170000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:12.5240000</RealTime>
+          <GameTime>00:00:07.7500000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:12.4680000</RealTime>
+          <GameTime>00:00:07.7000000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:12.4050000</RealTime>
+          <GameTime>00:00:07.7490000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:12.4610000</RealTime>
+          <GameTime>00:00:07.7010000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:12.5190000</RealTime>
+          <GameTime>00:00:07.5510000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:12.5390000</RealTime>
+          <GameTime>00:00:07.7330000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:12.2630000</RealTime>
+          <GameTime>00:00:07.4160000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:12.2500000</RealTime>
+          <GameTime>00:00:07.4170000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:12.2110000</RealTime>
+          <GameTime>00:00:07.4350000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:12.3670000</RealTime>
+          <GameTime>00:00:07.4170000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:12.2460000</RealTime>
+          <GameTime>00:00:07.3990000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:13.4980000</RealTime>
+          <GameTime>00:00:08.6000000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:12.1330000</RealTime>
+          <GameTime>00:00:07.3840000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:12.2620000</RealTime>
+          <GameTime>00:00:07.5490000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:12.3120000</RealTime>
+          <GameTime>00:00:07.3990000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:12.0110000</RealTime>
+          <GameTime>00:00:07.2660000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:12.1670000</RealTime>
+          <GameTime>00:00:07.3160000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:12.0470000</RealTime>
+          <GameTime>00:00:07.3160000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:12.4170000</RealTime>
+          <GameTime>00:00:07.6630000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:12.5670000</RealTime>
+          <GameTime>00:00:07.6340000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:12.1680000</RealTime>
+          <GameTime>00:00:07.4320000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>15 Vertigo</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:01:56.3430000</RealTime>
+          <GameTime>00:01:27.7340000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:07.4980000</RealTime>
+        <GameTime>00:00:06.0500000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:23.3690000</RealTime>
+          <GameTime>00:00:19.6330000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:08.5740000</RealTime>
+          <GameTime>00:00:07.1840000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:12.8600000</RealTime>
+          <GameTime>00:00:11.6330000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:12.1130000</RealTime>
+          <GameTime>00:00:06.3670000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:24.5630000</RealTime>
+          <GameTime>00:00:18.8670000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:12.5940000</RealTime>
+          <GameTime>00:00:10.5840000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:07.7830000</RealTime>
+          <GameTime>00:00:06.3780000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:10.3260000</RealTime>
+          <GameTime>00:00:08.0180000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:07.7220000</RealTime>
+          <GameTime>00:00:06.2170000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:14.6270000</RealTime>
+          <GameTime>00:00:11.3670000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:14.9060000</RealTime>
+          <GameTime>00:00:10.9480000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:14.2500000</RealTime>
+          <GameTime>00:00:11.0320000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:10.0030000</RealTime>
+          <GameTime>00:00:08.6000000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:10.5770000</RealTime>
+          <GameTime>00:00:08.2000000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:16.4120000</RealTime>
+          <GameTime>00:00:13.9000000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:07.5860000</RealTime>
+          <GameTime>00:00:06.0670000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:13.0120000</RealTime>
+          <GameTime>00:00:11.8000000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:07.5290000</RealTime>
+          <GameTime>00:00:06.0830000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:07.4980000</RealTime>
+          <GameTime>00:00:06.0500000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:07.7180000</RealTime>
+          <GameTime>00:00:06.2160000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:08.4220000</RealTime>
+          <GameTime>00:00:07.1830000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:08.2740000</RealTime>
+          <GameTime>00:00:07.0340000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:08.2550000</RealTime>
+          <GameTime>00:00:07.0010000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:12.7180000</RealTime>
+          <GameTime>00:00:11.3160000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:08.5380000</RealTime>
+          <GameTime>00:00:07.2840000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:18.5030000</RealTime>
+          <GameTime>00:00:17.2330000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:08.0810000</RealTime>
+          <GameTime>00:00:06.8680000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:15.7450000</RealTime>
+          <GameTime>00:00:13.2840000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:08.1850000</RealTime>
+          <GameTime>00:00:06.9840000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:10.0950000</RealTime>
+          <GameTime>00:00:08.6000000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:15.0900000</RealTime>
+          <GameTime>00:00:11.6330000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:10.9470000</RealTime>
+          <GameTime>00:00:09.3730000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>16 Mono</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:07.4500000</RealTime>
+          <GameTime>00:01:37.4340000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:10.7350000</RealTime>
+        <GameTime>00:00:09.4000000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:14.3030000</RealTime>
+          <GameTime>00:00:13.0670000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:24.1400000</RealTime>
+          <GameTime>00:00:21.2490000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:10.8340000</RealTime>
+          <GameTime>00:00:09.4160000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:11</RealTime>
+          <GameTime>00:00:09.5500000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:10.9490000</RealTime>
+          <GameTime>00:00:09.5330000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:48.0050000</RealTime>
+          <GameTime>00:00:42.5850000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:18.7480000</RealTime>
+          <GameTime>00:00:16.0380000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:11.0750000</RealTime>
+          <GameTime>00:00:09.5840000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:10.9780000</RealTime>
+          <GameTime>00:00:09.5840000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:13.0700000</RealTime>
+          <GameTime>00:00:10.3350000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:29.9600000</RealTime>
+          <GameTime>00:00:25.5490000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:45.6260000</RealTime>
+          <GameTime>00:00:39.7320000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:20.9180000</RealTime>
+          <GameTime>00:00:18.0820000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:11.0760000</RealTime>
+          <GameTime>00:00:09.6840000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:21.1840000</RealTime>
+          <GameTime>00:00:18.4330000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:11.2290000</RealTime>
+          <GameTime>00:00:09.8830000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:13.0810000</RealTime>
+          <GameTime>00:00:11.7180000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:25.6400000</RealTime>
+          <GameTime>00:00:22.6170000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:31.0100000</RealTime>
+          <GameTime>00:00:25.9150000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:11.2980000</RealTime>
+          <GameTime>00:00:09.8340000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:11.1870000</RealTime>
+          <GameTime>00:00:09.7820000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:11.0420000</RealTime>
+          <GameTime>00:00:09.5320000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:14.2400000</RealTime>
+          <GameTime>00:00:12.8320000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:11.6440000</RealTime>
+          <GameTime>00:00:10.1170000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:11.1070000</RealTime>
+          <GameTime>00:00:09.7000000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:13.1510000</RealTime>
+          <GameTime>00:00:11.7490000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:10.7350000</RealTime>
+          <GameTime>00:00:09.4000000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:13.0400000</RealTime>
+          <GameTime>00:00:11.6170000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:10.8560000</RealTime>
+          <GameTime>00:00:09.4670000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:11.1640000</RealTime>
+          <GameTime>00:00:09.4490000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:10.8640000</RealTime>
+          <GameTime>00:00:09.5180000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:19.9570000</RealTime>
+          <GameTime>00:00:15.9340000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>17 Rustic</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:15.3400000</RealTime>
+          <GameTime>00:01:43.8000000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:07.2560000</RealTime>
+        <GameTime>00:00:05.6000000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:19.9860000</RealTime>
+          <GameTime>00:00:17.2830000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:20.8440000</RealTime>
+          <GameTime>00:00:18.2510000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:15.9820000</RealTime>
+          <GameTime>00:00:13.5170000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:11.8070000</RealTime>
+          <GameTime>00:00:09.9170000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:08.5760000</RealTime>
+          <GameTime>00:00:06.9350000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:14.6170000</RealTime>
+          <GameTime>00:00:11.3690000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:07.4510000</RealTime>
+          <GameTime>00:00:05.6000000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:07.9990000</RealTime>
+          <GameTime>00:00:06.3500000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:24.1490000</RealTime>
+          <GameTime>00:00:18.4480000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:09.0580000</RealTime>
+          <GameTime>00:00:07.3670000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:07.2560000</RealTime>
+          <GameTime>00:00:05.6010000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:22.0140000</RealTime>
+          <GameTime>00:00:18.1820000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:14.5160000</RealTime>
+          <GameTime>00:00:11.3150000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:08.0620000</RealTime>
+          <GameTime>00:00:06.5180000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:16.5260000</RealTime>
+          <GameTime>00:00:06.2670000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:20.1710000</RealTime>
+          <GameTime>00:00:16.6650000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:09.3870000</RealTime>
+          <GameTime>00:00:07.7010000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:08.2660000</RealTime>
+          <GameTime>00:00:06.4510000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:07.9430000</RealTime>
+          <GameTime>00:00:06.4660000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:09.6100000</RealTime>
+          <GameTime>00:00:07.3010000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:11.0410000</RealTime>
+          <GameTime>00:00:09.5490000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:09.2700000</RealTime>
+          <GameTime>00:00:08.8270000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:07.8840000</RealTime>
+          <GameTime>00:00:06.3990000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:08.8560000</RealTime>
+          <GameTime>00:00:07.3500000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:07.8900000</RealTime>
+          <GameTime>00:00:06.3660000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:07.8130000</RealTime>
+          <GameTime>00:00:06.2490000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:10.3560000</RealTime>
+          <GameTime>00:00:08.7830000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:26.1780000</RealTime>
+          <GameTime>00:00:23.2980000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:10.0250000</RealTime>
+          <GameTime>00:00:08.6170000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:12.6790000</RealTime>
+          <GameTime>00:00:09.6900000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:08.0460000</RealTime>
+          <GameTime>00:00:06.6830000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:09.6350000</RealTime>
+          <GameTime>00:00:08.0190000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>18 The Grundle</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:30.3860000</RealTime>
+          <GameTime>00:01:56.0840000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:08.3620000</RealTime>
+        <GameTime>00:00:07.0490000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4" />
+        <Time id="6">
+          <RealTime>00:00:14.7790000</RealTime>
+          <GameTime>00:00:09.0320000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:20.3280000</RealTime>
+          <GameTime>00:00:13.8830000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:16.6150000</RealTime>
+          <GameTime>00:00:10.4670000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:11.5850000</RealTime>
+          <GameTime>00:00:07.2990000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:11.7680000</RealTime>
+          <GameTime>00:00:07.1670000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:08.8650000</RealTime>
+          <GameTime>00:00:07.4510000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:23.3240000</RealTime>
+          <GameTime>00:00:18.3330000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:19.0330000</RealTime>
+          <GameTime>00:00:14.5190000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:11.6520000</RealTime>
+          <GameTime>00:00:08.9490000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:08.7030000</RealTime>
+          <GameTime>00:00:07.3000000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:09.3540000</RealTime>
+          <GameTime>00:00:07.8670000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:08.5490000</RealTime>
+          <GameTime>00:00:07.2000000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:13.2290000</RealTime>
+          <GameTime>00:00:10.4160000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:08.6760000</RealTime>
+          <GameTime>00:00:07.2660000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:09.0050000</RealTime>
+          <GameTime>00:00:07.7000000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:26.0320000</RealTime>
+          <GameTime>00:00:20.4830000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:19.4870000</RealTime>
+          <GameTime>00:00:15.0800000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:14.6460000</RealTime>
+          <GameTime>00:00:13.4510000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:16.5750000</RealTime>
+          <GameTime>00:00:13.7150000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:24.7030000</RealTime>
+          <GameTime>00:00:19.0180000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:19.7080000</RealTime>
+          <GameTime>00:00:15.5490000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:15.0460000</RealTime>
+          <GameTime>00:00:12.2840000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:08.7350000</RealTime>
+          <GameTime>00:00:07.3170000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:08.7620000</RealTime>
+          <GameTime>00:00:07.4820000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:14.3060000</RealTime>
+          <GameTime>00:00:12.9320000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:08.3620000</RealTime>
+          <GameTime>00:00:07.0490000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:08.6380000</RealTime>
+          <GameTime>00:00:07.2310000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:17.6990000</RealTime>
+          <GameTime>00:00:14.7780000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:14.1140000</RealTime>
+          <GameTime>00:00:12.8010000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>19 Dig</Name>
+      <Icon><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAKRkAAAJHSUY4OWHpAOkA94EAAAAABQAACAAADQAAEAAAFQAAGQAAHgAAIQEAJAEAKAEALQEAMQEANQEAOAEAPQEAQQIARQIASQIATQIAUQIAVQIAWQIAXQIAYAMAZQMAagMAbQMAcAMAdQMAeAMAfQMAgQQAhQQAiQQAjQQAkAQAlQQAmAQAngQAoAUApQUAqQUArQUAsQUAtQUAuAUAvQUAwQYAxQYAygYAzQYA0AYA1QYA2AYA3QYA4QcA5QcA6QcA7QcA8QcA9QcA+QcA/QcA/wgAAPf/Avj/Bvj/Cvj/Dvj/Evj/Fvj/Gvj/Hvj/Ivn/J/n/Kvn/L/n/Mvn/Nfn/Ovn/Pvn/Qvr/R/r/Svr/Tvr/Uvr/Vvr/Wvr/X/r/Yfv/Z/v/avv/b/v/cvv/dvv/evv/fvv/gvz/h/z/ivz/j/z/kvz/lfz/mvz/n/z/ov3/pv3/qv3/rv3/sv3/tv3/uv3/vv3/wv7/x/7/yv7/zv7/0v7/1/7/2/7/3v7/4f//5v//6v//7///8v//9///+v//////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIfkEBAoAAAAh/wtORVRTQ0FQRTIuMAMBAAAALAAAAADpAOkAAAj+AIMIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3crTSZavYMOKHUu2rNmzaNOqXct2LBauDccEmku3rt27ePPq3cu3r9+/gO/2gctQbuDDiBMrXvx3MGGFhhlLnky5cl3HjxFGtsy5s2e9mDMb3Py5tOnKoUUTJH26tevAqVULZP26tm3Bskff3s2bbmzZtHsLL/1bdfDhyC0XF308uXPGyzM3f079cPTH06tr73udcPbtjPn+0JGjB9Dp7nC/gwecJ42WJUQIDklSpQwdz+i5ql/PF08Vh0u4wVl+W+3HH16AfDFERFPkgVpuBRl4YF2AXEHREXNQRqBWEk44l4UVDcHGZBtm1eGBFWIkxIjQQbiah4G9ldEQdbTo4mww/pUFR0jwsViJWJ0I3hsecfHjjTjmuBcgTHgkhB2KAXmVkNqlAVIVUSIZBJXV/fcREeYhJqVVXFJnREhxJDZmVWU6V4dIYaipZZvJqSHSFXIiSSdyZIgERZ437jlcFyIlAaiLggoHIkhDHAphor1xIRISjuYGKW9jiOREpcApqZeVIVnBqXGe5jWHSF+MylypCMYH0hv+qkrHKl5TMOpHrNhRZkcavPbq66/ABivsr2rUVQZIf+Lq3WR/JKGSHnT5gcRHaSqb3mRfCKGSgHTZ2ZGoWeop2R0LqpSFXVFwRISD4QYqWbosyVHXHkpshIaN7i4GKkub1mVHERlhiS+iP57pEqx1xQGwRU70IdmaVFGpBUxJOOxvvRMJ8UWYAz+q2BzaviQEFRzPxQcVEikBx4PiIsbkTFeUPBccTTZUBBkyd2xpYn3SFPNdgLzxBRTlFrTEFmpYrNyciOnhKk1V+JgXIHnIsUYab9zxh2kQT9WhlzYZca9zXUsloRs7QVHtcGVHZWCzPTmRRs61tQ2VgV9AFMX+Fnz37fffgPsNBUVCHGHFGHAo/ZrdT+1nR8gNHaG4YoAsoVERTEiBhd94fMa4U/vB61AalIkxUqr4Me3Xvg0lK1keT4N0hOeq88WHwQ0JUeNktZLE7YC17zXxQ11QxoZJ4ALf8l5yQM7QEbdKJq1JQ0i99PJTNwHRGpQRepIZnX3e1HQ9OxQFZXQ4T1IT4Qd/l9MPDQHlZE+otDvL+eYFdkNeUGbGSv27Xv7ugraHICF6jNnDwlJiBLq1i2B4+cO0HsK9ychoJW0QIATv4gWISIEycHAJFTTosbvYoWgMGcIdmGW5lgxhD/jbYF0G9xDUSSYMMCFDDEtYFzRAJAn+W5MMHlDIEibscGd1uR1EWCQZKcjkPiRy3/AcMgXKrGEk6lPIFjQUPDlAZAide9gR/JQ3hxQhiDrr1Fxe9hAwUEZSIVEhHrKYkAqmkVRzyUPNGqIENC4mfSJxYyB615AqPix4gDAD7hSSwcloLyR9nEsBcwetO67KLnzgAh0HIjDJHEskK1ujsxwihkNiz1+iKwgRwpjA2HkEC3bJlEOUYMoB3oUNoyRInCZjBZEYwXpz2QMRFbI2a+mHL38Qw9OU4MDAEEkkpLvLohiiBUvKqi97kBHCGPMHjIHkfHjxohkRKCb3MU+QkgGDSFSolz0uRAjRNGaBdkMuOO3lDA/+Aac8ObSbVHpkCc0MhB8WyBB2lfOUrfEWmvqyhTY+kIeu6cMiPXKuvrzJIURIgkY3ytGOetScppniR4wwOb3QUEsiuZSpNqmRYv3liihN6WvYCJIPAuYPY4wpSFR6l08yipV/KaNOPcLTusAvJKU8TB5YOtSKFJUu+/MIEwKqF5Q1lSNPDcQkPyIEeSVmq1fFyFPhFpJqLiaXYb3IU4X6EckxRpZpVatpHicSOyqGD8OMa0SKetKPGFIyF9TrRHjqw5CskjLiFOxgP6PEkGRVeiCdjEg90gQ/gkd8TLlUHETSVQ/5IbKLoelHtuihP4BWMWNg6kWQUFLwfBahjAH+RF43YtcDmRa2oRXJCHMEiNMi5rZfMmhpfXsY4HpEh0rqLW4VY1yONIGq2lGuLSXTXI0IAYqeIm5gqpsRPLFKuzcN7neXmxjuZuSvSgLvX8yronjmSLXXsgx7MVIEGCoJvseUr0g6CaPZXrMy881IbQ/k31zpVyRHACaByftbiOQ0It71UIGXdWCHrGHCCGnkhFypRgBDBA+mkwhrPcRhPHr4IXcARP0kYtYDERSJJ3bICuspkW2up8SXjHFDVhiI8v2QnNt5cYcpE+CC8DgQfX0Iadcz0SEzCyJHxgOOFdLZ9QjZxESGcl3+lzLLmonBxdVyXZwokQBu58EQfTL+iu2Shyu/E7vVaTKW1SzjuxQ2IkzwcnLQDOMsr/kuVo0IOqnDZydTV8x22YOcF0Ij7UxQhnTecV4UChEnQNc2j07zof+Ml15KJKnPyXSfI82QI99lD4VmCBFMjRxRG5qbiMbL8STyhEu7Bq2j3nSd9xLYh5ThObh+9WKKTBBW34UPrlY1UIXjTaos4dnQjra0nz02HZe6L2A1n3OCHZXW1obYAzE2XibrkDMkp9lT8fZrwC0QcQuG2wspQiWZfRV1u4bdQXD3XUIoEfTypoVVsZgdmkDwghv84AhPuMITHmu+wDEi7t0NwKlisVPpRN938QO6G2IE+/673nOxeE7+MH6X5kmEv7eZeLpDvhOS38V7ERnwa9y58kCIHCcut8sfVB45Bc8c5DZvOWIAGRFY7uaRAWf5xROjTon8rjY0l0rFhe4ypBvQ3p5xAtBvfpOc46UOGDZIi19j9Zpz3SZex0uIIxLK12jdKlNfOuVW/OPavD3pQZe7Yk4oESO9hu4UV/rIJeNjh1S5NYA3O9UZk+SGLEHPnUm81OdyhylY/vKYz7zmN8/5zk+BCpcH/edFb/l5L0bKZXZN47s9K8ZwGSLXRTzQW68YfzZkqqexPetprxg9uFkhg/bM6qGyhS4Y//jIT34Xisl7fEak0aXRfY55PxdCPsTS0QezkhT+LRGeSv+/1J8L6xzCTs9838Dhp4unIeI6zpAZ0uHnfkR+3Zn3azr8s4bIujpj/Vynf5oOYVOWYX/+F359kGoLYW6WEWj3l37ZxhBGYHqS0X/Cln47EhG7RRkMWIDp5wfwphAuNRkbWIHp90wQ0XEaqH2893APkTyMEVUk2IEbxxBMtBgwOGfpdxdxgF8E4VYvqILUB3MPYXSLsX4NmIN0sXNOxxhGyIFIGHJhRxBJAGSB0YQx+IRs5RBjdxgAeIVI+Adl1xBtx4VAmH518BVagIZpKBZrmAVaAGpk6CJJIFxPmBx0sGiEkQQSWIfDMQdFwINXoYd82BdrMAaGeIj5iJiIhxiCfyEH8QGIVSGIg7gXr2dAdMgXcTBlcDGHk3hPEpEEy8YXbxCFWMGJnZgXaQCJQQCKgeEGpBiIl3iKc7EGqsiKgNEGr2gVpiiLdoGLEWGLL6WKkRiLsjiKvxiKe6EGwkgVu8iLdAEHuQiMfoEGyzgVzeiMgeCIxxgYZlCNUiGN2OiH2wgYPpUb4OiMdfB7CHGOewFX5oiMsmgHeLiO8JgXOHQjXFAG+riP/NiP/viPABmQAjmQBEmQybYQ+ViQ+thQitWQDvmQEBmREjmRFFmRFnmRGJmRGrmRHNmRHvmRIBmSIjmSJFmSJnmSKJmSKrmSFBEQACH5BAQKAAAALAAAAADpAOkAAAj+AIEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cpzBoqvYMOKHUu2rNmzaNOqXct2bAquDT0AmEu3rt27ePPq3cu3r9+/gO8SgMtQbuDDiBMrXvx3MGGFhhlLnky5cl3HjxFGtsy5s2e9mDMb3Py5tOnKoUUTJH26tevAqVULZP26tm3Bskff3s2bbmzZtHsLL/1bdfDhyC0XF308uXPGyzM3f079cPTH06tr73udcPbtjAv+NHhwIMDp7nC/gweMAMMJGz0I+sDBgkMDz+i5ql/PNwELhzZMwFl+W+3HH14BiOBDRC4ggFpuBRl4YF0BqECRDg5QRqBWEk44l4UV+VDBZBtm1eGBFWL0w4jQQbiah4G9lZEPDLTo4mww/oUCRzkUsFiJWJ0IngQelfDjjTjmuFcANXj0wwKKAXmVkNphABILUSIJBJXV/fdRD+YhJqVVXFK3Q0gQJDZmVWU6x4BIIKipZZvJXSCSCnIiSSdyHYgUQ5437jkcCSLhAKiLggoHIkg+HAphor2VIFIOjuYGKW8eiDRDpcApqZeVIa3AqXGe5uWASCKMylypCMYHkgT+qkrHKl4uMDpArNhRtgAGvPbq66/ABivsrxfUxQFIf+Lq3WQC4KDSAXQNkMNHaSqb3mQi/KCSgHTZ2ZGoWeopmQILqoSCXTBw1IOD4QYqWbosPVCXATdslIGN7i4GKkub1rUADxlhiS+iP57pEqx1QQCwRTMQINmaVFF5Akw4OOxvvRP9IEKYAz+qmAPavvRDCxzPVUALEt0QwYPiIsbkTCqUPFcETTbEQwcyd2xpYn3SFPNdAUggQgzlFmSDCRdYrNyciB3gKk0s+JhXAAg8YAEGEigggGkQT9WhlzbtcK9zXUsl4QQ7xVDtcGVHZWCzPc2AQc61tQ2VgSJABIP+CXz37fffgPsdA0U/6LCCBxEo/ZrdT+23QMgN6aC4YgHYoBEPNbyQgt8JfMa4U/vB6xAGlH0wUqr4Me3Xvg0lKxkCT4Okg+eq81WAwQ39UONktZLE7YC17zXxQyRQVoFJ4ALf8l4PQM6QDrdKJq1JPki99PJT0wCRBZQRetIGnX3e1HQ9OwQDZQ04TxIN4Qd/l9MP+QDlZDKotDvL+eYFdkMjULbBSv27Xv7ugraH5CB6jDHAwlKyA7q1i2B4EcC0HsK9ychoJRQQIATvMgKIvIAyEXBJCzTosbssoGgM8YECmGW5lvjAAPjbYF0G9xDUSQYEMOlADEtYlwxABAf+W5NMAlDIkhrscGd1uR1EWCSZF8jkPiRy3/Ac4gLKWGAk6lOICTQUvAdAxAede5gO/JQ3h/AgiDrr1Fxe9pAQUEZSIVFhArKYkAqmkVRzQUDNGnIDNC4mfSJxIwB615AqPix4AdgA7hSSwcloLyR9nEsBcwetO67KLgUoAR0HIjDJHEskK1ujsxzygUNiz1+iK0gPwpjA2HkkBXbJlENuYMoB3qUCoyRInCazApHswHpzMQARFbI2a+mHLwL4wNNu4MDAEEkkpLvLohhyAkvKqi8GkBHCGCMAjIHkfHjxohkRKCb3MU+QkgmBSFSolz0u5AfRNGaBdkMuOO1FAw/+Aac8ObSbVHrEBs0EwAAWyBB2lfOUrfEWmvpigjY+kIeuIcAiPXKuvrzJIT3AgUY3ytGOetScppniR3YwOb3QUEsiuZSpNqmRYv3liihN6WvYCJIPAkYAY4wpSFR6l08yipV/KaNOPcLTusAvJKU8DAJYOtSKFJUu+/NIDQKqF5Q1lSNPBcAkP/IDeSVmq1fFyFPhFpJqLiaXYb3IU4X6EckxRpZpVatpHicSOyqmAMOMa0SKetKPGFIyF9TrRHjqw5CskjLiFOxgP6PEkGRVeiCdjEg9QgM/gkd8TLkUBETSVQ8NILKLoelHtughAYBWMR5g6kVyUFLwfBahjAn+QF43YtcDmRa2oRXJCHMUgNMi5rZfMmhpfXsY4HpEh0rqLW4VY1yO0ICq2lGuLSXTXI38AIqeIm5gqpsRPLFKuzcN7neXmxjuZuSvSgLvX8yronjmSLXXsgx7McIDGCoJvseUr0g6CaPZXrMy881IbQ/k31zpVyQ6ACaByftbiOQ0It71UIGXdWCHWGDCCGnkhFypRgBDJAGmkwhrPcRhPHr4IQoIQP0kYtYDERSJJ3bICuspkW2up8SXjHFDVgiA8v2QnNt5cYcpE+CC8BgAfX0Iadcz0SEzCyJHTgCOFdLZ9QjZxESGcl3+lzLLmonBxdVyXZwokQBu58EQfTL+iu2CgCu/E7vVaTKW1SzjuxQ2IjXwcnLQDOMsr/kuVo0IOqnDZydTV8x2MYCcF0Ij7UxQhnTecV4UCpEZQNc2j07zof+Ml15KJKnPyXSfI82QI9/FAIVmSA9MjRxRG5qbiMbL8SQig0u7Bq2j3nSd9xLYh3DgObh+9WKKTBBW36UArlY1UIXjTarY4NnQjra0nz02HZe6L2A1n3OCHZXW1obYAzE2XibrEA0kp9lT8fZrwC0QcQuG2wvhQSWZfRV1u4bdQHD3XUIoEfTypoVVsdgCaEDwghv84AhPuMITHmu+wDEi7t0NwKlisVPpRN93GQC6G7ID+/673nOxeE7+MH6X5kmEv7eZeLpDvhOS38V7ERnwa9y5cgCIHCcut4sAVB45Bc8c5DZvOWIAGRFY7uaRAWf5xROjTon8rjY0l0rFhe4ypBvQ3p6ZAdBvfpOc44UBGDZIi19j9Zpz3SZex0uIIxLK12jdKlNfOuVW/OPavD3pQZe7Yk4oESO9hu4UV/rIJeNjh1S5NYA3O9UZk+SG2EDPnUm81OeiABdY/vKYz7zmN8/5zrugBZcH/edFb/l5L0bKZXZN47s9K8ZwGSLXRTzQW68YfzZkqqexPetpr5gDuFkhg/bM6qFiAhIY//jITz4Jisl7fEak0aXRfY55PxdCPsTS0QezkhT+LRGeSv+/1J8L6xzCTs9838Dhp4unIeI6zpAZ0uHnfkR+3Zn3azr8s4bIujpj/Vynf5oOYVOWYX/+F34EkGoLYW6WEWj3l37ZxhA7YHqS0X/Cln47EhG7RRkMWIDpNwDwphAuNRkbWIHp90wQ0XEaqH2893APkTyMEVUk2IEbxxBMtBgwOGfpdxcQgF8E4VYvqILUB3MPYXSLsX4NmIN0sXNOxxhGyIFIGHJhRxA4AGSB0YQx+IRs5RBjdxgAeIVIKABl1xBtx4VAmH4M8BUngIZpKBZriAInAGpk6CI4IFxPmBwNsGiEgQMSWIfD4QA8wINXoYd82BcW4AGGeIj5iJiIhxiCf/EA8QGIVSGIg7gXr2dAdMgXEDBlcDGHk3hPEoEDy8YXEhCFWMGJnZgXGACJQACKgTEBpBiIl3iKc2EBqsiKgEEBr2gVpiiLdoGLEWGLL6WKkRiLsjiKvxiKe3EBwkgVu8iLdBEBuQiMfpEByzgVzeiMAOCIxxgYG1CNUiGN2OiH2wgYPpUb4OiMDPB7CHGOewFX5oiMsrgAeLiO8JgXOHQjJcAB+riP/NiP/viPABmQAjmQBEmQybYQ+ViQ+thQitWQDvmQEBmREjmRFFmRFnmRGJmRGrmRHNmRHvmRIBmSIjmSJFmSJnmSKJmSKrmSFBEQADsL]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:40.0590000</RealTime>
+          <GameTime>00:02:04.5670000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:09.3380000</RealTime>
+        <GameTime>00:00:08.1340000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:00:22.9860000</RealTime>
+          <GameTime>00:00:16.0170000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:09.8010000</RealTime>
+          <GameTime>00:00:08.5330000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:10.2640000</RealTime>
+          <GameTime>00:00:09.0500000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:12.9190000</RealTime>
+          <GameTime>00:00:11.7330000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:17.5470000</RealTime>
+          <GameTime>00:00:15.0180000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:10.1310000</RealTime>
+          <GameTime>00:00:08.9170000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:18.6850000</RealTime>
+          <GameTime>00:00:13.5820000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:09.5300000</RealTime>
+          <GameTime>00:00:08.3660000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:09.5320000</RealTime>
+          <GameTime>00:00:08.3160000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:16.0020000</RealTime>
+          <GameTime>00:00:12.1840000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:11.0030000</RealTime>
+          <GameTime>00:00:09.7840000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:09.3380000</RealTime>
+          <GameTime>00:00:08.1340000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:10.9600000</RealTime>
+          <GameTime>00:00:09.7500000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:09.5140000</RealTime>
+          <GameTime>00:00:08.3510000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:18.7920000</RealTime>
+          <GameTime>00:00:16.2660000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:10.2190000</RealTime>
+          <GameTime>00:00:09.0660000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:09.3840000</RealTime>
+          <GameTime>00:00:08.1670000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:09.7350000</RealTime>
+          <GameTime>00:00:08.5340000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:09.7960000</RealTime>
+          <GameTime>00:00:08.5990000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:09.9090000</RealTime>
+          <GameTime>00:00:08.7520000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:09.6230000</RealTime>
+          <GameTime>00:00:08.4330000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:09.7020000</RealTime>
+          <GameTime>00:00:08.4500000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:09.6730000</RealTime>
+          <GameTime>00:00:08.4830000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:37.5040000</RealTime>
+          <GameTime>00:00:30.9670000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:09.7550000</RealTime>
+          <GameTime>00:00:08.5830000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:09.4850000</RealTime>
+          <GameTime>00:00:08.2490000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:09.7990000</RealTime>
+          <GameTime>00:00:08.6000000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:12.1060000</RealTime>
+          <GameTime>00:00:09.5500000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:09.4380000</RealTime>
+          <GameTime>00:00:08.2330000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>B  Brownie</Name>
+      <Icon><![CDATA[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]]></Icon>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:02:51.4920000</RealTime>
+          <GameTime>00:02:12.1990000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:11.2670000</RealTime>
+        <GameTime>00:00:07.6170000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:13.6710000</RealTime>
+          <GameTime>00:00:09.9660000</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:13.1300000</RealTime>
+          <GameTime>00:00:09.4830000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:16.4700000</RealTime>
+          <GameTime>00:00:12.8000000</GameTime>
+        </Time>
+        <Time id="6">
+          <RealTime>00:00:13.5650000</RealTime>
+          <GameTime>00:00:09.6260000</GameTime>
+        </Time>
+        <Time id="7">
+          <RealTime>00:00:11.5960000</RealTime>
+          <GameTime>00:00:07.6170000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:11.9580000</RealTime>
+          <GameTime>00:00:08.3500000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:11.6530000</RealTime>
+          <GameTime>00:00:07.7160000</GameTime>
+        </Time>
+        <Time id="12">
+          <RealTime>00:00:11.8200000</RealTime>
+          <GameTime>00:00:07.8160000</GameTime>
+        </Time>
+        <Time id="17">
+          <RealTime>00:00:12.6350000</RealTime>
+          <GameTime>00:00:08.6830000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:12.9410000</RealTime>
+          <GameTime>00:00:09.0490000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:15.8840000</RealTime>
+          <GameTime>00:00:12.0330000</GameTime>
+        </Time>
+        <Time id="22">
+          <RealTime>00:00:13.7280000</RealTime>
+          <GameTime>00:00:09.7550000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:13.6060000</RealTime>
+          <GameTime>00:00:09.3650000</GameTime>
+        </Time>
+        <Time id="26">
+          <RealTime>00:00:11.3870000</RealTime>
+          <GameTime>00:00:07.6680000</GameTime>
+        </Time>
+        <Time id="27">
+          <RealTime>00:00:11.9090000</RealTime>
+          <GameTime>00:00:08.0900000</GameTime>
+        </Time>
+        <Time id="30">
+          <RealTime>00:00:12.2840000</RealTime>
+          <GameTime>00:00:08.4500000</GameTime>
+        </Time>
+        <Time id="31">
+          <RealTime>00:00:11.7500000</RealTime>
+          <GameTime>00:00:07.8340000</GameTime>
+        </Time>
+        <Time id="32">
+          <RealTime>00:00:12.2120000</RealTime>
+          <GameTime>00:00:08.2680000</GameTime>
+        </Time>
+        <Time id="33">
+          <RealTime>00:00:11.2670000</RealTime>
+          <GameTime>00:00:07.6660000</GameTime>
+        </Time>
+        <Time id="34">
+          <RealTime>00:00:13.1440000</RealTime>
+          <GameTime>00:00:08.9840000</GameTime>
+        </Time>
+        <Time id="39">
+          <RealTime>00:00:11.9090000</RealTime>
+          <GameTime>00:00:07.9830000</GameTime>
+        </Time>
+        <Time id="40">
+          <RealTime>00:00:16.2170000</RealTime>
+          <GameTime>00:00:11.3670000</GameTime>
+        </Time>
+        <Time id="43">
+          <RealTime>00:00:12.2970000</RealTime>
+          <GameTime>00:00:08.5650000</GameTime>
+        </Time>
+        <Time id="44">
+          <RealTime>00:00:11.6840000</RealTime>
+          <GameTime>00:00:07.8500000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:11.4330000</RealTime>
+          <GameTime>00:00:07.6320000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:13.9470000</RealTime>
+          <GameTime>00:00:09.9670000</GameTime>
+        </Time>
+        <Time id="50">
+          <RealTime>00:00:13.7350000</RealTime>
+          <GameTime>00:00:09.2000000</GameTime>
+        </Time>
+        <Time id="51">
+          <RealTime>00:00:17.6360000</RealTime>
+          <GameTime>00:00:13.4000000</GameTime>
+        </Time>
+        <Time id="52">
+          <RealTime>00:00:13.5780000</RealTime>
+          <GameTime>00:00:09.4160000</GameTime>
+        </Time>
+        <Time id="53">
+          <RealTime>00:00:11.4870000</RealTime>
+          <GameTime>00:00:07.8440000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>

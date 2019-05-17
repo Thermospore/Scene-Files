@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon><![CDATA[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]]></GameIcon>
+  <GameName>Super Meat Boy</GameName>
+  <CategoryName>Dark Ending</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>2</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="06/11/2017 01:45:09" isStartedSynced="True" ended="06/11/2017 01:45:56" isEndedSynced="True" />
+    <Attempt id="2" started="06/11/2017 02:19:08" isStartedSynced="True" ended="06/11/2017 06:06:09" isEndedSynced="True">
+      <RealTime>03:32:31.4160000</RealTime>
+      <PauseTime>00:14:29.0590000</PauseTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>Forest: 1-19</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:08:06.0170000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:08:06.0170000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:08:06.0170000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Hospital:1-13,16-20</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:30:40.4030000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:22:34.3860000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:22:34.3860000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>SF:1-12,14-15,17-19</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:16:58.4920000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:46:18.0890000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:46:18.0890000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>Hell: 1, 3-17, 19</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>01:54:21.9440000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:37:23.4520000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>00:37:23.4520000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>LR: 1-7, 9-18</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory>
+        <Time id="2" />
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>DR: 2, 4-7, 10-18</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory>
+        <Time id="2" />
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>End: 1-5, LF, DF</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>03:32:31.4160000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>01:38:09.4720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="2">
+          <RealTime>01:38:09.4720000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>D:\LiveSplit_1.6.9\Components\LiveSplit.SuperMeatBoy.asl</ScriptPath>
+    <Start>True</Start>
+    <Reset>False</Reset>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="menuReset" type="bool">False</Setting>
+      <Setting id="individualLevels" type="bool">False</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
+</Run>

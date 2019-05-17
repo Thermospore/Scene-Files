@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>Boat</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Cage</Name>
+      <Note>[170 crystals]
+3 Blue
+1 Robo</Note>
+    </Split>
+    <Split>
+      <Name>Chests</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Crow</Name>
+      <Note>1: RIGHT - 6
+2: DOWN - 5.5
+3: UP/LEFT -&gt; UP on 5
+4: DOWN - jump @4.5 let go @6
+5: LEFT - 6</Note>
+    </Split>
+    <Split>
+      <Name>Soveena</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Thief</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Jigsaw</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Keith</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>Warp</Name>
+      <Note />
+    </Split>
+  </Splits>
+  <Name>Croc 2</Name>
+  <Category>Sailor</Category>
+</PersonenListe>
