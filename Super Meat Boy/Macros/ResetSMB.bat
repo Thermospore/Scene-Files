@@ -3,9 +3,9 @@
 set /P id=Enter command: 
 
 if "%id%"=="" (
-	xcopy "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData\fresh\1" "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData" /v /y /z
+	xcopy "%~dp0fresh\1" "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData" /v /y /z
 ) else (
-	xcopy "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData\fresh\%id%" "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData" /v /y /z
+	xcopy "%~dp0fresh\%id%" "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData" /v /y /z
 )
 
 start steam://rungameid/40800
