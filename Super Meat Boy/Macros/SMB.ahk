@@ -8,15 +8,16 @@
 
 !Numpad8::Suspend 
 #IfWinActive ahk_exe SuperMeatBoy.exe
-	; edit your bindings here
-
+	;pausing
 	z::escape
-	d::s
 	x::p
-
+	
+	;spamming
 	v::space
+	b::enter
+	n::s
 
-
+	;directional
 	.::left
 	'::right
 	/::down

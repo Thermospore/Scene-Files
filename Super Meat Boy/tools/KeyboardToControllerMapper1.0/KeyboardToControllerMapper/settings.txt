@@ -1,1 +1,5 @@
 Map: C, ButtonA
+Map: Oem6, DpadRight
+Map: OemOpenBrackets, DpadDown
+Map: P, DpadUp
+Map: Oemcomma, DpadLeft
