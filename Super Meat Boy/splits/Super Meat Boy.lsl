@@ -315,6 +315,10 @@
             <Type>ProcessName</Type>
             <Title>SuperMeatBoy</Title>
           </Program>
+          <Program>
+            <Type>ProcessName</Type>
+            <Title>cmd</Title>
+          </Program>
         </Programs>
       </Settings>
     </Component>
