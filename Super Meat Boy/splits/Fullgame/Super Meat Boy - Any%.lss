@@ -11,7 +11,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>1536</AttemptCount>
+  <AttemptCount>1540</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="03/04/2017 20:38:37" isStartedSynced="True" ended="03/04/2017 20:38:40" isEndedSynced="True" />
     <Attempt id="2" started="03/04/2017 20:39:33" isStartedSynced="True" ended="03/04/2017 21:12:58" isEndedSynced="True">
@@ -2146,6 +2146,10 @@
     <Attempt id="1536" started="05/31/2019 01:41:56" isStartedSynced="True" ended="05/31/2019 02:02:34" isEndedSynced="True">
       <RealTime>00:20:37.7000000</RealTime>
     </Attempt>
+    <Attempt id="1537" started="06/04/2019 10:30:02" isStartedSynced="True" ended="06/04/2019 10:30:34" isEndedSynced="True" />
+    <Attempt id="1538" started="06/04/2019 10:30:42" isStartedSynced="True" ended="06/04/2019 10:36:08" isEndedSynced="True" />
+    <Attempt id="1539" started="06/04/2019 10:36:12" isStartedSynced="True" ended="06/04/2019 10:36:26" isEndedSynced="True" />
+    <Attempt id="1540" started="06/04/2019 10:36:34" isStartedSynced="True" ended="06/04/2019 10:59:49" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -4035,6 +4039,12 @@
         <Time id="1536">
           <RealTime>00:02:03.6390000</RealTime>
         </Time>
+        <Time id="1538">
+          <RealTime>00:02:00.0200000</RealTime>
+        </Time>
+        <Time id="1540">
+          <RealTime>00:01:57.8390000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5372,6 +5382,9 @@
         <Time id="1536">
           <RealTime>00:03:06.2550000</RealTime>
         </Time>
+        <Time id="1540">
+          <RealTime>00:03:14.4400000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -6550,6 +6563,9 @@
         <Time id="1536">
           <RealTime>00:03:12.3190000</RealTime>
         </Time>
+        <Time id="1540">
+          <RealTime>00:03:43.2190000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -7506,6 +7522,9 @@
         <Time id="1536">
           <RealTime>00:03:48.7930000</RealTime>
         </Time>
+        <Time id="1540">
+          <RealTime>00:04:20.1680000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -8285,6 +8304,9 @@
         <Time id="1536">
           <RealTime>00:04:44.1470000</RealTime>
         </Time>
+        <Time id="1540">
+          <RealTime>00:04:24.1250000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -9029,6 +9051,9 @@
         </Time>
         <Time id="1536">
           <RealTime>00:00:28.0370000</RealTime>
+        </Time>
+        <Time id="1540">
+          <RealTime>00:00:57.7090000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -9802,7 +9827,7 @@
   </Segments>
   <AutoSplitterSettings>
     <Version>1.5</Version>
-    <ScriptPath>E:\Programs\LiveSplit_1.7.6\Components\LiveSplit.SuperMeatBoy.asl</ScriptPath>
+    <ScriptPath>D:\Programs\LiveSplit\Components\LiveSplit.SuperMeatBoy.asl</ScriptPath>
     <Start>True</Start>
     <Reset>False</Reset>
     <Split>True</Split>
