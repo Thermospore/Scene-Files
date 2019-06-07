@@ -79,7 +79,7 @@
         <ShowThinSeparators>False</ShowThinSeparators>
         <AlwaysShowLastSplit>True</AlwaysShowLastSplit>
         <SplitWidth>20</SplitWidth>
-        <SplitTimesAccuracy>Seconds</SplitTimesAccuracy>
+        <SplitTimesAccuracy>Tenths</SplitTimesAccuracy>
         <BeforeNamesColor>FFFFFFFF</BeforeNamesColor>
         <CurrentNamesColor>FFFFFFFF</CurrentNamesColor>
         <AfterNamesColor>FFFFFFFF</AfterNamesColor>
@@ -296,9 +296,9 @@
         <CompleteFillColorAhead>32FFFFFF</CompleteFillColorAhead>
         <GraphColor>FFFFFFFF</GraphColor>
         <ShadowsColor>38000000</ShadowsColor>
-        <GraphLinesColor>FF0E752A</GraphLinesColor>
+        <GraphLinesColor>FF661A1A</GraphLinesColor>
         <LiveGraph>False</LiveGraph>
-        <FlipGraph>True</FlipGraph>
+        <FlipGraph>False</FlipGraph>
         <Comparison>Current Comparison</Comparison>
         <ShowBestSegments>True</ShowBestSegments>
         <GraphGoldColor>FFD8AF1F</GraphGoldColor>
