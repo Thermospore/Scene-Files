@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1299</X>
-  <Y>1</Y>
+  <X>1300</X>
+  <Y>0</Y>
   <VerticalWidth>288</VerticalWidth>
   <VerticalHeight>527</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -296,9 +296,9 @@
         <CompleteFillColorAhead>32FFFFFF</CompleteFillColorAhead>
         <GraphColor>FFFFFFFF</GraphColor>
         <ShadowsColor>38000000</ShadowsColor>
-        <GraphLinesColor>FF661A1A</GraphLinesColor>
+        <GraphLinesColor>FF085A1E</GraphLinesColor>
         <LiveGraph>False</LiveGraph>
-        <FlipGraph>False</FlipGraph>
+        <FlipGraph>True</FlipGraph>
         <Comparison>Current Comparison</Comparison>
         <ShowBestSegments>True</ShowBestSegments>
         <GraphGoldColor>FFD8AF1F</GraphGoldColor>
