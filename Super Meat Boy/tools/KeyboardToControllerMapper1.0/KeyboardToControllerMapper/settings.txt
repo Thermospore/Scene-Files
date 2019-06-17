@@ -1,1 +1,2 @@
 Map: C, ButtonA
+Map: Return, TriggerRight
