@@ -11,7 +11,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>1582</AttemptCount>
+  <AttemptCount>1589</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="03/04/2017 20:38:37" isStartedSynced="True" ended="03/04/2017 20:38:40" isEndedSynced="True" />
     <Attempt id="2" started="03/04/2017 20:39:33" isStartedSynced="True" ended="03/04/2017 21:12:58" isEndedSynced="True">
@@ -2234,6 +2234,19 @@
     <Attempt id="1582" started="06/17/2019 09:36:11" isStartedSynced="True" ended="06/17/2019 09:56:00" isEndedSynced="True">
       <RealTime>00:19:48.7890000</RealTime>
     </Attempt>
+    <Attempt id="1583" started="06/17/2019 23:18:24" isStartedSynced="True" ended="06/17/2019 23:21:17" isEndedSynced="True" />
+    <Attempt id="1584" started="06/17/2019 23:21:27" isStartedSynced="True" ended="06/17/2019 23:35:30" isEndedSynced="True" />
+    <Attempt id="1585" started="06/18/2019 04:17:52" isStartedSynced="True" ended="06/18/2019 04:38:18" isEndedSynced="True">
+      <RealTime>00:20:25.5350000</RealTime>
+    </Attempt>
+    <Attempt id="1586" started="06/18/2019 21:45:18" isStartedSynced="True" ended="06/18/2019 22:06:48" isEndedSynced="True">
+      <RealTime>00:21:30.3650000</RealTime>
+    </Attempt>
+    <Attempt id="1587" started="06/18/2019 22:08:42" isStartedSynced="True" ended="06/18/2019 22:09:58" isEndedSynced="True" />
+    <Attempt id="1588" started="06/18/2019 22:10:03" isStartedSynced="True" ended="06/18/2019 22:16:09" isEndedSynced="True" />
+    <Attempt id="1589" started="06/18/2019 22:17:27" isStartedSynced="True" ended="06/18/2019 22:38:31" isEndedSynced="True">
+      <RealTime>00:21:04.2360000</RealTime>
+    </Attempt>
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -2248,7 +2261,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:01:56.5710000</RealTime>
+        <RealTime>00:01:56.2980000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="69">
@@ -4207,6 +4220,24 @@
         <Time id="1582">
           <RealTime>00:02:00.0200000</RealTime>
         </Time>
+        <Time id="1583">
+          <RealTime>00:02:01.6630000</RealTime>
+        </Time>
+        <Time id="1584">
+          <RealTime>00:01:56.2980000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:02:01.9860000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:02:05.2980000</RealTime>
+        </Time>
+        <Time id="1588">
+          <RealTime>00:01:59.7850000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:02:06.3590000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -5619,6 +5650,21 @@
         <Time id="1582">
           <RealTime>00:03:11.7240000</RealTime>
         </Time>
+        <Time id="1584">
+          <RealTime>00:02:59.9030000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:03:16.7070000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:03:01.8990000</RealTime>
+        </Time>
+        <Time id="1588">
+          <RealTime>00:03:25.5110000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:02:58.1630000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -6866,6 +6912,18 @@
         <Time id="1582">
           <RealTime>00:03:11.1210000</RealTime>
         </Time>
+        <Time id="1584">
+          <RealTime>00:03:05.7740000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:03:08.0650000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:03:01.6700000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:02:58.5700000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -7891,6 +7949,18 @@
         <Time id="1582">
           <RealTime>00:03:39.5100000</RealTime>
         </Time>
+        <Time id="1584">
+          <RealTime>00:04:24.8480000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:04:17.6380000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:03:53.1570000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:04:00.4030000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -8739,6 +8809,15 @@
         <Time id="1582">
           <RealTime>00:04:02.2830000</RealTime>
         </Time>
+        <Time id="1585">
+          <RealTime>00:03:40.1560000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:04:09.5710000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:04:50.3550000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -9552,6 +9631,15 @@
         </Time>
         <Time id="1582">
           <RealTime>00:00:26.1380000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:00:24.1340000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:00:30.8640000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:00:38.3020000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -10379,6 +10467,15 @@
         </Time>
         <Time id="1582">
           <RealTime>00:03:17.9930000</RealTime>
+        </Time>
+        <Time id="1585">
+          <RealTime>00:03:36.8490000</RealTime>
+        </Time>
+        <Time id="1586">
+          <RealTime>00:04:47.9060000</RealTime>
+        </Time>
+        <Time id="1589">
+          <RealTime>00:03:32.0840000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
