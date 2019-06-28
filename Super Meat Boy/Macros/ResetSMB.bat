@@ -8,6 +8,7 @@ if "%id%"=="" (
 	xcopy "%~dp0fresh\%id%" "C:\Program Files (x86)\Steam\steamapps\common\Super Meat Boy\UserData" /v /y /z
 )
 
+start "C:\Program Files\AutoHotkey\AutoHotkey.exe" "D:\Programs\OBS\Scene Files\Super Meat Boy\Macros\SMB.ahk"
 start steam://rungameid/40800
 timeout 4
 wmic process where name="SuperMeatBoy.exe" CALL setpriority "realtime"
