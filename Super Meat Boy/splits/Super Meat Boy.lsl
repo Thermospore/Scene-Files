@@ -356,12 +356,12 @@
           <Setting id="iwSplit" type="bool">False</Setting>
           <Setting id="iwSplit_FirstLvl" type="bool">True</Setting>
           <Setting id="deSplit" type="bool">False</Setting>
-          <Setting id="bossSplit" type="bool">False</Setting>
+          <Setting id="bossSplit" type="bool">True</Setting>
           <Setting id="boss1Split" type="bool">False</Setting>
           <Setting id="boss2Split" type="bool">False</Setting>
           <Setting id="boss3Split" type="bool">False</Setting>
           <Setting id="boss4Split" type="bool">False</Setting>
-          <Setting id="boss5Split" type="bool">False</Setting>
+          <Setting id="boss5Split" type="bool">True</Setting>
           <Setting id="boss6Split" type="bool">False</Setting>
           <Setting id="deathDisp" type="bool">True</Setting>
           <Setting id="deathDisp_Pause" type="bool">True</Setting>
