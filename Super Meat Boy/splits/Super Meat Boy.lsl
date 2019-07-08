@@ -342,5 +342,32 @@
         <Display2Rows>False</Display2Rows>
       </Settings>
     </Component>
+    <Component>
+      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
+      <Settings>
+        <Version>1.5</Version>
+        <ScriptPath>D:\Documents\Github\Autosplitters\-7\LiveSplit.SuperMeatBoy.asl</ScriptPath>
+        <Start>True</Start>
+        <Reset>False</Reset>
+        <Split>True</Split>
+        <CustomSettings>
+          <Setting id="menuReset" type="bool">False</Setting>
+          <Setting id="ilSplit" type="bool">True</Setting>
+          <Setting id="iwSplit" type="bool">False</Setting>
+          <Setting id="iwSplit_FirstLvl" type="bool">True</Setting>
+          <Setting id="deSplit" type="bool">False</Setting>
+          <Setting id="bossSplit" type="bool">False</Setting>
+          <Setting id="boss1Split" type="bool">False</Setting>
+          <Setting id="boss2Split" type="bool">False</Setting>
+          <Setting id="boss3Split" type="bool">False</Setting>
+          <Setting id="boss4Split" type="bool">False</Setting>
+          <Setting id="boss5Split" type="bool">False</Setting>
+          <Setting id="boss6Split" type="bool">False</Setting>
+          <Setting id="deathDisp" type="bool">True</Setting>
+          <Setting id="deathDisp_Pause" type="bool">True</Setting>
+          <Setting id="ilDisp" type="bool">True</Setting>
+        </CustomSettings>
+      </Settings>
+    </Component>
   </Components>
 </Layout>
