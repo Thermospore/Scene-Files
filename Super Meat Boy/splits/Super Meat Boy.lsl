@@ -352,7 +352,7 @@
         <Split>True</Split>
         <CustomSettings>
           <Setting id="menuReset" type="bool">False</Setting>
-          <Setting id="ilSplit" type="bool">True</Setting>
+          <Setting id="ilSplit" type="bool">False</Setting>
           <Setting id="iwSplit" type="bool">False</Setting>
           <Setting id="iwSplit_FirstLvl" type="bool">True</Setting>
           <Setting id="deSplit" type="bool">False</Setting>
