@@ -346,7 +346,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>E:\Repos\Livesplit.SuperMeatBoy\LiveSplit.SuperMeatBoy.asl</ScriptPath>
+        <ScriptPath>D:\Documents\Github\Autosplitters\-7\LiveSplit.SuperMeatBoy.asl</ScriptPath>
         <Start>True</Start>
         <Reset>False</Reset>
         <Split>True</Split>
