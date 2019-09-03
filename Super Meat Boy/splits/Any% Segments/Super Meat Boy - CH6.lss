@@ -11,7 +11,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>10</AttemptCount>
+  <AttemptCount>11</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="05/30/2019 23:53:06" isStartedSynced="True" ended="05/30/2019 23:54:49" isEndedSynced="True" />
     <Attempt id="2" started="05/30/2019 23:55:00" isStartedSynced="True" ended="05/30/2019 23:58:05" isEndedSynced="True">
@@ -36,6 +36,7 @@
     <Attempt id="10" started="06/22/2019 08:09:22" isStartedSynced="True" ended="06/22/2019 08:13:35" isEndedSynced="True">
       <RealTime>00:04:12.8510000</RealTime>
     </Attempt>
+    <Attempt id="11" started="08/31/2019 22:57:55" isStartedSynced="True" ended="08/31/2019 23:02:59" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -77,6 +78,9 @@
         <Time id="10">
           <RealTime>00:00:15.0480000</RealTime>
         </Time>
+        <Time id="11">
+          <RealTime>00:00:16.0580000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -115,6 +119,9 @@
         <Time id="10">
           <RealTime>00:00:22.5670000</RealTime>
         </Time>
+        <Time id="11">
+          <RealTime>00:00:23.0970000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -126,7 +133,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:16.9910000</RealTime>
+        <RealTime>00:00:15.6620000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="2">
@@ -153,6 +160,9 @@
         <Time id="10">
           <RealTime>00:00:17.3730000</RealTime>
         </Time>
+        <Time id="11">
+          <RealTime>00:00:15.6620000</RealTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -164,7 +174,7 @@
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:17.3590000</RealTime>
+        <RealTime>00:00:17.3330000</RealTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="2">
@@ -190,6 +200,9 @@
         </Time>
         <Time id="10">
           <RealTime>00:00:27.4210000</RealTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:17.3330000</RealTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -308,6 +321,7 @@
       <Setting id="boss5Split" type="bool">True</Setting>
       <Setting id="boss6Split" type="bool">False</Setting>
       <Setting id="deathDisp" type="bool">True</Setting>
+      <Setting id="deathDisp_Pause" type="bool">True</Setting>
       <Setting id="ilDisp" type="bool">True</Setting>
     </CustomSettings>
   </AutoSplitterSettings>
