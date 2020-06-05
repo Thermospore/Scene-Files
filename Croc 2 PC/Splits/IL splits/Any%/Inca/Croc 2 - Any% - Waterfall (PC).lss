@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon><![CDATA[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]]></GameIcon>
+  <GameName>Croc 2</GameName>
+  <CategoryName>Any% - Waterfall</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">PC</Platform>
+    <Region>USA / NTSC</Region>
+    <Variables>
+      <Variable name="Build">PC</Variable>
+    </Variables>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>28</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="01/27/2020 00:11:07" isStartedSynced="True" ended="01/27/2020 00:11:11" isEndedSynced="True" />
+    <Attempt id="2" started="01/27/2020 00:11:14" isStartedSynced="True" ended="01/27/2020 00:11:30" isEndedSynced="True" />
+    <Attempt id="3" started="01/27/2020 00:11:35" isStartedSynced="True" ended="01/27/2020 00:11:59" isEndedSynced="True" />
+    <Attempt id="4" started="01/27/2020 00:12:10" isStartedSynced="True" ended="01/27/2020 00:13:11" isEndedSynced="True">
+      <RealTime>00:01:00.8190000</RealTime>
+      <GameTime>00:00:59.5930000</GameTime>
+    </Attempt>
+    <Attempt id="5" started="01/27/2020 00:13:25" isStartedSynced="True" ended="01/27/2020 00:13:28" isEndedSynced="True" />
+    <Attempt id="6" started="01/27/2020 00:13:30" isStartedSynced="True" ended="01/27/2020 00:13:47" isEndedSynced="True" />
+    <Attempt id="7" started="01/27/2020 00:13:52" isStartedSynced="True" ended="01/27/2020 00:13:54" isEndedSynced="True" />
+    <Attempt id="8" started="01/27/2020 00:13:58" isStartedSynced="True" ended="01/27/2020 00:14:13" isEndedSynced="True" />
+    <Attempt id="9" started="01/27/2020 00:14:15" isStartedSynced="True" ended="01/27/2020 00:15:15" isEndedSynced="True">
+      <RealTime>00:01:00.7800000</RealTime>
+      <GameTime>00:00:59.5700000</GameTime>
+    </Attempt>
+    <Attempt id="10" started="01/27/2020 00:15:24" isStartedSynced="True" ended="01/27/2020 00:16:01" isEndedSynced="True" />
+    <Attempt id="11" started="01/27/2020 00:16:03" isStartedSynced="True" ended="01/27/2020 00:17:00" isEndedSynced="True">
+      <RealTime>00:00:56.4470000</RealTime>
+      <GameTime>00:00:55.2160000</GameTime>
+    </Attempt>
+    <Attempt id="12" started="01/27/2020 00:17:06" isStartedSynced="True" ended="01/27/2020 00:17:28" isEndedSynced="True" />
+    <Attempt id="13" started="01/27/2020 00:17:34" isStartedSynced="True" ended="01/27/2020 00:18:26" isEndedSynced="True" />
+    <Attempt id="14" started="01/27/2020 00:18:28" isStartedSynced="True" ended="01/27/2020 00:18:34" isEndedSynced="True" />
+    <Attempt id="15" started="01/27/2020 00:18:36" isStartedSynced="True" ended="01/27/2020 00:19:04" isEndedSynced="True" />
+    <Attempt id="16" started="01/27/2020 00:19:06" isStartedSynced="True" ended="01/27/2020 00:19:30" isEndedSynced="True" />
+    <Attempt id="17" started="01/27/2020 00:19:38" isStartedSynced="True" ended="01/27/2020 00:20:32" isEndedSynced="True" />
+    <Attempt id="18" started="01/27/2020 00:21:06" isStartedSynced="True" ended="01/27/2020 00:21:08" isEndedSynced="True" />
+    <Attempt id="19" started="01/27/2020 00:21:10" isStartedSynced="True" ended="01/27/2020 00:21:30" isEndedSynced="True" />
+    <Attempt id="20" started="01/27/2020 00:21:36" isStartedSynced="True" ended="01/27/2020 00:22:32" isEndedSynced="True">
+      <RealTime>00:00:56.4540000</RealTime>
+      <GameTime>00:00:55.2120000</GameTime>
+    </Attempt>
+    <Attempt id="21" started="01/27/2020 00:22:45" isStartedSynced="True" ended="01/27/2020 00:23:42" isEndedSynced="True">
+      <RealTime>00:00:56.9190000</RealTime>
+      <GameTime>00:00:55.6950000</GameTime>
+    </Attempt>
+    <Attempt id="22" started="01/27/2020 00:23:50" isStartedSynced="True" ended="01/27/2020 00:24:10" isEndedSynced="True" />
+    <Attempt id="23" started="01/27/2020 00:24:17" isStartedSynced="True" ended="01/27/2020 00:24:39" isEndedSynced="True" />
+    <Attempt id="24" started="01/27/2020 00:24:41" isStartedSynced="True" ended="01/27/2020 00:24:49" isEndedSynced="True" />
+    <Attempt id="25" started="01/27/2020 00:24:53" isStartedSynced="True" ended="01/27/2020 00:24:57" isEndedSynced="True" />
+    <Attempt id="26" started="01/27/2020 00:24:59" isStartedSynced="True" ended="01/27/2020 00:25:03" isEndedSynced="True" />
+    <Attempt id="27" started="01/27/2020 00:25:05" isStartedSynced="True" ended="01/27/2020 00:25:59" isEndedSynced="True" />
+    <Attempt id="28" started="01/27/2020 00:26:03" isStartedSynced="True" ended="01/27/2020 00:26:25" isEndedSynced="True" />
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>
+      </Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:56.4540000</RealTime>
+          <GameTime>00:00:55.2120000</GameTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:56.4470000</RealTime>
+        <GameTime>00:00:55.2120000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="4">
+          <RealTime>00:01:00.8190000</RealTime>
+          <GameTime>00:00:59.5930000</GameTime>
+        </Time>
+        <Time id="9">
+          <RealTime>00:01:00.7800000</RealTime>
+          <GameTime>00:00:59.5700000</GameTime>
+        </Time>
+        <Time id="11">
+          <RealTime>00:00:56.4470000</RealTime>
+          <GameTime>00:00:55.2160000</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:56.4540000</RealTime>
+          <GameTime>00:00:55.2120000</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:56.9190000</RealTime>
+          <GameTime>00:00:55.6950000</GameTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>

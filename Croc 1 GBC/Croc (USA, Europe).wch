@@ -1,0 +1,15 @@
+SystemID GB
+00AA	b	u	0	WRAM	World Number
+00AD	b	h	0	WRAM	Crystals
+00AE	b	h	0	WRAM	Lives
+00AF	b	h	0	WRAM	Gobbos
+00BD	b	b	0	WRAM	Bonus
+00C1	b	u	0	WRAM	Keys
+00FA	b	u	0	WRAM	I-Frames
+00FE	b	u	0	WRAM	Puzzle Pieces
+0484	b	u	0	WRAM	Max Drill Speed Timer
+0D40	w	u	0	WRAM	X-Pos
+0D42	w	u	0	WRAM	Y-Pos
+0E1C	w	u	0	WRAM	Drill X-Pos
+0E1E	w	u	0	WRAM	Drill Y-Pos
+
