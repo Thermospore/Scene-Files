@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1075</X>
-  <Y>105</Y>
+  <X>1076</X>
+  <Y>185</Y>
   <VerticalWidth>320</VerticalWidth>
   <VerticalHeight>508</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -36,23 +36,17 @@
     <ImageOpacity>1</ImageOpacity>
     <ImageBlur>0</ImageBlur>
     <Opacity>1</Opacity>
+    <MousePassThroughWhileRunning>False</MousePassThroughWhileRunning>
   </Settings>
   <Components>
     <Component>
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>D:\Programs\OBS\Scene Files\Croc 2 PC\Splits\LiveSplit.Croc_2_IL.asl</ScriptPath>
+        <ScriptPath>D:\Programs\OBS\Scene Files\Croc 2 PC\Splits\LiveSplit.Croc_2_FullGame_ILStyle.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
-          <Setting id="StartAfterSaveSlotChosen" type="bool">False</Setting>
-          <Setting id="StartOnFirstLevel" type="bool">True</Setting>
-          <Setting id="StartOnHubCheat" type="bool">False</Setting>
-          <Setting id="SplitOnSMP" type="bool">False</Setting>
-          <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
-          <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
-          <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
         </CustomSettings>
@@ -72,8 +66,8 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>1076</WindowPos.X>
-        <WindowPos.Y>617</WindowPos.Y>
+        <WindowPos.X>1067</WindowPos.X>
+        <WindowPos.Y>43</WindowPos.Y>
         <WindowSize.Width>319</WindowSize.Width>
         <WindowSize.Height>122</WindowSize.Height>
       </Settings>
@@ -95,7 +89,7 @@
     <Component>
       <Path>LiveSplit.Title.dll</Path>
       <Settings>
-        <Version>1.7</Version>
+        <Version>1.7.3</Version>
         <ShowGameName>True</ShowGameName>
         <ShowCategoryName>True</ShowCategoryName>
         <ShowAttemptCount>True</ShowAttemptCount>
@@ -103,7 +97,6 @@
         <OverrideTitleFont>True</OverrideTitleFont>
         <OverrideTitleColor>False</OverrideTitleColor>
         <TitleFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhDb25zb2xhcwAAkEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TitleFont>
-        <CenterTitle>False</CenterTitle>
         <SingleLine>False</SingleLine>
         <TitleColor>FFFFFFFF</TitleColor>
         <BackgroundColor>00FF00D5</BackgroundColor>
@@ -113,6 +106,7 @@
         <ShowRegion>False</ShowRegion>
         <ShowPlatform>False</ShowPlatform>
         <ShowVariables>True</ShowVariables>
+        <TextAlignment>0</TextAlignment>
       </Settings>
     </Component>
     <Component>

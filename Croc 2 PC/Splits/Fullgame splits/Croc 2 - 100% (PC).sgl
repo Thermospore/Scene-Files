@@ -2,29 +2,51 @@
 <PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Splits>
     <Split>
-      <Name>-Boat</Name>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
       <Name>-Cage</Name>
-      <Note>[170 crystals]
-3 Blue
-1 Robo</Note>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>-Chests</Name>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Boat</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-Crow</Name>
-      <Note>1: RIGHT - 6
-2: DOWN - 5.5
-3: UP/LEFT -&gt; UP on 5
-4: DOWN - jump @4.5 let go @6
-5: LEFT - 6</Note>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>-Soveena</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -32,7 +54,7 @@
       <Note />
     </Split>
     <Split>
-      <Name>-Jigsaw</Name>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -40,27 +62,15 @@
       <Note />
     </Split>
     <Split>
-      <Name>-Icecube</Name>
-      <Note>[220 crystals]
-1 Blue
-1 Purple
-2 Robo</Note>
-    </Split>
-    <Split>
-      <Name>-Roger</Name>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
-      <Name>-Train</Name>
-      <Note>Enter: LEFT</Note>
-    </Split>
-    <Split>
-      <Name>-Flavio</Name>
-      <Note>Exit: Back
-Enter: Back</Note>
-    </Split>
-    <Split>
       <Name>-Snowman</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -68,30 +78,111 @@ Enter: Back</Note>
       <Note />
     </Split>
     <Split>
-      <Name>-Larry</Name>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
-      <Name>{Cossack}Jigsaw</Name>
+      <Name>-Jigsaw1</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Roger</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Train</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Flavio</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Icecube</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>{Cossack}Larry</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
       <Name>-Mine</Name>
-      <Note>[390 crystals]
-2 Blue
-1 Green
-5 Robo</Note>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>-Jungle</Name>
-      <Note>Exit: LEFT</Note>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>-Kart</Name>
       <Note />
     </Split>
     <Split>
-      <Name>-Fire</Name>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw2</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw3</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Flytrap</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -99,26 +190,36 @@ Enter: Back</Note>
       <Note />
     </Split>
     <Split>
-      <Name>-Jigsaw</Name>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
-      <Name>-Flytrap</Name>
-      <Note>Enter: neutral?
-CSB: UP/LEFT</Note>
+      <Name>-Fire</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>{Caveman}Masher</Name>
-      <Note>Enter: UP
-CSB: UP/RIGHT</Note>
+      <Note />
     </Split>
     <Split>
-      <Name>-Machine</Name>
-      <Note>Masher Exit: DOWN
-Masher Enter: RIGHT
-Masher Exit: DOWN
-
-Mach. Enter: UP/RIGHTISH</Note>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
     </Split>
     <Split>
       <Name>-Babies A</Name>
@@ -141,7 +242,23 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
-      <Name>-Jigsaw</Name>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jigsaw4</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Machine</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -161,7 +278,19 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ǝƃɐƆ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -169,11 +298,23 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ɟǝᴉɥ┴</Name>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ʍɐsƃᴉſ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -185,7 +326,19 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>{ʞɔɐssoƆ}ƃƃƎ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -193,7 +346,15 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ǝuᴉW</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
@@ -201,11 +362,23 @@ Mach. Enter: UP/RIGHTISH</Note>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ʇǝԀ</Name>
       <Note />
     </Split>
     <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
       <Name>-ǝɹᴉℲ</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
       <Note />
     </Split>
     <Split>
