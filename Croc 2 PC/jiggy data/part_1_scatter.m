@@ -27,6 +27,11 @@ clear all
 %   gave differing results. I guess it would be fine if you warped
 %   to the top first, and then set the values from there.
 %
+%   when setting values, don't have croc turn more than 90 degrees
+%   from his previous position, as this seems to change results?
+%   probably wait standing back a tad looking into the corner
+%   (45 deg) when you poke the memory values
+%
 %   DOUBLE CHECK the values didn't shift after you reset them
 
 load part_1_results.mat
