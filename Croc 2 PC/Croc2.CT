@@ -74,14 +74,14 @@
     <CheatEntry>
       <ID>14</ID>
       <Description>"main state"</Description>
-      <LastState Value="11" RealAddress="004B7930"/>
+      <LastState Value="1" RealAddress="004B7930"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7930</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>17</ID>
       <Description>"cheat code?"</Description>
-      <LastState Value="1" RealAddress="004B7964"/>
+      <LastState Value="0" RealAddress="004B7964"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7964</Address>
     </CheatEntry>
@@ -124,21 +124,21 @@
     <CheatEntry>
       <ID>30</ID>
       <Description>"Health - Save Slot 0"</Description>
-      <LastState Value="4" RealAddress="006042D0"/>
+      <LastState Value="2" RealAddress="006042D0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2042D0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"crystals"</Description>
-      <LastState Value="210" RealAddress="006042D4"/>
+      <LastState Value="37" RealAddress="006042D4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2042D4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>23</ID>
       <Description>"Sailor 1 completion"</Description>
-      <LastState Value="1" RealAddress="006043C0"/>
+      <LastState Value="257" RealAddress="006043C0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2043C0</Address>
     </CheatEntry>
@@ -192,7 +192,7 @@
     <CheatEntry>
       <ID>2</ID>
       <Description>"X"</Description>
-      <LastState Value="76531" RealAddress="006258DC"/>
+      <LastState Value="80812" RealAddress="006258DC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -216,7 +216,7 @@
     <CheatEntry>
       <ID>4</ID>
       <Description>"Z"</Description>
-      <LastState Value="45935" RealAddress="006258E4"/>
+      <LastState Value="47315" RealAddress="006258E4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -228,8 +228,7 @@
     <CheatEntry>
       <ID>32</ID>
       <Description>"Angle?"</Description>
-      <LastState Value="C010" RealAddress="006258D5"/>
-      <ShowAsHex>1</ShowAsHex>
+      <LastState Value="50880" RealAddress="006258D5"/>
       <VariableType>2 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
