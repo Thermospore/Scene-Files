@@ -1,0 +1,19 @@
+movement type 2 (camera independent movement and much increased consistency)
+
+hang on the ledge where we jump from (snaps angle to cardinal direction!)
+
+run against/past stonehenge rock and get shoved to the left (should end up in front / a tad to the right of the fire). This seems to be the most inconsistent part of the setup
+
+do the 180 flip (same button as camera snap on type 1)
+
+right step 1x (should be at about X = 79950)
+
+run forward to a specific part of the texture (doesn't need to be very precise!)
+
+don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point.
+
+tap right a certain number of times on kb (very brief taps. your angle changes by a consistent amount each tap!)
+
+once you are sure you are inside, switch back to type 1 before proceeding to shove into the corner like normal. type 2 doesn't seem to shove him into the corner the same way
+
+NOTE: tapping forward on the kb always steps you forward by the same amount as well. maybe this could be useful.

@@ -34,7 +34,7 @@ clear all
 %
 %   DOUBLE CHECK the values didn't shift after you reset them
 
-load part_1_results.mat
+load part_1_results_t2.mat
 x = Results(:,1);
 z = Results(:,2);
 angle = Results(:,3);
