@@ -12,7 +12,7 @@ run forwards and get to Z = about 48625 to 48590 (I line up the back of croc's f
 
 tap right a 3 times on kb to set your angle (very brief and discrete taps. your angle changes by a consistent amount each tap!)
 
-do the standard jump into the wall
+start a stomp jump. before he stomps, start holding both sidesteps as well as keyboard up and right. keep holding all of that, including jump
 
 once croc does a front flip inside the wall let go of everything but kb forward
 
@@ -22,4 +22,11 @@ switch back to type 1
 
 do a single right tap on kb to adjust your angle
 
-proceed with the 5 sidesteps etc and you should fall directly into the loading zone
+do 5 sidesteps to the left
+
+nudge the ANALOG STICK to the left and you should fall right into the loading zone
+
+--------------------------------------------------------------------
+if the setup didn't work for you, post the clip (with input display, ideally) in the discord so I can see what the problem is! If you are within range it shouldn't fail
+
+credits to paulmall for finding the clip! also to him and cheftoad for their contributions to the setup
