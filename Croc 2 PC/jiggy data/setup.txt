@@ -6,17 +6,17 @@ run against/past stonehenge rock and get shoved to the left
 
 do the 180 flip (same button as camera snap on type 1. make sure you stop and wait for croc's slide to cease a bit before flipping. this is a very subtle slide, he almost appears to not be moving)
 
-right step 1x (should be at about X = 79945 bit as high as 79970 or low as 79920 will be fine)
+right step 1x (should be at about X = 79945, but as high as 79970 or low as 79920 will be fine)
 
-run forwards and get to Z = about 48625 to 48590 (I line up the back of croc's foot within a certain pixel of the texture don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point)
+run forwards and get to Z = about 48625 to 48590 (I line up the back of croc's foot within a certain pixel of the ground texture. don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point)
 
 tap right a 3 times on kb to set your angle (very brief and discrete taps. your angle changes by a consistent amount each tap!)
 
 do the standard jump into the wall
 
-once croc does a frontflip inside the wall let go of everything but kb forward
+once croc does a front flip inside the wall let go of everything but kb forward
 
-once croc is settled in, let go of kb forward (You should always end up at the same angle, and there won't be much variation in X/Z due to the setup)
+once croc is settled in, let go of kb forward (you should always end up at the same angle, and there won't be much variation in X/Z due to the setup)
 
 switch back to type 1
 
