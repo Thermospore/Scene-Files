@@ -2,18 +2,24 @@ movement type 2 (camera independent movement and much increased consistency)
 
 hang on the ledge where we jump from (snaps angle to cardinal direction!)
 
-run against/past stonehenge rock and get shoved to the left (should end up in front / a tad to the right of the fire). This seems to be the most inconsistent part of the setup
+run against/past stonehenge rock and get shoved to the left
 
-do the 180 flip (same button as camera snap on type 1)
+do the 180 flip (same button as camera snap on type 1. make sure you stop and wait for croc's slide to cease a bit before flipping. this is a very subtle slide, he almost appears to not be moving)
 
-right step 1x (should be at about X = 79950)
+right step 1x (should be at about X = 79945 bit as high as 79970 or low as 79920 will be fine)
 
-run forward to a specific part of the texture (doesn't need to be very precise!)
+run forwards and get to Z = about 48625 to 48590 (I line up the back of croc's foot within a certain pixel of the texture don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point)
 
-don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point.
+tap right a 3 times on kb to set your angle (very brief and discrete taps. your angle changes by a consistent amount each tap!)
 
-tap right a certain number of times on kb (very brief taps. your angle changes by a consistent amount each tap!)
+do the standard jump into the wall
 
-once you are sure you are inside, switch back to type 1 before proceeding to shove into the corner like normal. type 2 doesn't seem to shove him into the corner the same way
+once croc does a frontflip inside the wall let go of everything but kb forward
 
-NOTE: tapping forward on the kb always steps you forward by the same amount as well. maybe this could be useful.
+once croc is settled in, let go of kb forward (You should always end up at the same angle, and there won't be much variation in X/Z due to the setup)
+
+switch back to type 1
+
+do a single right tap on kb to adjust your angle
+
+proceed with the 5 sidesteps etc and you should fall directly into the loading zone
