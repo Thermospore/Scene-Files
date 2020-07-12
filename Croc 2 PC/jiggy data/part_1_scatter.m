@@ -8,7 +8,7 @@ clear all
 %     0 = null
 %     1 = succeed
 %     2 = succeed, but not ideal
-% data recording notes:
+% data recording notes (FOR T1 ONLY):
 %   face croc left then snap the camera
 %   (such that the camera rotates around croc counter-clockwise)
 %   so it is always in the same edge of the deadzone.
@@ -45,7 +45,7 @@ f = success == 1;
 plot3(x(f),z(f),angle(f),'g.');
 hold on
 grid on
-axis square
+axis equal
 xlabel('X (campfire here)');
 ylabel('Z (pet door here)');
 zlabel('<- pet door  [ Angle ]  jiggy door ->');
@@ -53,11 +53,9 @@ zlabel('<- pet door  [ Angle ]  jiggy door ->');
 set(gca,'Xdir','reverse')
 %flip angle axis. My brain just likes it this way better
 set(gca,'Zdir','reverse')
-%sets axis to hexadecimal
-%set(gca, 'ZTickLabel', cellstr(num2str(reshape(get(gca, 'ZTick'),[],1),'%02x')) )
 
 f = success == 2;
-plot3(x(f),z(f),angle(f),'y.');
+plot3(x(f),z(f),angle(f),'b.');
 
 f = success == -1;
 plot3(x(f),z(f),angle(f),'r.');
