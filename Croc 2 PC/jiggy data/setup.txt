@@ -8,7 +8,7 @@ do the 180 flip (same button as camera snap on type 1. make sure you stop and wa
 
 right step 1x (should be at about X = 79945, but as high as 79970 or low as 79920 will be fine)
 
-run forwards and get to Z = about 48625 to 48590 (I line up the back of croc's foot within a certain pixel of the ground texture. don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point)
+run forwards and get to Z = 48625 to 48587 ( https://raw.githubusercontent.com/Thermospore/Scene-Files/master/Croc%202%20PC/jiggy%20data/myLineup.png Personally I line up the back of croc's foot within this part of the ground texture. don't move backwards on the ground, because that changes croc's angle! you can move backwards in the air if you need to though. your angle should still be exactly 0 at this point)
 
 tap right a 3 times on kb to set your angle (very brief and discrete taps. your angle changes by a consistent amount each tap!)
 
