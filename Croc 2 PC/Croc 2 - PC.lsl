@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1066</X>
-  <Y>432</Y>
+  <X>1063</X>
+  <Y>567</Y>
   <VerticalWidth>320</VerticalWidth>
   <VerticalHeight>508</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -66,8 +66,8 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>1574</WindowPos.X>
-        <WindowPos.Y>36</WindowPos.Y>
+        <WindowPos.X>1576</WindowPos.X>
+        <WindowPos.Y>215</WindowPos.Y>
         <WindowSize.Width>319</WindowSize.Width>
         <WindowSize.Height>122</WindowSize.Height>
       </Settings>
