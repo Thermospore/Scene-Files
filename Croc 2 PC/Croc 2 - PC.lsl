@@ -49,6 +49,7 @@
         <CustomSettings>
           <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
+          <Setting id="StartOnHubCheat" type="bool">True</Setting>
         </CustomSettings>
       </Settings>
     </Component>

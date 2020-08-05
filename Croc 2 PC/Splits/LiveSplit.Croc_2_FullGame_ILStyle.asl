@@ -36,6 +36,8 @@ startup
 		"Split on 7, 15, 21, and 26 babies");
 	settings.Add("RequireUnusedBossWarps", true,
 		"Do not start if any boss warp has already been used");
+	settings.Add("StartOnHubCheat", false,
+		"IW start");
 
 	// Returns true iff the current map ID changed
 	vars.HasMapIDChanged = new Func<dynamic, dynamic, bool>((state1, state2) =>
@@ -101,7 +103,7 @@ start
 
 	// Start when main state is in transition from
 	// "level select" or "save slot selection" to "running"
-	if (true && (
+	if (!settings["StartOnHubCheat"] && (
 		current.MainState == MainState_ChooseSaveSlot ||
 		current.MainState == MainState_LevelSelect) &&
 		current.IsNewMainStateValid != 0 &&
@@ -132,7 +134,7 @@ start
 		return true;
 	}
 
-	if (false &&
+	if (settings["StartOnHubCheat"] &&
 		// Cheat menu is open while loading a new map
 		current.IsCheatMenuOpen != 0 && current.InGameState == 7)
 	{
