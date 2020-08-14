@@ -1,0 +1,7 @@
+{$lua}
+if syntaxcheck then return end
+local addrPlrPos = readInteger(readInteger(0x4B78BC) + 0x28) + 0x2C
+savedPlayerPos = readBytes(addrPlrPos, 0xC, true)
+
+[ENABLE]
+[DISABLE]
