@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1303</X>
-  <Y>213</Y>
-  <VerticalWidth>480</VerticalWidth>
-  <VerticalHeight>609</VerticalHeight>
+  <X>1252</X>
+  <Y>67</Y>
+  <VerticalWidth>320</VerticalWidth>
+  <VerticalHeight>406</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -36,7 +36,6 @@
     <ImageOpacity>1</ImageOpacity>
     <ImageBlur>0</ImageBlur>
     <Opacity>1</Opacity>
-    <MousePassThroughWhileRunning>False</MousePassThroughWhileRunning>
   </Settings>
   <Components>
     <Component>
@@ -76,7 +75,7 @@
     <Component>
       <Path>LiveSplit.Title.dll</Path>
       <Settings>
-        <Version>1.7.3</Version>
+        <Version>1.7</Version>
         <ShowGameName>True</ShowGameName>
         <ShowCategoryName>True</ShowCategoryName>
         <ShowAttemptCount>True</ShowAttemptCount>
@@ -84,6 +83,7 @@
         <OverrideTitleFont>True</OverrideTitleFont>
         <OverrideTitleColor>False</OverrideTitleColor>
         <TitleFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhDb25zb2xhcwAAkEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=]]></TitleFont>
+        <CenterTitle>False</CenterTitle>
         <SingleLine>False</SingleLine>
         <TitleColor>FFFFFFFF</TitleColor>
         <BackgroundColor>00FF00D5</BackgroundColor>
@@ -93,7 +93,6 @@
         <ShowRegion>False</ShowRegion>
         <ShowPlatform>False</ShowPlatform>
         <ShowVariables>True</ShowVariables>
-        <TextAlignment>0</TextAlignment>
       </Settings>
     </Component>
     <Component>

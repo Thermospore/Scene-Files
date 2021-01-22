@@ -38,6 +38,8 @@ startup
 		"Do not start if any boss warp has already been used");
 	settings.Add("StartOnHubCheat", false,
 		"IW start");
+	settings.Add("SplitOnShop", false,
+		"split on map change even for shop (for inter level times sheet)");
 
 	// Returns true iff the current map ID changed
 	vars.HasMapIDChanged = new Func<dynamic, dynamic, bool>((state1, state2) =>
@@ -267,7 +269,8 @@ split
 
 	// Split on map change (except when changing from or to shop map)
 	if (true && vars.HasMapIDChanged(old, current) &&
-		!vars.IsShopMap(old) && !vars.IsShopMap(current))
+		(settings["SplitOnShop"] || (!vars.IsShopMap(old) && !vars.IsShopMap(current)))
+		)
 	{
 		// Remove inner boss splits from soveena, flytrap, and masher
 		if (

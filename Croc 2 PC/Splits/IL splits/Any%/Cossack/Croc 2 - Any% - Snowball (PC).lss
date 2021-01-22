@@ -12,7 +12,7 @@
     </Variables>
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>56</AttemptCount>
+  <AttemptCount>89</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="12/04/2018 01:12:04" isStartedSynced="True" ended="12/04/2018 01:13:07" isEndedSynced="True">
       <RealTime>00:01:02.2490000</RealTime>
@@ -78,6 +78,39 @@
       <RealTime>00:00:59.9500000</RealTime>
       <GameTime>00:00:59.2040000</GameTime>
     </Attempt>
+    <Attempt id="56" started="01/01/2021 07:34:17" isStartedSynced="True" ended="01/01/2021 07:34:46" isEndedSynced="True" />
+    <Attempt id="57" started="01/01/2021 07:34:49" isStartedSynced="True" ended="01/01/2021 07:35:22" isEndedSynced="True" />
+    <Attempt id="58" started="01/01/2021 07:35:24" isStartedSynced="True" ended="01/01/2021 07:35:48" isEndedSynced="True" />
+    <Attempt id="59" started="01/01/2021 07:35:52" isStartedSynced="True" ended="01/01/2021 07:36:15" isEndedSynced="True" />
+    <Attempt id="60" started="01/01/2021 07:37:10" isStartedSynced="True" ended="01/01/2021 07:37:31" isEndedSynced="True" />
+    <Attempt id="61" started="01/01/2021 07:37:33" isStartedSynced="True" ended="01/01/2021 07:38:00" isEndedSynced="True" />
+    <Attempt id="62" started="01/01/2021 07:38:30" isStartedSynced="True" ended="01/01/2021 07:38:57" isEndedSynced="True" />
+    <Attempt id="63" started="01/01/2021 07:38:59" isStartedSynced="True" ended="01/01/2021 07:39:21" isEndedSynced="True" />
+    <Attempt id="64" started="01/01/2021 07:39:51" isStartedSynced="True" ended="01/01/2021 07:40:17" isEndedSynced="True" />
+    <Attempt id="65" started="01/01/2021 07:40:23" isStartedSynced="True" ended="01/01/2021 07:40:40" isEndedSynced="True" />
+    <Attempt id="66" started="01/01/2021 07:40:42" isStartedSynced="True" ended="01/01/2021 07:41:07" isEndedSynced="True" />
+    <Attempt id="67" started="01/01/2021 07:41:09" isStartedSynced="True" ended="01/01/2021 07:41:34" isEndedSynced="True" />
+    <Attempt id="68" started="01/01/2021 07:41:36" isStartedSynced="True" ended="01/01/2021 07:42:01" isEndedSynced="True" />
+    <Attempt id="69" started="01/01/2021 07:42:03" isStartedSynced="True" ended="01/01/2021 07:43:08" isEndedSynced="True">
+      <RealTime>00:01:04.7410000</RealTime>
+      <GameTime>00:01:04</GameTime>
+    </Attempt>
+    <Attempt id="70" started="01/01/2021 07:43:11" isStartedSynced="True" ended="01/01/2021 07:44:05" isEndedSynced="True" />
+    <Attempt id="71" started="01/01/2021 07:44:06" isStartedSynced="True" ended="01/01/2021 07:44:28" isEndedSynced="True" />
+    <Attempt id="72" started="01/01/2021 07:44:30" isStartedSynced="True" ended="01/01/2021 07:44:55" isEndedSynced="True" />
+    <Attempt id="73" started="01/01/2021 07:44:57" isStartedSynced="True" ended="01/01/2021 07:45:21" isEndedSynced="True" />
+    <Attempt id="74" started="01/01/2021 07:45:23" isStartedSynced="True" ended="01/01/2021 07:45:59" isEndedSynced="True" />
+    <Attempt id="75" started="01/01/2021 07:46:01" isStartedSynced="True" ended="01/01/2021 07:46:23" isEndedSynced="True" />
+    <Attempt id="76" started="01/01/2021 07:46:26" isStartedSynced="True" ended="01/01/2021 07:46:53" isEndedSynced="True" />
+    <Attempt id="77" started="01/01/2021 07:46:55" isStartedSynced="True" ended="01/01/2021 07:47:02" isEndedSynced="True" />
+    <Attempt id="78" started="01/01/2021 07:47:04" isStartedSynced="True" ended="01/01/2021 07:47:29" isEndedSynced="True" />
+    <Attempt id="79" started="01/01/2021 07:47:31" isStartedSynced="True" ended="01/01/2021 07:47:56" isEndedSynced="True" />
+    <Attempt id="80" started="01/01/2021 07:47:58" isStartedSynced="True" ended="01/01/2021 07:48:23" isEndedSynced="True" />
+    <Attempt id="81" started="01/01/2021 07:48:25" isStartedSynced="True" ended="01/01/2021 07:48:51" isEndedSynced="True" />
+    <Attempt id="82" started="01/01/2021 07:48:53" isStartedSynced="True" ended="01/01/2021 07:49:51" isEndedSynced="True">
+      <RealTime>00:00:58.5450000</RealTime>
+      <GameTime>00:00:57.8080000</GameTime>
+    </Attempt>
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -86,16 +119,16 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
-          <RealTime>00:00:59.9500000</RealTime>
-          <GameTime>00:00:59.2040000</GameTime>
+          <RealTime>00:00:58.5450000</RealTime>
+          <GameTime>00:00:57.8080000</GameTime>
         </SplitTime>
         <SplitTime name="World record">
-          <GameTime>00:00:59.5400000</GameTime>
+          <GameTime>00:00:58.0200000</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:59.9500000</RealTime>
-        <GameTime>00:00:59.2040000</GameTime>
+        <RealTime>00:00:58.5450000</RealTime>
+        <GameTime>00:00:57.8080000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
@@ -110,8 +143,32 @@
           <RealTime>00:00:59.9500000</RealTime>
           <GameTime>00:00:59.2040000</GameTime>
         </Time>
+        <Time id="69">
+          <RealTime>00:01:04.7410000</RealTime>
+          <GameTime>00:01:04</GameTime>
+        </Time>
+        <Time id="82">
+          <RealTime>00:00:58.5450000</RealTime>
+          <GameTime>00:00:57.8080000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
   </Segments>
-  <AutoSplitterSettings />
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>N:\Programs\LiveSplit\Components\LiveSplit.Croc_2.asl</ScriptPath>
+    <Start>True</Start>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="StartAfterSaveSlotChosen" type="bool">False</Setting>
+      <Setting id="StartOnFirstLevel" type="bool">True</Setting>
+      <Setting id="StartOnHubCheat" type="bool">False</Setting>
+      <Setting id="SplitOnSMP" type="bool">False</Setting>
+      <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
+      <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
+      <Setting id="SplitOnMapChange" type="bool">True</Setting>
+      <Setting id="SplitOnBabies" type="bool">True</Setting>
+      <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
 </Run>
