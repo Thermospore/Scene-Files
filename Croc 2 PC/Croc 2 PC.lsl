@@ -2,7 +2,7 @@
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
   <X>1296</X>
-  <Y>232</Y>
+  <Y>164</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -43,14 +43,20 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>N:\Programs\OBS\Scene Files\Croc 2 PC\Splits\LiveSplit.Croc_2_FullGame_ILStyle.asl</ScriptPath>
+        <ScriptPath>N:\Repos\Autosplitters\hdc0\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
-          <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
+          <Setting id="StartAfterSaveSlotChosen" type="bool">True</Setting>
+          <Setting id="StartOnFirstLevel" type="bool">False</Setting>
           <Setting id="StartOnHubCheat" type="bool">False</Setting>
-          <Setting id="SplitOnShop" type="bool">False</Setting>
+          <Setting id="SplitOnMapChange" type="bool">True</Setting>
+          <Setting id="SplitOnSMP" type="bool">False</Setting>
+          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+          <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
+          <Setting id="SplitOnBabies" type="bool">True</Setting>
+          <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
     </Component>
@@ -68,8 +74,8 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>1297</WindowPos.X>
-        <WindowPos.Y>107</WindowPos.Y>
+        <WindowPos.X>1296</WindowPos.X>
+        <WindowPos.Y>29</WindowPos.Y>
         <WindowSize.Width>319</WindowSize.Width>
         <WindowSize.Height>122</WindowSize.Height>
       </Settings>
