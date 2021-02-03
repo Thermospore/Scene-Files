@@ -48,15 +48,20 @@
         <Split>True</Split>
         <CustomSettings>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="StartAfterSaveSlotChosen" type="bool">True</Setting>
-          <Setting id="StartOnFirstLevel" type="bool">False</Setting>
-          <Setting id="StartOnHubCheat" type="bool">False</Setting>
-          <Setting id="SplitOnMapChange" type="bool">True</Setting>
-          <Setting id="SplitOnSMP" type="bool">False</Setting>
-          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+          <Setting id="SaveSlotStart" type="bool">False</Setting>
+          <Setting id="ILstart" type="bool">False</Setting>
+          <Setting id="IWstart" type="bool">False</Setting>
+          <Setting id="SplitOnMapChange" type="bool">False</Setting>
+          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
+          <Setting id="SplitOnObjectiveCompletion" type="bool">True</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
-          <Setting id="SplitOnBabies" type="bool">True</Setting>
-          <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
+          <Setting id="SplitOnBabies" type="bool">False</Setting>
+          <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
+          <Setting id="DebugOutput" type="bool">True</Setting>
+          <Setting id="DO_MapChanges" type="bool">True</Setting>
+          <Setting id="DO_MainState" type="bool">True</Setting>
+          <Setting id="DO_InGameState" type="bool">True</Setting>
+          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
         </CustomSettings>
       </Settings>
     </Component>
