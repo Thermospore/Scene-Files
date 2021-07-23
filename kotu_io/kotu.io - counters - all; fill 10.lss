@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Run version="1.7.0">
+  <GameIcon />
+  <GameName>kotu.io</GameName>
+  <CategoryName>counters - all; fill 10</CategoryName>
+  <Metadata>
+    <Run id="" />
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables />
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>5</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="05/30/2021 22:05:17" isStartedSynced="True" ended="05/30/2021 22:22:30" isEndedSynced="True">
+      <RealTime>00:16:11.2250000</RealTime>
+      <PauseTime>00:01:01.4330000</PauseTime>
+    </Attempt>
+    <Attempt id="2" started="05/30/2021 22:29:37" isStartedSynced="True" ended="05/30/2021 22:36:08" isEndedSynced="True">
+      <RealTime>00:06:30.3840000</RealTime>
+    </Attempt>
+    <Attempt id="3" started="05/30/2021 22:38:05" isStartedSynced="True" ended="05/30/2021 22:38:19" isEndedSynced="True" />
+    <Attempt id="4" started="05/30/2021 22:49:02" isStartedSynced="True" ended="05/30/2021 22:49:03" isEndedSynced="True" />
+    <Attempt id="5" started="05/30/2021 22:49:05" isStartedSynced="True" ended="05/30/2021 22:59:38" isEndedSynced="True">
+      <RealTime>00:10:33.1060000</RealTime>
+    </Attempt>
+  </AttemptHistory>
+  <Segments>
+    <Segment>
+      <Name>
+      </Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime>00:06:30.3840000</RealTime>
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:30.3840000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:16:11.2250000</RealTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:10:33.1060000</RealTime>
+        </Time>
+        <Time id="2">
+          <RealTime>00:06:30.3840000</RealTime>
+        </Time>
+      </SegmentHistory>
+    </Segment>
+  </Segments>
+  <AutoSplitterSettings />
+</Run>
