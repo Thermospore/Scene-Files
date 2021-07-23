@@ -12,7 +12,7 @@
     </Variables>
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>44</AttemptCount>
+  <AttemptCount>49</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="01/07/2021 05:55:20" isStartedSynced="True" ended="01/07/2021 07:05:20" isEndedSynced="True">
       <RealTime>01:09:59.3470000</RealTime>
@@ -72,6 +72,18 @@
     <Attempt id="44" started="01/27/2021 07:34:19" isStartedSynced="True" ended="01/27/2021 08:36:08" isEndedSynced="True">
       <RealTime>01:01:48.8780000</RealTime>
       <GameTime>01:00:35.7050000</GameTime>
+    </Attempt>
+    <Attempt id="45" started="07/21/2021 17:22:16" isStartedSynced="False" ended="07/21/2021 17:26:06" isEndedSynced="False" />
+    <Attempt id="46" started="07/21/2021 17:26:25" isStartedSynced="False" ended="07/21/2021 18:40:30" isEndedSynced="False">
+      <RealTime>01:13:48.1480000</RealTime>
+      <GameTime>01:12:20.4010000</GameTime>
+      <PauseTime>00:00:16.9550000</PauseTime>
+    </Attempt>
+    <Attempt id="47" started="07/22/2021 17:02:57" isStartedSynced="False" ended="07/22/2021 17:03:35" isEndedSynced="False" />
+    <Attempt id="48" started="07/22/2021 17:03:39" isStartedSynced="False" ended="07/22/2021 17:04:25" isEndedSynced="False" />
+    <Attempt id="49" started="07/22/2021 17:04:31" isStartedSynced="False" ended="07/22/2021 18:08:57" isEndedSynced="True">
+      <RealTime>01:04:24.5060000</RealTime>
+      <GameTime>01:03:10.3580000</GameTime>
     </Attempt>
   </AttemptHistory>
   <Segments>
@@ -258,6 +270,26 @@
           <RealTime>00:00:02.1960000</RealTime>
           <GameTime>00:00:01.4120000</GameTime>
         </Time>
+        <Time id="45">
+          <RealTime>00:00:03.0800000</RealTime>
+          <GameTime>00:00:01.4460000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:02.1970000</RealTime>
+          <GameTime>00:00:01.3760000</GameTime>
+        </Time>
+        <Time id="47">
+          <RealTime>00:00:03.0740000</RealTime>
+          <GameTime>00:00:01.3810000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:02.2010000</RealTime>
+          <GameTime>00:00:01.3920000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:02.2090000</RealTime>
+          <GameTime>00:00:01.3810000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -419,6 +451,26 @@
           <RealTime>00:00:12.9940000</RealTime>
           <GameTime>00:00:12.2360000</GameTime>
         </Time>
+        <Time id="45">
+          <RealTime>00:00:13.1320000</RealTime>
+          <GameTime>00:00:12.3660000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:13.3650000</RealTime>
+          <GameTime>00:00:12.5970000</GameTime>
+        </Time>
+        <Time id="47">
+          <RealTime>00:00:13.1950000</RealTime>
+          <GameTime>00:00:12.3940000</GameTime>
+        </Time>
+        <Time id="48">
+          <RealTime>00:00:13.0090000</RealTime>
+          <GameTime>00:00:12.2350000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:13.1190000</RealTime>
+          <GameTime>00:00:12.3380000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -515,6 +567,18 @@
         <Time id="44">
           <RealTime>00:00:29.5110000</RealTime>
           <GameTime>00:00:28.0880000</GameTime>
+        </Time>
+        <Time id="45">
+          <RealTime>00:00:29.1480000</RealTime>
+          <GameTime>00:00:27.7190000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:28.2450000</RealTime>
+          <GameTime>00:00:26.8160000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:35.3290000</RealTime>
+          <GameTime>00:00:33.8790000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -613,6 +677,18 @@
           <RealTime>00:00:13.2420000</RealTime>
           <GameTime>00:00:12.4950000</GameTime>
         </Time>
+        <Time id="45">
+          <RealTime>00:00:13.3550000</RealTime>
+          <GameTime>00:00:12.6030000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:13.1680000</RealTime>
+          <GameTime>00:00:12.4370000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:13.6640000</RealTime>
+          <GameTime>00:00:12.9130000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -693,6 +769,14 @@
         <Time id="44">
           <RealTime>00:02:43.1730000</RealTime>
           <GameTime>00:02:42.9920000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:02:44.3820000</RealTime>
+          <GameTime>00:02:44.2050000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:48.0860000</RealTime>
+          <GameTime>00:02:47.9150000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -775,6 +859,14 @@
           <RealTime>00:00:09.6790000</RealTime>
           <GameTime>00:00:08.9470000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:09.8560000</RealTime>
+          <GameTime>00:00:09.1020000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:09.6220000</RealTime>
+          <GameTime>00:00:08.8870000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -855,6 +947,14 @@
         <Time id="44">
           <RealTime>00:02:09.0770000</RealTime>
           <GameTime>00:02:08.2060000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:02:09.2780000</RealTime>
+          <GameTime>00:02:08.4310000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:09.3970000</RealTime>
+          <GameTime>00:02:08.5420000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -937,6 +1037,14 @@
           <RealTime>00:00:08.0030000</RealTime>
           <GameTime>00:00:07.2330000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:08.1840000</RealTime>
+          <GameTime>00:00:07.4030000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:08.1510000</RealTime>
+          <GameTime>00:00:07.3710000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1005,6 +1113,14 @@
         <Time id="44">
           <RealTime>00:01:05.0140000</RealTime>
           <GameTime>00:01:03.6500000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:02:21.2850000</RealTime>
+          <GameTime>00:02:17.7540000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:08.9960000</RealTime>
+          <GameTime>00:01:07.6400000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1075,6 +1191,14 @@
           <RealTime>00:00:04.4250000</RealTime>
           <GameTime>00:00:03.6610000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:04.5150000</RealTime>
+          <GameTime>00:00:03.7610000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:04.4250000</RealTime>
+          <GameTime>00:00:03.6520000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1144,6 +1268,14 @@
           <RealTime>00:01:39.8780000</RealTime>
           <GameTime>00:01:38.2040000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:40.2040000</RealTime>
+          <GameTime>00:01:38.5220000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:51.0250000</RealTime>
+          <GameTime>00:01:49.2830000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1210,6 +1342,14 @@
           <RealTime>00:00:06.7270000</RealTime>
           <GameTime>00:00:05.9700000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:57.3240000</RealTime>
+          <GameTime>00:00:54.8020000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:07.6180000</RealTime>
+          <GameTime>00:00:06.8310000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1274,6 +1414,14 @@
         <Time id="44">
           <RealTime>00:01:37.7380000</RealTime>
           <GameTime>00:01:34.9680000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:02:06.2110000</RealTime>
+          <GameTime>00:02:03.4510000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:01.8510000</RealTime>
+          <GameTime>00:01:59.0700000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1340,6 +1488,11 @@
           <RealTime>00:00:01.4600000</RealTime>
           <GameTime>00:00:00.7640000</GameTime>
         </Time>
+        <Time id="46" />
+        <Time id="49">
+          <RealTime>00:00:01.4890000</RealTime>
+          <GameTime>00:00:00.7540000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1400,6 +1553,14 @@
         <Time id="44">
           <RealTime>00:01:09.3900000</RealTime>
           <GameTime>00:01:08.5410000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:02:21.5320000</RealTime>
+          <GameTime>00:02:18.3560000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:12.3840000</RealTime>
+          <GameTime>00:01:11.5420000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1462,6 +1623,14 @@
           <RealTime>00:00:19.6800000</RealTime>
           <GameTime>00:00:17.7560000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:24.8360000</RealTime>
+          <GameTime>00:00:22.8730000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:50.9900000</RealTime>
+          <GameTime>00:00:48.5050000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1522,6 +1691,14 @@
         <Time id="44">
           <RealTime>00:03:15.7830000</RealTime>
           <GameTime>00:03:12.5390000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:03:21.3480000</RealTime>
+          <GameTime>00:03:18.1190000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:03:19.7140000</RealTime>
+          <GameTime>00:03:16.4620000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1584,6 +1761,14 @@
           <RealTime>00:00:15.9040000</RealTime>
           <GameTime>00:00:15.4010000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:16.1960000</RealTime>
+          <GameTime>00:00:15.6950000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:16.7630000</RealTime>
+          <GameTime>00:00:16.2680000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1644,6 +1829,14 @@
         <Time id="44">
           <RealTime>00:01:01.7510000</RealTime>
           <GameTime>00:01:01.0090000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:24.0840000</RealTime>
+          <GameTime>00:01:23.3280000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:00.7660000</RealTime>
+          <GameTime>00:00:59.9880000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1706,6 +1899,14 @@
           <RealTime>00:00:07.0990000</RealTime>
           <GameTime>00:00:06.6010000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:06.9570000</RealTime>
+          <GameTime>00:00:06.4710000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:07.3970000</RealTime>
+          <GameTime>00:00:06.9000000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1719,8 +1920,8 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:01:25.6770000</RealTime>
-        <GameTime>00:01:24.8600000</GameTime>
+        <RealTime>00:01:25.5870000</RealTime>
+        <GameTime>00:01:24.8280000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1" />
@@ -1763,6 +1964,14 @@
         <Time id="44">
           <RealTime>00:01:25.7470000</RealTime>
           <GameTime>00:01:25.0030000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:25.5870000</RealTime>
+          <GameTime>00:01:24.8280000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:25.6430000</RealTime>
+          <GameTime>00:01:24.8950000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1817,6 +2026,14 @@
         <Time id="44">
           <RealTime>00:00:09.0550000</RealTime>
           <GameTime>00:00:08.5120000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:08.0640000</RealTime>
+          <GameTime>00:00:07.5600000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:08.6140000</RealTime>
+          <GameTime>00:00:08.0670000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -1875,6 +2092,14 @@
           <RealTime>00:00:50.8630000</RealTime>
           <GameTime>00:00:50.1030000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:41.6250000</RealTime>
+          <GameTime>00:00:40.8570000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:37.6900000</RealTime>
+          <GameTime>00:00:36.9190000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1932,6 +2157,14 @@
           <RealTime>00:00:08.8800000</RealTime>
           <GameTime>00:00:08.3720000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:06:50.5860000</RealTime>
+          <GameTime>00:06:42.5470000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:08.8870000</RealTime>
+          <GameTime>00:00:08.3350000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1985,6 +2218,14 @@
           <RealTime>00:04:57.1490000</RealTime>
           <GameTime>00:04:48.9260000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:04:59.5850000</RealTime>
+          <GameTime>00:04:51.3500000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:05:09.8590000</RealTime>
+          <GameTime>00:05:01.5600000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2034,6 +2275,14 @@
           <RealTime>00:00:04.4480000</RealTime>
           <GameTime>00:00:03.8930000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:04.5150000</RealTime>
+          <GameTime>00:00:04.0040000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:04.4000000</RealTime>
+          <GameTime>00:00:03.8730000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2079,6 +2328,14 @@
           <RealTime>00:02:56.4310000</RealTime>
           <GameTime>00:02:53.2500000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:02:56.7290000</RealTime>
+          <GameTime>00:02:53.5270000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:56.8790000</RealTime>
+          <GameTime>00:02:53.6840000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2092,7 +2349,7 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:01.4530000</RealTime>
+        <RealTime>00:00:01.4410000</RealTime>
         <GameTime>00:00:00.7400000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
@@ -2123,6 +2380,14 @@
         <Time id="44">
           <RealTime>00:00:01.4940000</RealTime>
           <GameTime>00:00:00.7580000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:01.4410000</RealTime>
+          <GameTime>00:00:00.7550000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:01.4820000</RealTime>
+          <GameTime>00:00:00.7440000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2169,6 +2434,14 @@
           <RealTime>00:01:10.6330000</RealTime>
           <GameTime>00:01:09.8910000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:10.2870000</RealTime>
+          <GameTime>00:01:09.5410000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:22.1520000</RealTime>
+          <GameTime>00:01:21.4110000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2209,6 +2482,14 @@
         <Time id="44">
           <RealTime>00:00:15.6490000</RealTime>
           <GameTime>00:00:13.9590000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:14.2710000</RealTime>
+          <GameTime>00:00:12.5420000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:14.5620000</RealTime>
+          <GameTime>00:00:12.8490000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2251,6 +2532,14 @@
           <RealTime>00:01:53.8050000</RealTime>
           <GameTime>00:01:52.1210000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:55.0060000</RealTime>
+          <GameTime>00:01:53.3360000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:56.3920000</RealTime>
+          <GameTime>00:01:55.0670000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2291,6 +2580,14 @@
         <Time id="44">
           <RealTime>00:00:04.2720000</RealTime>
           <GameTime>00:00:03.7390000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:04.2890000</RealTime>
+          <GameTime>00:00:03.7450000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:04.2790000</RealTime>
+          <GameTime>00:00:03.7440000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2333,6 +2630,14 @@
           <RealTime>00:00:35.6490000</RealTime>
           <GameTime>00:00:33.8810000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:41.0870000</RealTime>
+          <GameTime>00:00:39.2910000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:36.3610000</RealTime>
+          <GameTime>00:00:34.5800000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2373,6 +2678,11 @@
         <Time id="44">
           <RealTime>00:00:01.2000000</RealTime>
           <GameTime>00:00:00.7030000</GameTime>
+        </Time>
+        <Time id="46" />
+        <Time id="49">
+          <RealTime>00:00:01.2530000</RealTime>
+          <GameTime>00:00:00.7390000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2415,6 +2725,11 @@
           <RealTime>00:00:01.9210000</RealTime>
           <GameTime>00:00:01.0090000</GameTime>
         </Time>
+        <Time id="46" />
+        <Time id="49">
+          <RealTime>00:00:01.9310000</RealTime>
+          <GameTime>00:00:01.1020000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2455,6 +2770,14 @@
         <Time id="44">
           <RealTime>00:00:10.7030000</RealTime>
           <GameTime>00:00:10.1790000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:20.8140000</RealTime>
+          <GameTime>00:00:17.8510000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:10.7990000</RealTime>
+          <GameTime>00:00:10.3090000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2497,6 +2820,14 @@
           <RealTime>00:02:29.0350000</RealTime>
           <GameTime>00:02:28.2830000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:02:28.2610000</RealTime>
+          <GameTime>00:02:27.4870000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:02:28.7010000</RealTime>
+          <GameTime>00:02:27.9370000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2537,6 +2868,14 @@
         <Time id="44">
           <RealTime>00:00:16.2020000</RealTime>
           <GameTime>00:00:15.6260000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:22.6390000</RealTime>
+          <GameTime>00:00:21.9870000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:17.0880000</RealTime>
+          <GameTime>00:00:16.5280000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2579,6 +2918,14 @@
           <RealTime>00:01:13.8270000</RealTime>
           <GameTime>00:01:11.7340000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:24.6400000</RealTime>
+          <GameTime>00:01:22.5580000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:17.0070000</RealTime>
+          <GameTime>00:01:14.8880000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2620,6 +2967,14 @@
           <RealTime>00:00:05.9740000</RealTime>
           <GameTime>00:00:05.4340000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:06.0300000</RealTime>
+          <GameTime>00:00:05.4990000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:06.6880000</RealTime>
+          <GameTime>00:00:06.1640000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2633,8 +2988,8 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:01:26.2840000</RealTime>
-        <GameTime>00:01:23.0400000</GameTime>
+        <RealTime>00:01:25.3380000</RealTime>
+        <GameTime>00:01:22.1280000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
@@ -2660,6 +3015,14 @@
         <Time id="44">
           <RealTime>00:01:27.8010000</RealTime>
           <GameTime>00:01:24.5780000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:25.3380000</RealTime>
+          <GameTime>00:01:22.1280000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:27.9320000</RealTime>
+          <GameTime>00:01:24.6850000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2698,6 +3061,14 @@
           <RealTime>00:00:21.2970000</RealTime>
           <GameTime>00:00:20.2100000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:20.8940000</RealTime>
+          <GameTime>00:00:19.7790000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:26.5930000</RealTime>
+          <GameTime>00:00:25.4990000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2734,6 +3105,14 @@
         <Time id="44">
           <RealTime>00:03:41.7230000</RealTime>
           <GameTime>00:03:39.7050000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:03:52.6980000</RealTime>
+          <GameTime>00:03:50.6650000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:03:36.8470000</RealTime>
+          <GameTime>00:03:34.7840000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2772,6 +3151,14 @@
           <RealTime>00:00:01.5040000</RealTime>
           <GameTime>00:00:00.7680000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:01.5020000</RealTime>
+          <GameTime>00:00:00.7560000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:01.5070000</RealTime>
+          <GameTime>00:00:00.7730000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2805,6 +3192,14 @@
         <Time id="44">
           <RealTime>00:01:04.9360000</RealTime>
           <GameTime>00:01:03.6310000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:07.3650000</RealTime>
+          <GameTime>00:01:06.0550000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:12.8640000</RealTime>
+          <GameTime>00:01:11.5740000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2840,6 +3235,14 @@
           <RealTime>00:00:01.0970000</RealTime>
           <GameTime>00:00:00.6350000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:02.2550000</RealTime>
+          <GameTime>00:00:01.8080000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:01.3370000</RealTime>
+          <GameTime>00:00:00.8490000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2874,6 +3277,14 @@
           <RealTime>00:00:01.4790000</RealTime>
           <GameTime>00:00:00.7660000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:00:01.4580000</RealTime>
+          <GameTime>00:00:00.7530000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:01.4580000</RealTime>
+          <GameTime>00:00:00.7370000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2884,7 +3295,7 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:02.5020000</RealTime>
+        <RealTime>00:00:02.4850000</RealTime>
         <GameTime>00:00:01.4200000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
@@ -2902,6 +3313,14 @@
           <GameTime>00:00:01.7950000</GameTime>
         </Time>
         <Time id="44" />
+        <Time id="46">
+          <RealTime>00:00:02.7520000</RealTime>
+          <GameTime>00:00:01.9020000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:02.4850000</RealTime>
+          <GameTime>00:00:01.6270000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2915,8 +3334,8 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:15.2660000</RealTime>
-        <GameTime>00:00:13.5240000</GameTime>
+        <RealTime>00:00:14.9720000</RealTime>
+        <GameTime>00:00:13.2570000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
@@ -2938,6 +3357,14 @@
         <Time id="44">
           <RealTime>00:00:22.5210000</RealTime>
           <GameTime>00:00:20.2050000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:14.9720000</RealTime>
+          <GameTime>00:00:13.2570000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:16.0020000</RealTime>
+          <GameTime>00:00:14.2420000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -2976,6 +3403,14 @@
           <RealTime>00:01:50.3730000</RealTime>
           <GameTime>00:01:48.7390000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:47.8270000</RealTime>
+          <GameTime>00:01:46.2370000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:59.1200000</RealTime>
+          <GameTime>00:01:57.5230000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3012,6 +3447,14 @@
         <Time id="44">
           <RealTime>00:01:41.0810000</RealTime>
           <GameTime>00:01:41.0810000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:40.1110000</RealTime>
+          <GameTime>00:01:40.1110000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:44.5010000</RealTime>
+          <GameTime>00:01:44.5010000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3050,6 +3493,14 @@
           <RealTime>00:01:17.6960000</RealTime>
           <GameTime>00:01:17.6960000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:18.7480000</RealTime>
+          <GameTime>00:01:18.7480000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:18.5500000</RealTime>
+          <GameTime>00:01:18.5500000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3063,7 +3514,7 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:01:02.0170000</RealTime>
+        <RealTime>00:01:01</RealTime>
         <GameTime>00:00:54.3300000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
@@ -3086,6 +3537,14 @@
         <Time id="44">
           <RealTime>00:01:02.0170000</RealTime>
           <GameTime>00:01:01.2310000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:01:01.1370000</RealTime>
+          <GameTime>00:01:00.3350000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:01</RealTime>
+          <GameTime>00:01:00.2010000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3124,6 +3583,14 @@
           <RealTime>00:01:04.0800000</RealTime>
           <GameTime>00:01:03.5900000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:10.2860000</RealTime>
+          <GameTime>00:01:09.8060000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:08.7710000</RealTime>
+          <GameTime>00:01:08.2870000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3154,6 +3621,14 @@
         <Time id="44">
           <RealTime>00:00:10.4960000</RealTime>
           <GameTime>00:00:09.9070000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:10.7670000</RealTime>
+          <GameTime>00:00:10.1780000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:10.7640000</RealTime>
+          <GameTime>00:00:10.1660000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3189,6 +3664,14 @@
           <RealTime>00:00:40.9770000</RealTime>
           <GameTime>00:00:40.1950000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:00.0320000</RealTime>
+          <GameTime>00:00:59.2160000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:58.6390000</RealTime>
+          <GameTime>00:00:57.8260000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3202,7 +3685,7 @@
         <SplitTime name="WR Δ" />
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:01.4420000</RealTime>
+        <RealTime>00:00:01.4400000</RealTime>
         <GameTime>00:00:00.7400000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
@@ -3222,6 +3705,14 @@
         <Time id="44">
           <RealTime>00:00:01.4710000</RealTime>
           <GameTime>00:00:00.7830000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:00:01.4550000</RealTime>
+          <GameTime>00:00:00.7670000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:00:01.4400000</RealTime>
+          <GameTime>00:00:00.7540000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3257,6 +3748,14 @@
           <RealTime>00:01:11.3530000</RealTime>
           <GameTime>00:01:10.6210000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:01:13.5700000</RealTime>
+          <GameTime>00:01:12.7970000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:01:13.0930000</RealTime>
+          <GameTime>00:01:12.3470000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3290,6 +3789,14 @@
         <Time id="44">
           <RealTime>00:02:58.3720000</RealTime>
           <GameTime>00:02:56.3140000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:03:02.4680000</RealTime>
+          <GameTime>00:03:00.4370000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:03:03.8270000</RealTime>
+          <GameTime>00:03:01.7560000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -3328,6 +3835,14 @@
           <RealTime>00:03:29.2360000</RealTime>
           <GameTime>00:03:25.2940000</GameTime>
         </Time>
+        <Time id="46">
+          <RealTime>00:03:30.5190000</RealTime>
+          <GameTime>00:03:26.5570000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:03:30.4840000</RealTime>
+          <GameTime>00:03:26.5310000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3364,6 +3879,14 @@
         <Time id="44">
           <RealTime>00:03:33.7070000</RealTime>
           <GameTime>00:03:33.7070000</GameTime>
+        </Time>
+        <Time id="46">
+          <RealTime>00:03:33.3710000</RealTime>
+          <GameTime>00:03:33.3450000</GameTime>
+        </Time>
+        <Time id="49">
+          <RealTime>00:03:33.6300000</RealTime>
+          <GameTime>00:03:33.6300000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>

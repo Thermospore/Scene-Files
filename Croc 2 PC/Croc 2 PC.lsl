@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1296</X>
-  <Y>164</Y>
+  <X>1036</X>
+  <Y>42</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -43,25 +43,14 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>N:\Repos\Autosplitters\hdc0\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
+        <ScriptPath>C:\Users\Thermospore\Desktop\TEMP_oldILStyleSplitter.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
+          <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="SaveSlotStart" type="bool">False</Setting>
-          <Setting id="ILstart" type="bool">False</Setting>
-          <Setting id="IWstart" type="bool">False</Setting>
-          <Setting id="SplitOnMapChange" type="bool">False</Setting>
-          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
-          <Setting id="SplitOnObjectiveCompletion" type="bool">True</Setting>
-          <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
-          <Setting id="SplitOnBabies" type="bool">False</Setting>
-          <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
-          <Setting id="DebugOutput" type="bool">True</Setting>
-          <Setting id="DO_MapChanges" type="bool">True</Setting>
-          <Setting id="DO_MainState" type="bool">True</Setting>
-          <Setting id="DO_InGameState" type="bool">True</Setting>
-          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+          <Setting id="StartOnHubCheat" type="bool">False</Setting>
+          <Setting id="SplitOnShop" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
     </Component>
@@ -79,8 +68,8 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>1296</WindowPos.X>
-        <WindowPos.Y>29</WindowPos.Y>
+        <WindowPos.X>682</WindowPos.X>
+        <WindowPos.Y>690</WindowPos.Y>
         <WindowSize.Width>319</WindowSize.Width>
         <WindowSize.Height>122</WindowSize.Height>
       </Settings>
