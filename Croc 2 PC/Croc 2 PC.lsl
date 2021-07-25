@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1295</X>
+  <X>1056</X>
   <Y>46</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
@@ -43,7 +43,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>N:\Repos\Autosplitters\Old custom stuff\LiveSplit.Croc_2_FullGame_ILStyle.asl</ScriptPath>
+        <ScriptPath>C:\Users\Thermospore\Desktop\TEMP_oldILStyleSplitter.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
