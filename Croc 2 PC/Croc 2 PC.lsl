@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1036</X>
-  <Y>42</Y>
+  <X>1295</X>
+  <Y>46</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -43,7 +43,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\Thermospore\Desktop\TEMP_oldILStyleSplitter.asl</ScriptPath>
+        <ScriptPath>N:\Repos\Autosplitters\Old custom stuff\LiveSplit.Croc_2_FullGame_ILStyle.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
@@ -68,8 +68,8 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>682</WindowPos.X>
-        <WindowPos.Y>690</WindowPos.Y>
+        <WindowPos.X>677</WindowPos.X>
+        <WindowPos.Y>991</WindowPos.Y>
         <WindowSize.Width>319</WindowSize.Width>
         <WindowSize.Height>122</WindowSize.Height>
       </Settings>
@@ -299,10 +299,6 @@
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
-        <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
-        <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
-        <OverrideFont1>False</OverrideFont1>
-        <OverrideFont2>False</OverrideFont2>
         <Display2Rows>False</Display2Rows>
       </Settings>
     </Component>
