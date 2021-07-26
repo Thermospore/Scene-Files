@@ -12,7 +12,7 @@
     </Variables>
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>87</AttemptCount>
+  <AttemptCount>90</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="01/07/2021 05:55:20" isStartedSynced="True" ended="01/07/2021 07:05:20" isEndedSynced="True">
       <RealTime>01:09:59.3470000</RealTime>
@@ -132,6 +132,9 @@
     <Attempt id="85" started="07/25/2021 15:37:14" isStartedSynced="True" ended="07/25/2021 15:40:28" isEndedSynced="True" />
     <Attempt id="86" started="07/25/2021 15:40:33" isStartedSynced="True" ended="07/25/2021 15:40:57" isEndedSynced="True" />
     <Attempt id="87" started="07/25/2021 15:41:01" isStartedSynced="True" ended="07/25/2021 16:23:47" isEndedSynced="True" />
+    <Attempt id="88" started="07/26/2021 02:38:20" isStartedSynced="True" ended="07/26/2021 02:38:25" isEndedSynced="True" />
+    <Attempt id="89" started="07/26/2021 02:39:02" isStartedSynced="True" ended="07/26/2021 02:41:08" isEndedSynced="True" />
+    <Attempt id="90" started="07/26/2021 02:41:12" isStartedSynced="True" ended="07/26/2021 03:22:22" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -142,7 +145,9 @@
           <RealTime>00:00:02.0960000</RealTime>
           <GameTime>00:00:01.4060000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:00:01.4000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:02.0800000</RealTime>
@@ -485,6 +490,18 @@
           <RealTime>00:00:02.2360000</RealTime>
           <GameTime>00:00:01.4350000</GameTime>
         </Time>
+        <Time id="88">
+          <RealTime>00:00:02.3590000</RealTime>
+          <GameTime>00:00:01.4190000</GameTime>
+        </Time>
+        <Time id="89">
+          <RealTime>00:00:02.2240000</RealTime>
+          <GameTime>00:00:01.3710000</GameTime>
+        </Time>
+        <Time id="90">
+          <RealTime>00:00:02.2360000</RealTime>
+          <GameTime>00:00:01.4430000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -495,7 +512,9 @@
           <RealTime>00:00:14.8980000</RealTime>
           <GameTime>00:00:13.7600000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:00:13.7500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:12.5260000</RealTime>
@@ -810,6 +829,14 @@
           <RealTime>00:00:13.0440000</RealTime>
           <GameTime>00:00:12.2820000</GameTime>
         </Time>
+        <Time id="89">
+          <RealTime>00:00:13.2720000</RealTime>
+          <GameTime>00:00:12.4720000</GameTime>
+        </Time>
+        <Time id="90">
+          <RealTime>00:00:13.5830000</RealTime>
+          <GameTime>00:00:12.7780000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -820,7 +847,9 @@
           <RealTime>00:00:43.2730000</RealTime>
           <GameTime>00:00:40.8680000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:00:40.8200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:28.1040000</RealTime>
@@ -987,6 +1016,14 @@
           <RealTime>00:00:28.5240000</RealTime>
           <GameTime>00:00:27.0570000</GameTime>
         </Time>
+        <Time id="89">
+          <RealTime>00:00:28.7590000</RealTime>
+          <GameTime>00:00:27.2980000</GameTime>
+        </Time>
+        <Time id="90">
+          <RealTime>00:00:28.6170000</RealTime>
+          <GameTime>00:00:27.1660000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -997,7 +1034,9 @@
           <RealTime>00:00:56.0510000</RealTime>
           <GameTime>00:00:53.1970000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:00:53.3000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:12.7780000</RealTime>
@@ -1164,6 +1203,14 @@
           <RealTime>00:00:13.7770000</RealTime>
           <GameTime>00:00:13.0020000</GameTime>
         </Time>
+        <Time id="89">
+          <RealTime>00:00:13.0900000</RealTime>
+          <GameTime>00:00:12.3530000</GameTime>
+        </Time>
+        <Time id="90">
+          <RealTime>00:00:13.3640000</RealTime>
+          <GameTime>00:00:12.5990000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1174,7 +1221,9 @@
           <RealTime>00:03:40.0080000</RealTime>
           <GameTime>00:03:37.0740000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:03:38.0100000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:02:43.1730000</RealTime>
@@ -1289,6 +1338,10 @@
           <RealTime>00:02:45.1170000</RealTime>
           <GameTime>00:02:44.9360000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:02:44.6080000</RealTime>
+          <GameTime>00:02:44.4070000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1299,7 +1352,9 @@
           <RealTime>00:03:49.7380000</RealTime>
           <GameTime>00:03:46.4180000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:03:47.6900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:09.2730000</RealTime>
@@ -1414,6 +1469,10 @@
           <RealTime>00:00:09.7600000</RealTime>
           <GameTime>00:00:09.0250000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:09.8240000</RealTime>
+          <GameTime>00:00:09.0560000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1424,7 +1483,9 @@
           <RealTime>00:05:58.6050000</RealTime>
           <GameTime>00:05:54.5990000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:05:55.9800000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:02:08.7240000</RealTime>
@@ -1539,6 +1600,10 @@
           <RealTime>00:02:09.1810000</RealTime>
           <GameTime>00:02:08.2990000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:02:09.0370000</RealTime>
+          <GameTime>00:02:08.1590000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1549,7 +1614,9 @@
           <RealTime>00:06:06.3340000</RealTime>
           <GameTime>00:06:01.9020000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:06:03.2500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:07.7290000</RealTime>
@@ -1664,6 +1731,10 @@
           <RealTime>00:00:08.2460000</RealTime>
           <GameTime>00:00:07.4740000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:08.2400000</RealTime>
+          <GameTime>00:00:07.4570000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1674,7 +1745,9 @@
           <RealTime>00:07:12.4480000</RealTime>
           <GameTime>00:07:06.7950000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:07:06.8700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:04.7710000</RealTime>
@@ -1773,6 +1846,10 @@
           <RealTime>00:01:05.3880000</RealTime>
           <GameTime>00:01:04.0080000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:06.5910000</RealTime>
+          <GameTime>00:01:05.1900000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1783,7 +1860,9 @@
           <RealTime>00:07:16.6400000</RealTime>
           <GameTime>00:07:10.5710000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:07:10.4900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:04.0880000</RealTime>
@@ -1882,6 +1961,10 @@
           <RealTime>00:00:04.5380000</RealTime>
           <GameTime>00:00:03.8050000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:04.4870000</RealTime>
+          <GameTime>00:00:03.7440000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1892,7 +1975,9 @@
           <RealTime>00:08:46.8360000</RealTime>
           <GameTime>00:08:39.6520000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:08:39.3000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:27.8110000</RealTime>
@@ -1987,6 +2072,10 @@
           <RealTime>00:01:30.5210000</RealTime>
           <GameTime>00:01:28.8200000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:31.3260000</RealTime>
+          <GameTime>00:01:29.6000000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -1997,7 +2086,9 @@
           <RealTime>00:08:53.2420000</RealTime>
           <GameTime>00:08:45.6070000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:08:45.9900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:06.4060000</RealTime>
@@ -2089,6 +2180,10 @@
           <RealTime>00:00:06.9380000</RealTime>
           <GameTime>00:00:06.1680000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:06.9060000</RealTime>
+          <GameTime>00:00:06.1380000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2099,7 +2194,9 @@
           <RealTime>00:10:33.2460000</RealTime>
           <GameTime>00:10:22.9780000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:10:20.9300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:37.7380000</RealTime>
@@ -2190,6 +2287,10 @@
           <RealTime>00:01:40.0530000</RealTime>
           <GameTime>00:01:37.2670000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:42.1110000</RealTime>
+          <GameTime>00:01:39.3260000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2200,7 +2301,9 @@
           <RealTime>00:10:34.7420000</RealTime>
           <GameTime>00:10:23.7340000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:10:21.6700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.4450000</RealTime>
@@ -2288,6 +2391,10 @@
           <RealTime>00:00:01.4650000</RealTime>
           <GameTime>00:00:00.7500000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:01.4880000</RealTime>
+          <GameTime>00:00:00.7700000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2298,7 +2405,9 @@
           <RealTime>00:11:46.2660000</RealTime>
           <GameTime>00:11:34.5850000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:11:30.9400000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:08.6740000</RealTime>
@@ -2385,6 +2494,10 @@
           <RealTime>00:01:09.2040000</RealTime>
           <GameTime>00:01:08.3350000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:11.8730000</RealTime>
+          <GameTime>00:01:11.0240000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2395,7 +2508,9 @@
           <RealTime>00:12:05.7290000</RealTime>
           <GameTime>00:11:52.4790000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:11:48.6000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:19.3460000</RealTime>
@@ -2482,6 +2597,10 @@
           <RealTime>00:00:19.8310000</RealTime>
           <GameTime>00:00:17.9040000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:20.3780000</RealTime>
+          <GameTime>00:00:18.4360000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2492,7 +2611,9 @@
           <RealTime>00:15:26.3210000</RealTime>
           <GameTime>00:15:09.8290000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:15:01.8300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:03:13.1750000</RealTime>
@@ -2575,6 +2696,10 @@
           <RealTime>00:03:15.3820000</RealTime>
           <GameTime>00:03:12.1700000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:03:20.3850000</RealTime>
+          <GameTime>00:03:17.1420000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2585,7 +2710,9 @@
           <RealTime>00:15:42.4340000</RealTime>
           <GameTime>00:15:25.5300000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:15:17.4700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:15.6430000</RealTime>
@@ -2668,6 +2795,10 @@
           <RealTime>00:00:16.0620000</RealTime>
           <GameTime>00:00:15.5370000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:16</RealTime>
+          <GameTime>00:00:15.4740000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2678,7 +2809,9 @@
           <RealTime>00:16:45.3790000</RealTime>
           <GameTime>00:16:27.7680000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:16:19.0700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:59.8030000</RealTime>
@@ -2761,6 +2894,10 @@
           <RealTime>00:01:22.1600000</RealTime>
           <GameTime>00:01:21.3920000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:02.4620000</RealTime>
+          <GameTime>00:01:01.7180000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2771,7 +2908,9 @@
           <RealTime>00:16:52.4310000</RealTime>
           <GameTime>00:16:34.3970000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:16:25.6400000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:06.8580000</RealTime>
@@ -2854,6 +2993,10 @@
           <RealTime>00:00:07.2450000</RealTime>
           <GameTime>00:00:06.7470000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:07.1990000</RealTime>
+          <GameTime>00:00:06.7050000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2864,7 +3007,9 @@
           <RealTime>00:18:18.0900000</RealTime>
           <GameTime>00:17:59.3800000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:17:50.9700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:25.5870000</RealTime>
@@ -2944,6 +3089,10 @@
           <RealTime>00:01:25.6600000</RealTime>
           <GameTime>00:01:24.8970000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:25.6960000</RealTime>
+          <GameTime>00:01:24.9440000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -2954,7 +3103,9 @@
           <RealTime>00:18:24.3760000</RealTime>
           <GameTime>00:18:05.2250000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:17:56.6700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:06.0230000</RealTime>
@@ -3030,6 +3181,10 @@
           <RealTime>00:00:06.3100000</RealTime>
           <GameTime>00:00:05.7260000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:07.0960000</RealTime>
+          <GameTime>00:00:06.5710000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3040,7 +3195,9 @@
           <RealTime>00:19:01.1130000</RealTime>
           <GameTime>00:18:41.2580000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:18:37.8100000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:34.8430000</RealTime>
@@ -3119,6 +3276,10 @@
           <RealTime>00:00:34.8430000</RealTime>
           <GameTime>00:00:34.0750000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:35.8960000</RealTime>
+          <GameTime>00:00:35.1560000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3129,7 +3290,9 @@
           <RealTime>00:19:09.9680000</RealTime>
           <GameTime>00:18:49.6440000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:18:46.1900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:08.6610000</RealTime>
@@ -3208,6 +3371,10 @@
           <RealTime>00:00:08.9430000</RealTime>
           <GameTime>00:00:08.4050000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:08.9270000</RealTime>
+          <GameTime>00:00:08.3940000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3218,7 +3385,9 @@
           <RealTime>00:24:09.3540000</RealTime>
           <GameTime>00:23:40.8130000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:23:38.1300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:04:53.8010000</RealTime>
@@ -3293,6 +3462,10 @@
           <RealTime>00:05:00.7170000</RealTime>
           <GameTime>00:04:52.5250000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:05:27.7300000</RealTime>
+          <GameTime>00:05:18.9490000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3303,7 +3476,9 @@
           <RealTime>00:24:13.7850000</RealTime>
           <GameTime>00:23:44.7810000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:23:41.8300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:04.2570000</RealTime>
@@ -3374,6 +3549,10 @@
           <RealTime>00:00:04.4490000</RealTime>
           <GameTime>00:00:03.8990000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:04.3760000</RealTime>
+          <GameTime>00:00:03.8740000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3384,7 +3563,9 @@
           <RealTime>00:27:11.2350000</RealTime>
           <GameTime>00:26:39.2300000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:26:32.2900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:02:54.3530000</RealTime>
@@ -3451,6 +3632,10 @@
           <RealTime>00:02:54.3530000</RealTime>
           <GameTime>00:02:51.1470000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:02:57.2490000</RealTime>
+          <GameTime>00:02:54.0710000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3461,7 +3646,9 @@
           <RealTime>00:27:12.6810000</RealTime>
           <GameTime>00:26:39.9810000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:26:33.0300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.4410000</RealTime>
@@ -3525,6 +3712,10 @@
           <RealTime>00:00:01.5040000</RealTime>
           <GameTime>00:00:00.7790000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:01.4710000</RealTime>
+          <GameTime>00:00:00.7520000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3535,7 +3726,9 @@
           <RealTime>00:28:23.9170000</RealTime>
           <GameTime>00:27:50.5090000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:27:44.6000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:09.7460000</RealTime>
@@ -3602,6 +3795,10 @@
           <RealTime>00:01:11.3700000</RealTime>
           <GameTime>00:01:10.6000000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:11.4620000</RealTime>
+          <GameTime>00:01:10.7040000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3612,7 +3809,9 @@
           <RealTime>00:28:37.7890000</RealTime>
           <GameTime>00:28:02.8060000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:27:58.2300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:13.6430000</RealTime>
@@ -3675,6 +3874,10 @@
           <RealTime>00:00:14.2870000</RealTime>
           <GameTime>00:00:12.5210000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:13.8860000</RealTime>
+          <GameTime>00:00:12.0930000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3685,7 +3888,9 @@
           <RealTime>00:30:24.1600000</RealTime>
           <GameTime>00:29:47.5320000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:29:49.2000000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:45.9380000</RealTime>
@@ -3748,6 +3953,10 @@
           <RealTime>00:01:51.1520000</RealTime>
           <GameTime>00:01:49.4800000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:47.2270000</RealTime>
+          <GameTime>00:01:45.4940000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3758,7 +3967,9 @@
           <RealTime>00:30:28.4330000</RealTime>
           <GameTime>00:29:51.3240000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:29:52.8600000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:04.2160000</RealTime>
@@ -3821,6 +4032,10 @@
           <RealTime>00:00:04.7970000</RealTime>
           <GameTime>00:00:04.2170000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:04.3070000</RealTime>
+          <GameTime>00:00:03.7750000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3831,7 +4046,9 @@
           <RealTime>00:31:05.3380000</RealTime>
           <GameTime>00:30:26.6020000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:30:32.5500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:35.6490000</RealTime>
@@ -3894,6 +4111,10 @@
           <RealTime>00:00:38.2410000</RealTime>
           <GameTime>00:00:36.4590000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:37.1620000</RealTime>
+          <GameTime>00:00:35.3460000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -3904,7 +4125,9 @@
           <RealTime>00:31:06.3380000</RealTime>
           <GameTime>00:30:27.1550000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:30:33.0800000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:00.9280000</RealTime>
@@ -3963,6 +4186,10 @@
         <Time id="87">
           <RealTime>00:00:01.1170000</RealTime>
           <GameTime>00:00:00.6000000</GameTime>
+        </Time>
+        <Time id="90">
+          <RealTime>00:00:01.0500000</RealTime>
+          <GameTime>00:00:00.5210000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -4034,6 +4261,7 @@
           <RealTime>00:00:01.7300000</RealTime>
           <GameTime>00:00:01.1720000</GameTime>
         </Time>
+        <Time id="90" />
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4107,6 +4335,10 @@
           <RealTime>00:00:12.8320000</RealTime>
           <GameTime>00:00:12.3080000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:14.8080000</RealTime>
+          <GameTime>00:00:13.7550000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4117,11 +4349,13 @@
           <RealTime>00:33:46.7430000</RealTime>
           <GameTime>00:33:05.8370000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:33:14.1800000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:02:27.7920000</RealTime>
-        <GameTime>00:02:27.0600000</GameTime>
+        <RealTime>00:02:27.7210000</RealTime>
+        <GameTime>00:02:26.9340000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
@@ -4180,6 +4414,10 @@
           <RealTime>00:02:28.1600000</RealTime>
           <GameTime>00:02:27.3990000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:02:27.7210000</RealTime>
+          <GameTime>00:02:26.9340000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4190,7 +4428,9 @@
           <RealTime>00:34:03.5610000</RealTime>
           <GameTime>00:33:22.2090000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:33:30.8800000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:15.8660000</RealTime>
@@ -4253,6 +4493,10 @@
           <RealTime>00:00:16.7550000</RealTime>
           <GameTime>00:00:16.1860000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:16.8800000</RealTime>
+          <GameTime>00:00:16.3090000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4263,7 +4507,9 @@
           <RealTime>00:35:23.3960000</RealTime>
           <GameTime>00:34:40.1150000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:34:36.9200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:10.3140000</RealTime>
@@ -4326,6 +4572,10 @@
           <RealTime>00:01:10.3140000</RealTime>
           <GameTime>00:01:08.2030000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:30.8560000</RealTime>
+          <GameTime>00:01:28.8020000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4336,7 +4586,9 @@
           <RealTime>00:35:29.2920000</RealTime>
           <GameTime>00:34:45.5710000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:34:42.2700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:05.8560000</RealTime>
@@ -4399,6 +4651,7 @@
           <RealTime>00:00:05.9680000</RealTime>
           <GameTime>00:00:05.4090000</GameTime>
         </Time>
+        <Time id="90" />
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4409,7 +4662,9 @@
           <RealTime>00:37:03.2270000</RealTime>
           <GameTime>00:36:16.4080000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:35:59.3100000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:22.0760000</RealTime>
@@ -4472,6 +4727,10 @@
           <RealTime>00:01:22.0760000</RealTime>
           <GameTime>00:01:18.7990000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:01:29.7070000</RealTime>
+          <GameTime>00:01:25.9140000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4482,7 +4741,9 @@
           <RealTime>00:37:15.2420000</RealTime>
           <GameTime>00:36:27.9870000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:36:10.8500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:11.1900000</RealTime>
@@ -4541,6 +4802,10 @@
           <RealTime>00:00:11.8420000</RealTime>
           <GameTime>00:00:11.3320000</GameTime>
         </Time>
+        <Time id="90">
+          <RealTime>00:00:11.2930000</RealTime>
+          <GameTime>00:00:10.7670000</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
     <Segment>
@@ -4551,7 +4816,9 @@
           <RealTime>00:40:43.7020000</RealTime>
           <GameTime>00:39:54.4170000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:39:41.9200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:03:26.9300000</RealTime>
@@ -4616,7 +4883,9 @@
           <RealTime>00:40:45.1310000</RealTime>
           <GameTime>00:39:55.1690000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:39:42.6700000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.4290000</RealTime>
@@ -4681,7 +4950,9 @@
           <RealTime>00:41:46.5070000</RealTime>
           <GameTime>00:40:55.4280000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:41:00.3500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:56.0610000</RealTime>
@@ -4743,7 +5014,9 @@
           <RealTime>00:41:47.5120000</RealTime>
           <GameTime>00:40:56.0400000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:41:01.0900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.0050000</RealTime>
@@ -4805,7 +5078,9 @@
           <RealTime>00:41:48.9210000</RealTime>
           <GameTime>00:40:56.7790000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:41:01.8300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.4090000</RealTime>
@@ -4867,7 +5142,9 @@
           <RealTime>00:41:50.7120000</RealTime>
           <GameTime>00:40:57.9050000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:41:03.6200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.7910000</RealTime>
@@ -4926,7 +5203,9 @@
           <RealTime>00:42:05.5970000</RealTime>
           <GameTime>00:41:11.2610000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:41:18.1300000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:14.7300000</RealTime>
@@ -4991,7 +5270,9 @@
           <RealTime>00:43:51.0780000</RealTime>
           <GameTime>00:42:55.1090000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:43:03.4100000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:42.0110000</RealTime>
@@ -5056,7 +5337,9 @@
           <RealTime>00:45:31.4150000</RealTime>
           <GameTime>00:44:35.4460000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:44:43.7200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:39.6730000</RealTime>
@@ -5121,7 +5404,9 @@
           <RealTime>00:46:44.5860000</RealTime>
           <GameTime>00:45:48.6170000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:45:55.4900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:12.9550000</RealTime>
@@ -5186,7 +5471,9 @@
           <RealTime>00:47:43.2460000</RealTime>
           <GameTime>00:46:46.4590000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:46:55.3900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:57.6480000</RealTime>
@@ -5251,7 +5538,9 @@
           <RealTime>00:48:46.3750000</RealTime>
           <GameTime>00:47:49.1660000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:48:01.2900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:03.1290000</RealTime>
@@ -5316,7 +5605,9 @@
           <RealTime>00:48:56.9350000</RealTime>
           <GameTime>00:47:59.3120000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:48:11.3200000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:10.2760000</RealTime>
@@ -5375,7 +5666,9 @@
           <RealTime>00:49:44.2080000</RealTime>
           <GameTime>00:48:45.9120000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:49:00.1900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:40.9770000</RealTime>
@@ -5433,7 +5726,9 @@
           <RealTime>00:49:45.6570000</RealTime>
           <GameTime>00:48:46.6440000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:49:00.9500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:00:01.4400000</RealTime>
@@ -5491,7 +5786,9 @@
           <RealTime>00:50:57.8200000</RealTime>
           <GameTime>00:49:58.1230000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:50:11.8500000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:01:11.2980000</RealTime>
@@ -5549,7 +5846,9 @@
           <RealTime>00:54:13.4170000</RealTime>
           <GameTime>00:53:11.6370000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:53:09.5100000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:02:57.1350000</RealTime>
@@ -5607,7 +5906,9 @@
           <RealTime>00:57:44.7950000</RealTime>
           <GameTime>00:56:39.1480000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>00:56:36.9900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:03:27.5890000</RealTime>
@@ -5664,7 +5965,9 @@
           <RealTime>01:01:22.3700000</RealTime>
           <GameTime>01:00:16.7230000</GameTime>
         </SplitTime>
-        <SplitTime name="WR Δ" />
+        <SplitTime name="WR Δ">
+          <GameTime>01:00:10.7900000</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:03:33.1310000</RealTime>
