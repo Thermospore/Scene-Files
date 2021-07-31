@@ -120,7 +120,7 @@ end
     <CheatEntry>
       <ID>11</ID>
       <Description>"CurLevel"</Description>
-      <LastState Value="1" RealAddress="004A8C48"/>
+      <LastState Value="2" RealAddress="004A8C48"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+A8C48</Address>
     </CheatEntry>
@@ -134,14 +134,14 @@ end
     <CheatEntry>
       <ID>29</ID>
       <Description>"CurType"</Description>
-      <LastState Value="0" RealAddress="004A8C50"/>
+      <LastState Value="3" RealAddress="004A8C50"/>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe + A8C50</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>24</ID>
       <Description>"Camera height"</Description>
-      <LastState Value="6766" RealAddress="004AF338"/>
+      <LastState Value="1742" RealAddress="004AF338"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+AF338</Address>
     </CheatEntry>
@@ -176,7 +176,7 @@ end
     <CheatEntry>
       <ID>14</ID>
       <Description>"main state"</Description>
-      <LastState Value="1" RealAddress="004B7930"/>
+      <LastState Value="11" RealAddress="004B7930"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7930</Address>
     </CheatEntry>
@@ -191,7 +191,7 @@ end
     <CheatEntry>
       <ID>17</ID>
       <Description>"1 bit per cheat"</Description>
-      <LastState Value="00000000" RealAddress="004B7964"/>
+      <LastState Value="00000001" RealAddress="004B7964"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7964</Address>
@@ -199,7 +199,7 @@ end
     <CheatEntry>
       <ID>26</ID>
       <Description>"RENDER DISTANCE"</Description>
-      <LastState Value="36864" RealAddress="004B7B18"/>
+      <LastState Value="25600" RealAddress="004B7B18"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4B7B18</Address>
     </CheatEntry>
@@ -250,21 +250,21 @@ end
     <CheatEntry>
       <ID>30</ID>
       <Description>"HealthSS0"</Description>
-      <LastState Value="5" RealAddress="006042D0"/>
+      <LastState Value="0" RealAddress="006042D0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2042D0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"MoneySS0"</Description>
-      <LastState Value="0" RealAddress="006042D4"/>
+      <LastState Value="694" RealAddress="006042D4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2042D4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>41</ID>
       <Description>"CurTribeSS0"</Description>
-      <LastState Value="1" RealAddress="0060430C"/>
+      <LastState Value="4" RealAddress="0060430C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>0x6040C0 + 0x24C</Address>
@@ -303,7 +303,7 @@ end
     <CheatEntry>
       <ID>45</ID>
       <Description>"PrevTribeSS0"</Description>
-      <LastState Value="0" RealAddress="00604374"/>
+      <LastState Value="4" RealAddress="00604374"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>0x6040C0 + 0x2B4</Address>
@@ -311,7 +311,7 @@ end
     <CheatEntry>
       <ID>46</ID>
       <Description>"PrevLevelSS0"</Description>
-      <LastState Value="2" RealAddress="00604378"/>
+      <LastState Value="3" RealAddress="00604378"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>0x6040C0 + 0x2B4 + 0x4</Address>
@@ -335,7 +335,7 @@ end
     <CheatEntry>
       <ID>23</ID>
       <Description>"Sailor 1 completion"</Description>
-      <LastState Value="1" RealAddress="006043C0"/>
+      <LastState Value="257" RealAddress="006043C0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2043C0</Address>
     </CheatEntry>
@@ -356,7 +356,6 @@ end
     <CheatEntry>
       <ID>1</ID>
       <Description>"CrocObj"</Description>
-      <LastState Value="6441228" RealAddress="00622D60"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -368,7 +367,6 @@ end
     <CheatEntry>
       <ID>32</ID>
       <Description>"Angle?"</Description>
-      <LastState Value="19600" RealAddress="00622D85"/>
       <VariableType>2 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -380,7 +378,6 @@ end
     <CheatEntry>
       <ID>2</ID>
       <Description>"X"</Description>
-      <LastState Value="34111" RealAddress="00622D8C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -392,7 +389,6 @@ end
     <CheatEntry>
       <ID>3</ID>
       <Description>"Y"</Description>
-      <LastState Value="5120" RealAddress="00622D90"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -404,7 +400,6 @@ end
     <CheatEntry>
       <ID>4</ID>
       <Description>"Z"</Description>
-      <LastState Value="50197" RealAddress="00622D94"/>
       <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
@@ -451,9 +446,17 @@ end
     <CheatEntry>
       <ID>52</ID>
       <Description>"babies D dantini Z"</Description>
-      <LastState Value="0" RealAddress="0062AF84"/>
+      <LastState Value="66809" RealAddress="0062AF84"/>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+22AF84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"(2 bytes) Recent Door?"</Description>
+      <LastState Value="D3EC" RealAddress="004B7888"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>Croc2.exe+B7888</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
@@ -485,4 +488,6 @@ end
     </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols/>
+  <LuaScript>
+</LuaScript>
 </CheatTable>

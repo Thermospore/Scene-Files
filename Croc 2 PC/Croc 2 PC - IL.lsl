@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1295</X>
-  <Y>81</Y>
+  <X>36</X>
+  <Y>993</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>573</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -57,11 +57,11 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>N:\Repos\Autosplitters\Old custom stuff\LiveSplit.Croc_2_IL_A.asl</ScriptPath>
+        <ScriptPath>C:\Users\Thermospore\Desktop\TEMP_oldILSplitter.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
-          <Setting id="StartAfterSaveSlotChosen" type="bool">True</Setting>
+          <Setting id="StartAfterSaveSlotChosen" type="bool">False</Setting>
           <Setting id="StartOnFirstLevel" type="bool">True</Setting>
           <Setting id="StartOnHubCheat" type="bool">False</Setting>
           <Setting id="SplitOnSMP" type="bool">False</Setting>
