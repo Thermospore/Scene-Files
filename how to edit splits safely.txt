@@ -22,14 +22,20 @@ Look in splits file:
 		
 		now smp splits (break up a segment)
 			at what point in your pb (or wr△) that split was completed
-				initial splits
-					blank??
-				final split
+				initial segments
+					blank
+				final segment
 					time of original split
 			for each run, the amount of time you took for that segment
-				blank for all segments??
+				blank for all segments?
+				BUT even if you delete the existing seg,
+					livesplit will just sum all the segment times into the proceeding level anyway
+					(as if you skipped the split during the run?)
+					so maybe leave the existing seg times in the final seg?
 			your gold
-				blank for all segments??
+				blank for all segments
+				BUT you CAN just leave the existing gold in place
+					since it will get overwritten on your first run anyway
 				
 		(will probably have to shuffle segments or replace segments at some point)
 				
@@ -37,3 +43,6 @@ Look in splits file:
 		no opening cutscene split / no ww splits (joining multiple segments together)
 			simply deleting all but the final split gives expected result, with gold option A.
 		now smp splits (break up a segment)
+			treating the existing segment as the new last segment seems to be the best option?
+			so simply add segments above the existing one until you have the desired number
+			can simply let the old gold be overwritten on your first run
