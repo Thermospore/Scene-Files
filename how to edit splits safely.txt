@@ -1,0 +1,39 @@
+no opening cutscene split
+no ww splits
+now smp splits
+
+Look in splits file:
+	What info does a split contain?
+		at what point in your pb (or wr△) that split was completed
+		for each run, the amount of time you took for that segment
+		your gold
+		
+	What info should it contain after you have edited the splits?
+		no opening cutscene split / no ww splits (joining multiple segments together)
+			at what point in your pb (or wr△) that split was completed
+				keep the time of the last split
+			for each run, the amount of time you took for that segment
+				sum the times together
+				if there was a reset before the last split, don't record any time for that run
+			your gold
+				options:
+					A. sum golds (not as realistic SoB, but acceptable and probably simpler)
+					B. actually parse through and find the fastest you did that stretch of splits (more realistic SoB, but not as simple)
+		
+		now smp splits (break up a segment)
+			at what point in your pb (or wr△) that split was completed
+				initial splits
+					blank??
+				final split
+					time of original split
+			for each run, the amount of time you took for that segment
+				blank for all segments??
+			your gold
+				blank for all segments??
+				
+		(will probably have to shuffle segments or replace segments at some point)
+				
+	In what manner do you need to edit the splits to achieve that state?
+		no opening cutscene split / no ww splits (joining multiple segments together)
+			simply deleting all but the final split gives expected result, with gold option A.
+		now smp splits (break up a segment)
