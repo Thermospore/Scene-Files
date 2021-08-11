@@ -45,4 +45,7 @@ Look in splits file:
 		now smp splits (break up a segment)
 			treating the existing segment as the new last segment seems to be the best option?
 			so simply add segments above the existing one until you have the desired number
+				note: for some reason when you do this,	livesplit inserts the gold of the existing segment into your segment history under run id 0?
+					(but only if your gold doesn't already exist in your segment history)
+					this is good to keep in mind, if you try to look up a gold and it's under run id 0
 			can simply let the old gold be overwritten on your first run
