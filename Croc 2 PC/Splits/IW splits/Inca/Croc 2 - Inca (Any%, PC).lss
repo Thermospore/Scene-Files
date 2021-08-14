@@ -44,86 +44,42 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
-          <RealTime>00:00:01.0560000</RealTime>
-          <GameTime>00:00:00.0160000</GameTime>
-        </SplitTime>
-      </SplitTimes>
-      <BestSegmentTime>
-        <RealTime>00:00:01.0420000</RealTime>
-        <GameTime>00:00:00.0120000</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-        <Time id="1">
-          <RealTime>00:00:01.0560000</RealTime>
-          <GameTime>00:00:00.0160000</GameTime>
-        </Time>
-        <Time id="2">
-          <RealTime>00:00:01.0540000</RealTime>
-          <GameTime>00:00:00.0260000</GameTime>
-        </Time>
-        <Time id="3">
-          <RealTime>00:00:01.0420000</RealTime>
-          <GameTime>00:00:00.0120000</GameTime>
-        </Time>
-        <Time id="4">
-          <RealTime>00:00:01.0620000</RealTime>
-          <GameTime>00:00:00.0230000</GameTime>
-        </Time>
-        <Time id="5">
-          <RealTime>00:00:01.0490000</RealTime>
-          <GameTime>00:00:00.0250000</GameTime>
-        </Time>
-        <Time id="6">
-          <RealTime>00:00:01.0670000</RealTime>
-          <GameTime>00:00:00.0130000</GameTime>
-        </Time>
-        <Time id="7">
-          <RealTime>00:00:01.0600000</RealTime>
-          <GameTime>00:00:00.0160000</GameTime>
-        </Time>
-      </SegmentHistory>
-    </Segment>
-    <Segment>
-      <Name>-</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best">
           <RealTime>00:00:11.7250000</RealTime>
           <GameTime>00:00:10.1110000</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:10.4360000</RealTime>
-        <GameTime>00:00:09.8360000</GameTime>
+        <RealTime>00:00:11.4780000</RealTime>
+        <GameTime>00:00:09.8480000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
-          <RealTime>00:00:10.6690000</RealTime>
-          <GameTime>00:00:10.0950000</GameTime>
+          <RealTime>00:00:11.7250000</RealTime>
+          <GameTime>00:00:10.1110000</GameTime>
         </Time>
         <Time id="2">
-          <RealTime>00:00:10.6720000</RealTime>
-          <GameTime>00:00:10.0850000</GameTime>
+          <RealTime>00:00:11.7260000</RealTime>
+          <GameTime>00:00:10.1110000</GameTime>
         </Time>
         <Time id="3">
-          <RealTime>00:00:10.5580000</RealTime>
-          <GameTime>00:00:09.9950000</GameTime>
+          <RealTime>00:00:11.6000000</RealTime>
+          <GameTime>00:00:10.0070000</GameTime>
         </Time>
         <Time id="4">
-          <RealTime>00:00:10.4390000</RealTime>
-          <GameTime>00:00:09.8670000</GameTime>
+          <RealTime>00:00:11.5010000</RealTime>
+          <GameTime>00:00:09.8900000</GameTime>
         </Time>
         <Time id="5">
-          <RealTime>00:00:10.4360000</RealTime>
-          <GameTime>00:00:09.8360000</GameTime>
+          <RealTime>00:00:11.4850000</RealTime>
+          <GameTime>00:00:09.8610000</GameTime>
         </Time>
         <Time id="6">
-          <RealTime>00:00:10.4610000</RealTime>
-          <GameTime>00:00:09.8700000</GameTime>
+          <RealTime>00:00:11.5280000</RealTime>
+          <GameTime>00:00:09.8830000</GameTime>
         </Time>
         <Time id="7">
-          <RealTime>00:00:10.4950000</RealTime>
-          <GameTime>00:00:09.9320000</GameTime>
+          <RealTime>00:00:11.5550000</RealTime>
+          <GameTime>00:00:09.9480000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
@@ -348,7 +304,7 @@
       </SegmentHistory>
     </Segment>
     <Segment>
-      <Name>-&lt;goa&gt;</Name>
+      <Name>-</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
@@ -598,7 +554,7 @@
       </SplitTimes>
       <BestSegmentTime>
         <RealTime>00:03:32.9070000</RealTime>
-        <GameTime>00:03:32.9000000</GameTime>
+        <GameTime>00:03:31.8600000</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
