@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1056</X>
-  <Y>0</Y>
+  <X>1157</X>
+  <Y>-1130</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -60,12 +60,14 @@
           <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
           <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
-          <Setting id="DebugOutput" type="bool">False</Setting>
-          <Setting id="DO_MapChanges" type="bool">False</Setting>
-          <Setting id="DO_PrevWadSS0" type="bool">False</Setting>
-          <Setting id="DO_MainState" type="bool">False</Setting>
-          <Setting id="DO_InGameState" type="bool">False</Setting>
-          <Setting id="DO_IsCheatMenuOpen" type="bool">False</Setting>
+          <Setting id="DebugOutput" type="bool">True</Setting>
+          <Setting id="DO_MapChanges" type="bool">True</Setting>
+          <Setting id="DO_PrevWadSS0" type="bool">True</Setting>
+          <Setting id="DO_MainState" type="bool">True</Setting>
+          <Setting id="DO_InGameState" type="bool">True</Setting>
+          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+          <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
+          <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
         </CustomSettings>
       </Settings>
     </Component>
