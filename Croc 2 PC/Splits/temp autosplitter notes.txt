@@ -1,0 +1,183 @@
+Masher WW re-entry cancel doesn't work
+	maybe make LastWad more specific?
+		would proably have to rename it & separate it from CurTribe in debug output
+
+get rid of individual options for debug output?
+	or maybe have the individ ones enabled by default
+
+livesplit might be grabbing map values while they are in the middle of being updated sometimes?
+	So far I've only noticed it when changing to and from GOA map
+	this might be the source of those double split bugs elsewhere
+		because it makes it look like there were two map changes in a row
+	potential work around:
+		turn up script refresh rate,
+		find a val that lets you know if update is in progress,
+		if so, don't let livesplit update the CurWad value until the next cycle
+			(so, write the old.CurWad values back into current.CurWad)
+	HOWEVER now I'm not so sure
+		I tried cranking up the refresh rate to 1999hz (max) and grinding hub GOAs
+		didn't catch the middle of a map change a single time...
+		removed refresh rate def (to set it to default) and quickly got it twice in a row lol
+		maybe it's because 1999 doesn't evenly fit in to 30, so makes it less likely to overlap? no clue
+		Yea, I got it quickly at 90hz, 120hz, 150hz but never got it at 121hz
+		just got it at 151hz after maybe 10 tries tho...
+		oh wow I just got twice at 1999hz in the first 10 tries wtf haha
+		gonna have to ask hdc0 about this one lol
+		might be able to detect it by looking at mainstate/ingamestate/isloaded values
+			I think hdc0 has explanations for each of those values on his github
+		
+refresh rate
+	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place
+	how much strain does cranking the refresh rate up to max cause?
+
+count secret gems and or eggs as progress? what are they internally?
+
+does 100% cutscene stuff work alright? is that inca spawn valid OTS start?
+
+RequireUnusedBossWarps
+	add explanitory text?
+	move further down in the settings list?
+	add popup window (req'd by chef). see smb splitter
+		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
+		
+"This now works even when exiting via GOA!
+	honestly should probs just get rid of this; there are a bunch of other updates I'm not adding tooltips for
+
+IW end
+	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
+
+invert OTS SMP option?
+
+when you die in hub it doesn't change your spawn point. you just go to the current one.
+	double check
+	update in options text
+	info spreadsheet
+	
+need a secret hub map detection function too?
+	
+does // Cancel if old progress list is not available have to be up there?
+	could combine the splintered IL/OTS end sections if not
+	check the commit where that was added
+
+simplify hub goa detection to get rid of the latter 3 PrevWav values
+	have a bool in update set true if goa was in hub (probably need to init to 0 somewhere)?
+	using the map values is not 100% consistent; reverting to using PrevWad
+		I think livesplit catches the game while it's in the middle of updating map values sometimes...
+		Think it happens so quickly the autosplitter refresh doesn't usually catch it?
+		Seems tribe is updated last
+		I'm hoping this issue is specific to GOA... the autosplitter relies heavily on map changes being accurate
+	simply detect the invalid hub spawn directly?
+		would be useful for WW detection too
+		
+move ww detection fn to a bool in update?
+
+bad hub spawn blocks
+	make it so OTSstart don't start with
+		gobbo hub
+			(doesn't start on level entry for ww)
+			[COMPLETE] spawn in gobbo hub after ww
+			[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
+			(from load is already disabled)
+			(from death simply doesn't start)
+		secret hub
+			(secret hub is disabled)
+	
+	make it so IL/OTS end doesn't split for	
+		gobbo hub
+			[COMPLETE] entering level to do a ww
+			[COMPLETE] spawn in gobbo hub after ww
+			[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
+			(from load is already disabled)
+			(from death simply doesn't split)
+		secret hub
+			(no WW in secret hub)
+			(again, no WW in secret hub)
+			[COMPLETE] spawn in secret hub after GOA in secret hub
+			(from load is already disabled)
+			(from death simply doesn't split)
+			
+	ideas for (wait maybe make these functions too? can you call functions in functions??)
+		detect entry for ww
+			can check if reentering a non-hub level you already completed (RTH flag?)
+		detecting ww
+			HOLUP I bet you can get logic to work on mapchange
+				old.AllowReturnToHub == 1
+				non hub level -> hub level (use that function)
+				old.PrevTribeSS0 is already 0
+				
+			ugh I hate setting flags for later
+			make this check and store for later (maybe in `update`?)
+				AllowReturnToHub == 1
+				not in hub (use that function)
+				InGameState == 7
+				PrevTribe went to 0
+				rest of PrevWad equal to current map
+			once at map change
+				drop split if ww
+				set flag to 0 at some point
+					maybe in update?
+					be careful tho, sometimes map change and 7->0 happen on same loop
+		detect GOA in hub
+			just make sure the save slot PrevWad isn't hub map!
+			maybe can do if old map goa, current map is hub, and prevwad == map
+			
+	hub ids
+		gobbo 	secret
+		1234	555
+		1111	234
+		1111	111
+		0000	000
+	
+	update so any saveslot can be used
+		can you just use the idx thing like a pointer index or whatever?
+
+ww detection is a function but in hub goa is written out twice...?
+	might have to un-functionify ww detection to access all saveslots anyway
+	so... wait and see
+	could have a bool in update act like a function?
+
+Is insta warp shop same map as normal shop?
+	not that you would often start an IW this way, but it should at least work
+
+update OTS to reflect
+	options changes
+	no multiple ww splits now, see how that efefaarffects things
+	some people might be using the old splitter which splits on starting cutscene
+	sweep for any other changes
+	name change
+	
+hardcore IL stuff
+	split on each door transition
+	split on each lap
+	split on each crystal
+	maybe put babies subsplits under there too
+
+0. format
+	-[a/A] change needed/completed in Autosplitter
+	-[b/B] change needed/completed in leaderBoard rules
+	-[N] No action
+	-[?] Under investigation
+	
+1. [ab] change IW start to be just like IL start (when the map ID changes to the hub)?
+    -could get to the start through the cheat menu or through manually exiting smp
+    -would accommodate IWs taken from fullgame runs
+    -very minor effect to existing IW runs
+    
+2. [b] allow IWs from fullgame, not just sailor?
+    -Sailor only is just a holdover from c2gbc at this point, I think, especially if we start from map change
+
+3. [b] Change IW rules to be more like the way ILs are?
+    -no longer intended to be set up as if it's a segment from a fullgame run
+    -explicitly allow whatever items and hearts you want
+		-[?] *including golden gobbos?*
+    -explicitly require 100% or max% requirements for each level
+
+4. [N] how should sailor be handled?
+    -start at exit from SMP like all the other IWs and allow whatever lives and items?
+    -or keep it as is (start at newgame)?
+	
+5. [?] how to handle puzzles-dante entry for ILs?
+	-spawn conditions for GOA vs menu vs normal entry for plane onwards?
+	-do autosplitter start & split work the same starting one of those levels from
+		-GOA?
+		-level select menu?
