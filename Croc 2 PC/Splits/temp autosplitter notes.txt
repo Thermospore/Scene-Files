@@ -130,6 +130,7 @@ bad hub spawn blocks
 	
 	update so any saveslot can be used
 		can you just use the idx thing like a pointer index or whatever?
+		can use RequireUnusedBossWarps as an example?
 
 ww detection is a function but in hub goa is written out twice...?
 	might have to un-functionify ww detection to access all saveslots anyway

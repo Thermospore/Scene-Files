@@ -10,36 +10,71 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>0</AttemptCount>
-  <AttemptHistory />
+  <AttemptCount>11</AttemptCount>
+  <AttemptHistory>
+    <Attempt id="1" started="08/18/2021 11:24:00" isStartedSynced="False" ended="08/18/2021 11:24:17" isEndedSynced="False" />
+    <Attempt id="2" started="08/18/2021 11:25:47" isStartedSynced="False" ended="08/18/2021 11:25:51" isEndedSynced="False" />
+    <Attempt id="3" started="08/18/2021 11:25:55" isStartedSynced="False" ended="08/18/2021 11:26:38" isEndedSynced="False">
+      <RealTime>00:00:43.3210000</RealTime>
+      <GameTime>00:00:42.8240000</GameTime>
+    </Attempt>
+    <Attempt id="4" started="08/18/2021 11:26:56" isStartedSynced="False" ended="08/18/2021 11:27:12" isEndedSynced="False">
+      <RealTime>00:00:16.2330000</RealTime>
+      <GameTime>00:00:15.7570000</GameTime>
+    </Attempt>
+    <Attempt id="5" started="08/18/2021 11:27:35" isStartedSynced="False" ended="08/18/2021 11:27:51" isEndedSynced="False">
+      <RealTime>00:00:15.8220000</RealTime>
+      <GameTime>00:00:15.3390000</GameTime>
+    </Attempt>
+    <Attempt id="6" started="08/18/2021 11:28:02" isStartedSynced="False" ended="08/18/2021 11:28:12" isEndedSynced="False" />
+    <Attempt id="7" started="08/18/2021 11:29:00" isStartedSynced="False" ended="08/18/2021 11:29:06" isEndedSynced="False" />
+    <Attempt id="8" started="08/18/2021 11:29:07" isStartedSynced="False" ended="08/18/2021 11:30:57" isEndedSynced="False" />
+    <Attempt id="9" started="08/18/2021 11:30:59" isStartedSynced="False" ended="08/18/2021 11:31:16" isEndedSynced="False">
+      <RealTime>00:00:16.9120000</RealTime>
+      <GameTime>00:00:16.4160000</GameTime>
+    </Attempt>
+    <Attempt id="10" started="08/18/2021 11:31:21" isStartedSynced="False" ended="08/18/2021 11:31:37" isEndedSynced="False">
+      <RealTime>00:00:15.9700000</RealTime>
+      <GameTime>00:00:15.4740000</GameTime>
+    </Attempt>
+    <Attempt id="11" started="08/18/2021 11:31:52" isStartedSynced="False" ended="08/18/2021 11:33:27" isEndedSynced="False" />
+  </AttemptHistory>
   <Segments>
     <Segment>
-      <Name>cage</Name>
+      <Name>icecube-&gt;snowball</Name>
       <Icon />
       <SplitTimes>
-        <SplitTime name="Personal Best" />
+        <SplitTime name="Personal Best">
+          <RealTime>00:00:15.8220000</RealTime>
+          <GameTime>00:00:15.3390000</GameTime>
+        </SplitTime>
       </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>
-      </Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>theif</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
+      <BestSegmentTime>
+        <RealTime>00:00:15.8220000</RealTime>
+        <GameTime>00:00:15.2100000</GameTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+        <Time id="3">
+          <RealTime>00:00:43.3210000</RealTime>
+          <GameTime>00:00:42.8240000</GameTime>
+        </Time>
+        <Time id="4">
+          <RealTime>00:00:16.2330000</RealTime>
+          <GameTime>00:00:15.7570000</GameTime>
+        </Time>
+        <Time id="5">
+          <RealTime>00:00:15.8220000</RealTime>
+          <GameTime>00:00:15.3390000</GameTime>
+        </Time>
+        <Time id="9">
+          <RealTime>00:00:16.9120000</RealTime>
+          <GameTime>00:00:16.4160000</GameTime>
+        </Time>
+        <Time id="10">
+          <RealTime>00:00:15.9700000</RealTime>
+          <GameTime>00:00:15.4740000</GameTime>
+        </Time>
+      </SegmentHistory>
     </Segment>
   </Segments>
   <AutoSplitterSettings />

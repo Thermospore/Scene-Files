@@ -1,0 +1,52 @@
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃InGameState: 0 -> 1
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃MainState: 11 -> 3
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃IsMapLoaded: True -> False
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃Tribe: 0 -> 3 -> 0
+[21092] ┃Level: 0 -> 1 -> 0
+[21092] ┃Map:   2 -> 1 -> 2
+[21092] ┃Type:  3 -> 0 -> 3
+[21092] ┃IsMapLoaded: False -> True
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃PrevTribeSS0: 0 -> 3
+[21092] ┃PrevLevelSS0: 1 -> 1
+[21092] ┃PrevMapSS0:   1 -> 1
+[21092] ┃PrevTypeSS0:  0 -> 0
+[21092] ┃InGameState: 1 -> 7
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃MainState: 3 -> 11
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃IsMapLoaded: True -> False
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃Tribe: 3 -> 0 -> 3
+[21092] ┃Level: 1 -> 0 -> 1
+[21092] ┃Map:   1 -> 2 -> 1
+[21092] ┃Type:  0 -> 3 -> 0
+[21092] ┃InGameState: 7 -> 0
+[21092] ┃IsMapLoaded: False -> True
+[21092] ┗━━━━━━━━━━━━━┛ 
+[21092] LiveSplit.exe Information: 0 : 
+[21092] ┏━━━━━━━━━━━━━┓
+[21092] ┃PrevTribeSS0: 3 -> 0
+[21092] ┃PrevLevelSS0: 1 -> 1
+[21092] ┃PrevMapSS0:   1 -> 1
+[21092] ┃PrevTypeSS0:  0 -> 0
+[21092] ┗━━━━━━━━━━━━━┛ 
