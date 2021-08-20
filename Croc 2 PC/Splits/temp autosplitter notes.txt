@@ -1,4 +1,9 @@
 Masher WW re-entry cancel doesn't work
+	maybe just hardcode levels like that
+		I dont think there are many levels with a cutscene + the ability to WW...
+	look at level completion instead of return to hub option
+		to allow you to check while you are in the cutscene before the level
+		can use split on objective code?
 	maybe make LastWad more specific?
 		would proably have to rename it & separate it from CurTribe in debug output
 
