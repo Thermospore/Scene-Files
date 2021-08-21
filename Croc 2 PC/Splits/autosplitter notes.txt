@@ -1,8 +1,5 @@
-WAIT oh god WW entry cancel doesn't work for
-	exit via GOA
+WAIT oh god WW entry cancel doesn't work for exit via GOA
 		replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
-	levels like flytrap and soveena with two rooms
-		can we just ignore map?
 
 livesplit might be grabbing map values while they are in the middle of being updated sometimes?
 	So far I've only noticed it when changing to and from GOA map
