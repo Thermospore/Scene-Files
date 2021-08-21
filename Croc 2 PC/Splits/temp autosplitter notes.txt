@@ -1,14 +1,8 @@
-Masher WW re-entry cancel doesn't work
-	maybe just hardcode levels like that
-		I dont think there are many levels with a cutscene + the ability to WW...
-	look at level completion instead of return to hub option
-		to allow you to check while you are in the cutscene before the level
-		can use split on objective code?
-	maybe make LastWad more specific?
-		would proably have to rename it & separate it from CurTribe in debug output
-
-get rid of individual options for debug output?
-	or maybe have the individ ones enabled by default
+WAIT oh god WW entry cancel doesn't work for
+	exit via GOA
+		replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
+	levels like flytrap and soveena with two rooms
+		can we just ignore map?
 
 livesplit might be grabbing map values while they are in the middle of being updated sometimes?
 	So far I've only noticed it when changing to and from GOA map
@@ -141,9 +135,6 @@ ww detection is a function but in hub goa is written out twice...?
 	might have to un-functionify ww detection to access all saveslots anyway
 	so... wait and see
 	could have a bool in update act like a function?
-
-Is insta warp shop same map as normal shop?
-	not that you would often start an IW this way, but it should at least work
 
 update OTS to reflect
 	options changes
