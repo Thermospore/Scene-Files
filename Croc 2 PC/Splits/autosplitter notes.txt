@@ -23,8 +23,8 @@ livesplit might be grabbing map values while they are in the middle of being upd
 			I think hdc0 has explanations for each of those values on his github
 		
 refresh rate
-	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place
-	how much strain does cranking the refresh rate up to max cause?
+	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
+	how much strain does cranking the refresh rate up to max cause? basically none, looking at task manager..?
 
 count secret gems and or eggs as progress? what are they internally?
 
