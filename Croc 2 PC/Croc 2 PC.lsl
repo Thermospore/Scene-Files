@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1157</X>
-  <Y>-1130</Y>
+  <X>1511</X>
+  <Y>86</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -43,7 +43,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\Thermospore\Desktop\Repos\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
+        <ScriptPath>N:\Repos\Autosplitters\hdc0\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>

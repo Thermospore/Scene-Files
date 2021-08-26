@@ -48,6 +48,7 @@ when you die in hub it doesn't change your spawn point. you just go to the curre
 	double check
 	update in options text
 	info spreadsheet
+		also put RTH in boss levels into the table
 	
 need a secret hub map detection function too?
 	
