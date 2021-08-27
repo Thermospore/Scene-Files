@@ -24,6 +24,7 @@ Why does timer sometimes move a little bit after load at the very end of keith I
 WAIT oh god WW entry cancel doesn't work for exit via GOA
 	replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
 		could maybe get something that would work for hub goa detection too
+			so, store old wad whenever you (enter goa) or (enter hub, unless you were in goa before that)
 
 refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
