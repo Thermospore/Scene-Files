@@ -4,8 +4,10 @@ ideas from MoonBunnie on asl discord https://discord.com/channels/14413397875923
 	Alternatively, if you only need to detect the change cleanly and don't care about the actual map values, then you could fix double splitting by adding a minimum "cooldown" to your splitting function to prevent it from splitting twice in rapid succession.
 	And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
 
+I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
+
 WAIT oh god WW entry cancel doesn't work for exit via GOA
-		replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
+	replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
 
 livesplit might be grabbing map values while they are in the middle of being updated sometimes?
 	So far I've only noticed it when changing to and from GOA map
