@@ -5,31 +5,26 @@ ideas from MoonBunnie on asl discord https://discord.com/channels/14413397875923
 	And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
 
 I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
+	If it was simply a matter of avoiding double splits, a cooldown could be added
+		but a lot of logic relies on looking for specific map changes or patterns of map changes
+	Could find a val that lets you know if curWad update is in progress,
+		if so, don't let livesplit update the CurWad value until the next cycle
+		(so, write the old.CurWad values back into current.CurWad)
+	Can the garbage map value ever equal a real map?
+		if not, you can just filter it out
+		what order are the ids updated in? this will help eliminate possibilities
+			if curLevel updates first then from larry->hub the garbo id would equal flavio...
+		I'd rather not do this
+			it would be better to just have a blanket solution
+			than to have to try and define what is a real map id vs a garbage map id
+	Could delay current/old by one cycle to effectively "see into the future"
+
+Why does timer sometimes move a little bit after load at the very end of keith IL? 
 
 WAIT oh god WW entry cancel doesn't work for exit via GOA
 	replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
+		could maybe get something that would work for hub goa detection too
 
-livesplit might be grabbing map values while they are in the middle of being updated sometimes?
-	So far I've only noticed it when changing to and from GOA map
-	this might be the source of those double split bugs elsewhere
-		because it makes it look like there were two map changes in a row
-	potential work around:
-		turn up script refresh rate,
-		find a val that lets you know if update is in progress,
-		if so, don't let livesplit update the CurWad value until the next cycle
-			(so, write the old.CurWad values back into current.CurWad)
-	HOWEVER now I'm not so sure
-		I tried cranking up the refresh rate to 1999hz (max) and grinding hub GOAs
-		didn't catch the middle of a map change a single time...
-		removed refresh rate def (to set it to default) and quickly got it twice in a row lol
-		maybe it's because 1999 doesn't evenly fit in to 30, so makes it less likely to overlap? no clue
-		Yea, I got it quickly at 90hz, 120hz, 150hz but never got it at 121hz
-		just got it at 151hz after maybe 10 tries tho...
-		oh wow I just got twice at 1999hz in the first 10 tries wtf haha
-		gonna have to ask hdc0 about this one lol
-		might be able to detect it by looking at mainstate/ingamestate/isloaded values
-			I think hdc0 has explanations for each of those values on his github
-		
 refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
 	how much strain does cranking the refresh rate up to max cause? basically none, looking at task manager..?
