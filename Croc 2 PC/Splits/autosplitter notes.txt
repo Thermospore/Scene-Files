@@ -18,17 +18,18 @@ I think race condition applies to all map changes, it's just that most map chang
 			it would be better to just have a blanket solution
 			than to have to try and define what is a real map id vs a garbage map id
 	Could delay current/old by one cycle to effectively "see into the future"
+	Could compare with the curWad in your saveslot, but that would only work for some cases
+	Could do some spooky code injection! :):):):):):)
 
 Why does timer sometimes move a little bit after load at the very end of keith IL? 
 
-WAIT oh god WW entry cancel doesn't work for exit via GOA
-	replace LastWad & LevelBeforeHubWasMasher with last non GOA wad before hub?
-		could maybe get something that would work for hub goa detection too
-			so, store old wad whenever you (enter goa) or (enter hub, unless you were in goa before that)
+Oh god what to do about how you spawn at WW spawn when you GOA or return to hub out of boss room
+	maybe add this to the bad hub spawn info down below
 
 refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
-	how much strain does cranking the refresh rate up to max cause? basically none, looking at task manager..?
+	how much strain does cranking the refresh rate up to max cause?
+		basically none, looking at task manager..?
 
 count secret gems and or eggs as progress? what are they internally?
 
@@ -60,17 +61,15 @@ does // Cancel if old progress list is not available have to be up there?
 	could combine the splintered IL/OTS end sections if not
 	check the commit where that was added
 
-simplify hub goa detection to get rid of the latter 3 PrevWav values
-	have a bool in update set true if goa was in hub (probably need to init to 0 somewhere)?
-	using the map values is not 100% consistent; reverting to using PrevWad
-		I think livesplit catches the game while it's in the middle of updating map values sometimes...
-		Think it happens so quickly the autosplitter refresh doesn't usually catch it?
-		Seems tribe is updated last
-		I'm hoping this issue is specific to GOA... the autosplitter relies heavily on map changes being accurate
+hub goa detection
+	simplify to a function or a bool in update?
+	revert to PrevWadSS0, if CurWad race condition is a problem?
 	simply detect the invalid hub spawn directly?
 		would be useful for WW detection too
-		
+
 move ww detection fn to a bool in update?
+	might have to un-functionify ww detection to access all saveslots
+	could use functions inside of the function too :)
 
 bad hub spawn blocks
 	make it so OTSstart don't start with
@@ -132,11 +131,6 @@ bad hub spawn blocks
 	update so any saveslot can be used
 		can you just use the idx thing like a pointer index or whatever?
 		can use RequireUnusedBossWarps as an example?
-
-ww detection is a function but in hub goa is written out twice...?
-	might have to un-functionify ww detection to access all saveslots anyway
-	so... wait and see
-	could have a bool in update act like a function?
 
 update OTS to reflect
 	options changes
