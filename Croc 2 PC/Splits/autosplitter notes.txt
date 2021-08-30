@@ -5,21 +5,25 @@ ideas from MoonBunnie on asl discord https://discord.com/channels/14413397875923
 	And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
 
 I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
-	If it was simply a matter of avoiding double splits, a cooldown could be added
-		but a lot of logic relies on looking for specific map changes or patterns of map changes
-	Could find a val that lets you know if curWad update is in progress,
-		if so, don't let livesplit update the CurWad value until the next cycle
-		(so, write the old.CurWad values back into current.CurWad)
-	Can the garbage map value ever equal a real map?
-		if not, you can just filter it out
-		what order are the ids updated in? this will help eliminate possibilities
-			if curLevel updates first then from larry->hub the garbo id would equal flavio...
-		I'd rather not do this
-			it would be better to just have a blanket solution
-			than to have to try and define what is a real map id vs a garbage map id
-	Could delay current/old by one cycle to effectively "see into the future"
-	Could compare with the curWad in your saveslot, but that would only work for some cases
-	Could do some spooky code injection! :):):):):):)
+	Complete solutions
+		If it was simply a matter of avoiding double splits, a cooldown could be added
+			but a lot of logic relies on looking for specific map changes or patterns of map changes
+		Could find a val that lets you know if curWad update is in progress,
+			if so, don't let livesplit update the CurWad value until the next cycle
+			(so, write the old.CurWad values back into current.CurWad)
+		Can the garbage map value ever equal a real map?
+			if not, you can just filter it out
+			what order are the ids updated in? this will help eliminate possibilities
+				if curLevel updates first then from larry->hub the garbo id would equal flavio...
+			I'd rather not do this
+				it would be better to just have a blanket solution
+				than to have to try and define what is a real map id vs a garbage map id
+		Could delay current/old by one cycle to effectively "see into the future"
+		Could do some spooky code injection! :):):):):):)
+	Partial solutions
+		Could compare with the curWad in your saveslot, but that would only work for some cases
+		Could use PrevWadSS for some stuff probably
+		Could add a cooldown to prevent double splits
 
 Why does timer sometimes move a little bit after load at the very end of keith IL? 
 
