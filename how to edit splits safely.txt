@@ -1,6 +1,4 @@
-no opening cutscene split
-no ww splits
-now smp splits
+masher is now longer, since you GOA out... probably need to delete it's split history so SoB isn't broken
 
 Look in splits file:
 	What info does a split contain?
