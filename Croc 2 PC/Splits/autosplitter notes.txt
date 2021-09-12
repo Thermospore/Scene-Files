@@ -1,11 +1,14 @@
-secret splits
-	egg split should be part of split on objective completion (except the final egg)
-		because they are objective completion
-		and you don't need a split there if you are doing on map change
-			OTS should go to map change, to keep things simple (except final egg)
-	dante gems should be a suboption of split on objective completion
-		because they are objective completion
-		and you don't need a split there if you are doing on map change
+check 100% post dante crystal
+	dante crystal		YES (traditional ending point)
+	dante->cutscene		?
+	cutscene->credits	?
+	credits->inca		?
+	inca->SMP			?
+	SMP->secret			YES (start of OTS seg)
+	
+prog split loop simplification
+	move 100% end egg split outside of the loop, by dante crystal split
+	gate the entire loop behind the prog split option, since why else would you need to use it now
 
 ideas from MoonBunnie on asl discord https://discord.com/channels/144133978759233536/144134231201808385/880666397842235473
 	That is a very detailed break-down, thank you! I don't know the game, but my ideas of things to explore would be as follows:
@@ -43,8 +46,6 @@ refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
 	how much strain does cranking the refresh rate up to max cause?
 		basically none, looking at task manager..?
-
-does 100% cutscene stuff work alright? is that inca spawn valid OTS start?
 
 RequireUnusedBossWarps
 	add explanitory text?
