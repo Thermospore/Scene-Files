@@ -61,7 +61,9 @@ when you die in hub it doesn't change your spawn point. you just go to the curre
 	update in options text
 	info spreadsheet
 		also put RTH in boss levels into the table
-	
+
+make sure any new memory values you added work on eu release too
+
 need a secret hub map detection function too?
 	
 does // Cancel if old progress list is not available have to be up there?
