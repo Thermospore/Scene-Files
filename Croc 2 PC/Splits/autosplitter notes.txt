@@ -1,3 +1,12 @@
+secret splits
+	egg split should be part of split on objective completion (except the final egg)
+		because they are objective completion
+		and you don't need a split there if you are doing on map change
+			OTS should go to map change, to keep things simple (except final egg)
+	dante gems should be a suboption of split on objective completion
+		because they are objective completion
+		and you don't need a split there if you are doing on map change
+
 ideas from MoonBunnie on asl discord https://discord.com/channels/144133978759233536/144134231201808385/880666397842235473
 	That is a very detailed break-down, thank you! I don't know the game, but my ideas of things to explore would be as follows:
 	I'd first try changing the conditions for what counts as a map change. Since we can't reliably assume all 4 change at the same time, you could limit when the check happens by using another variable. As an example, if the InGameState changes to 7 always immediately after a map change, you could perform the map check only when that happens. You would need to track the old values yourself though, and only update them during that check (in case InGameState can change to 7 without map changing). 
@@ -35,8 +44,6 @@ refresh rate
 	how much strain does cranking the refresh rate up to max cause?
 		basically none, looking at task manager..?
 
-count secret gems and or eggs as progress? what are they internally?
-
 does 100% cutscene stuff work alright? is that inca spawn valid OTS start?
 
 RequireUnusedBossWarps
@@ -45,13 +52,8 @@ RequireUnusedBossWarps
 	add popup window (req'd by chef). see smb splitter
 		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
 		
-"This now works even when exiting via GOA!
-	honestly should probs just get rid of this; there are a bunch of other updates I'm not adding tooltips for
-
 IW end
 	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
-
-invert OTS SMP option?
 
 when you die in hub it doesn't change your spawn point. you just go to the current one.
 	double check
@@ -74,6 +76,10 @@ hub goa detection
 move ww detection fn to a bool in update?
 	might have to un-functionify ww detection to access all saveslots
 	could use functions inside of the function too :)
+	
+make it so any saveslot can be used
+	can you just use the idx thing like a pointer index or whatever?
+	can use RequireUnusedBossWarps as an example?
 
 bad hub spawn blocks
 	make it so OTSstart don't start with
@@ -100,41 +106,12 @@ bad hub spawn blocks
 			(from load is already disabled)
 			(from death simply doesn't split)
 			
-	ideas for (wait maybe make these functions too? can you call functions in functions??)
-		detect entry for ww
-			can check if reentering a non-hub level you already completed (RTH flag?)
-		detecting ww
-			HOLUP I bet you can get logic to work on mapchange
-				old.AllowReturnToHub == 1
-				non hub level -> hub level (use that function)
-				old.PrevTribeSS0 is already 0
-				
-			ugh I hate setting flags for later
-			make this check and store for later (maybe in `update`?)
-				AllowReturnToHub == 1
-				not in hub (use that function)
-				InGameState == 7
-				PrevTribe went to 0
-				rest of PrevWad equal to current map
-			once at map change
-				drop split if ww
-				set flag to 0 at some point
-					maybe in update?
-					be careful tho, sometimes map change and 7->0 happen on same loop
-		detect GOA in hub
-			just make sure the save slot PrevWad isn't hub map!
-			maybe can do if old map goa, current map is hub, and prevwad == map
-			
-	hub ids
-		gobbo 	secret
-		1234	555
-		1111	234
-		1111	111
-		0000	000
-	
-	update so any saveslot can be used
-		can you just use the idx thing like a pointer index or whatever?
-		can use RequireUnusedBossWarps as an example?
+hub ids
+	gobbo 	secret
+	1234	555
+	1111	234
+	1111	111
+	0000	000
 
 update OTS to reflect
 	options changes
