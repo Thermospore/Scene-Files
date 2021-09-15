@@ -1,10 +1,14 @@
-check 100% post dante crystal
-	dante crystal		YES (traditional ending point)
-	dante->cutscene		?
-	cutscene->credits	?
-	credits->inca		?
-	inca->SMP			?
-	SMP->secret			YES (start of OTS seg)
+100% IL style splits
+	dante crystal		YES (end of dante IL)
+	dante->cutscene		NO (not start or end of IL / OTS seg)
+	cutscene->credits	NO (same)
+	credits->inca		idk? potentially useful for route timing? or are we always gonna go straight into smp
+	inca->SMP			YES (SMP already has splits in/out for IW, OTS, etc earlier in the game)
+	SMP->secret sailor	YES (start/end of OTS seg)
+	level/hub in/out	YES (start/end of IL / OTS seg)
+	color gems			NO (OPTIONAL for objective style tho)
+	sailor/cossack egg	NO (YES for objective style tho)
+	caveman egg			YES (end of run)
 	
 prog split loop simplification
 	move 100% end egg split outside of the loop, by dante crystal split
