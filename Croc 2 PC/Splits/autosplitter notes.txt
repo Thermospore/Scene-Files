@@ -1,25 +1,60 @@
-100% IL style splits
-	dante crystal		YES (end of dante IL)
-	dante->cutscene		NO (not start or end of IL / OTS seg)
-	cutscene->credits	NO (same)
-	credits->inca		idk? potentially useful for route timing? or are we always gonna go straight into smp
-	inca->SMP			YES (SMP already has splits in/out for IW, OTS, etc earlier in the game)
-	SMP->secret sailor	YES (start/end of OTS seg)
-	level/hub in/out	YES (start/end of IL / OTS seg)
-	color gems			NO (OPTIONAL for objective style tho)
-	sailor/cossack egg	NO (YES for objective style tho)
-	caveman egg			YES (end of run)
-	
+Wait masher prog read works on all save slots right?
+
+RequireUnusedBossWarps
+	add explanitory text?
+	move further down in the settings list?
+	add popup window (req'd by chef). see smb splitter
+		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
+		
+make it so any saveslot can be used
+	can you just use the idx thing like a pointer index or whatever?
+	can use RequireUnusedBossWarps as an example?
+
+IW end
+	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
+
+Why does timer sometimes move a little bit after load at the very end of keith IL? 
+
+Oh god what to do about how you spawn at WW spawn when you GOA or return to hub out of boss room
+	maybe add this to the bad hub spawn info down below
+
+when you die in hub it doesn't change your spawn point. you just go to the current one.
+	double check
+	update in options text
+	info spreadsheet
+		also put RTH in boss levels into the table
+
+make sure any new memory values you added work on eu release too
+	PrevTribeSS
+	masher progress read
+	AllowReturnToHub
+
 prog split loop simplification
 	move 100% end egg split outside of the loop, by dante crystal split
 	gate the entire loop behind the prog split option, since why else would you need to use it now
 
-ideas from MoonBunnie on asl discord https://discord.com/channels/144133978759233536/144134231201808385/880666397842235473
-	That is a very detailed break-down, thank you! I don't know the game, but my ideas of things to explore would be as follows:
-	I'd first try changing the conditions for what counts as a map change. Since we can't reliably assume all 4 change at the same time, you could limit when the check happens by using another variable. As an example, if the InGameState changes to 7 always immediately after a map change, you could perform the map check only when that happens. You would need to track the old values yourself though, and only update them during that check (in case InGameState can change to 7 without map changing). 
-	Alternatively, if you only need to detect the change cleanly and don't care about the actual map values, then you could fix double splitting by adding a minimum "cooldown" to your splitting function to prevent it from splitting twice in rapid succession.
-	And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
+refresh rate
+	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
+	how much strain does cranking the refresh rate up to max cause?
+		basically none, looking at task manager..?
 
+need a secret hub map detection function too?
+	
+does // Cancel if old progress list is not available have to be up there?
+	could combine the splintered IL/OTS end sections if not
+	check the commit where that was added
+	add some debug output to see where this is actually having an effect
+
+hub goa detection
+	simplify to a function or a bool in update?
+	revert to PrevWadSS0, if CurWad race condition is a problem?
+	simply detect the invalid hub spawn directly?
+		would be useful for WW detection too
+
+move ww detection fn to a bool in update?
+	might have to un-functionify ww detection to access all saveslots
+	could use functions inside of the function too :)
+	
 I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
 	Complete solutions
 		If it was simply a matter of avoiding double splits, a cooldown could be added
@@ -40,53 +75,11 @@ I think race condition applies to all map changes, it's just that most map chang
 		Could compare with the curWad in your saveslot, but that would only work for some cases
 		Could use PrevWadSS for some stuff probably
 		Could add a cooldown to prevent double splits
-
-Why does timer sometimes move a little bit after load at the very end of keith IL? 
-
-Oh god what to do about how you spawn at WW spawn when you GOA or return to hub out of boss room
-	maybe add this to the bad hub spawn info down below
-
-refresh rate
-	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
-	how much strain does cranking the refresh rate up to max cause?
-		basically none, looking at task manager..?
-
-RequireUnusedBossWarps
-	add explanitory text?
-	move further down in the settings list?
-	add popup window (req'd by chef). see smb splitter
-		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
-		
-IW end
-	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
-
-when you die in hub it doesn't change your spawn point. you just go to the current one.
-	double check
-	update in options text
-	info spreadsheet
-		also put RTH in boss levels into the table
-
-make sure any new memory values you added work on eu release too
-
-need a secret hub map detection function too?
-	
-does // Cancel if old progress list is not available have to be up there?
-	could combine the splintered IL/OTS end sections if not
-	check the commit where that was added
-
-hub goa detection
-	simplify to a function or a bool in update?
-	revert to PrevWadSS0, if CurWad race condition is a problem?
-	simply detect the invalid hub spawn directly?
-		would be useful for WW detection too
-
-move ww detection fn to a bool in update?
-	might have to un-functionify ww detection to access all saveslots
-	could use functions inside of the function too :)
-	
-make it so any saveslot can be used
-	can you just use the idx thing like a pointer index or whatever?
-	can use RequireUnusedBossWarps as an example?
+	ideas from MoonBunnie on asl discord https://discord.com/channels/144133978759233536/144134231201808385/880666397842235473
+		That is a very detailed break-down, thank you! I don't know the game, but my ideas of things to explore would be as follows:
+		I'd first try changing the conditions for what counts as a map change. Since we can't reliably assume all 4 change at the same time, you could limit when the check happens by using another variable. As an example, if the InGameState changes to 7 always immediately after a map change, you could perform the map check only when that happens. You would need to track the old values yourself though, and only update them during that check (in case InGameState can change to 7 without map changing). 
+		Alternatively, if you only need to detect the change cleanly and don't care about the actual map values, then you could fix double splitting by adding a minimum "cooldown" to your splitting function to prevent it from splitting twice in rapid succession.
+		And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
 
 bad hub spawn blocks
 	make it so OTSstart don't start with
