@@ -1,5 +1,3 @@
-Wait masher prog read works on all save slots right?
-
 RequireUnusedBossWarps
 	add explanitory text?
 	move further down in the settings list?
