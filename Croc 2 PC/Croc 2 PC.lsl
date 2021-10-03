@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1511</X>
-  <Y>86</Y>
+  <X>790</X>
+  <Y>1633</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -48,11 +48,11 @@
         <Split>True</Split>
         <CustomSettings>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="SaveSlotStart" type="bool">True</Setting>
+          <Setting id="SaveSlotStart" type="bool">False</Setting>
           <Setting id="ILstart" type="bool">False</Setting>
           <Setting id="OTSstart" type="bool">False</Setting>
           <Setting id="OTSstart_SMP" type="bool">False</Setting>
-          <Setting id="IWstart" type="bool">False</Setting>
+          <Setting id="IWstart" type="bool">True</Setting>
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">False</Setting>
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
@@ -62,7 +62,8 @@
           <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
-          <Setting id="DO_PrevWadSS0" type="bool">True</Setting>
+          <Setting id="DO_WadB4GH" type="bool">True</Setting>
+          <Setting id="DO_PrevTribeSS0" type="bool">True</Setting>
           <Setting id="DO_MainState" type="bool">True</Setting>
           <Setting id="DO_InGameState" type="bool">True</Setting>
           <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>

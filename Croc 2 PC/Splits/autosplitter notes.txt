@@ -3,6 +3,7 @@ RequireUnusedBossWarps
 	move further down in the settings list?
 	add popup window (req'd by chef). see smb splitter
 		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
+		cheatengine address: 622D50
 		
 make it so any saveslot can be used
 	can you just use the idx thing like a pointer index or whatever?
