@@ -1,8 +1,19 @@
 go to the 聖地 (used to be covered with a cloud or sometihng) and 共鳴 the 聖剣 with the tree thing
-	I think it's the island in the top left
+	it's the island in the top left
 	
-ーーーーーーーーーーーーーーーーーーーーーーーーー
+bruh ポポイ mp drain is OP!!!! (ルナのアブソーブ)
+	you can pretty much spam magic all you want, then refill with mp drain
+	
+dark	1		1
+earth	120?	4	127
+water	78		
+fire	116		
+wind	1		
+grass?	1
 
+完
+
+ーーーーーーーーーーーーーーーーーーーーーーーーー
 ボス戦後にハマる条件は
 「最後にリングコマンドを開いた時の操作キャラ」と
 「ボス撃破演出時の操作キャラ」が
