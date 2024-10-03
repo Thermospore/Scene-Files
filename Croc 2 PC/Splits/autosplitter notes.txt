@@ -1,3 +1,9 @@
+I'd have to think about this, but maybe instead of painstakingly individually detecting every situation with a valid / invalid hub spawn (ie WW, SQ, GOA in hub, etcetc) I can just directly detect which spawn is being used (the SMP exit one or the general hub one)..?
+
+max% feature to help with forgetting crystals?
+- don't split when exiting without 100 crystals?
+- ping / alert when exiting without 100 crystals?
+
 RequireUnusedBossWarps
 	add explanitory text?
 	move further down in the settings list?
@@ -36,6 +42,7 @@ refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
 	how much strain does cranking the refresh rate up to max cause?
 		basically none, looking at task manager..?
+	actually shoot, would this cause the race condition to happen more frequently?
 
 need a secret hub map detection function too?
 	
@@ -79,6 +86,10 @@ I think race condition applies to all map changes, it's just that most map chang
 		I'd first try changing the conditions for what counts as a map change. Since we can't reliably assume all 4 change at the same time, you could limit when the check happens by using another variable. As an example, if the InGameState changes to 7 always immediately after a map change, you could perform the map check only when that happens. You would need to track the old values yourself though, and only update them during that check (in case InGameState can change to 7 without map changing). 
 		Alternatively, if you only need to detect the change cleanly and don't care about the actual map values, then you could fix double splitting by adding a minimum "cooldown" to your splitting function to prevent it from splitting twice in rapid succession.
 		And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
+	Random notes I'm dumping here because I don7t have time to open this can of worms right now
+		there is some stuff here "N:\Programs\OBS\Scene Files\Croc 2 PC\race condition"
+		hdc0 had a suggestion here https://discord.com/channels/313375426112389123/408694062862958592/1290082184597868690
+		there is this discord link from the top of the .asl code comments too https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338
 
 bad hub spawn blocks
 	make it so OTSstart don't start with

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>36</X>
-  <Y>993</Y>
+  <X>-1769</X>
+  <Y>122</Y>
   <VerticalWidth>480</VerticalWidth>
-  <VerticalHeight>573</VerticalHeight>
+  <VerticalHeight>570</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -57,19 +57,34 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\Thermospore\Desktop\TEMP_oldILSplitter.asl</ScriptPath>
+        <ScriptPath>N:\Repos\Autosplitters\hdc0\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
         <Start>True</Start>
         <Split>True</Split>
         <CustomSettings>
-          <Setting id="StartAfterSaveSlotChosen" type="bool">False</Setting>
-          <Setting id="StartOnFirstLevel" type="bool">True</Setting>
-          <Setting id="StartOnHubCheat" type="bool">False</Setting>
-          <Setting id="SplitOnSMP" type="bool">False</Setting>
-          <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
-          <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
+          <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
+          <Setting id="SaveSlotStart" type="bool">False</Setting>
+          <Setting id="ILstart" type="bool">True</Setting>
+          <Setting id="OTSstart" type="bool">False</Setting>
+          <Setting id="OTSstart_SMP" type="bool">False</Setting>
+          <Setting id="IWstart" type="bool">False</Setting>
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
+          <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
+          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
+          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+          <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
+          <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
           <Setting id="SplitOnBabies" type="bool">True</Setting>
-          <Setting id="RequireUnusedBossWarps" type="bool">False</Setting>
+          <Setting id="SplitOnBabiesPlusOne" type="bool">True</Setting>
+          <Setting id="SplitOnGem" type="bool">True</Setting>
+          <Setting id="DebugOutput" type="bool">True</Setting>
+          <Setting id="DO_MapChanges" type="bool">True</Setting>
+          <Setting id="DO_WadB4GH" type="bool">True</Setting>
+          <Setting id="DO_PrevTribeSS0" type="bool">True</Setting>
+          <Setting id="DO_MainState" type="bool">True</Setting>
+          <Setting id="DO_InGameState" type="bool">True</Setting>
+          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+          <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
+          <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
         </CustomSettings>
       </Settings>
     </Component>
@@ -235,29 +250,22 @@
       </Settings>
     </Component>
     <Component>
-      <Path>LiveSplit.Text.dll</Path>
+      <Path>LiveSplit.ComparisonTime.dll</Path>
       <Settings>
         <Version>1.4</Version>
         <TextColor>FFFFFFFF</TextColor>
         <OverrideTextColor>False</OverrideTextColor>
         <TimeColor>FFFFFFFF</TimeColor>
         <OverrideTimeColor>False</OverrideTimeColor>
+        <Accuracy>Hundredths</Accuracy>
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
-        <Text1>Any% - Glider</Text1>
-        <Text2>1:24.72</Text2>
-        <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
-        <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
-        <OverrideFont1>False</OverrideFont1>
-        <OverrideFont2>False</OverrideFont2>
+        <Comparison>WR Δ</Comparison>
+        <TimingMethod>Current Timing Method</TimingMethod>
         <Display2Rows>False</Display2Rows>
+        <Type>FinalTime</Type>
       </Settings>
-    </Component>
-    <Component>
-      <Path>
-      </Path>
-      <Settings />
     </Component>
   </Components>
 </Layout>

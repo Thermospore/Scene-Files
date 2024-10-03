@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>790</X>
-  <Y>1633</Y>
+  <X>-1771</X>
+  <Y>116</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>762</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -48,18 +48,20 @@
         <Split>True</Split>
         <CustomSettings>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="SaveSlotStart" type="bool">False</Setting>
+          <Setting id="SaveSlotStart" type="bool">True</Setting>
           <Setting id="ILstart" type="bool">False</Setting>
           <Setting id="OTSstart" type="bool">False</Setting>
-          <Setting id="OTSstart_SMP" type="bool">False</Setting>
-          <Setting id="IWstart" type="bool">True</Setting>
+          <Setting id="OTSstart_SMP" type="bool">True</Setting>
+          <Setting id="IWstart" type="bool">False</Setting>
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">False</Setting>
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
           <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
-          <Setting id="SplitOnBabies" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
+          <Setting id="SplitOnBabies" type="bool">True</Setting>
+          <Setting id="SplitOnBabiesPlusOne" type="bool">True</Setting>
+          <Setting id="SplitOnGem" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
           <Setting id="DO_WadB4GH" type="bool">True</Setting>
@@ -138,6 +140,7 @@
       <Path>LiveSplit.Subsplits.dll</Path>
       <Settings>
         <Version>1.7</Version>
+        <AutomaticAbbreviation>False</AutomaticAbbreviation>
         <CurrentSplitTopColor>FF3C33F4</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
         <VisualSplitCount>8</VisualSplitCount>
