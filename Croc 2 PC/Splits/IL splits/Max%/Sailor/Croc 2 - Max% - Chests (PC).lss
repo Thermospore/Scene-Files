@@ -63,8 +63,8 @@
           <RealTime>00:05:05.0338405</RealTime>
           <GameTime>00:05:03.7446719</GameTime>
         </SplitTime>
-        <SplitTime name="WR">
-          <GameTime>00:05:24.3900000</GameTime>
+        <SplitTime name="WR Δ">
+          <GameTime>00:04:54.3200000</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
@@ -72,6 +72,9 @@
         <GameTime>00:05:03.7446719</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
+        <Time id="-3">
+          <GameTime>00:05:24.3900000</GameTime>
+        </Time>
         <Time id="16">
           <RealTime>00:05:26.2468800</RealTime>
           <GameTime>00:05:24.9133212</GameTime>
@@ -83,9 +86,6 @@
         <Time id="23">
           <RealTime>00:05:05.0338405</RealTime>
           <GameTime>00:05:03.7446719</GameTime>
-        </Time>
-        <Time id="-3">
-          <GameTime>00:05:24.3900000</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>

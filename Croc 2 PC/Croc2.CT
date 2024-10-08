@@ -361,6 +361,36 @@ addr:
       <Address>Croc2.exe+222CEC</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>36</ID>
+      <Description>"Train X"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Train Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Train Z"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"chests L side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2240D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"chests R side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2245A0</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1</ID>
       <Description>"CrocObj"</Description>
       <VariableType>4 Bytes</VariableType>
@@ -414,36 +444,6 @@ addr:
         <Offset>28</Offset>
         <Offset>14</Offset>
       </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"Train X"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"Train Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>34</ID>
-      <Description>"Train Z"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>54</ID>
-      <Description>"chests L side first plat"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2240D0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>53</ID>
-      <Description>"chests R side first plat"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2245A0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>
