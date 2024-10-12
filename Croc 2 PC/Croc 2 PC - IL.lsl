@@ -85,6 +85,7 @@
           <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
           <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
           <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
+          <Setting id="SpeedDisplay" type="bool">True</Setting>
         </CustomSettings>
       </Settings>
     </Component>
