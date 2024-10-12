@@ -315,6 +315,7 @@ addr:
     <CheatEntry>
       <ID>23</ID>
       <Description>"Sailor 1 completion"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2043C0</Address>
     </CheatEntry>

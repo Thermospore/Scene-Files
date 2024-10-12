@@ -70,7 +70,7 @@
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
-          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+          <Setting id="SplitOnObjectiveCompletion" type="bool">True</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
           <Setting id="SplitOnBabies" type="bool">True</Setting>
