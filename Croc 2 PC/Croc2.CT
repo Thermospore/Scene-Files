@@ -22,7 +22,7 @@ savedPlayerPos = readBytes(addrPlrPos, 0xC, true)
           </Keys>
           <ID>1</ID>
         </Hotkey>
-        <Hotkey>
+        <Hotkey Active="0">
           <Action>Toggle Activation</Action>
           <Keys>
             <Key>81</Key>
@@ -54,7 +54,7 @@ end
           </Keys>
           <ID>1</ID>
         </Hotkey>
-        <Hotkey>
+        <Hotkey Active="0">
           <Action>Toggle Activation</Action>
           <Keys>
             <Key>69</Key>
