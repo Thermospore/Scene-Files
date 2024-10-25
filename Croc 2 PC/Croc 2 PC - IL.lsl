@@ -71,12 +71,41 @@
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
-          <Setting id="SplitOnObjectiveCompletion" type="bool">True</Setting>
+          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
-          <Setting id="SplitOnBabies" type="bool">True</Setting>
-          <Setting id="SplitOnBabiesPlusOne" type="bool">True</Setting>
-          <Setting id="SplitOnGem" type="bool">True</Setting>
+          <Setting id="SplitOnGem" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits" type="bool">True</Setting>
+          <Setting id="BabiesSubsplits_1" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_2" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_3" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_4" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_5" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_6" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_7" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_8" type="bool">True</Setting>
+          <Setting id="BabiesSubsplits_9" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_10" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_11" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_12" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_13" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_14" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_15" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_16" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_17" type="bool">True</Setting>
+          <Setting id="BabiesSubsplits_18" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_19" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_20" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_21" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_22" type="bool">True</Setting>
+          <Setting id="BabiesSubsplits_23" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_24" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_25" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_26" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_27" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_28" type="bool">True</Setting>
+          <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
+          <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
           <Setting id="DO_WadB4GH" type="bool">True</Setting>
@@ -281,7 +310,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (2D)</Text1>
-        <Text2>1.4142</Text2>
+        <Text2>19928.4905</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
@@ -301,7 +330,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (3D)</Text1>
-        <Text2>1.4142</Text2>
+        <Text2>19975.6631</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
