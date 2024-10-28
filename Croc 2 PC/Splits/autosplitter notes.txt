@@ -1,5 +1,9 @@
 I'd have to think about this, but maybe instead of painstakingly individually detecting every situation with a valid / invalid hub spawn (ie WW, SQ, GOA in hub, etcetc) I can just directly detect which spawn is being used (the SMP exit one or the general hub one)..?
 
+in the debug text for wad/map IDs:
+	add a line that tells you the level name for that map ID!
+	or if it's an invalid/unknown ID!
+
 max% feature to help with forgetting crystals?
 - don't split when exiting without 100 crystals?
 - ping / alert when exiting without 100 crystals?
@@ -18,7 +22,8 @@ make it so any saveslot can be used
 IW end
 	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
 
-Why does timer sometimes move a little bit after load at the very end of keith IL? 
+Why does timer sometimes move a little bit after load at the very end of keith IL?
+	well... I guess it must be because the load ends a split second before map change? could be a race condition thing...
 
 Oh god what to do about how you spawn at WW spawn when you GOA or return to hub out of boss room
 	maybe add this to the bad hub spawn info down below
@@ -28,11 +33,6 @@ when you die in hub it doesn't change your spawn point. you just go to the curre
 	update in options text
 	info spreadsheet
 		also put RTH in boss levels into the table
-
-make sure any new memory values you added work on eu release too
-	PrevTribeSS
-	masher progress read
-	AllowReturnToHub
 
 prog split loop simplification
 	move 100% end egg split outside of the loop, by dante crystal split
@@ -62,6 +62,8 @@ move ww detection fn to a bool in update?
 	could use functions inside of the function too :)
 	
 I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
+	(these notes are a mess and need to be cleaned up / re-organized)
+	https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338
 	Complete solutions
 		If it was simply a matter of avoiding double splits, a cooldown could be added
 			but a lot of logic relies on looking for specific map changes or patterns of map changes
@@ -90,6 +92,18 @@ I think race condition applies to all map changes, it's just that most map chang
 		there is some stuff here "N:\Programs\OBS\Scene Files\Croc 2 PC\race condition"
 		hdc0 had a suggestion here https://discord.com/channels/313375426112389123/408694062862958592/1290082184597868690
 		there is this discord link from the top of the .asl code comments too https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338
+	Another random idea I'm dumping here without reading the stuff above:
+		(looking at this: https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338 )
+		generally if you have the map ID change twice in a row, that is guranteed to be a race condition, right?
+		like is there anywhere in the game where the map ID legitimately changes that fast?
+		we could just detect that, and then do something like I suggested in the link above..?
+			("set current = old, then return false to effectively have livesplit wait until the next cycle for the game to finish updating everything")
+		waaaaait idk if that works, isn't that too late? like, we've already passed the bad values in?
+		idk, gotta think about this
+	ok yea kinda like hdc0 suggests:
+		https://discord.com/channels/313375426112389123/408694062862958592/1290082184597868690	
+		maybe can manually read the wad values a second time at the top of update or something, and check if it's stable??
+		idk gotta thing about it
 
 bad hub spawn blocks
 	make it so OTSstart don't start with

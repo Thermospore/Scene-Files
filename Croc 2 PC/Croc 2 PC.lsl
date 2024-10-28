@@ -48,12 +48,12 @@
         <Split>True</Split>
         <CustomSettings>
           <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="SaveSlotStart" type="bool">False</Setting>
+          <Setting id="SaveSlotStart" type="bool">True</Setting>
           <Setting id="InputStart" type="bool">False</Setting>
           <Setting id="ILstart" type="bool">False</Setting>
           <Setting id="OTSstart" type="bool">False</Setting>
           <Setting id="OTSstart_SMP" type="bool">True</Setting>
-          <Setting id="IWstart" type="bool">True</Setting>
+          <Setting id="IWstart" type="bool">False</Setting>
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">False</Setting>
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
