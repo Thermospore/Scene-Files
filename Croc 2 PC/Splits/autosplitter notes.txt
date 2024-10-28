@@ -106,8 +106,9 @@ I think race condition applies to all map changes, it's just that most map chang
 		idk gotta think about it
 		yeah this might be the way!
 			at the top of update, MANUALLY read the map id again
-				this *should?* give time for the game to proceed / update?
-				while not forcing us to delay a whole livesplit cycle
+				presumably our manual read is only a handful CPU cycles later
+				which *should?* give enough time for the game to wrap up updating the map ID? or at least make progress.
+				while being orders of magnitude faster than waiting a full livesplit cycle
 			if we get the same ID, then it's valid, and we continue on!
 			if the ID has changed, then either
 				1. livesplit's read was valid, but our manual read is a race condition
@@ -119,6 +120,10 @@ I think race condition applies to all map changes, it's just that most map chang
 				(a fraction of waiting a full livesplit cycle)
 		holy shit yeah lfg I think that's the money!!!
 			https://discord.com/channels/313375426112389123/408694062862958592/1300466392541302825
+			the only downside I can think of is that it could potentially cause a missalignment with changes in the WAD and changes in other memory values?
+				because our manually read WAD values will be from a few cpu cycles later than the rest of the values read by livesplit
+				which could potentially give an unexpected state
+				I guess when we first detect that livesplit's map ID doesn't match our manual map ID, we can just reread ALL the memory values we track, until JUST THE MAP ID matches twice in a row, then overwrite ALL of livesplit's values with our manual ones
 
 bad hub spawn blocks
 	make it so OTSstart don't start with
