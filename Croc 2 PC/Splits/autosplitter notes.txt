@@ -24,6 +24,11 @@ IW end
 
 Why does timer sometimes move a little bit after load at the very end of keith IL?
 	well... I guess it must be because the load ends a split second before map change? could be a race condition thing...
+	yuuuuup pretty sure it's a race condition between the map ID and InGameState + IsMapLoaded
+	ACTUALLY... I thought that HAD to be it, BUT
+		I grinded entering / exiting a level until I got it,
+		and the autosplitter debug output is identical and doesn't show a race condition..?
+		might be an issue on liveplit's end?
 
 Oh god what to do about how you spawn at WW spawn when you GOA or return to hub out of boss room
 	maybe add this to the bad hub spawn info down below
@@ -124,6 +129,11 @@ I think race condition applies to all map changes, it's just that most map chang
 				because our manually read WAD values will be from a few cpu cycles later than the rest of the values read by livesplit
 				which could potentially give an unexpected state
 				I guess when we first detect that livesplit's map ID doesn't match our manual map ID, we can just reread ALL the memory values we track, until JUST THE MAP ID matches twice in a row, then overwrite ALL of livesplit's values with our manual ones
+			could also simply set current = old and return false, and wait for the next livesplit cycle...
+				I think that is the easiest and safest way to do it...
+				there might be a way to force the cycle to start again right away, instead of waiting?
+				do you even wait? have to time it
+		btw if you want a way to quickly grind for a race condition: just hold pause + right on analog stick at masher entrance
 
 bad hub spawn blocks
 	make it so OTSstart don't start with
