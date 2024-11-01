@@ -26,7 +26,7 @@ Why does timer sometimes move a little bit after load at the very end of keith I
 	well... I guess it must be because the load ends a split second before map change? could be a race condition thing...
 	yuuuuup pretty sure it's a race condition between the map ID and InGameState + IsMapLoaded
 	ACTUALLY... I thought that HAD to be it, BUT
-		I grinded entering / exiting a level until I got it,
+		I grinded entering / exiting a level (roger) until I got it,
 		and the autosplitter debug output is identical and doesn't show a race condition..?
 		might be an issue on liveplit's end?
 
@@ -47,7 +47,13 @@ refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
 	how much strain does cranking the refresh rate up to max cause?
 		basically none, looking at task manager..?
+		see if the game appears more laggy in dxwnd
 	actually shoot, would this cause the race condition to happen more frequently?
+		actually I fixed the race condition so non-issue B)
+	whelp, I tried adding a timer to measure the cycle time, then tried different refreshRate values:
+		I could get the refresh rate to lower, but I couldn't get it to go faster than the default refresh rate...
+		no matter how much I cranked up the refresh rate, I couldn't get it to go higher lol
+	if we want something faster / more accurate, I think we would just have to go the DLL route
 
 need a secret hub map detection function too?
 	
@@ -58,7 +64,6 @@ does // Cancel if old progress list is not available have to be up there?
 
 hub goa detection
 	simplify to a function or a bool in update?
-	revert to PrevWadSS0, if CurWad race condition is a problem?
 	simply detect the invalid hub spawn directly?
 		would be useful for WW detection too
 
@@ -66,75 +71,6 @@ move ww detection fn to a bool in update?
 	might have to un-functionify ww detection to access all saveslots
 	could use functions inside of the function too :)
 	
-I think race condition applies to all map changes, it's just that most map changes only differ by one of the ints...
-	(these notes are a mess and need to be cleaned up / re-organized)
-	https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338
-	Complete solutions
-		If it was simply a matter of avoiding double splits, a cooldown could be added
-			but a lot of logic relies on looking for specific map changes or patterns of map changes
-		Could find a val that lets you know if curWad update is in progress,
-			if so, don't let livesplit update the CurWad value until the next cycle
-			(so, write the old.CurWad values back into current.CurWad)
-		Can the garbage map value ever equal a real map?
-			if not, you can just filter it out
-			what order are the ids updated in? this will help eliminate possibilities
-				if curLevel updates first then from larry->hub the garbo id would equal flavio...
-			I'd rather not do this
-				it would be better to just have a blanket solution
-				than to have to try and define what is a real map id vs a garbage map id
-		Could delay current/old by one cycle to effectively "see into the future"
-		Could do some spooky code injection! :):):):):):)
-	Partial solutions
-		Could compare with the curWad in your saveslot, but that would only work for some cases
-		Could use PrevWadSS for some stuff probably
-		Could add a cooldown to prevent double splits
-	ideas from MoonBunnie on asl discord https://discord.com/channels/144133978759233536/144134231201808385/880666397842235473
-		That is a very detailed break-down, thank you! I don't know the game, but my ideas of things to explore would be as follows:
-		I'd first try changing the conditions for what counts as a map change. Since we can't reliably assume all 4 change at the same time, you could limit when the check happens by using another variable. As an example, if the InGameState changes to 7 always immediately after a map change, you could perform the map check only when that happens. You would need to track the old values yourself though, and only update them during that check (in case InGameState can change to 7 without map changing). 
-		Alternatively, if you only need to detect the change cleanly and don't care about the actual map values, then you could fix double splitting by adding a minimum "cooldown" to your splitting function to prevent it from splitting twice in rapid succession.
-		And going off 2838's idea of lowering refresh rate of livesplit, if the actual ids do matter, you could start a cycle count/timer when any of the ids change, but not actually perform any functions pertaining to map changing until the timer has expired or reached a minimum. This would cause all your map changing logic to be always be delayed, but it would hopefully always correctly catch the late updates.
-	Random notes I'm dumping here because I don7t have time to open this can of worms right now
-		there is some stuff here "N:\Programs\OBS\Scene Files\Croc 2 PC\race condition"
-		hdc0 had a suggestion here https://discord.com/channels/313375426112389123/408694062862958592/1290082184597868690
-		there is this discord link from the top of the .asl code comments too https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338
-	Another random idea I'm dumping here without reading the stuff above:
-		(looking at this: https://discord.com/channels/313375426112389123/408694062862958592/880900162250211338 )
-		generally if you have the map ID change twice in a row, that is guranteed to be a race condition, right?
-		like is there anywhere in the game where the map ID legitimately changes that fast?
-		we could just detect that, and then do something like I suggested in the link above..?
-			("set current = old, then return false to effectively have livesplit wait until the next cycle for the game to finish updating everything")
-		waaaaait idk if that works, isn't that too late? like, we've already passed the bad values in?
-		idk, gotta think about this
-	ok yea kinda like hdc0 suggests:
-		https://discord.com/channels/313375426112389123/408694062862958592/1290082184597868690	
-		maybe can manually read the wad values a second time at the top of update or something, and check if it's stable??
-		idk gotta think about it
-		yeah this might be the way!
-			at the top of update, MANUALLY read the map id again
-				presumably our manual read is only a handful CPU cycles later
-				which *should?* give enough time for the game to wrap up updating the map ID? or at least make progress.
-				while being orders of magnitude faster than waiting a full livesplit cycle
-			if we get the same ID, then it's valid, and we continue on!
-			if the ID has changed, then either
-				1. livesplit's read was valid, but our manual read is a race condition
-				2. livesplit's read is a race condition AND our manual read is a race condition??
-					(idk if this is even possible)
-				3. livesplit's read is a race condition, but our manual read is valid
-			no matter what, we should just read again until we get two consecutive identical reads!
-			and again, this presumably only adds a delay of just a few extra CPU cycles
-				(a fraction of waiting a full livesplit cycle)
-		holy shit yeah lfg I think that's the money!!!
-			https://discord.com/channels/313375426112389123/408694062862958592/1300466392541302825
-			the only downside I can think of is that it could potentially cause a missalignment with changes in the WAD and changes in other memory values?
-				because our manually read WAD values will be from a few cpu cycles later than the rest of the values read by livesplit
-				which could potentially give an unexpected state
-				I guess when we first detect that livesplit's map ID doesn't match our manual map ID, we can just reread ALL the memory values we track, until JUST THE MAP ID matches twice in a row, then overwrite ALL of livesplit's values with our manual ones
-			could also simply set current = old and return false, and wait for the next livesplit cycle...
-				I think that is the easiest and safest way to do it...
-				there might be a way to force the cycle to start again right away, instead of waiting?
-				do you even wait? have to time it
-		btw if you want a way to quickly grind for a race condition: just hold pause + right on analog stick at masher entrance
-
 bad hub spawn blocks
 	make it so OTSstart don't start with
 		gobbo hub
