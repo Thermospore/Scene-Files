@@ -14,10 +14,6 @@ RequireUnusedBossWarps
 	add popup window (req'd by chef). see smb splitter
 		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
 		cheatengine address: 622D50
-		
-make it so any saveslot can be used
-	can you just use the idx thing like a pointer index or whatever?
-	can use RequireUnusedBossWarps as an example?
 
 IW end
 	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
@@ -56,6 +52,8 @@ refresh rate
 	if we want something faster / more accurate, I think we would just have to go the DLL route
 
 need a secret hub map detection function too?
+	actually, can just make the normal hub map detection function work in secret too?
+	then if our logic specifies secret hub specifically, we can just require add curtribe == 5
 	
 does // Cancel if old progress list is not available have to be up there?
 	could combine the splintered IL/OTS end sections if not
@@ -66,10 +64,6 @@ hub goa detection
 	simplify to a function or a bool in update?
 	simply detect the invalid hub spawn directly?
 		would be useful for WW detection too
-
-move ww detection fn to a bool in update?
-	might have to un-functionify ww detection to access all saveslots
-	could use functions inside of the function too :)
 	
 bad hub spawn blocks
 	make it so OTSstart don't start with
