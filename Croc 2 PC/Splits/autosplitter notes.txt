@@ -35,10 +35,6 @@ when you die in hub it doesn't change your spawn point. you just go to the curre
 	info spreadsheet
 		also put RTH in boss levels into the table
 
-prog split loop simplification
-	move 100% end egg split outside of the loop, by dante crystal split
-	gate the entire loop behind the prog split option, since why else would you need to use it now
-
 refresh rate
 	maybe turn up refresh rate to 120hz, so you have accuracy through the hundreths place (?)
 	how much strain does cranking the refresh rate up to max cause?
@@ -53,7 +49,7 @@ refresh rate
 
 need a secret hub map detection function too?
 	actually, can just make the normal hub map detection function work in secret too?
-	then if our logic specifies secret hub specifically, we can just require add curtribe == 5
+	and if our logic specifies secret hub specifically, we can just require add curtribe == 5
 	
 does // Cancel if old progress list is not available have to be up there?
 	could combine the splintered IL/OTS end sections if not
