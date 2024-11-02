@@ -333,6 +333,13 @@ addr:
       <Address>Croc2.exe+2062D0</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>65</ID>
+      <Description>"CurSaveSlotIdx"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+0x2220FC</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>31</ID>
       <Description>"(gummy) jump strength"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -360,36 +367,6 @@ addr:
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+222CEC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"Train X"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"Train Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>34</ID>
-      <Description>"Train Z"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>54</ID>
-      <Description>"chests L side elev Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2240D0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>53</ID>
-      <Description>"chests R side elev Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2245A0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
@@ -446,6 +423,36 @@ addr:
         <Offset>28</Offset>
         <Offset>14</Offset>
       </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"Train X"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Train Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Train Z"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"chests L side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2240D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"chests R side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2245A0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>
