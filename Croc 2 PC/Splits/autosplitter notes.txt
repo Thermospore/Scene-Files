@@ -17,6 +17,7 @@ IW end
 	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
 		oh I think hdc0 used to have code here that checked your save file for completion lol...
 		can probably just re-add that
+		yup lol found it: https://github.com/Thermospore/LiveSplit-asl/blame/cd5da12a726ec0e6a9907aade419f91427adb833/LiveSplit.Croc_2.asl#L247
 	also see skedpal:
 		"Wait... should Max/100% Inca IWs end on dante yellow crystal or on entering SMP? cos you can do Jigsaw after dante"
 
