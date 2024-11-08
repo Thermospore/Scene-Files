@@ -383,10 +383,11 @@ addr:
       <ID>32</ID>
       <Description>"Angle?"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
       <Address>4A8C3C</Address>
       <Offsets>
-        <Offset>25</Offset>
+        <Offset>24</Offset>
         <Offset>28</Offset>
         <Offset>14</Offset>
       </Offsets>
