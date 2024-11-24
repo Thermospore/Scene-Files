@@ -12,44 +12,139 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>5</AttemptCount>
+  <AttemptCount>16</AttemptCount>
   <AttemptHistory>
-    <Attempt id="1" started="11/01/2024 06:35:28" isStartedSynced="True" ended="11/01/2024 06:36:25" isEndedSynced="True" />
-    <Attempt id="2" started="11/01/2024 06:36:48" isStartedSynced="True" ended="11/01/2024 06:37:37" isEndedSynced="True">
-      <RealTime>00:00:48.8337319</RealTime>
-      <GameTime>00:00:48.2796452</GameTime>
+    <Attempt id="1" started="11/11/2024 06:09:59" isStartedSynced="True" ended="11/11/2024 06:10:24" isEndedSynced="True">
+      <RealTime>00:00:25.8216626</RealTime>
+      <GameTime>00:00:25.2746669</GameTime>
     </Attempt>
-    <Attempt id="3" started="11/01/2024 06:38:57" isStartedSynced="True" ended="11/01/2024 06:40:10" isEndedSynced="True" />
-    <Attempt id="4" started="11/01/2024 06:40:40" isStartedSynced="True" ended="11/01/2024 06:41:21" isEndedSynced="True">
-      <RealTime>00:00:40.5818371</RealTime>
-      <GameTime>00:00:40.0554336</GameTime>
+    <Attempt id="2" started="11/11/2024 06:11:08" isStartedSynced="True" ended="11/11/2024 06:11:34" isEndedSynced="True">
+      <RealTime>00:00:26.5922937</RealTime>
+      <GameTime>00:00:26.0434837</GameTime>
+    </Attempt>
+    <Attempt id="3" started="11/11/2024 06:11:47" isStartedSynced="True" ended="11/11/2024 06:12:12" isEndedSynced="True">
+      <RealTime>00:00:25.2494936</RealTime>
+      <GameTime>00:00:24.7037074</GameTime>
+    </Attempt>
+    <Attempt id="4" started="11/11/2024 06:12:42" isStartedSynced="True" ended="11/11/2024 06:13:08" isEndedSynced="True">
+      <RealTime>00:00:25.2871262</RealTime>
+      <GameTime>00:00:24.7370058</GameTime>
+    </Attempt>
+    <Attempt id="5" started="11/11/2024 06:14:08" isStartedSynced="True" ended="11/11/2024 06:14:16" isEndedSynced="True" />
+    <Attempt id="6" started="11/11/2024 06:14:19" isStartedSynced="True" ended="11/11/2024 06:14:36" isEndedSynced="True" />
+    <Attempt id="7" started="11/11/2024 06:14:59" isStartedSynced="True" ended="11/11/2024 06:15:02" isEndedSynced="True" />
+    <Attempt id="8" started="11/11/2024 06:15:09" isStartedSynced="True" ended="11/11/2024 06:15:15" isEndedSynced="True" />
+    <Attempt id="9" started="11/11/2024 06:15:19" isStartedSynced="True" ended="11/11/2024 06:15:25" isEndedSynced="True" />
+    <Attempt id="10" started="11/11/2024 06:15:31" isStartedSynced="True" ended="11/11/2024 06:15:36" isEndedSynced="True" />
+    <Attempt id="11" started="11/11/2024 06:15:40" isStartedSynced="True" ended="11/11/2024 06:15:45" isEndedSynced="True" />
+    <Attempt id="12" started="11/11/2024 06:15:51" isStartedSynced="True" ended="11/11/2024 06:15:56" isEndedSynced="True" />
+    <Attempt id="13" started="11/11/2024 06:15:59" isStartedSynced="True" ended="11/11/2024 06:17:04" isEndedSynced="True" />
+    <Attempt id="14" started="11/11/2024 06:17:09" isStartedSynced="True" ended="11/11/2024 06:17:14" isEndedSynced="True" />
+    <Attempt id="15" started="11/11/2024 06:17:16" isStartedSynced="True" ended="11/11/2024 06:17:22" isEndedSynced="True" />
+    <Attempt id="16" started="11/11/2024 06:17:27" isStartedSynced="True" ended="11/11/2024 06:17:55" isEndedSynced="True">
+      <RealTime>00:00:27.6270156</RealTime>
+      <GameTime>00:00:26.0145928</GameTime>
     </Attempt>
   </AttemptHistory>
   <Segments>
     <Segment>
-      <Name>kart -&gt; jiggy -&gt; jigsaw</Name>
+      <Name>inca jigsaw -&gt; minigame (quit early) -&gt; waterfall</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
-          <RealTime>00:00:40.5818371</RealTime>
-          <GameTime>00:00:40.0554336</GameTime>
+          <RealTime>00:00:25.2494936</RealTime>
+          <GameTime>00:00:24.7037074</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:40.5818371</RealTime>
-        <GameTime>00:00:40.0554336</GameTime>
+        <RealTime>00:00:25.2494936</RealTime>
+        <GameTime>00:00:24.7037074</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
+        <Time id="1">
+          <RealTime>00:00:25.8216626</RealTime>
+          <GameTime>00:00:25.2746669</GameTime>
+        </Time>
         <Time id="2">
-          <RealTime>00:00:48.8337319</RealTime>
-          <GameTime>00:00:48.2796452</GameTime>
+          <RealTime>00:00:26.5922937</RealTime>
+          <GameTime>00:00:26.0434837</GameTime>
+        </Time>
+        <Time id="3">
+          <RealTime>00:00:25.2494936</RealTime>
+          <GameTime>00:00:24.7037074</GameTime>
         </Time>
         <Time id="4">
-          <RealTime>00:00:40.5818371</RealTime>
-          <GameTime>00:00:40.0554336</GameTime>
+          <RealTime>00:00:25.2871262</RealTime>
+          <GameTime>00:00:24.7370058</GameTime>
+        </Time>
+        <Time id="16">
+          <RealTime>00:00:27.6270156</RealTime>
+          <GameTime>00:00:26.0145928</GameTime>
         </Time>
       </SegmentHistory>
     </Segment>
   </Segments>
-  <AutoSplitterSettings />
+  <AutoSplitterSettings>
+    <Version>1.5</Version>
+    <ScriptPath>N:\Programs\LiveSplit\Components\LiveSplit.Croc_2.asl</ScriptPath>
+    <Start>True</Start>
+    <Split>True</Split>
+    <CustomSettings>
+      <Setting id="RequireUnusedBossWarps" type="bool">False</Setting>
+      <Setting id="SaveSlotStart" type="bool">False</Setting>
+      <Setting id="InputStart" type="bool">False</Setting>
+      <Setting id="ILstart" type="bool">False</Setting>
+      <Setting id="OTSstart" type="bool">True</Setting>
+      <Setting id="OTSstart_SMP" type="bool">False</Setting>
+      <Setting id="IWstart" type="bool">False</Setting>
+      <Setting id="SplitOnMapChange" type="bool">True</Setting>
+      <Setting id="SplitOnMapChange_literal" type="bool">False</Setting>
+      <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+      <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
+      <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
+      <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
+      <Setting id="SplitOnGem" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_1" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_2" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_3" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_4" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_5" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_6" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_7" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_8" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_9" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_10" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_11" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_12" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_13" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_14" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_15" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_16" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_17" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_18" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_19" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_20" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_21" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_22" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_23" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_24" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_25" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_26" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_27" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_28" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
+      <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
+      <Setting id="DebugOutput" type="bool">True</Setting>
+      <Setting id="DO_MapChanges" type="bool">True</Setting>
+      <Setting id="DO_WadB4GH" type="bool">True</Setting>
+      <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
+      <Setting id="DO_MainState" type="bool">True</Setting>
+      <Setting id="DO_InGameState" type="bool">True</Setting>
+      <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+      <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
+      <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
+      <Setting id="SpeedDisplay" type="bool">True</Setting>
+    </CustomSettings>
+  </AutoSplitterSettings>
 </Run>
