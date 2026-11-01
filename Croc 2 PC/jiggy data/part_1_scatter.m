@@ -1,6 +1,7 @@
 close all
 clear all
 %% results are stored in `part_1_results.mat`
+% there are separate .mats for type 1 vs 2 controls (t1 and t2)
 % format:
 %     x; z; angle; success
 % success:

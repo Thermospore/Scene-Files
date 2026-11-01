@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="45">
+<CheatTable CheatEngineTableVersion="52">
   <CheatEntries>
     <CheatEntry>
       <ID>39</ID>
@@ -102,7 +102,7 @@ addr:
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
-      <Description>"18 for level select"</Description>
+      <Description>"new MainState on credits cheat (18 for level select)"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>0x41AC66</Address>
     </CheatEntry>
@@ -162,16 +162,39 @@ addr:
       <Address>Croc2.exe+B78AC</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>70</ID>
+      <Description>"addrScriptMgr?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+B78BC</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>13</ID>
       <Description>"loading"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>004B78C4</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>14</ID>
-      <Description>"main state"</Description>
+      <ID>66</ID>
+      <Description>"NewMainState"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7930</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"IsNewMainStateValid"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+B7934</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"MainState"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+B793C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>49</ID>
@@ -230,6 +253,13 @@ addr:
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+12AEFC </Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"AddrSaveSlot0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2040C0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>30</ID>
@@ -442,6 +472,14 @@ addr:
       <Description>"Train Z"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+223868</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"DFCrystal5IP"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+223D10</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>54</ID>
