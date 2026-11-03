@@ -1,25 +1,28 @@
+# OG era notes
+(Some of this stuff might still need to be addressed, but some of it is ancient)
+
 in the debug text for wad/map IDs:
-	add a line that tells you the level name for that map ID!
-	or if it's an invalid/unknown ID!
+- add a line that tells you the level name for that map ID!
+- or if it's an invalid/unknown ID!
 
 max% feature to help with forgetting crystals?
 - don't split when exiting without 100 crystals?
 - ping / alert when exiting without 100 crystals?
 
 RequireUnusedBossWarps
-	add explanitory text?
-	move further down in the settings list?
-	add popup window (req'd by chef). see smb splitter
-		You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
-		cheatengine address: 622D50
+- add explanitory text?
+- move further down in the settings list?
+- add popup window (req'd by chef). see smb splitter
+	- You have used a boss warp! To allow timer start, please either restart your game or disable this safety in the autosplitter options.
+	- cheatengine address: 622D50
 
 IW end
-	wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
-		oh I think hdc0 used to have code here that checked your save file for completion lol...
-		can probably just re-add that
-		yup lol found it: https://github.com/Thermospore/LiveSplit-asl/blame/cd5da12a726ec0e6a9907aade419f91427adb833/LiveSplit.Croc_2.asl#L247
-	also see skedpal:
-		"Wait... should Max/100% Inca IWs end on dante yellow crystal or on entering SMP? cos you can do Jigsaw after dante"
+- wait... don't you need to enter shop in sailor 100%, for example? or did we change rules for that??
+	 - oh I think hdc0 used to have code here that checked your save file for completion lol...
+	 - can probably just re-add that
+	 - yup lol found it: https://github.com/Thermospore/LiveSplit-asl/blame/cd5da12a726ec0e6a9907aade419f91427adb833/LiveSplit.Croc_2.asl#L247
+ - also see skedpal:
+	 - "Wait... should Max/100% Inca IWs end on dante yellow crystal or on entering SMP? cos you can do Jigsaw after dante"
 
 Why does timer sometimes move a little bit after load at the very end of keith IL?
 	well... I guess it must be because the load ends a split second before map change? could be a race condition thing...
@@ -70,8 +73,8 @@ bad hub spawn blocks
 	make it so OTSstart don't start with
 		gobbo hub
 			(doesn't start on level entry for ww)
-			[COMPLETE] spawn in gobbo hub after ww
-			[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
+			\[COMPLETE] spawn in gobbo hub after ww
+			\[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
 			(from load is already disabled)
 			(from death simply doesn't start)
 		secret hub
@@ -79,15 +82,15 @@ bad hub spawn blocks
 	
 	make it so IL/OTS end doesn't split for	
 		gobbo hub
-			[COMPLETE] entering level to do a ww
-			[COMPLETE] spawn in gobbo hub after ww
-			[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
+			\[COMPLETE] entering level to do a ww
+			\[COMPLETE] spawn in gobbo hub after ww
+			\[COMPLETE] spawn in gobbo hub after GOA in gobbo hub
 			(from load is already disabled)
 			(from death simply doesn't split)
 		secret hub
 			(no WW in secret hub)
 			(again, no WW in secret hub)
-			[COMPLETE] spawn in secret hub after GOA in secret hub
+			\[COMPLETE] spawn in secret hub after GOA in secret hub
 			(from load is already disabled)
 			(from death simply doesn't split)
 			
@@ -112,30 +115,30 @@ hardcore IL stuff
 	maybe put babies subsplits under there too
 
 0. format
-	-[a/A] change needed/completed in Autosplitter
-	-[b/B] change needed/completed in leaderBoard rules
-	-[N] No action
-	-[?] Under investigation
+	-\[a/A] change needed/completed in Autosplitter
+	-\[b/B] change needed/completed in leaderBoard rules
+	-\[N] No action
+	-\[?] Under investigation
 	
-1. [ab] change IW start to be just like IL start (when the map ID changes to the hub)?
+1. \[ab] change IW start to be just like IL start (when the map ID changes to the hub)?
     -could get to the start through the cheat menu or through manually exiting smp
     -would accommodate IWs taken from fullgame runs
     -very minor effect to existing IW runs
     
-2. [b] allow IWs from fullgame, not just sailor?
+2. \[b] allow IWs from fullgame, not just sailor?
     -Sailor only is just a holdover from c2gbc at this point, I think, especially if we start from map change
 
-3. [b] Change IW rules to be more like the way ILs are?
+3. \[b] Change IW rules to be more like the way ILs are?
     -no longer intended to be set up as if it's a segment from a fullgame run
     -explicitly allow whatever items and hearts you want
-		-[?] *including golden gobbos?*
+		-\[?] *including golden gobbos?*
     -explicitly require 100% or max% requirements for each level
 
-4. [N] how should sailor be handled?
+4. \[N] how should sailor be handled?
     -start at exit from SMP like all the other IWs and allow whatever lives and items?
     -or keep it as is (start at newgame)?
 	
-5. [?] how to handle puzzles-dante entry for ILs?
+5. \[?] how to handle puzzles-dante entry for ILs?
 	-spawn conditions for GOA vs menu vs normal entry for plane onwards?
 	-do autosplitter start & split work the same starting one of those levels from
 		-GOA?
