@@ -171,7 +171,7 @@ addr:
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
-      <Description>"loading"</Description>
+      <Description>"IsMapLoaded"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>004B78C4</Address>
     </CheatEntry>
