@@ -2,6 +2,36 @@
 <CheatTable CheatEngineTableVersion="52">
   <CheatEntries>
     <CheatEntry>
+      <ID>34</ID>
+      <Description>"CrocX"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"CrocY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"CrocZ"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>54</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>26</ID>
       <Description>"--- croc2.exe ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -16,7 +46,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>9</ID>
-      <Description>"MainState"</Description>
+      <Description>"GameState (AKA MainState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+B5D5E8</Address>
@@ -30,8 +60,22 @@
       <Address>croc2.exe+B8E0F8</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>33</ID>
+      <Description>"FadeFinished"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe + B902D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"FadeSpeed"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+B902D4</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>14</ID>
-      <Description>"InGameState"</Description>
+      <Description>"GameOver (AKA InGameState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+B90D30</Address>
@@ -118,21 +162,30 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+BA9B84</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>22</ID>
-      <Description>"sailor cage completion"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>croc2.exe+BA9BB4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>29</ID>
-      <Description>"dante completion"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BA9C2D</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"sailor cage completion"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>croc2.exe+BA9BB4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"train completion"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>croc2.exe+BA9BE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"dante completion"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>croc2.exe+BA9C2D</Address>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>19</ID>

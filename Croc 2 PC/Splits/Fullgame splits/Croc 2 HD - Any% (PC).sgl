@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Splits>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Cage</Name>
+      <Note>The moment the textbox starts showing</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Chests</Name>
+      <Note>The moment the final chest starts opening</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Boat</Name>
+      <Note>The moment you cross the finish line</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Thief</Name>
+      <Note>The instant you tail attack the thief</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Soveena</Name>
+      <Note>The moment the camera moves + outro starts</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Crow</Name>
+      <Note>The moment the sammy collection sound plays</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Keith</Name>
+      <Note>The moment the bird spreads its wings when keith starts falling</Note>
+    </Split>
+    <Split>
+      <Name>{Sailor}　</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>SMP</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Icecube</Name>
+      <Note>Moment the barrel explodes + door opens</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Snowman</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Glider</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>-&lt;sq&gt;</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Flavio</Name>
+      <Note>(no R2H)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Roger</Name>
+      <Note>(no R2H, but it's the moment he explodes)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Train</Name>
+      <Note>(no need to R2H, but FYI it's the moment you close the children's textbox)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Larry</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>{Cossack}&lt;sq&gt;</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>SMP</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Mine</Name>
+      <Note>Moment you collect the 2nd wheel</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Jungle</Name>
+      <Note>Moment you collect the 2nd wheel</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Kart</Name>
+      <Note>Moment you cross the finish line</Note>
+    </Split>
+    <Split>
+      <Name>-&lt;sq&gt;</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Flytrap</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Pet</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Fire</Name>
+      <Note>Moment you collect the last gobbo</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Masher</Name>
+      <Note>(no R2H, but it's at the fadeout at the end)</Note>
+    </Split>
+    <Split>
+      <Name>{Caveman}&lt;sq&gt;</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>SMP</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies A</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies B</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies C</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies D</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Babies E</Name>
+      <Note>Moment the last baby enters the crib</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Waterfall</Name>
+      <Note>Moment you land on the button</Note>
+    </Split>
+    <Split>
+      <Name>-</Name>
+      <Note />
+    </Split>
+    <Split>
+      <Name>-Dante's Peak</Name>
+      <Note>SEE IF SKIP LEVEL BUTTON SHOWS UP - Moment the camera changes + outro starts</Note>
+    </Split>
+    <Split>
+      <Name>-Dungeon</Name>
+      <Note>(No R2H, but it's the moment the camera changes + final door opens)</Note>
+    </Split>
+    <Split>
+      <Name>-Goo Man Chu</Name>
+      <Note>(No R2H, but it's on fade-out at end)</Note>
+    </Split>
+    <Split>
+      <Name>{Inca}Dante</Name>
+      <Note>GG =D</Note>
+    </Split>
+  </Splits>
+  <Name>Croc 2: Kingdom of the Gobbos</Name>
+  <Category>PC</Category>
+</PersonenListe>

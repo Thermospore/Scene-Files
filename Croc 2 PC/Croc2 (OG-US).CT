@@ -137,10 +137,24 @@ addr:
       <Address>Croc2.exe+AF338</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>71</ID>
+      <Description>"FadeFinished"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe + B7770</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>12</ID>
       <Description>"load state?"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B7880</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"InGameState"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe + B7880</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>59</ID>
@@ -399,6 +413,44 @@ addr:
       <Address>Croc2.exe+222CEC</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>36</ID>
+      <Description>"Train X"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Train Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868-4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Train Z"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+223868</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"DFCrystal5IP"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+223D10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"chests L side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2240D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"chests R side elev Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+2245A0</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1</ID>
       <Description>"CrocObj"</Description>
       <VariableType>4 Bytes</VariableType>
@@ -454,44 +506,6 @@ addr:
         <Offset>28</Offset>
         <Offset>14</Offset>
       </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"Train X"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"Train Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868-4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>34</ID>
-      <Description>"Train Z"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+223868</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>69</ID>
-      <Description>"DFCrystal5IP"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+223D10</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>54</ID>
-      <Description>"chests L side elev Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2240D0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>53</ID>
-      <Description>"chests R side elev Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+2245A0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>

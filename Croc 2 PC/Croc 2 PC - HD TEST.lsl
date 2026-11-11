@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>0</X>
-  <Y>650</Y>
+  <X>1</X>
+  <Y>573</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>836</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -44,7 +44,7 @@
       <Settings>
         <Version>1.2.1</Version>
         <FontName>Consolas</FontName>
-        <FontSize>18</FontSize>
+        <FontSize>16</FontSize>
         <BGColor.R>16</BGColor.R>
         <BGColor.G>16</BGColor.G>
         <BGColor.B>16</BGColor.B>
@@ -53,10 +53,10 @@
         <TXTColor.B>255</TXTColor.B>
         <ActiveSplitTxtPath>
         </ActiveSplitTxtPath>
-        <WindowPos.X>73</WindowPos.X>
-        <WindowPos.Y>1644</WindowPos.Y>
-        <WindowSize.Width>323</WindowSize.Width>
-        <WindowSize.Height>56</WindowSize.Height>
+        <WindowPos.X>482</WindowPos.X>
+        <WindowPos.Y>393</WindowPos.Y>
+        <WindowSize.Width>1536</WindowSize.Width>
+        <WindowSize.Height>40</WindowSize.Height>
       </Settings>
     </Component>
     <Component>
@@ -435,7 +435,7 @@
           <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
-          <Setting id="DO_WadB4GH" type="bool">True</Setting>
+          <Setting id="DO_WADB4GH" type="bool">True</Setting>
           <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
           <Setting id="DO_MainState" type="bool">True</Setting>
           <Setting id="DO_NewMainState" type="bool">True</Setting>
@@ -444,7 +444,8 @@
           <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
           <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
           <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
-          <Setting id="SpeedDisplay" type="bool">False</Setting>
+          <Setting id="SpeedDisplay" type="bool">True</Setting>
+          <Setting id="ObjectiveFlagsDisplay" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
     </Component>
