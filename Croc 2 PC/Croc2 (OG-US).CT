@@ -102,7 +102,7 @@ addr:
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
-      <Description>"new MainState on credits cheat (18 for level select)"</Description>
+      <Description>"new GameState on credits cheat (18 for level select)"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>0x41AC66</Address>
     </CheatEntry>
@@ -144,14 +144,8 @@ addr:
       <Address>croc2.exe + B7770</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>12</ID>
-      <Description>"load state?"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>Croc2.exe+B7880</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>72</ID>
-      <Description>"InGameState"</Description>
+      <Description>"GameOver (AKA InGameState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe + B7880</Address>
@@ -205,7 +199,7 @@ addr:
     </CheatEntry>
     <CheatEntry>
       <ID>14</ID>
-      <Description>"MainState"</Description>
+      <Description>"GameState (AKA MainState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B793C</Address>

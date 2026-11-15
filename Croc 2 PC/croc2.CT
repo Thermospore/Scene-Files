@@ -2,41 +2,18 @@
 <CheatTable CheatEngineTableVersion="52">
   <CheatEntries>
     <CheatEntry>
-      <ID>34</ID>
-      <Description>"CrocX"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>4C</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"CrocY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>50</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"CrocZ"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>54</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
       <ID>26</ID>
       <Description>"--- croc2.exe ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"new GameState on credits"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+0x211718</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
@@ -74,6 +51,20 @@
       <Address>croc2.exe+B902D4</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>38</ID>
+      <Description>"GameFrame_30hz"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+B90D04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"GameFrame"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC86FC</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>14</ID>
       <Description>"GameOver (AKA InGameState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -82,7 +73,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
-      <Description>"NewMainState"</Description>
+      <Description>"NewGameState"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+B90D3C</Address>
     </CheatEntry>
@@ -226,6 +217,36 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+BC87E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"CrocX"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"CrocY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"CrocZ"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>54</Offset>
+      </Offsets>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
