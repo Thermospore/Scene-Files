@@ -58,13 +58,6 @@
       <Address>croc2.exe+B90D04</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>39</ID>
-      <Description>"GameFrame"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC86FC</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>14</ID>
       <Description>"GameOver (AKA InGameState)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -190,6 +183,13 @@
       <Description>"GemCounter"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+BC4DAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"GameFrame"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC86FC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
