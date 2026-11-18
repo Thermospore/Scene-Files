@@ -2,8 +2,38 @@
 <CheatTable CheatEngineTableVersion="52">
   <CheatEntries>
     <CheatEntry>
+      <ID>34</ID>
+      <Description>"CrocX"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"CrocY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"CrocZ"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>54</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>26</ID>
-      <Description>"--- croc2.exe ---"</Description>
+      <Description>"--- HD-STEAM ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe</Address>
@@ -217,36 +247,6 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>croc2.exe+BC87E0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>34</ID>
-      <Description>"CrocX"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>4C</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"CrocY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>50</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"CrocZ"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>croc2.exe+BC7CE8</Address>
-      <Offsets>
-        <Offset>54</Offset>
-      </Offsets>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>

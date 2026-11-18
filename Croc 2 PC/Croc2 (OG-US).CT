@@ -101,6 +101,70 @@ addr:
       </Hotkeys>
     </CheatEntry>
     <CheatEntry>
+      <ID>1</ID>
+      <Description>"CrocObj"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Angle?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>24</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"X"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>2c</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>30</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Z"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>34</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>73</ID>
+      <Description>"--- OG-US ---"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>15</ID>
       <Description>"new GameState on credits cheat (18 for level select)"</Description>
       <VariableType>4 Bytes</VariableType>
@@ -443,63 +507,6 @@ addr:
       <Description>"chests R side elev Y"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+2245A0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1</ID>
-      <Description>"CrocObj"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>0</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>32</ID>
-      <Description>"Angle?"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>24</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>2</ID>
-      <Description>"X"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>2c</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>3</ID>
-      <Description>"Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>30</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>4</ID>
-      <Description>"Z"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>34</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>
