@@ -101,63 +101,6 @@ addr:
       </Hotkeys>
     </CheatEntry>
     <CheatEntry>
-      <ID>1</ID>
-      <Description>"CrocObj"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>0</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>32</ID>
-      <Description>"Angle?"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>24</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>2</ID>
-      <Description>"X"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>2c</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>3</ID>
-      <Description>"Y"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>30</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>4</ID>
-      <Description>"Z"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C</Address>
-      <Offsets>
-        <Offset>34</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
       <ID>73</ID>
       <Description>"--- OG-US ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -223,7 +166,7 @@ addr:
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
-      <Description>"Cheat menu open"</Description>
+      <Description>"DebugMode (AKA IsCheatMenuOpen)"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+B788C</Address>
     </CheatEntry>
@@ -314,8 +257,15 @@ addr:
       <Address>Croc2.exe+12AECC</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>74</ID>
+      <Description>"ExtraCount (AKA GobboCounter)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe+12AEE0</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>20</ID>
-      <Description>"crystal counter"</Description>
+      <Description>"crystal counter (?)"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+12AEF0</Address>
     </CheatEntry>
@@ -471,6 +421,14 @@ addr:
       <Address>Croc2.exe+222CEC</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>75</ID>
+      <Description>"IntrosTriggered (AKA UsedBossWarps)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Croc2.exe + 222D50</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>36</ID>
       <Description>"Train X"</Description>
       <VariableType>4 Bytes</VariableType>
@@ -513,6 +471,63 @@ addr:
       <Description>"babies D dantini Z"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+22AF84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"CrocObj"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Angle?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>24</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"X"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>2c</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Y"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>30</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Z"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C</Address>
+      <Offsets>
+        <Offset>34</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
