@@ -101,13 +101,6 @@ addr:
       </Hotkeys>
     </CheatEntry>
     <CheatEntry>
-      <ID>15</ID>
-      <Description>"new GameState on credits cheat (18 for level select)"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>0x41AC66+?</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>24</ID>
       <Description>"Camera height"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -115,11 +108,79 @@ addr:
       <Address>Croc2.exe+AF338+?</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>1</ID>
+      <Description>"CrocObj"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C+1000</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Angle?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C+1000</Address>
+      <Offsets>
+        <Offset>24</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"X"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C+1000</Address>
+      <Offsets>
+        <Offset>2c</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Y"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C+1000</Address>
+      <Offsets>
+        <Offset>30</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Z"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>4A8C3C+1000</Address>
+      <Offsets>
+        <Offset>34</Offset>
+        <Offset>28</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>73</ID>
       <Description>"--- OG-EU-GOG-STEAM ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"Credits cheat hijack"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0041B186</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>28</ID>
@@ -501,67 +562,6 @@ addr:
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>Croc2.exe+22AF84+71F0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1</ID>
-      <Description>"CrocObj"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C+1000</Address>
-      <Offsets>
-        <Offset>0</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>32</ID>
-      <Description>"Angle?"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C+1000</Address>
-      <Offsets>
-        <Offset>24</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>2</ID>
-      <Description>"X"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C+1000</Address>
-      <Offsets>
-        <Offset>2c</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>3</ID>
-      <Description>"Y"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C+1000</Address>
-      <Offsets>
-        <Offset>30</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>4</ID>
-      <Description>"Z"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>4A8C3C+1000</Address>
-      <Offsets>
-        <Offset>34</Offset>
-        <Offset>28</Offset>
-        <Offset>14</Offset>
-      </Offsets>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
