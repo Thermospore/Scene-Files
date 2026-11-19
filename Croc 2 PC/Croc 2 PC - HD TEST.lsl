@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1</X>
-  <Y>573</Y>
+  <X>-3</X>
+  <Y>651</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>836</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -350,7 +350,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (2D)</Text1>
-        <Text2>1.0000</Text2>
+        <Text2>62535.4024</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
@@ -371,7 +371,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (3D)</Text1>
-        <Text2>1.0000</Text2>
+        <Text2>62543.7857</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
@@ -434,17 +434,19 @@
           <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
           <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
+          <Setting id="DO_TimerDetails" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
           <Setting id="DO_WADB4GH" type="bool">True</Setting>
           <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
-          <Setting id="DO_MainState" type="bool">True</Setting>
-          <Setting id="DO_NewMainState" type="bool">True</Setting>
-          <Setting id="DO_IsNewMainStateValid" type="bool">True</Setting>
-          <Setting id="DO_InGameState" type="bool">True</Setting>
-          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+          <Setting id="DO_GameState" type="bool">True</Setting>
+          <Setting id="DO_NewGameState" type="bool">True</Setting>
+          <Setting id="DO_IsNewGameStateValid" type="bool">True</Setting>
+          <Setting id="DO_GameOver" type="bool">True</Setting>
+          <Setting id="DO_DebugMode" type="bool">True</Setting>
           <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
           <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
-          <Setting id="SpeedDisplay" type="bool">True</Setting>
+          <Setting id="DO_CurrentMap" type="bool">True</Setting>
+          <Setting id="SpeedDisplay" type="bool">False</Setting>
           <Setting id="ObjectiveFlagsDisplay" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
