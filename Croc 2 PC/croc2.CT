@@ -2,6 +2,91 @@
 <CheatTable CheatEngineTableVersion="52">
   <CheatEntries>
     <CheatEntry>
+      <ID>57</ID>
+      <Description>"Save Pos"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+if syntaxcheck then return end
+local basePtr = getAddressSafe("croc2.exe+BC7CE8")
+local structBase = basePtr and readPointer(basePtr)
+if structBase then
+    local addrPlrPos = structBase + 0x4C
+    savedPlayerPos = readBytes(addrPlrPos, 0xC, true)
+end
+
+[ENABLE]
+[DISABLE]
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey Active="0">
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>22549</Key>
+          </Keys>
+          <ID>1</ID>
+        </Hotkey>
+        <Hotkey Active="0">
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>81</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>22550</Key>
+          </Keys>
+          <ID>2</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"Restore pos"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+if syntaxcheck then return end
+if savedPlayerPos then
+  local basePtr = getAddressSafe("croc2.exe+BC7CE8")
+  local structBase = basePtr and readPointer(basePtr)
+  if structBase then
+      local addrPlrPos = structBase + 0x4C
+      writeBytes(addrPlrPos, savedPlayerPos)
+  end
+end
+
+[ENABLE]
+[DISABLE]
+
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey Active="0">
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>22548</Key>
+          </Keys>
+          <ID>1</ID>
+        </Hotkey>
+        <Hotkey Active="0">
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>69</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>22535</Key>
+            <Key>22534</Key>
+            <Key>22548</Key>
+          </Keys>
+          <ID>2</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
       <ID>26</ID>
       <Description>"--- HD-STEAM ---"</Description>
       <ShowAsSigned>0</ShowAsSigned>
