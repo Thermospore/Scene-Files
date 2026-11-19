@@ -7,11 +7,14 @@
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 if syntaxcheck then return end
+
 local basePtr = getAddressSafe("croc2.exe+BC7CE8")
 local structBase = basePtr and readPointer(basePtr)
 if structBase then
-    local addrPlrPos = structBase + 0x4C
-    savedPlayerPos = readBytes(addrPlrPos, 0xC, true)
+    local addrPlayerPos   = structBase + 0x4C
+    local addrPlayerAngle = structBase + 0x40
+    savedPlayerPos   = readBytes(addrPlayerPos,   0xC, true)
+    savedPlayerAngle = readBytes(addrPlayerAngle, 0x4, true)
 end
 
 [ENABLE]
@@ -47,12 +50,15 @@ end
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 if syntaxcheck then return end
+
 if savedPlayerPos then
   local basePtr = getAddressSafe("croc2.exe+BC7CE8")
   local structBase = basePtr and readPointer(basePtr)
   if structBase then
-      local addrPlrPos = structBase + 0x4C
-      writeBytes(addrPlrPos, savedPlayerPos)
+     local addrPlayerPos   = structBase + 0x4C
+     local addrPlayerAngle = structBase + 0x40
+     writeBytes(addrPlayerPos,   savedPlayerPos)
+     writeBytes(addrPlayerAngle, savedPlayerAngle)
   end
 end
 
@@ -423,6 +429,17 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>34</ID>
+      <Description>"CrocAngle"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>croc2.exe+BC7CE8</Address>
+      <Offsets>
+        <Offset>40</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
       <Description>"CrocX"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
