@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>-1769</X>
-  <Y>122</Y>
+  <X>-5</X>
+  <Y>761</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>643</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -70,8 +70,8 @@
           <Setting id="IWstart" type="bool">False</Setting>
           <Setting id="SplitOnMapChange" type="bool">True</Setting>
           <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
-          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
           <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
+          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
           <Setting id="SplitOnGem" type="bool">False</Setting>
@@ -107,15 +107,20 @@
           <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
           <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
           <Setting id="DebugOutput" type="bool">True</Setting>
+          <Setting id="DO_TimerDetails" type="bool">True</Setting>
           <Setting id="DO_MapChanges" type="bool">True</Setting>
-          <Setting id="DO_WadB4GH" type="bool">True</Setting>
-          <Setting id="DO_PrevTribeSS0" type="bool">True</Setting>
-          <Setting id="DO_MainState" type="bool">True</Setting>
-          <Setting id="DO_InGameState" type="bool">True</Setting>
-          <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+          <Setting id="DO_WADB4GH" type="bool">True</Setting>
+          <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
+          <Setting id="DO_GameState" type="bool">True</Setting>
+          <Setting id="DO_NewGameState" type="bool">True</Setting>
+          <Setting id="DO_IsNewGameStateValid" type="bool">True</Setting>
+          <Setting id="DO_GameOver" type="bool">True</Setting>
+          <Setting id="DO_DebugMode" type="bool">True</Setting>
           <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
           <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
-          <Setting id="SpeedDisplay" type="bool">True</Setting>
+          <Setting id="DO_CurrentMap" type="bool">True</Setting>
+          <Setting id="SpeedDisplay" type="bool">False</Setting>
+          <Setting id="ObjectiveFlagsDisplay" type="bool">False</Setting>
         </CustomSettings>
       </Settings>
     </Component>
@@ -278,6 +283,7 @@
         <OverrideFont1>False</OverrideFont1>
         <OverrideFont2>False</OverrideFont2>
         <Display2Rows>False</Display2Rows>
+        <CustomVariable>False</CustomVariable>
       </Settings>
     </Component>
     <Component>
@@ -316,6 +322,7 @@
         <OverrideFont1>False</OverrideFont1>
         <OverrideFont2>False</OverrideFont2>
         <Display2Rows>False</Display2Rows>
+        <CustomVariable>False</CustomVariable>
       </Settings>
     </Component>
     <Component>
@@ -336,6 +343,7 @@
         <OverrideFont1>False</OverrideFont1>
         <OverrideFont2>False</OverrideFont2>
         <Display2Rows>False</Display2Rows>
+        <CustomVariable>False</CustomVariable>
       </Settings>
     </Component>
   </Components>
