@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>-5</X>
-  <Y>761</Y>
+  <X>-7</X>
+  <Y>764</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>643</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -74,6 +74,7 @@
           <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
           <Setting id="SplitOnGoldenGobbo" type="bool">True</Setting>
           <Setting id="SplitOnDanteCrystals" type="bool">True</Setting>
+          <Setting id="SplitOnDoor" type="bool">False</Setting>
           <Setting id="SplitOnGem" type="bool">False</Setting>
           <Setting id="BabiesSubsplits" type="bool">True</Setting>
           <Setting id="BabiesSubsplits_1" type="bool">False</Setting>
