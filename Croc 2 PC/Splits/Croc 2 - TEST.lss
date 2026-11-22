@@ -10,9 +10,10 @@
     <Platform usesEmulator="False">PC</Platform>
     <Region>USA / NTSC</Region>
     <Variables />
+    <CustomVariables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>16</AttemptCount>
+  <AttemptCount>24</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="11/11/2024 06:09:59" isStartedSynced="True" ended="11/11/2024 06:10:24" isEndedSynced="True">
       <RealTime>00:00:25.8216626</RealTime>
@@ -45,6 +46,26 @@
       <RealTime>00:00:27.6270156</RealTime>
       <GameTime>00:00:26.0145928</GameTime>
     </Attempt>
+    <Attempt id="17" started="11/22/2026 13:19:29" isStartedSynced="True" ended="11/22/2026 13:20:24" isEndedSynced="True" />
+    <Attempt id="18" started="11/22/2026 13:20:28" isStartedSynced="True" ended="11/22/2026 13:20:38" isEndedSynced="True">
+      <RealTime>00:00:09.9091376</RealTime>
+      <GameTime>00:00:09.8333333</GameTime>
+    </Attempt>
+    <Attempt id="19" started="11/22/2026 13:20:45" isStartedSynced="True" ended="11/22/2026 13:20:56" isEndedSynced="True" />
+    <Attempt id="20" started="11/22/2026 13:20:57" isStartedSynced="True" ended="11/22/2026 13:21:07" isEndedSynced="True">
+      <RealTime>00:00:09.8858503</RealTime>
+      <GameTime>00:00:09.8666666</GameTime>
+    </Attempt>
+    <Attempt id="21" started="11/22/2026 13:21:13" isStartedSynced="True" ended="11/22/2026 13:21:23" isEndedSynced="True">
+      <RealTime>00:00:09.9435439</RealTime>
+      <GameTime>00:00:09.9000000</GameTime>
+    </Attempt>
+    <Attempt id="22" started="11/22/2026 13:21:29" isStartedSynced="True" ended="11/22/2026 13:21:40" isEndedSynced="True" />
+    <Attempt id="23" started="11/22/2026 13:21:41" isStartedSynced="True" ended="11/22/2026 13:21:52" isEndedSynced="True" />
+    <Attempt id="24" started="11/22/2026 13:21:53" isStartedSynced="True" ended="11/22/2026 13:22:03" isEndedSynced="True">
+      <RealTime>00:00:10.0218756</RealTime>
+      <GameTime>00:00:10</GameTime>
+    </Attempt>
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -52,13 +73,13 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
-          <RealTime>00:00:25.2494936</RealTime>
-          <GameTime>00:00:24.7037074</GameTime>
+          <RealTime>00:00:09.9091376</RealTime>
+          <GameTime>00:00:09.8333333</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:00:25.2494936</RealTime>
-        <GameTime>00:00:24.7037074</GameTime>
+        <RealTime>00:00:09.8858503</RealTime>
+        <GameTime>00:00:09.8333333</GameTime>
       </BestSegmentTime>
       <SegmentHistory>
         <Time id="1">
@@ -81,6 +102,22 @@
           <RealTime>00:00:27.6270156</RealTime>
           <GameTime>00:00:26.0145928</GameTime>
         </Time>
+        <Time id="18">
+          <RealTime>00:00:09.9091376</RealTime>
+          <GameTime>00:00:09.8333333</GameTime>
+        </Time>
+        <Time id="20">
+          <RealTime>00:00:09.8858503</RealTime>
+          <GameTime>00:00:09.8666666</GameTime>
+        </Time>
+        <Time id="21">
+          <RealTime>00:00:09.9435439</RealTime>
+          <GameTime>00:00:09.9000000</GameTime>
+        </Time>
+        <Time id="24">
+          <RealTime>00:00:10.0218756</RealTime>
+          <GameTime>00:00:10</GameTime>
+        </Time>
       </SegmentHistory>
     </Segment>
   </Segments>
@@ -90,19 +127,23 @@
     <Start>True</Start>
     <Split>True</Split>
     <CustomSettings>
-      <Setting id="RequireUnusedBossWarps" type="bool">False</Setting>
+      <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
       <Setting id="SaveSlotStart" type="bool">False</Setting>
-      <Setting id="InputStart" type="bool">False</Setting>
+      <Setting id="InputStart" type="bool">True</Setting>
       <Setting id="ILstart" type="bool">False</Setting>
-      <Setting id="OTSstart" type="bool">True</Setting>
+      <Setting id="ILstart_Plane" type="bool">False</Setting>
+      <Setting id="ILstart_Dungeon" type="bool">False</Setting>
+      <Setting id="ILstart_Goo" type="bool">False</Setting>
+      <Setting id="OTSstart" type="bool">False</Setting>
       <Setting id="OTSstart_SMP" type="bool">False</Setting>
       <Setting id="IWstart" type="bool">False</Setting>
       <Setting id="SplitOnMapChange" type="bool">True</Setting>
-      <Setting id="SplitOnMapChange_literal" type="bool">False</Setting>
+      <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
       <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
       <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
       <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
       <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
+      <Setting id="SplitOnDoor" type="bool">False</Setting>
       <Setting id="SplitOnGem" type="bool">False</Setting>
       <Setting id="BabiesSubsplits" type="bool">False</Setting>
       <Setting id="BabiesSubsplits_1" type="bool">False</Setting>
@@ -136,15 +177,20 @@
       <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
       <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
       <Setting id="DebugOutput" type="bool">True</Setting>
+      <Setting id="DO_TimerDetails" type="bool">True</Setting>
       <Setting id="DO_MapChanges" type="bool">True</Setting>
-      <Setting id="DO_WadB4GH" type="bool">True</Setting>
+      <Setting id="DO_WADB4GH" type="bool">True</Setting>
       <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
-      <Setting id="DO_MainState" type="bool">True</Setting>
-      <Setting id="DO_InGameState" type="bool">True</Setting>
-      <Setting id="DO_IsCheatMenuOpen" type="bool">True</Setting>
+      <Setting id="DO_GameState" type="bool">True</Setting>
+      <Setting id="DO_NewGameState" type="bool">True</Setting>
+      <Setting id="DO_IsNewGameStateValid" type="bool">True</Setting>
+      <Setting id="DO_GameOver" type="bool">True</Setting>
+      <Setting id="DO_DebugMode" type="bool">True</Setting>
       <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
       <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
+      <Setting id="DO_CurrentMap" type="bool">True</Setting>
       <Setting id="SpeedDisplay" type="bool">True</Setting>
+      <Setting id="ObjectiveFlagsDisplay" type="bool">False</Setting>
     </CustomSettings>
   </AutoSplitterSettings>
 </Run>

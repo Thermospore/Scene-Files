@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>0</X>
-  <Y>573</Y>
+  <X>-4</X>
+  <Y>521</Y>
   <VerticalWidth>480</VerticalWidth>
   <VerticalHeight>836</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -39,26 +39,6 @@
     <MousePassThroughWhileRunning>False</MousePassThroughWhileRunning>
   </Settings>
   <Components>
-    <Component>
-      <Path>SpeedGuidesLive.dll</Path>
-      <Settings>
-        <Version>1.2.1</Version>
-        <FontName>Consolas</FontName>
-        <FontSize>16</FontSize>
-        <BGColor.R>16</BGColor.R>
-        <BGColor.G>16</BGColor.G>
-        <BGColor.B>16</BGColor.B>
-        <TXTColor.R>255</TXTColor.R>
-        <TXTColor.G>255</TXTColor.G>
-        <TXTColor.B>255</TXTColor.B>
-        <ActiveSplitTxtPath>
-        </ActiveSplitTxtPath>
-        <WindowPos.X>1001</WindowPos.X>
-        <WindowPos.Y>25</WindowPos.Y>
-        <WindowSize.Width>1536</WindowSize.Width>
-        <WindowSize.Height>40</WindowSize.Height>
-      </Settings>
-    </Component>
     <Component>
       <Path>LiveSplit.FocusedHotkeys.dll</Path>
       <Settings>
@@ -272,7 +252,7 @@
         <OverrideTextColor>False</OverrideTextColor>
         <TimeColor>FFFFFFFF</TimeColor>
         <OverrideTimeColor>False</OverrideTimeColor>
-        <Accuracy>Seconds</Accuracy>
+        <Accuracy>Hundredths</Accuracy>
         <BackgroundColor>00FFFFFF</BackgroundColor>
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
@@ -329,7 +309,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>Layout</Text1>
-        <Text2>c2pc HD TEST</Text2>
+        <Text2>Croc 2 PC</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
@@ -350,7 +330,7 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (2D)</Text1>
-        <Text2>62535.4024</Text2>
+        <Text2>139.5170</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
@@ -371,85 +351,13 @@
         <BackgroundColor2>00FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <Text1>UPF (3D)</Text1>
-        <Text2>62543.7857</Text2>
+        <Text2>144.5994</Text2>
         <Font1><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font1>
         <Font2><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAgEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></Font2>
         <OverrideFont1>False</OverrideFont1>
         <OverrideFont2>False</OverrideFont2>
         <Display2Rows>False</Display2Rows>
         <CustomVariable>False</CustomVariable>
-      </Settings>
-    </Component>
-    <Component>
-      <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
-      <Settings>
-        <Version>1.5</Version>
-        <ScriptPath>N:\Repos\Autosplitters\hdc0\LiveSplit-asl\LiveSplit.Croc_2.asl</ScriptPath>
-        <Start>True</Start>
-        <Split>True</Split>
-        <CustomSettings>
-          <Setting id="RequireUnusedBossWarps" type="bool">True</Setting>
-          <Setting id="SaveSlotStart" type="bool">False</Setting>
-          <Setting id="InputStart" type="bool">False</Setting>
-          <Setting id="ILstart" type="bool">True</Setting>
-          <Setting id="OTSstart" type="bool">False</Setting>
-          <Setting id="OTSstart_SMP" type="bool">False</Setting>
-          <Setting id="IWstart" type="bool">False</Setting>
-          <Setting id="SplitOnMapChange" type="bool">True</Setting>
-          <Setting id="SplitOnMapChange_literal" type="bool">True</Setting>
-          <Setting id="SplitOnObjectiveCompletion" type="bool">False</Setting>
-          <Setting id="SplitOnSMPEntry" type="bool">False</Setting>
-          <Setting id="SplitOnGoldenGobbo" type="bool">False</Setting>
-          <Setting id="SplitOnDanteCrystals" type="bool">False</Setting>
-          <Setting id="SplitOnDoor" type="bool">True</Setting>
-          <Setting id="SplitOnGem" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits" type="bool">True</Setting>
-          <Setting id="BabiesSubsplits_1" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_2" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_3" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_4" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_5" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_6" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_7" type="bool">True</Setting>
-          <Setting id="BabiesSubsplits_8" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_9" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_10" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_11" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_12" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_13" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_14" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_15" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_16" type="bool">True</Setting>
-          <Setting id="BabiesSubsplits_17" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_18" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_19" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_20" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_21" type="bool">True</Setting>
-          <Setting id="BabiesSubsplits_22" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_23" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_24" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_25" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_26" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_27" type="bool">True</Setting>
-          <Setting id="BabiesSubsplits_28" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_29" type="bool">False</Setting>
-          <Setting id="BabiesSubsplits_30" type="bool">False</Setting>
-          <Setting id="DebugOutput" type="bool">True</Setting>
-          <Setting id="DO_TimerDetails" type="bool">True</Setting>
-          <Setting id="DO_MapChanges" type="bool">True</Setting>
-          <Setting id="DO_WADB4GH" type="bool">True</Setting>
-          <Setting id="DO_PrevTribeSSX" type="bool">True</Setting>
-          <Setting id="DO_GameState" type="bool">True</Setting>
-          <Setting id="DO_NewGameState" type="bool">True</Setting>
-          <Setting id="DO_IsNewGameStateValid" type="bool">True</Setting>
-          <Setting id="DO_GameOver" type="bool">True</Setting>
-          <Setting id="DO_DebugMode" type="bool">True</Setting>
-          <Setting id="DO_AllowReturnToHub" type="bool">True</Setting>
-          <Setting id="DO_IsMapLoaded" type="bool">True</Setting>
-          <Setting id="DO_CurrentMap" type="bool">True</Setting>
-          <Setting id="SpeedDisplay" type="bool">True</Setting>
-          <Setting id="ObjectiveFlagsDisplay" type="bool">False</Setting>
-        </CustomSettings>
       </Settings>
     </Component>
   </Components>
